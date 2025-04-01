@@ -94,10 +94,10 @@ async def main():
     st_films = "/wiki/Category:Star_Trek_films"
     
 
-    site_stem = st_stem
-    start_page = st_films
+    site_stem = sw_stem
+    start_page = sw_films
     start_page = f"{site_stem}{start_page}"
-    folder = "star_trek_films"
+    folder = "star_wars_films"
     
     links = await retrieve_start_page_links(start_page, "category")
 
