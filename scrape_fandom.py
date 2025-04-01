@@ -93,11 +93,13 @@ async def main():
     st_stem = "https://memory-alpha.fandom.com"
     st_films = "/wiki/Category:Star_Trek_films"
     
+    rr_stem = "https://red-rising.fandom.com"
+    rr_books = "/wiki/Category:Books"
 
-    site_stem = sw_stem
-    start_page = sw_films
+    site_stem = rr_stem
+    start_page = rr_books
     start_page = f"{site_stem}{start_page}"
-    folder = "star_wars_films"
+    folder = "red_rising_books"
     
     links = await retrieve_start_page_links(start_page, "category")
 
