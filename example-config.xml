@@ -1,0 +1,26 @@
+<View>
+<Text name="text" value="$text" granularity="word"/>
+<Filter name="filter" toName="label" hotkey="shift+f" minlength="1" />
+<Labels name="label" toName="text" showInline="true">
+<Label value="social_interaction" background="grey"/>
+<Label value="be_born" background="red"/>
+<Label value="natural_disaster" background="orange"/>
+<Label value="award_ceremony" background="blue"/>
+<Label value="media_release" background="yellow"/>
+<Label value="sporting_event" background="green"/>
+<Label value="geopolitical_interaction" background="purple"/>
+<Label value="Death" background="darkred"/>
+<Label value="Religious_ceremony" background="darkorange"/>
+<Label value="legal_event" background="gold"/>
+<Label value="travel" background="darkgreen"/>
+<Label value="Business_interaction" background="turquoise"/>
+<Label value="social_interaction" background="magenta"/>
+<Label value="holiday_festival" background="pink"/>
+<Label value="political_event" background="grey"/>
+<Label value="pandemic" background="red"/>
+<Label value="Economic_event" background="orange"/>
+<Label value="Cultural event" background="blue"/>
+<Label value="creation" background="yellow"/>
+<Label value="other" background="red"/>
+</Labels>
+</View>
