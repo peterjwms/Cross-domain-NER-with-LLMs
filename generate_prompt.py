@@ -1,5 +1,6 @@
 import json
 import spacy
+import csv
 
 HEADER = "You are now and entity recognition model. Always answers as helpfully as possible."
 
@@ -26,7 +27,7 @@ def preprocess_json(filepath: str) -> list[dict]:
 
 def split_sentences(entries: list[dict]) -> list[dict]:
     nlp = spacy.load("en_core_web_sm")
-
+    all_sentences = []
     for entry in entries:
         doc = nlp(entry['text'])      
         ordered_sentences = [{'text': sent.text, 'mentions': []} for sent in doc.sents]
@@ -37,13 +38,37 @@ def split_sentences(entries: list[dict]) -> list[dict]:
                     mention["start"] -= sent.start_char
                     mention["end"] -= sent.start_char
                     ordered_sentences[i]["mentions"].append(mention)
-
-def generate_basic_prompt(sentence, entity_types):
-    type_descriptions = '\n'.join([e['label'] + ": " + e['description'] for e in entity_types])
-    prompt = f"{HEADER} \n"
+            all_sentences += ordered_sentences
+    return all_sentences
 
 
-stuck_sentences = preprocess_json('label_json/project-1-at-2025-04-24-09-56-a64fbdd4.json')
-fixed_sentences = split_sentences(stuck_sentences)
+def task_definition_prompt(entity_types, examples=None):
+    type_descriptions = '\n'.join([e['label'] + ": " + e['name'] + ' - ' + e['description'] for e in entity_types])
+    prompt = HEADER + '\n' + 'These are the entity types you are tasked to identify:' + '\n'
+    prompt += type_descriptions + '\n'
+    if examples is not None:
+        "Use these examples to train your tagging system: "
+        for example in examples:
+            prompt += example['text'] + '\n'
+            for mention in example['mentions']:
+                prompt += f"{mention['label']}: {mention['text']} ({mention['start']},{mention['end']})\n"
+    return prompt
 
-print(fixed_sentences)
+
+def test_prompt(sentence):
+    prompt = "Tag all named entities in the following sentence: \n"
+    prompt += sentence["text"]
+    prompt += "Please format your output as follows for each entity in the sentence: \n"
+    prompt += "LABEL: text (beginning_index, end_index)"
+    return prompt
+
+
+def  get_entity_types(ontology):
+    entity_types = []
+    with open(ontology,'r') as file:
+        tsv_reader = csv.reader(file, delimiter='\t')
+        for line in tsv_reader:
+            entity_types.append({'name': line[0], 'label': line[1], 'description': line[2]})
+    return entity_types
+
+
