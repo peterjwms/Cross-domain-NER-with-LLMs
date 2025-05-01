@@ -2,7 +2,7 @@ import json
 import spacy
 import csv
 
-HEADER = "You are now and entity recognition model. Always answers as helpfully as possible."
+HEADER = "You are now an entity recognition model. Always answers as helpfully as possible."
 
 def preprocess_json(filepath: str) -> list[dict]:
     with open(filepath, 'r') as file:
@@ -38,7 +38,7 @@ def split_sentences(entries: list[dict]) -> list[dict]:
                     mention["start"] -= sent.start_char
                     mention["end"] -= sent.start_char
                     ordered_sentences[i]["mentions"].append(mention)
-            all_sentences += ordered_sentences
+        all_sentences += ordered_sentences
     return all_sentences
 
 
@@ -47,11 +47,12 @@ def task_definition_prompt(entity_types, examples=None):
     prompt = HEADER + '\n' + 'These are the entity types you are tasked to identify:' + '\n'
     prompt += type_descriptions + '\n'
     if examples is not None:
-        "Use these examples to train your tagging system: "
+        prompt += "Use these examples to train your tagging system: "
         for example in examples:
             prompt += example['text'] + '\n'
             for mention in example['mentions']:
-                prompt += f"{mention['label']}: {mention['text']} ({mention['start']},{mention['end']})\n"
+                prompt += f"{mention['label']}: {mention['text']}\n"
+    prompt += "Please label all entities that fit these descriptions. Do NOT give any labels that are not in the above ontology\n"
     return prompt
 
 
@@ -59,7 +60,7 @@ def test_prompt(sentence):
     prompt = "Tag all named entities in the following sentence: \n"
     prompt += sentence["text"]
     prompt += "Please format your output as follows for each entity in the sentence: \n"
-    prompt += "LABEL: text (beginning_index, end_index)"
+    prompt += "LABEL: text"
     return prompt
 
 
@@ -71,4 +72,11 @@ def  get_entity_types(ontology):
             entity_types.append({'name': line[0], 'label': line[1], 'description': line[2]})
     return entity_types
 
+def find_most_diverse(sentences, unique_only=False):
+    return sorted(sentences, key=lambda x: count_mentions(x,unique_only), reverse=True)
 
+def count_mentions(x,unique_only):
+    if not unique_only:
+        return len(x['mentions'])
+    else:
+        return len(set([mention['label'] for mention in x['mentions']]))
