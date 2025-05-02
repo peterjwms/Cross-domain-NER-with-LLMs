@@ -52,19 +52,23 @@ api_key =  'AIzaSyAYRzeokD9WTuuRfYv-HKbnQP9rrBUqCFg' #os.environ.get('GEMINI_API
 
 model_name = 'gemini-2.5-flash-preview-04-17'
 
-stuck_sentences = preprocess_json('label_json/project-1-at-2025-04-24-09-56-a64fbdd4.json')
+rr_json = 'label_json/project-8-at-2025-04-25-10-07-1ab099cf.json'
+rr_ontology = 'ontologies/red_rising_ontology.tsv'
+
+stuck_sentences = preprocess_json(rr_json)
 fixed_sentences = split_sentences(stuck_sentences)
 
 sorted_sents = find_most_diverse(fixed_sentences,unique_only=True)
 ontology = 'ontologies/Star Wars Ontology.tsv'
-entity_types = get_entity_types(ontology)
+entity_types = get_entity_types(rr_ontology)
 prompt = task_definition_prompt(entity_types,examples=sorted_sents[:5])
+print(f"{prompt=}")
 
 
 print(prompt)
 reply = gemini_api_post_request(api_key, model_name, prompt)
 
-print(reply)
+print(f"{reply=}")
 
 random.seed = 66
 random_indices = random.sample(range(len(fixed_sentences)),10)
@@ -76,5 +80,5 @@ for i in random_indices:
     reply = gemini_api_post_request(api_key, model_name, prompt)
 
     
-
-    print(reply['candidates'][0]['content']['parts'][0])
+print(f"{reply=}")
+print(f"{reply['candidates'][0]['content']['parts'][0]=}")
