@@ -7,6 +7,9 @@ from generate_prompt import create_k_examples, load_data_split, task_definition_
 from prompt_experiments import gemini_api_post_request
 
 
+json.loads()
+
+
 def run_grid_search(model, api_key, parameters: dict = None):
     """
     Run a grid search over the parameters provided.
