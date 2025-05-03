@@ -3,7 +3,7 @@ import os
 from pprint import pprint
 from dotenv import load_dotenv
 import pandas as pd
-from generate_prompt import get_entity_types, create_k_examples, load_data_split, task_definition_prompt
+from generate_prompt import get_entity_types, create_k_examples, load_data_split, task_definition_prompt, get_k_examples
 from prompt_experiments import gemini_api_post_request
 
 
@@ -23,28 +23,30 @@ def run_grid_search(model, api_key, parameters: dict = None):
         for example_domain in parameters['example_domain']:
             for example_selection in parameters['example_selection']:
                 # TODO: load the sorted examples for the domain and selection method here
+                prompt_definition = task_definition_prompt(target_domain=domain, examples_domain=example_domain)
+                examples = get_all_domain_examples(domain, example_domain, example_selection)
+
                 for n_examples in parameters['n_examples']:
                     print(f"Domain: {domain}, n_examples: {n_examples}, example_domain: {example_domain}, example_selection: {example_selection}")
                     i += 1
 
                     # TODO: could change this to load the examples once, and then slice to the correct number here 
                     # would be marginally faster by not loading the same file multiple times 
-                    examples = get_all_domain_examples(domain, n_examples, example_domain, example_selection)
-
-                    ontology = get_entity_types(domain)
-
+                    
+                    base_prompt = prompt_definition.replace('{{examples}}', get_k_examples(n_examples,examples))
+                    
                     # TODO: could change this function to also take pieces of the prompt we might want to test 
                     # basically anything that's not the examples or test instance
                     # can use the same format as the {{test_instance}}} in the prompt already for the examples and ontology
                     # allows for better tracking of changes to the prompt
-                    prompt_definition = task_definition_prompt(ontology, examples)
+                    
                     
 
                     # run the experiment here on a full dev/test set using the base prompt built above
                     # TODO: think about what we actually want to return and store from this
                     # could save this full set of results to a file for later analysis
                     # then could also save just the actual score post-evaluation 
-                    results = run_experiments(prompt_definition, dataset, model, api_key)
+                    results = run_experiments(base_prompt, dataset, model, api_key)
                     results_df = pd.DataFrame(results, columns=['text', 'mentions', 'result'])
                     results_df.to_csv(f"results/{domain}_{parameters['dataset']}_{n_examples}_{example_domain}_{example_selection}.csv", index=False)
                     
@@ -99,14 +101,12 @@ def run_experiments(base_prompt, test_set, model_name, api_key):
     return results
 
 
-def get_all_domain_examples(target_domain, n_examples, example_domain, example_selection):
+def get_all_domain_examples(target_domain, example_domain, example_selection):
     if example_domain == 'self':
         example_domain = target_domain
-    elif n_examples == 0:
-        return ""
     
     with open(f"sorted_examples/{example_domain}_{example_selection}.json", 'r') as file:
-        examples = json.load(file)[:n_examples]
+        examples = json.load(file)
         pprint(f"Loaded {len(examples)} examples from {example_domain} using {example_selection} method")
         pprint(examples)
     return examples

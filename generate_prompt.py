@@ -4,7 +4,7 @@ import csv
 import os
 import random
 
-HEADER = "You are now an entity recognition model. Always answers as helpfully as possible."
+HEADER = ""
 
 def preprocess_json(filepath: str) -> list[dict]:
     with open(f"label_json/{filepath}.json", 'r') as file:
@@ -44,29 +44,53 @@ def split_sentences(entries: list[dict]) -> list[dict]:
     return all_sentences
 
 
-def task_definition_prompt(entity_types, examples=None):
-    type_descriptions = '\n'.join([e['label'] + ": " + e['name'] + ' - ' + e['description'] for e in entity_types])
-    prompt = HEADER + '\n' + 'These are the entity types you are tasked to identify:' + '\n'
-    prompt += type_descriptions + '\n'
-    if examples is not None:
-        prompt += "Use these examples to train your tagging system: \n"
-        for example in examples:
-            prompt += f"\"{example['text']}\"" + '\n'
-            for mention in example['mentions']:
-                prompt += json.dumps({'entity': mention['text'], 'label': mention['label']})  + '\n' # f"{mention['label']}: {mention['text']}\n"
-    prompt += "Please label all entities that fit these descriptions. Do NOT give any labels that are not in the above ontology\n"
+def domain_name_print(domain: str) -> str:
+    match domain:
+        case 'star_wars':
+            return 'Star Wars'
+        case 'star_trek':
+            return 'Star Trek'
+        case 'red_rising':
+            return 'Red Rising'
 
-    prompt += "Label the entities in the following sentence: \n"
-    prompt += "\"{{test_instance}}\" \n"
-    return prompt
+def task_definition_prompt(target_domain, examples_domain, version: int = 1):
+    filepath = f'prompts/v{version}/{examples_domain}_to_{target_domain}.txt'
+    if os.path.isfile(filepath):
+        with open(filepath, 'r') as file:
+            return file.read()
+        
+    else:
+
+        with open(f'prompts/v{version}/prompt.txt','r') as file:
+            prompt = file.read()
 
 
-def test_prompt(sentence):
-    prompt = "Tag all named entities in the following sentence: \n"
-    prompt += sentence["text"]
-    prompt += "Please format your output as follows for each entity in the sentence: \n"
-    prompt += "LABEL: text"
-    return prompt
+
+        type_descriptions = '\n'.join([e['label'] + ": " + e['name'] + ' - ' + e['description'] for e in get_entity_types(target_domain)])
+       
+        
+        
+        prompt = prompt.replace('{{domain_name}}',domain_name_print(target_domain))
+        prompt = prompt.replace('{{ontology}}',type_descriptions)
+        
+    
+
+        with open(filepath,'w') as file:
+                file.write(prompt)
+
+        return prompt
+    
+
+def get_k_examples(k: int, examples: list[dict]) -> str:
+    examples_string = ''
+    if k > 0:
+        prompt += "\nUse these examples to train your tagging system: \n"
+        examples_string = ''
+        for i in range(k):
+            examples_string += f"\"{examples[k]['text']}\"" + '\n'
+            for mention in examples[k]['mentions']:
+                examples_string += json.dumps({'entity': mention['text'], 'label': mention['label']})  + '\n' # f"{mention['label']}: {mention['text']}\n"
+    return examples_string
 
 
 def  get_entity_types(domain):

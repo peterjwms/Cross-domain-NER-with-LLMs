@@ -1,7 +1,7 @@
 from pprint import pprint
 import requests
 import os
-from generate_prompt import  get_entity_types, test_prompt, get_train_test_dev_data, create_k_shot_prompt
+from generate_prompt import  get_entity_types, get_train_test_dev_data, create_k_shot_prompt
 import random
 from dotenv import load_dotenv
 load_dotenv()
