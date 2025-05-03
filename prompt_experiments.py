@@ -1,7 +1,10 @@
+from pprint import pprint
 import requests
 import os
 from generate_prompt import  get_entity_types, test_prompt, get_train_test_dev_data, create_k_shot_prompt
 import random
+from dotenv import load_dotenv
+load_dotenv()
 
 
 def gemini_api_post_request(api_key, model_name, prompt):
@@ -51,39 +54,42 @@ def gemini_api_post_request(api_key, model_name, prompt):
 
 
 
-api_key =  os.environ.get('GOOGLE_API_KEY')
 
-model_name = 'gemini-2.5-flash-preview-04-17'
+if __name__ == "__main__":
+    api_key =  os.environ.get('GOOGLE_API_KEY')
+    print(f"{api_key=}")
 
-for domain in ["red_rising", "star_wars"]:
-    train, test, dev = get_train_test_dev_data(domain)
-    ontology = f'ontologies/{domain}.tsv'
-    entity_types = get_entity_types(ontology)
+    model_name = 'gemini-2.5-flash-preview-04-17'
 
-    prompt = create_k_shot_prompt(train, 'star_wars', 'most_unique', 5, entity_types)
-    print(f"{prompt=}")
+    for domain in ["red_rising", "star_wars"]:
+        train, test, dev = get_train_test_dev_data(domain)
+        # ontology = f'ontologies/{domain}.tsv'
+        entity_types = get_entity_types(domain)
 
-    print(prompt)
-    reply = gemini_api_post_request(api_key, model_name, prompt)
+        prompt = create_k_shot_prompt(train, 'star_wars', 'most_unique', 5, entity_types)
+        pprint(f"{prompt=}")
 
-    print(reply)
-    print(reply['candidates'][0]['content']['parts'][0])
-    print(f"{reply=}")
+        pprint(prompt)
+        reply = gemini_api_post_request(api_key, model_name, prompt)
 
-
-
-
-
+        pprint(reply)
+        pprint(reply['candidates'][0]['content']['parts'][0])
+        pprint(f"{reply=}")
 
 
-# random.seed = 66
-# random_indices = random.sample(range(len(fixed_sentences)),10)
-# for i in random_indices:
-#     prompt = test_prompt(fixed_sentences[i])
-#     print('NEW ITEM')
-#     print(fixed_sentences[i]['text'])
-#     print(fixed_sentences[i]['mentions'])
-#     reply = gemini_api_post_request(api_key, model_name, prompt)
 
-    
-print(f"{reply['candidates'][0]['content']['parts'][0]=}")
+
+
+
+
+    # random.seed = 66
+    # random_indices = random.sample(range(len(fixed_sentences)),10)
+    # for i in random_indices:
+    #     prompt = test_prompt(fixed_sentences[i])
+    #     print('NEW ITEM')
+    #     print(fixed_sentences[i]['text'])
+    #     print(fixed_sentences[i]['mentions'])
+    #     reply = gemini_api_post_request(api_key, model_name, prompt)
+
+        
+    print(f"{reply['candidates'][0]['content']['parts'][0]=}")

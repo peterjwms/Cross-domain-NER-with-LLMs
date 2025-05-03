@@ -51,10 +51,13 @@ def task_definition_prompt(entity_types, examples=None):
     if examples is not None:
         prompt += "Use these examples to train your tagging system: \n"
         for example in examples:
-            prompt += example['text'] + '\n'
+            prompt += f"\"{example['text']}\"" + '\n'
             for mention in example['mentions']:
                 prompt += json.dumps({'entity': mention['text'], 'label': mention['label']})  + '\n' # f"{mention['label']}: {mention['text']}\n"
     prompt += "Please label all entities that fit these descriptions. Do NOT give any labels that are not in the above ontology\n"
+
+    prompt += "Label the entities in the following sentence: \n"
+    prompt += "\"{{test_instance}}\" \n"
     return prompt
 
 
@@ -66,9 +69,9 @@ def test_prompt(sentence):
     return prompt
 
 
-def  get_entity_types(ontology):
+def  get_entity_types(domain):
     entity_types = []
-    with open(ontology,'r') as file:
+    with open(f'ontologies/{domain}.tsv','r') as file:
         tsv_reader = csv.reader(file, delimiter='\t')
         for line in tsv_reader:
             entity_types.append({'name': line[0], 'label': line[1], 'description': line[2]})
@@ -99,9 +102,10 @@ def create_k_examples(train_data, source_name, selection_method, k: int) -> None
         if selection_method == 'most_unique':
             ordered = find_most_diverse(train_data, unique_only=True)
 
-        with open(f'{source_name}_{selection_method}.json','w') as file:
-            for item in ordered:
-                file.write(json.dumps(item) + '\n')
+        with open(f'sorted_examples/{source_name}_{selection_method}.json','w') as file:
+            json.dump(ordered, file, indent=4)
+            # for item in ordered:
+            #     file.write(json.dumps(item) + '\n')
         return ordered[:k]
 
 
@@ -112,12 +116,13 @@ def load_data_split(name, split):
 
 def save_data_split(name, data, data_split):
     with open(f'data_splits/{name}_{data_split}.json', 'w') as file:
-        for item in data:
-            file.write(json.dumps(item) + '\n')
+        json.dump(data, file, indent=4)
+        # for item in data:
+        #     file.write(json.dumps(item) + '\n')
 
 
 def get_train_test_dev_data(name: str, n: int = 100,):
-    if os.path.isfile(f'{name}_test.json'):
+    if os.path.isfile(f'data_splits/{name}_test.json'):
 
         test = load_data_split(name, 'test')
         train = load_data_split(name, 'train')
