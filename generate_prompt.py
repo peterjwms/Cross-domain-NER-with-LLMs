@@ -84,7 +84,7 @@ def count_mentions(x,unique_only):
         return len(set([mention['label'] for mention in x['mentions']]))
 
 def create_k_shot_prompt(train_data, source_name, selection_method, k: int, entity_types) -> None:
-    examples = create_k_examples(train_data, source_name, selection_method, k)
+    examples = create_k_examples(train_data, source_name, selection_method, k) if k > 0 else None
     return task_definition_prompt(entity_types=entity_types, examples=examples)
 
 def create_k_examples(train_data, source_name, selection_method, k: int) -> None:
