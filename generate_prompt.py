@@ -53,32 +53,16 @@ def domain_name_print(domain: str) -> str:
         case 'red_rising':
             return 'Red Rising'
 
-def task_definition_prompt(target_domain, examples_domain, version: int = 1):
-    filepath = f'prompts/v{version}/{examples_domain}_to_{target_domain}.txt'
-    if os.path.isfile(filepath):
-        with open(filepath, 'r') as file:
-            return file.read()
-        
-    else:
+def task_definition_prompt(target_domain, version: int = 1):
+    with open(f'prompts/v{version}/prompt.txt', 'r') as file:
+        prompt = file.read()
 
-        with open(f'prompts/v{version}/prompt.txt','r') as file:
-            prompt = file.read()
+    type_descriptions = '\n'.join([e['label'] + ": " + e['name'] + ' - ' + e['description'] for e in get_entity_types(target_domain)])
+         
+    prompt = prompt.replace('{{domain_name}}',domain_name_print(target_domain))
+    prompt = prompt.replace('{{ontology}}',type_descriptions)
 
-
-
-        type_descriptions = '\n'.join([e['label'] + ": " + e['name'] + ' - ' + e['description'] for e in get_entity_types(target_domain)])
-       
-        
-        
-        prompt = prompt.replace('{{domain_name}}',domain_name_print(target_domain))
-        prompt = prompt.replace('{{ontology}}',type_descriptions)
-        
-    
-
-        with open(filepath,'w') as file:
-                file.write(prompt)
-
-        return prompt
+    return prompt
     
 
 def get_k_examples(k: int, examples: list[dict]) -> str:

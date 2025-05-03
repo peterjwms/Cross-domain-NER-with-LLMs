@@ -3,7 +3,7 @@ import os
 from pprint import pprint
 from dotenv import load_dotenv
 import pandas as pd
-from generate_prompt import get_entity_types, create_k_examples, load_data_split, task_definition_prompt, get_k_examples
+from generate_prompt import create_k_examples, load_data_split, task_definition_prompt, get_k_examples
 from prompt_experiments import gemini_api_post_request
 
 
@@ -23,7 +23,7 @@ def run_grid_search(model, api_key, parameters: dict = None):
         for example_domain in parameters['example_domain']:
             for example_selection in parameters['example_selection']:
                 # TODO: load the sorted examples for the domain and selection method here
-                prompt_definition = task_definition_prompt(target_domain=domain, examples_domain=example_domain)
+                prompt_definition = task_definition_prompt(target_domain=domain)
                 examples = get_all_domain_examples(domain, example_domain, example_selection)
 
                 for n_examples in parameters['n_examples']:
