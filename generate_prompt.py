@@ -1,11 +1,13 @@
 import json
 import spacy
 import csv
+import os
+import random
 
 HEADER = "You are now an entity recognition model. Always answers as helpfully as possible."
 
 def preprocess_json(filepath: str) -> list[dict]:
-    with open(filepath, 'r') as file:
+    with open(f"label_json/{filepath}.json", 'r') as file:
         data = json.load(file)
     sentences = []
     for entry in data:
@@ -47,11 +49,11 @@ def task_definition_prompt(entity_types, examples=None):
     prompt = HEADER + '\n' + 'These are the entity types you are tasked to identify:' + '\n'
     prompt += type_descriptions + '\n'
     if examples is not None:
-        prompt += "Use these examples to train your tagging system: "
+        prompt += "Use these examples to train your tagging system: \n"
         for example in examples:
             prompt += example['text'] + '\n'
             for mention in example['mentions']:
-                prompt += f"{mention['label']}: {mention['text']}\n"
+                prompt += json.dumps({'entity': mention['text'], 'label': mention['label']})  + '\n' # f"{mention['label']}: {mention['text']}\n"
     prompt += "Please label all entities that fit these descriptions. Do NOT give any labels that are not in the above ontology\n"
     return prompt
 
@@ -80,3 +82,66 @@ def count_mentions(x,unique_only):
         return len(x['mentions'])
     else:
         return len(set([mention['label'] for mention in x['mentions']]))
+
+def create_k_shot_prompt(train_data, source_name, selection_method, k: int, entity_types) -> None:
+    examples = create_k_examples(train_data, source_name, selection_method, k)
+    return task_definition_prompt(entity_types=entity_types, examples=examples)
+
+def create_k_examples(train_data, source_name, selection_method, k: int) -> None:
+    filepath = f'sorted_examples/{source_name}_{selection_method}.json'
+    if os.path.isfile(filepath):
+        with open(filepath, 'r') as file:
+            return json.load(file)[:k]
+    else:
+        
+        if selection_method == 'most_dense':
+            ordered = find_most_diverse(train_data)
+        if selection_method == 'most_unique':
+            ordered = find_most_diverse(train_data, unique_only=True)
+
+        with open(f'{source_name}_{selection_method}.json','w') as file:
+            for item in ordered:
+                file.write(json.dumps(item) + '\n')
+        return ordered[:k]
+
+
+def load_data_split(name, split): 
+    with open(f'data_splits/{name}_{split}.json', 'r') as file:
+        return json.load(file)
+
+
+def save_data_split(name, data, data_split):
+    with open(f'data_splits/{name}_{data_split}.json', 'w') as file:
+        for item in data:
+            file.write(json.dumps(item) + '\n')
+
+
+def get_train_test_dev_data(name: str, n: int = 100,):
+    if os.path.isfile(f'{name}_test.json'):
+
+        test = load_data_split(name, 'test')
+        train = load_data_split(name, 'train')
+        dev = load_data_split(name, 'dev')
+
+    else:
+        data = preprocess_json(name)
+        data = split_sentences(data)
+        random.seed(42)
+        random.shuffle(data)
+
+        train = data[:n]
+        dev = data[n:2*n]
+        test = data[2*n:]
+
+        save_data_split(name, test, 'test')
+        save_data_split(name, train, 'train')
+        save_data_split(name, dev, 'dev')
+
+    return train, dev, test
+
+    
+
+
+
+
+
