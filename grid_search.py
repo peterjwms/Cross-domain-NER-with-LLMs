@@ -19,7 +19,7 @@ def run_grid_search(model, api_key, parameters: dict = None):
     i = 0
     for domain in parameters['target_domain']:
         # TODO: load the test set for the domain here
-        dev_set = load_data_split(domain, 'dev')
+        dataset = load_data_split(domain, parameters['dataset'])
         for example_domain in parameters['example_domain']:
             for example_selection in parameters['example_selection']:
                 # TODO: load the sorted examples for the domain and selection method here
@@ -44,9 +44,9 @@ def run_grid_search(model, api_key, parameters: dict = None):
                     # TODO: think about what we actually want to return and store from this
                     # could save this full set of results to a file for later analysis
                     # then could also save just the actual score post-evaluation 
-                    results = run_experiments(prompt_definition, dev_set, model, api_key)
+                    results = run_experiments(prompt_definition, dataset, model, api_key)
                     results_df = pd.DataFrame(results, columns=['text', 'mentions', 'result'])
-                    results_df.to_csv(f"results/{domain}_{n_examples}_{example_domain}_{example_selection}.csv", index=False)
+                    results_df.to_csv(f"results/{domain}_{parameters['dataset']}_{n_examples}_{example_domain}_{example_selection}.csv", index=False)
                     
                     # TODO: evaluate results
                     # score = evaluate_results(results)
@@ -118,6 +118,7 @@ if __name__ == "__main__":
     model_name = 'gemini-2.5-flash-preview-04-17'
 
     search_parameters = {
+        'dataset': 'dev',
         'n_examples': [0,1,3,5],
         'example_domain': ['self', 'star_wars'],
         'example_selection': ['most_dense', 'most_unique'],
