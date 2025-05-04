@@ -1,2311 +1,2145 @@
 [
     {
-        "text": "Taking place after Darrow takes back Heliopolis, Virginia, from the dreadnought Echo of Ares, makes her first speech to the Solar Republic, telling them of the what has happened on Mercury and how they still need help, hoping it will help gain back support from the people.",
+        "text": "After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the \"illegitimate\" government of the New Republic in one fell swoop.",
         "mentions": [
             {
-                "label": "Person",
-                "start": 19,
-                "end": 25,
-                "text": "Darrow"
+                "label": "PERSON",
+                "start": 29,
+                "end": 36,
+                "text": "Snoke's"
             },
             {
-                "label": "Location",
-                "start": 37,
-                "end": 47,
-                "text": "Heliopolis"
+                "label": "RANK",
+                "start": 14,
+                "end": 28,
+                "text": "Supreme Leader"
             },
             {
-                "label": "Person",
-                "start": 49,
-                "end": 57,
-                "text": "Virginia"
+                "label": "WEAPON",
+                "start": 60,
+                "end": 70,
+                "text": "Starkiller"
             },
             {
-                "label": "Vehicle",
-                "start": 80,
-                "end": 92,
-                "text": "Echo of Ares"
+                "label": "PERSON",
+                "start": 84,
+                "end": 87,
+                "text": "Hux"
             },
             {
-                "label": "Organization",
-                "start": 124,
-                "end": 138,
-                "text": "Solar Republic"
+                "label": "PLANET",
+                "start": 100,
+                "end": 107,
+                "text": "Hosnian"
             },
             {
-                "label": "Location",
-                "start": 181,
-                "end": 188,
-                "text": "Mercury"
+                "label": "GPE",
+                "start": 147,
+                "end": 159,
+                "text": "New Republic"
+            },
+            {
+                "label": "PLANET",
+                "start": 161,
+                "end": 175,
+                "text": "Hosnian Prime,"
+            },
+            {
+                "label": "ORG",
+                "start": 191,
+                "end": 217,
+                "text": "New Republic Defense Fleet"
+            },
+            {
+                "label": "GPE",
+                "start": 260,
+                "end": 271,
+                "text": "First Order"
+            },
+            {
+                "label": "GPE",
+                "start": 335,
+                "end": 347,
+                "text": "New Republic"
             }
         ]
     },
     {
-        "text": "When they finally arrive at Tyche, Darrow realizes that Orion defied his order to keep the Storm God level to a minimum and has already destroyed much of the city and killed millions, Golds and civilians alike.",
+        "text": "Obi-Wan arrives in Pau City on Utapau, and begins his search for General Grievous, riding a varactyl named Boga.",
         "mentions": [
             {
-                "label": "Location",
-                "start": 28,
-                "end": 33,
-                "text": "Tyche"
+                "label": "PERSON",
+                "start": 0,
+                "end": 7,
+                "text": "Obi-Wan"
             },
             {
-                "label": "Person",
-                "start": 35,
-                "end": 41,
-                "text": "Darrow"
+                "label": "LOCATION",
+                "start": 19,
+                "end": 27,
+                "text": "Pau City"
             },
             {
-                "label": "Person",
+                "label": "PLANET",
+                "start": 31,
+                "end": 37,
+                "text": "Utapau"
+            },
+            {
+                "label": "RANK",
+                "start": 65,
+                "end": 72,
+                "text": "General"
+            },
+            {
+                "label": "PERSON",
+                "start": 73,
+                "end": 81,
+                "text": "Grievous"
+            },
+            {
+                "label": "CREATURE",
+                "start": 92,
+                "end": 100,
+                "text": "varactyl"
+            },
+            {
+                "label": "PERSON",
+                "start": 107,
+                "end": 111,
+                "text": "Boga"
+            }
+        ]
+    },
+    {
+        "text": "A brief scuffle with stormtroopers and henchmen sent by Jabba ensues, and the Falcon escapes Imperial Star-Destroyers over Tatooine and sets a course to Alderaan, unaware that the Death Star has just arrived there as well.",
+        "mentions": [
+            {
+                "label": "PERSON",
                 "start": 56,
                 "end": 61,
-                "text": "Orion"
+                "text": "Jabba"
             },
             {
-                "label": "Technology",
-                "start": 91,
-                "end": 100,
-                "text": "Storm God"
+                "label": "SPACECRAFT",
+                "start": 78,
+                "end": 84,
+                "text": "Falcon"
             },
             {
-                "label": "Caste",
-                "start": 184,
-                "end": 189,
-                "text": "Golds"
-            }
-        ]
-    },
-    {
-        "text": "On the day of the voting, Sevro leaves for Earth with fifty thousand of Virginia's men and Darrow's Seventh Legion, where they believe the Syndicate Queen to be, to kill her.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 26,
-                "end": 31,
-                "text": "Sevro"
-            },
-            {
-                "label": "Location",
-                "start": 43,
-                "end": 48,
-                "text": "Earth"
-            },
-            {
-                "label": "Person",
-                "start": 72,
-                "end": 82,
-                "text": "Virginia's"
-            },
-            {
-                "label": "Person",
-                "start": 91,
-                "end": 99,
-                "text": "Darrow's"
-            },
-            {
-                "label": "Organization",
-                "start": 100,
-                "end": 114,
-                "text": "Seventh Legion"
-            },
-            {
-                "label": "Rank",
-                "start": 139,
-                "end": 154,
-                "text": "Syndicate Queen"
-            }
-        ]
-    },
-    {
-        "text": "They meet with Glirastes the Master Maker and start to uncover the Storm God machines that were hidden on the planet by Octavia.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 15,
-                "end": 24,
-                "text": "Glirastes"
-            },
-            {
-                "label": "Profession",
-                "start": 29,
-                "end": 41,
-                "text": "Master Maker"
-            },
-            {
-                "label": "Technology",
-                "start": 67,
-                "end": 76,
-                "text": "Storm God"
-            },
-            {
-                "label": "Person",
-                "start": 120,
-                "end": 127,
-                "text": "Octavia"
-            }
-        ]
-    },
-    {
-        "text": "The Battle of the Ladon is over, but all the major cities of Helios are now lost and millions of Darrow's men are either dead or missing, along with millions of the citizens of Heliopolis.",
-        "mentions": [
-            {
-                "label": "Event",
-                "start": 4,
-                "end": 23,
-                "text": "Battle of the Ladon"
-            },
-            {
-                "label": "Location",
-                "start": 61,
-                "end": 67,
-                "text": "Helios"
-            },
-            {
-                "label": "Person",
-                "start": 97,
-                "end": 105,
-                "text": "Darrow's"
-            },
-            {
-                "label": "Location",
-                "start": 177,
-                "end": 187,
-                "text": "Heliopolis"
-            }
-        ]
-    },
-    {
-        "text": "Now, outlawed by the very Republic he founded, he wages a rogue war on Mercury in hope that he can still salvage the dream of Eo.",
-        "mentions": [
-            {
-                "label": "Organization",
-                "start": 26,
-                "end": 34,
-                "text": "Republic"
-            },
-            {
-                "label": "Location",
-                "start": 71,
-                "end": 78,
-                "text": "Mercury"
-            },
-            {
-                "label": "Person",
-                "start": 126,
-                "end": 128,
-                "text": "Eo"
-            }
-        ]
-    },
-    {
-        "text": "There on Mercury, Darrow's set up his headquarters in the city of Tyche, where he's also had his flagship, the Morning Star, docked for repairs.",
-        "mentions": [
-            {
-                "label": "Location",
-                "start": 9,
-                "end": 16,
-                "text": "Mercury"
-            },
-            {
-                "label": "Person",
-                "start": 18,
-                "end": 26,
-                "text": "Darrow's"
-            },
-            {
-                "label": "Location",
-                "start": 66,
-                "end": 71,
-                "text": "Tyche"
-            },
-            {
-                "label": "Vehicle",
-                "start": 111,
-                "end": 123,
-                "text": "Morning Star"
-            }
-        ]
-    },
-    {
-        "text": "On their way there, Pax tells them of the theory of a group of Obsidians who escaped the genocide and cultural reengineering of their people - the Ascomanni, and how there might be a central force who leads them named Volsung the Taker.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 20,
-                "end": 23,
-                "text": "Pax"
-            },
-            {
-                "label": "Caste",
-                "start": 63,
-                "end": 72,
-                "text": "Obsidians"
-            },
-            {
-                "label": "Organization",
-                "start": 147,
-                "end": 156,
-                "text": "Ascomanni"
-            },
-            {
-                "label": "Person",
-                "start": 218,
-                "end": 235,
-                "text": "Volsung the Taker"
-            }
-        ]
-    },
-    {
-        "text": "He has Colloway take what's left of the First Army to aid Thraxa and make their way to Tyche, while he takes his Second Army, the Helldiver Legion, with him to Tyche directly.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 7,
-                "end": 15,
-                "text": "Colloway"
-            },
-            {
-                "label": "Person",
-                "start": 58,
-                "end": 64,
-                "text": "Thraxa"
-            },
-            {
-                "label": "Location",
-                "start": 87,
-                "end": 92,
-                "text": "Tyche"
-            },
-            {
-                "label": "Location",
-                "start": 160,
-                "end": 165,
-                "text": "Tyche"
-            },
-            {
-                "label": "Organization",
-                "start": 40,
-                "end": 50,
-                "text": "First Army"
-            },
-            {
-                "label": "Organization",
-                "start": 113,
-                "end": 124,
-                "text": "Second Army"
-            },
-            {
-                "label": "Organization",
-                "start": 130,
-                "end": 146,
-                "text": "Helldiver Legion"
-            }
-        ]
-    },
-    {
-        "text": "Valdir is angered by this, thinking it was Ozgard's doing, but Sefi tells him it was Xenophon, the logos who serves the Alltribe, who told her.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 6,
-                "text": "Valdir"
-            },
-            {
-                "label": "Person",
-                "start": 43,
-                "end": 51,
-                "text": "Ozgard's"
-            },
-            {
-                "label": "Person",
-                "start": 63,
-                "end": 67,
-                "text": "Sefi"
-            },
-            {
-                "label": "Person",
-                "start": 85,
-                "end": 93,
-                "text": "Xenophon"
-            },
-            {
-                "label": "Profession",
-                "start": 99,
-                "end": 104,
-                "text": "logos"
-            },
-            {
-                "label": "Organization",
-                "start": 120,
-                "end": 128,
-                "text": "Alltribe"
-            }
-        ]
-    },
-    {
-        "text": "As Ajax prepares his legion, the Iron Leopards, for the battle, he lets them know they are not going to assist Scorpio au Votum to take Tyche as agreed upon by Atalantia, but they are going to take Heliopolis instead, much to Lysander's disappointment.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 3,
-                "end": 7,
-                "text": "Ajax"
-            },
-            {
-                "label": "Organization",
-                "start": 33,
-                "end": 46,
-                "text": "Iron Leopards"
-            },
-            {
-                "label": "Person",
-                "start": 111,
-                "end": 127,
-                "text": "Scorpio au Votum"
-            },
-            {
-                "label": "Location",
-                "start": 136,
-                "end": 141,
-                "text": "Tyche"
-            },
-            {
-                "label": "Person",
-                "start": 160,
-                "end": 169,
-                "text": "Atalantia"
-            },
-            {
-                "label": "Location",
-                "start": 198,
-                "end": 208,
-                "text": "Heliopolis"
-            },
-            {
-                "label": "Person",
-                "start": 226,
-                "end": 236,
-                "text": "Lysander's"
-            }
-        ]
-    },
-    {
-        "text": "Sefi then tells them that Virginia was killed in the coup, as well as the archGovernor of Mars, and that Sevro has been captured on Earth.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 4,
-                "text": "Sefi"
-            },
-            {
-                "label": "Person",
-                "start": 26,
-                "end": 34,
-                "text": "Virginia"
-            },
-            {
-                "label": "Profession",
-                "start": 74,
-                "end": 86,
-                "text": "archGovernor"
-            },
-            {
-                "label": "Location",
-                "start": 90,
-                "end": 94,
-                "text": "Mars"
-            },
-            {
-                "label": "Person",
-                "start": 105,
-                "end": 110,
-                "text": "Sevro"
-            },
-            {
-                "label": "Person",
-                "start": 132,
-                "end": 137,
-                "text": "Earth"
-            }
-        ]
-    },
-    {
-        "text": "He's greeted by an Obsidian shaman named Ozgard who tells him that they killed the Syndicate men after them.",
-        "mentions": [
-            {
-                "label": "Caste",
-                "start": 19,
-                "end": 27,
-                "text": "Obsidian"
-            },
-            {
-                "label": "Person",
-                "start": 41,
-                "end": 47,
-                "text": "Ozgard"
-            },
-            {
-                "label": "Organization",
-                "start": 83,
-                "end": 92,
-                "text": "Syndicate"
-            }
-        ]
-    },
-    {
-        "text": "On the ship, they find that the Obsidians living there had come from Mercury, when Cadus Harnassus had released half the fleet back to Luna.",
-        "mentions": [
-            {
-                "label": "Caste",
-                "start": 32,
-                "end": 41,
-                "text": "Obsidians"
-            },
-            {
-                "label": "Location",
-                "start": 69,
-                "end": 76,
-                "text": "Mercury"
-            },
-            {
-                "label": "Person",
-                "start": 83,
-                "end": 98,
-                "text": "Cadus Harnassus"
-            },
-            {
-                "label": "Location",
-                "start": 135,
-                "end": 139,
-                "text": "Luna"
-            }
-        ]
-    },
-    {
-        "text": "After he meets alone with Atalantia, she, along with Ajax and Kalindora, as well as the Primuses of House Carthii, House Votum, and House Falthe via hologram.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 26,
-                "end": 35,
-                "text": "Atalantia"
-            },
-            {
-                "label": "Person",
-                "start": 53,
-                "end": 57,
-                "text": "Ajax"
-            },
-            {
-                "label": "Person",
-                "start": 62,
-                "end": 71,
-                "text": "Kalindora"
-            },
-            {
-                "label": "Rank",
-                "start": 88,
-                "end": 96,
-                "text": "Primuses"
-            },
-            {
-                "label": "Organization",
-                "start": 100,
-                "end": 113,
-                "text": "House Carthii"
-            },
-            {
-                "label": "Organization",
-                "start": 115,
-                "end": 126,
-                "text": "House Votum"
-            },
-            {
-                "label": "Organization",
-                "start": 132,
-                "end": 144,
-                "text": "House Falthe"
-            }
-        ]
-    },
-    {
-        "text": "Screwface tells him of Ajax's legion going towards Heliopolis, and Darrow tells Rhonna to find the Morning Star and Thraxa and go to Heliopolis by way of the Waste of Ladon.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 9,
-                "text": "Screwface"
-            },
-            {
-                "label": "Person",
-                "start": 23,
-                "end": 29,
-                "text": "Ajax's"
-            },
-            {
-                "label": "Location",
-                "start": 51,
-                "end": 61,
-                "text": "Heliopolis"
-            },
-            {
-                "label": "Person",
-                "start": 67,
-                "end": 73,
-                "text": "Darrow"
-            },
-            {
-                "label": "Person",
-                "start": 80,
-                "end": 86,
-                "text": "Rhonna"
-            },
-            {
-                "label": "Vehicle",
-                "start": 99,
-                "end": 111,
-                "text": "Morning Star"
-            },
-            {
-                "label": "Person",
-                "start": 116,
-                "end": 122,
-                "text": "Thraxa"
-            },
-            {
-                "label": "Location",
-                "start": 133,
-                "end": 143,
-                "text": "Heliopolis"
-            },
-            {
-                "label": "Location",
-                "start": 158,
-                "end": 172,
-                "text": "Waste of Ladon"
-            }
-        ]
-    },
-    {
-        "text": "She gets news that Sevro has killed the Duke of Heads, the chief assassin of the Syndicate, as Sevro has been on a killing spree on orders of his wife, Victra, due to their kidnapped daughter, Electra.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 19,
-                "end": 24,
-                "text": "Sevro"
-            },
-            {
-                "label": "Rank",
-                "start": 40,
-                "end": 53,
-                "text": "Duke of Heads"
-            },
-            {
-                "label": "Organization",
-                "start": 81,
-                "end": 90,
-                "text": "Syndicate"
-            },
-            {
-                "label": "Person",
-                "start": 95,
-                "end": 100,
-                "text": "Sevro"
-            },
-            {
-                "label": "Person",
-                "start": 152,
-                "end": 158,
-                "text": "Victra"
-            },
-            {
-                "label": "Person",
-                "start": 193,
-                "end": 200,
-                "text": "Electra"
-            }
-        ]
-    },
-    {
-        "text": "Determined to bring peace back to mankind at the edge of his sword, he must overcome or unite the treacherous Gold families of the Core and face down Darrow over the skies of war-torn Mercury.",
-        "mentions": [
-            {
-                "label": "Caste",
-                "start": 110,
-                "end": 114,
-                "text": "Gold"
-            },
-            {
-                "label": "Location",
-                "start": 131,
-                "end": 135,
-                "text": "Core"
-            },
-            {
-                "label": "Person",
-                "start": 150,
-                "end": 156,
-                "text": "Darrow"
-            },
-            {
-                "label": "Location",
-                "start": 184,
-                "end": 191,
-                "text": "Mercury"
-            }
-        ]
-    },
-    {
-        "text": "When the Storm God is activated, Darrow's army intercepts one of the enemy's divisions and are able to take down several legions, as well as Primus Scorpio au Votum.",
-        "mentions": [
-            {
-                "label": "Technology",
-                "start": 9,
-                "end": 18,
-                "text": "Storm God"
-            },
-            {
-                "label": "Person",
-                "start": 33,
-                "end": 41,
-                "text": "Darrow's"
-            },
-            {
-                "label": "Rank",
-                "start": 141,
-                "end": 147,
-                "text": "Primus"
-            },
-            {
-                "label": "Person",
-                "start": 148,
-                "end": 164,
-                "text": "Scorpio au Votum"
-            }
-        ]
-    },
-    {
-        "text": "Sefi then tells Ephraim that she plans on taking the Cimmeria mines and needs the Skuggi to be ready.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 4,
-                "text": "Sefi"
-            },
-            {
-                "label": "Person",
-                "start": 16,
-                "end": 23,
-                "text": "Ephraim"
-            },
-            {
-                "label": "Location",
-                "start": 53,
-                "end": 61,
-                "text": "Cimmeria"
-            },
-            {
-                "label": "Organization",
-                "start": 82,
-                "end": 88,
-                "text": "Skuggi"
-            }
-        ]
-    },
-    {
-        "text": "After he wins his match, Sefi scolds him, but he digresses, instead attempting to guilt Sefi for not only taking them in as hostages/wards, but also for leaving Darrow before he left for Venus in Iron Gold.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 25,
-                "end": 29,
-                "text": "Sefi"
-            },
-            {
-                "label": "Person",
-                "start": 88,
-                "end": 92,
-                "text": "Sefi"
-            },
-            {
-                "label": "Person",
-                "start": 161,
-                "end": 167,
-                "text": "Darrow"
-            },
-            {
-                "label": "Location",
-                "start": 187,
-                "end": 192,
-                "text": "Venus"
-            },
-            {
-                "label": "MISC",
-                "start": 196,
-                "end": 205,
-                "text": "Iron Gold"
-            }
-        ]
-    },
-    {
-        "text": "He meets Dago of Gamma, the infamous Helldiver from a rival tribe of his.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 9,
-                "end": 13,
-                "text": "Dago"
-            },
-            {
-                "label": "Profession",
-                "start": 37,
-                "end": 46,
-                "text": "Helldiver"
-            },
-            {
-                "label": "Organization",
-                "start": 17,
-                "end": 22,
-                "text": "Gamma"
-            }
-        ]
-    },
-    {
-        "text": "Darrow tells them all that he will wait for the Republic and his wife to send aid, and orders that they share their supplies with the civilians, despite the fact that it won't last a week if they do, as per Thraxa's argument.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 6,
-                "text": "Darrow"
-            },
-            {
-                "label": "Organization",
-                "start": 48,
-                "end": 56,
-                "text": "Republic"
-            },
-            {
-                "label": "Person",
-                "start": 207,
-                "end": 215,
-                "text": "Thraxa's"
-            }
-        ]
-    },
-    {
-        "text": "Abducted by a new threat to the Republic, the children of Darrow and Mustang must trust in a thief for their salvation\u00e2\u20ac\u201dand Ephraim must look to them for his chance at redemption.",
-        "mentions": [
-            {
-                "label": "Organization",
-                "start": 32,
-                "end": 40,
-                "text": "Republic"
-            },
-            {
-                "label": "Person",
-                "start": 58,
-                "end": 64,
-                "text": "Darrow"
-            },
-            {
-                "label": "Person",
-                "start": 69,
-                "end": 76,
-                "text": "Mustang"
+                "label": "SPACECRAFT",
+                "start": 93,
+                "end": 117,
+                "text": "Imperial Star-Destroyers"
             },
             {
-                "label": "Person",
+                "label": "PLANET",
                 "start": 123,
-                "end": 130,
-                "text": "Ephraim"
-            }
-        ]
-    },
-    {
-        "text": "However, he and those with him, including Thraxa au Telemanus, Alexandar au Arcos, Colloway xe Char, Tongueless, and his niece Rhonna, attempt a rescue of one of his most loyal, Orion xe Aquarii, from the ship the Blood Medusa.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 42,
-                "end": 61,
-                "text": "Thraxa au Telemanus"
+                "end": 131,
+                "text": "Tatooine"
             },
             {
-                "label": "Person",
-                "start": 63,
-                "end": 81,
-                "text": "Alexandar au Arcos"
-            },
-            {
-                "label": "Person",
-                "start": 83,
-                "end": 99,
-                "text": "Colloway xe Char"
-            },
-            {
-                "label": "Person",
-                "start": 101,
-                "end": 111,
-                "text": "Tongueless"
-            },
-            {
-                "label": "Person",
-                "start": 127,
-                "end": 133,
-                "text": "Rhonna"
-            },
-            {
-                "label": "Person",
-                "start": 178,
-                "end": 194,
-                "text": "Orion xe Aquarii"
-            },
-            {
-                "label": "Vehicle",
-                "start": 214,
-                "end": 226,
-                "text": "Blood Medusa"
-            }
-        ]
-    },
-    {
-        "text": "Virginia gives Theodora the order to turn him into a Splinter, Theodora's elite assassins.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 8,
-                "text": "Virginia"
-            },
-            {
-                "label": "Person",
-                "start": 15,
-                "end": 23,
-                "text": "Theodora"
-            },
-            {
-                "label": "NORP",
-                "start": 53,
-                "end": 61,
-                "text": "Splinter"
-            }
-        ]
-    },
-    {
-        "text": "He is brought to the training square, where he watches Electra in a sparring match between two groups of young Obsidians.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 55,
-                "end": 62,
-                "text": "Electra"
-            },
-            {
-                "label": "Caste",
-                "start": 111,
-                "end": 120,
-                "text": "Obsidians"
-            }
-        ]
-    },
-    {
-        "text": "As Sevro tries to warn Virginia about Boneriders being in Old Tokyo, Dancer is giving his speech.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 3,
-                "end": 8,
-                "text": "Sevro"
-            },
-            {
-                "label": "Person",
-                "start": 23,
-                "end": 31,
-                "text": "Virginia"
-            },
-            {
-                "label": "Location",
-                "start": 58,
-                "end": 67,
-                "text": "Old Tokyo"
-            },
-            {
-                "label": "Person",
-                "start": 69,
-                "end": 75,
-                "text": "Dancer"
-            }
-        ]
-    },
-    {
-        "text": "We learn that Pax has been allowed to work on an old gravBike, thanks to Ephraim's convincing.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 14,
-                "end": 17,
-                "text": "Pax"
-            },
-            {
-                "label": "Technology",
-                "start": 53,
-                "end": 61,
-                "text": "gravBike"
-            },
-            {
-                "label": "Person",
-                "start": 73,
-                "end": 82,
-                "text": "Ephraim's"
-            }
-        ]
-    },
-    {
-        "text": "Virginia, upon meeting with Regulus ag Sun, finds herself being extorted by the Silvers' common interest federation, the Zenith Ring, with Brittania ag Krieg voicing out the proposals.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 8,
-                "text": "Virginia"
-            },
-            {
-                "label": "Person",
-                "start": 28,
-                "end": 42,
-                "text": "Regulus ag Sun"
-            },
-            {
-                "label": "Organization",
-                "start": 80,
-                "end": 87,
-                "text": "Silvers"
-            },
-            {
-                "label": "Organization",
-                "start": 121,
-                "end": 132,
-                "text": "Zenith Ring"
-            },
-            {
-                "label": "Person",
-                "start": 139,
-                "end": 157,
-                "text": "Brittania ag Krieg"
-            }
-        ]
-    },
-    {
-        "text": "He also tells them about how some ships went missing in the Kuiper Belt, and years later one of the Ascommani was seen.",
-        "mentions": [
-            {
-                "label": "Location",
-                "start": 60,
-                "end": 71,
-                "text": "Kuiper Belt"
-            },
-            {
-                "label": "Organization",
-                "start": 100,
-                "end": 109,
-                "text": "Ascommani"
-            }
-        ]
-    },
-    {
-        "text": "Darrow is on Mercury looking at what's left of his army, over three thousand injured and no longer able to fight.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 6,
-                "text": "Darrow"
-            },
-            {
-                "label": "Location",
-                "start": 13,
-                "end": 20,
-                "text": "Mercury"
-            }
-        ]
-    },
-    {
-        "text": "Rhonna brings him an enemy in Fulminata uniform, but when they reveal his face, he knows it's Screwface, who was carved to go undercover in Atalantia's army.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 6,
-                "text": "Rhonna"
-            },
-            {
-                "label": "NORP",
-                "start": 30,
-                "end": 39,
-                "text": "Fulminata"
-            },
-            {
-                "label": "Person",
-                "start": 94,
-                "end": 103,
-                "text": "Screwface"
-            },
-            {
-                "label": "Person",
-                "start": 140,
-                "end": 151,
-                "text": "Atalantia's"
-            }
-        ]
-    },
-    {
-        "text": "Darrow and his men face off against Lysander and his group easily, taking them as \"light resistance,\" on their way to Heliopolis.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 6,
-                "text": "Darrow"
-            },
-            {
-                "label": "Person",
-                "start": 36,
-                "end": 44,
-                "text": "Lysander"
-            },
-            {
-                "label": "Location",
-                "start": 118,
-                "end": 128,
-                "text": "Heliopolis"
-            }
-        ]
-    },
-    {
-        "text": "Darrow makes live Operation Tartarus.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 6,
-                "text": "Darrow"
-            },
-            {
-                "label": "MISC",
-                "start": 18,
-                "end": 36,
-                "text": "Operation Tartarus"
-            }
-        ]
-    },
-    {
-        "text": "When Atlas returned seven years later, it was the same time rumors of the Ascomanni uniting had begun.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 5,
-                "end": 10,
-                "text": "Atlas"
-            },
-            {
-                "label": "Organization",
-                "start": 74,
-                "end": 83,
-                "text": "Ascomanni"
-            }
-        ]
-    },
-    {
-        "text": "Atalantia at first seems to reject having the Rim's help, but with some convincing, she agrees.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 9,
-                "text": "Atalantia"
-            },
-            {
-                "label": "Organization",
-                "start": 46,
-                "end": 51,
-                "text": "Rim's"
-            }
-        ]
-    },
-    {
-        "text": "As Daxo tries to protect Virginia and give her a way to escape the Citadel, he is also killed.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 3,
-                "end": 7,
-                "text": "Daxo"
-            },
-            {
-                "label": "Person",
-                "start": 25,
-                "end": 33,
-                "text": "Virginia"
-            },
-            {
-                "label": "Location",
-                "start": 67,
-                "end": 74,
-                "text": "Citadel"
-            }
-        ]
-    },
-    {
-        "text": "At the same time, the Twins of South Pacifica shoot out projectiles filled with supplies and medicine, along with a message for Darrow stating he has not been abandoned.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 128,
-                "end": 134,
-                "text": "Darrow"
-            },
-            {
-                "label": "Technology",
-                "start": 22,
-                "end": 45,
-                "text": "Twins of South Pacifica"
-            }
-        ]
-    },
-    {
-        "text": "Freihild brings them to see Sefi, where they witness Sefi's men kill Amel, Sefi's Pink servant, for treason and an assassination attempt against her.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 8,
-                "text": "Freihild"
-            },
-            {
-                "label": "Person",
-                "start": 28,
-                "end": 32,
-                "text": "Sefi"
-            },
-            {
-                "label": "Person",
-                "start": 53,
-                "end": 59,
-                "text": "Sefi's"
-            },
-            {
-                "label": "Person",
-                "start": 69,
-                "end": 73,
-                "text": "Amel"
-            },
-            {
-                "label": "Person",
-                "start": 75,
-                "end": 81,
-                "text": "Sefi's"
-            },
-            {
-                "label": "Caste",
-                "start": 82,
-                "end": 86,
-                "text": "Pink"
-            }
-        ]
-    },
-    {
-        "text": "Lysander then tells them of a Storm God, which only he in the group knows about.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 8,
-                "text": "Lysander"
-            },
-            {
-                "label": "Technology",
-                "start": 30,
-                "end": 39,
-                "text": "Storm God"
-            }
-        ]
-    },
-    {
-        "text": "It wasn't until Octavia had sent Atlas au Raa on his mission to Pluto that the name Volsung was thought of again as Atlas had lost all but two ships early in the mission.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 16,
-                "end": 23,
-                "text": "Octavia"
-            },
-            {
-                "label": "Person",
-                "start": 33,
-                "end": 45,
-                "text": "Atlas au Raa"
-            },
-            {
-                "label": "Location",
-                "start": 64,
-                "end": 69,
-                "text": "Pluto"
-            },
-            {
-                "label": "Person",
-                "start": 84,
-                "end": 91,
-                "text": "Volsung"
-            },
-            {
-                "label": "Person",
-                "start": 116,
-                "end": 121,
-                "text": "Atlas"
-            }
-        ]
-    },
-    {
-        "text": "They are finally able to destroy the Storm God, but when Darrow and his men reach them, they are beaten easily, with Kalindora losing an arm, and Lysander having part of his face burned.",
-        "mentions": [
-            {
-                "label": "Technology",
-                "start": 37,
-                "end": 46,
-                "text": "Storm God"
-            },
-            {
-                "label": "Person",
-                "start": 57,
-                "end": 63,
-                "text": "Darrow"
-            },
-            {
-                "label": "Person",
-                "start": 117,
-                "end": 126,
-                "text": "Kalindora"
-            },
-            {
-                "label": "Person",
-                "start": 146,
-                "end": 154,
-                "text": "Lysander"
-            }
-        ]
-    },
-    {
-        "text": "They show him the images from the Duke of Hands' memory, and he's furious, thinking they're blackmailing him to keep his secret, since Reds are against homosexuality.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 34,
-                "end": 47,
-                "text": "Duke of Hands"
-            },
-            {
-                "label": "Caste",
-                "start": 135,
-                "end": 139,
-                "text": "Reds"
-            }
-        ]
-    },
-    {
-        "text": "Niobe is headed to Mars to rendezvous with their house fleets.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 5,
-                "text": "Niobe"
-            },
-            {
-                "label": "Location",
-                "start": 19,
-                "end": 23,
-                "text": "Mars"
-            }
-        ]
-    },
-    {
-        "text": "But Virginia's main purpose is to get the Optimate Party to convince enough voters to get her a Forum and the power over the defense fleets so she can aid Darrow.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 4,
-                "end": 14,
-                "text": "Virginia's"
-            },
-            {
-                "label": "Organization",
-                "start": 42,
-                "end": 56,
-                "text": "Optimate Party"
-            },
-            {
-                "label": "Person",
-                "start": 155,
+                "label": "PLANET",
+                "start": 153,
                 "end": 161,
-                "text": "Darrow"
+                "text": "Alderaan"
+            },
+            {
+                "label": "WEAPON",
+                "start": 180,
+                "end": 190,
+                "text": "Death Star"
             }
         ]
     },
     {
-        "text": "They arrive at Heliopolis only to find it being sieged by Ajax's men.",
+        "text": "Anakin returns to the Jedi Temple and approaches Windu who tells Anakin that they have just been informed that Obi-Wan has destroyed General Grievous and so they are going to go to the Senate to ensure that Chancellor Palpatine gives back his emergency powers.",
         "mentions": [
             {
-                "label": "Location",
-                "start": 15,
-                "end": 25,
-                "text": "Heliopolis"
+                "label": "PERSON",
+                "start": 0,
+                "end": 6,
+                "text": "Anakin"
             },
             {
-                "label": "Person",
-                "start": 58,
-                "end": 64,
-                "text": "Ajax's"
+                "label": "LOCATION",
+                "start": 22,
+                "end": 33,
+                "text": "Jedi Temple"
+            },
+            {
+                "label": "PERSON",
+                "start": 49,
+                "end": 54,
+                "text": "Windu"
+            },
+            {
+                "label": "PERSON",
+                "start": 65,
+                "end": 71,
+                "text": "Anakin"
+            },
+            {
+                "label": "PERSON",
+                "start": 111,
+                "end": 118,
+                "text": "Obi-Wan"
+            },
+            {
+                "label": "PERSON",
+                "start": 141,
+                "end": 149,
+                "text": "Grievous"
+            },
+            {
+                "label": "RANK",
+                "start": 133,
+                "end": 140,
+                "text": "General"
+            },
+            {
+                "label": "ORG",
+                "start": 185,
+                "end": 191,
+                "text": "Senate"
+            },
+            {
+                "label": "RANK",
+                "start": 207,
+                "end": 217,
+                "text": "Chancellor"
+            },
+            {
+                "label": "PERSON",
+                "start": 218,
+                "end": 227,
+                "text": "Palpatine"
             }
         ]
     },
     {
-        "text": "He then allows Alexandar and his men to help the civilians of Tyche escape the destroyed city, after giving him status as a Howler by giving him his wolfcloak, temporarily.",
+        "text": "Aboard the Death Star, Cassio Tagge argues with Conan Antonio Motti about the stations vulnerability to the rebels and points out that the rebellion has been gaining support within the imperial senate.",
         "mentions": [
             {
-                "label": "Person",
-                "start": 15,
-                "end": 24,
-                "text": "Alexandar"
+                "label": "WEAPON",
+                "start": 11,
+                "end": 21,
+                "text": "Death Star"
             },
             {
-                "label": "Person",
-                "start": 62,
+                "label": "PERSON",
+                "start": 23,
+                "end": 35,
+                "text": "Cassio Tagge"
+            },
+            {
+                "label": "PERSON",
+                "start": 48,
                 "end": 67,
-                "text": "Tyche"
+                "text": "Conan Antonio Motti"
             },
+            {
+                "label": "ORG",
+                "start": 185,
+                "end": 200,
+                "text": "imperial senate"
+            },
+            {
+                "label": "GPE",
+                "start": 139,
+                "end": 148,
+                "text": "rebellion"
+            }
+        ]
+    },
+    {
+        "text": "Upon finding the location of the Resistance base, the Starkiller begins draining the power of the sun to destroy D'Qar.",
+        "mentions": [
             {
                 "label": "NORP",
-                "start": 124,
-                "end": 130,
-                "text": "Howler"
-            }
-        ]
-    },
-    {
-        "text": "Lysander au Lune, the heir in exile, has returned to the Core.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 16,
-                "text": "Lysander au Lune"
-            },
-            {
-                "label": "Location",
-                "start": 57,
-                "end": 61,
-                "text": "Core"
-            }
-        ]
-    },
-    {
-        "text": "Darrow is almost killed, but is saved by Colloway xe Char, Thraxa au Telemanus, and the First Army.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 6,
-                "text": "Darrow"
-            },
-            {
-                "label": "Person",
-                "start": 41,
-                "end": 57,
-                "text": "Colloway xe Char"
-            },
-            {
-                "label": "Person",
-                "start": 59,
-                "end": 78,
-                "text": "Thraxa au Telemanus"
-            },
-            {
-                "label": "Organization",
-                "start": 88,
-                "end": 98,
-                "text": "First Army"
-            }
-        ]
-    },
-    {
-        "text": "Virginia realizes then that Lilath is the Syndicate Queen.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 8,
-                "text": "Virginia"
-            },
-            {
-                "label": "Person",
-                "start": 28,
-                "end": 34,
-                "text": "Lilath"
-            },
-            {
-                "label": "Rank",
-                "start": 42,
-                "end": 57,
-                "text": "Syndicate Queen"
-            }
-        ]
-    },
-    {
-        "text": "They take back Heliopolis, but Ajax escapes, and Darrow suffers another heart attack.",
-        "mentions": [
-            {
-                "label": "Location",
-                "start": 15,
-                "end": 25,
-                "text": "Heliopolis"
-            },
-            {
-                "label": "Person",
-                "start": 31,
-                "end": 35,
-                "text": "Ajax"
-            },
-            {
-                "label": "Person",
-                "start": 49,
-                "end": 55,
-                "text": "Darrow"
-            }
-        ]
-    },
-    {
-        "text": "He also realizes he's in the ruined city of Olympia on Eagle Rest, the old citadel of House Bellona.",
-        "mentions": [
-            {
-                "label": "Location",
-                "start": 44,
-                "end": 51,
-                "text": "Olympia"
-            },
-            {
-                "label": "Location",
-                "start": 55,
-                "end": 65,
-                "text": "Eagle Rest"
-            },
-            {
-                "label": "Organization",
-                "start": 86,
-                "end": 99,
-                "text": "House Bellona"
-            }
-        ]
-    },
-    {
-        "text": "He asks for me, which Sefi agrees to, as he will also work on bringing Pax closer to the Alltribe.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 22,
-                "end": 26,
-                "text": "Sefi"
-            },
-            {
-                "label": "Person",
-                "start": 71,
-                "end": 74,
-                "text": "Pax"
-            },
-            {
-                "label": "Organization",
-                "start": 89,
-                "end": 97,
-                "text": "Alltribe"
-            }
-        ]
-    },
-    {
-        "text": "They hypothesize that Publius is the one collaborating with the Syndicate Queen.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 22,
-                "end": 29,
-                "text": "Publius"
-            },
-            {
-                "label": "Rank",
-                "start": 64,
-                "end": 79,
-                "text": "Syndicate Queen"
-            }
-        ]
-    },
-    {
-        "text": "Ephraim wakes to find himself on Mars, along with Pax and Electra.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 7,
-                "text": "Ephraim"
-            },
-            {
-                "label": "Location",
                 "start": 33,
-                "end": 37,
-                "text": "Mars"
+                "end": 43,
+                "text": "Resistance"
             },
             {
-                "label": "Person",
-                "start": 50,
-                "end": 53,
-                "text": "Pax"
+                "label": "WEAPON",
+                "start": 54,
+                "end": 64,
+                "text": "Starkiller"
             },
             {
-                "label": "Person",
-                "start": 58,
-                "end": 65,
-                "text": "Electra"
-            }
-        ]
-    },
-    {
-        "text": "Kavax, who is still healing, opts to go for a swim instead of going to the Citadel for the voting as he doesn't like to be there without Niobe.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 5,
-                "text": "Kavax"
-            },
-            {
-                "label": "Location",
-                "start": 75,
-                "end": 82,
-                "text": "Citadel"
-            },
-            {
-                "label": "Person",
-                "start": 137,
-                "end": 142,
-                "text": "Niobe"
-            }
-        ]
-    },
-    {
-        "text": "Ephraim is required to attend the Kjrdakan, a war ritual performed before important battles, as aefe, a planner, which means that Sefi has accepted his plan, and not that of Valdir.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 7,
-                "text": "Ephraim"
-            },
-            {
-                "label": "Ritual/Holiday",
-                "start": 34,
-                "end": 42,
-                "text": "Kjrdakan"
-            },
-            {
-                "label": "Person",
-                "start": 130,
-                "end": 134,
-                "text": "Sefi"
-            },
-            {
-                "label": "Person",
-                "start": 174,
-                "end": 180,
-                "text": "Valdir"
-            }
-        ]
-    },
-    {
-        "text": "Publius and the Vox Populi shout tyranny and it becomes a coup, with many people and senators killed.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 7,
-                "text": "Publius"
-            },
-            {
-                "label": "Organization",
-                "start": 16,
-                "end": 26,
-                "text": "Vox Populi"
-            }
-        ]
-    },
-    {
-        "text": "When it's time for the attack on Cimmeria, Ephraim, high on eating some of Ozgard's spirit berries, joins in the fray, holding a mop he hallucinated as a rifle.",
-        "mentions": [
-            {
-                "label": "Location",
-                "start": 33,
-                "end": 41,
-                "text": "Cimmeria"
-            },
-            {
-                "label": "Person",
-                "start": 43,
-                "end": 50,
-                "text": "Ephraim"
-            },
-            {
-                "label": "Person",
-                "start": 75,
-                "end": 83,
-                "text": "Ozgard's"
-            }
-        ]
-    },
-    {
-        "text": "Darrow then gathers up the reliable veterans there and tells them of his plan of how to annihilate Atalantia and Atlas, and how they're his \"insurance policy\", under the name Operation Tartarus.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 6,
-                "text": "Darrow"
-            },
-            {
-                "label": "Person",
-                "start": 99,
-                "end": 108,
-                "text": "Atalantia"
-            },
-            {
-                "label": "Person",
+                "label": "PLANET",
                 "start": 113,
                 "end": 118,
-                "text": "Atlas"
-            },
-            {
-                "label": "MISC",
-                "start": 175,
-                "end": 193,
-                "text": "Operation Tartarus"
+                "text": "D'Qar"
             }
         ]
     },
     {
-        "text": "They are now on Mars, and as Ephraim asks for zoladone when he awakes, Pax, who is there holding Trigg ti Nakamura's engagement ring, denies him the drug, knowing his addiction to it.",
+        "text": "Rey calls Ren a monster and then proceeds to shoot him with her blaster, but Ren knocks Rey out by Force pushing her into a tree.",
         "mentions": [
             {
-                "label": "Location",
-                "start": 16,
-                "end": 20,
-                "text": "Mars"
-            },
-            {
-                "label": "Person",
-                "start": 29,
-                "end": 36,
-                "text": "Ephraim"
-            },
-            {
-                "label": "Person",
-                "start": 71,
-                "end": 74,
-                "text": "Pax"
-            },
-            {
-                "label": "Person",
-                "start": 97,
-                "end": 116,
-                "text": "Trigg ti Nakamura's"
-            }
-        ]
-    },
-    {
-        "text": "With a skeleton crew, and Sevro having parted ways to go back to Luna to help find his daughter Electra from whomever kidnapped her, Darrow arrives at Mercury three weeks too late from the attack by Atalantia au Grimmus.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 26,
-                "end": 31,
-                "text": "Sevro"
-            },
-            {
-                "label": "Location",
-                "start": 65,
-                "end": 69,
-                "text": "Luna"
-            },
-            {
-                "label": "Person",
-                "start": 96,
-                "end": 103,
-                "text": "Electra"
-            },
-            {
-                "label": "Person",
-                "start": 133,
-                "end": 139,
-                "text": "Darrow"
-            },
-            {
-                "label": "Location",
-                "start": 151,
-                "end": 158,
-                "text": "Mercury"
-            },
-            {
-                "label": "Person",
-                "start": 199,
-                "end": 219,
-                "text": "Atalantia au Grimmus"
-            }
-        ]
-    },
-    {
-        "text": "Unfortunately, when they reach it in painstaking effort, even while being aided by Cicero au Votum's Scorpian Legion, Seraphina is killed by an flyaway rail slug.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 83,
-                "end": 100,
-                "text": "Cicero au Votum's"
-            },
-            {
-                "label": "Organization",
-                "start": 101,
-                "end": 116,
-                "text": "Scorpian Legion"
-            },
-            {
-                "label": "Person",
-                "start": 118,
-                "end": 127,
-                "text": "Seraphina"
-            }
-        ]
-    },
-    {
-        "text": "Once they land on the ship, the Love Knight, Kalindora au San, who Lysander thought dead, and Ajax meet them skeptically.",
-        "mentions": [
-            {
-                "label": "Rank",
-                "start": 32,
-                "end": 43,
-                "text": "Love Knight"
-            },
-            {
-                "label": "Person",
-                "start": 45,
-                "end": 61,
-                "text": "Kalindora au San"
-            },
-            {
-                "label": "Person",
-                "start": 67,
-                "end": 75,
-                "text": "Lysander"
-            },
-            {
-                "label": "Person",
-                "start": 94,
-                "end": 98,
-                "text": "Ajax"
-            }
-        ]
-    },
-    {
-        "text": "When Diomedes and Seraphina are brought in, they explain Darrow's involvement in the Ganymede Dockyard destruction and of the death of their father, Romulus au Raa, and offer their aid to help in this war.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 5,
-                "end": 13,
-                "text": "Diomedes"
-            },
-            {
-                "label": "Person",
-                "start": 18,
-                "end": 27,
-                "text": "Seraphina"
-            },
-            {
-                "label": "Person",
-                "start": 57,
-                "end": 65,
-                "text": "Darrow's"
-            },
-            {
-                "label": "Location",
-                "start": 85,
-                "end": 102,
-                "text": "Ganymede Dockyard"
-            },
-            {
-                "label": "Person",
-                "start": 149,
-                "end": 164,
-                "text": "Romulus au Raa,"
-            }
-        ]
-    },
-    {
-        "text": "She knows he fears death, and retaliation by the Vox Populi in the aftermath.",
-        "mentions": [
-            {
-                "label": "Organization",
-                "start": 49,
-                "end": 59,
-                "text": "Vox Populi"
-            }
-        ]
-    },
-    {
-        "text": "Harnassus, Thraxa, and Screwface discuss what to do next.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 9,
-                "text": "Harnassus"
-            },
-            {
-                "label": "Person",
-                "start": 11,
-                "end": 17,
-                "text": "Thraxa"
-            },
-            {
-                "label": "Person",
-                "start": 23,
-                "end": 32,
-                "text": "Screwface"
-            }
-        ]
-    },
-    {
-        "text": "Sefi proposes a deal with Ephraim.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 4,
-                "text": "Sefi"
-            },
-            {
-                "label": "Person",
-                "start": 26,
-                "end": 33,
-                "text": "Ephraim"
-            }
-        ]
-    },
-    {
-        "text": "As Atalantia begins her Iron Rain, Darrow loses many of his men in the atomic bombs that go off around their area.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 3,
-                "end": 12,
-                "text": "Atalantia"
-            },
-            {
-                "label": "Person",
-                "start": 35,
-                "end": 41,
-                "text": "Darrow"
-            }
-        ]
-    },
-    {
-        "text": "When asked to join in the Iron Rain they have planned, Diomedes tells Atalantia he cannot join as that is not what he's there for, but Seraphina requests to join in his place, despite her brother's disapproval.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 55,
-                "end": 63,
-                "text": "Diomedes"
-            },
-            {
-                "label": "Person",
-                "start": 70,
-                "end": 79,
-                "text": "Atalantia"
-            },
-            {
-                "label": "Person",
-                "start": 135,
-                "end": 144,
-                "text": "Seraphina"
-            }
-        ]
-    },
-    {
-        "text": "All three of them are sequestered onto a shuttle to fly them to an old cruise vessel called the Heart of Venus.",
-        "mentions": [
-            {
-                "label": "Vehicle",
-                "start": 96,
-                "end": 110,
-                "text": "Heart of Venus"
-            }
-        ]
-    },
-    {
-        "text": "Lysander, who had just been hit and berated by Ajax moments prior for allowing himself to be ward to Cassius, also states his desire to join the Iron Rain, alongside Ajax.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 8,
-                "text": "Lysander"
-            },
-            {
-                "label": "Person",
-                "start": 47,
-                "end": 51,
-                "text": "Ajax"
-            },
-            {
-                "label": "Person",
-                "start": 101,
-                "end": 108,
-                "text": "Cassius"
-            },
-            {
-                "label": "Person",
-                "start": 166,
-                "end": 170,
-                "text": "Ajax"
-            }
-        ]
-    },
-    {
-        "text": "To confirm his loyalty to her, she has Sevro question the Duke without killing him, he does so, with the Duke unwillingly revealing his secrets through holoimages, including several images of Dancer O'Faran and him being intimate, due to the psychospikes she used on him.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 39,
-                "end": 44,
-                "text": "Sevro"
-            },
-            {
-                "label": "Person",
-                "start": 58,
-                "end": 62,
-                "text": "Duke"
-            },
-            {
-                "label": "Person",
-                "start": 105,
-                "end": 109,
-                "text": "Duke"
-            },
-            {
-                "label": "Person",
-                "start": 192,
-                "end": 206,
-                "text": "Dancer O'Faran"
-            }
-        ]
-    },
-    {
-        "text": "Pax leaves, and Electra yells at Sefi, blaming her for what has happened, and stalks off as well.",
-        "mentions": [
-            {
-                "label": "Person",
+                "label": "PERSON",
                 "start": 0,
                 "end": 3,
-                "text": "Pax"
+                "text": "Rey"
             },
             {
-                "label": "Person",
-                "start": 16,
-                "end": 23,
-                "text": "Electra"
+                "label": "PERSON",
+                "start": 10,
+                "end": 13,
+                "text": "Ren"
             },
             {
-                "label": "Person",
-                "start": 33,
-                "end": 37,
-                "text": "Sefi"
+                "label": "WEAPON",
+                "start": 64,
+                "end": 71,
+                "text": "blaster"
+            },
+            {
+                "label": "PERSON",
+                "start": 77,
+                "end": 80,
+                "text": "Ren"
+            },
+            {
+                "label": "PERSON",
+                "start": 88,
+                "end": 91,
+                "text": "Rey"
+            },
+            {
+                "label": "MISC",
+                "start": 99,
+                "end": 112,
+                "text": "Force pushing"
             }
         ]
     },
     {
-        "text": "Ephraim tells her they will be.",
+        "text": "Hoping that the stolen plans can save her people and restore freedom to the galaxy, Princess Leia Organa, who is in custody of the plans, attempts to race home aboard the Tantive IV.",
         "mentions": [
             {
-                "label": "Person",
+                "label": "SPACECRAFT",
+                "start": 171,
+                "end": 181,
+                "text": "Tantive IV"
+            },
+            {
+                "label": "PERSON",
+                "start": 93,
+                "end": 104,
+                "text": "Leia Organa"
+            },
+            {
+                "label": "RANK",
+                "start": 84,
+                "end": 92,
+                "text": "Princess"
+            }
+        ]
+    },
+    {
+        "text": "Back aboard the Finalizer, Lieutenant Dopheld Mitaka informs Kylo Ren that the droid escaped on a stolen freighter and that it was aided by the deserter FN-2187.",
+        "mentions": [
+            {
+                "label": "SPACECRAFT",
+                "start": 16,
+                "end": 25,
+                "text": "Finalizer"
+            },
+            {
+                "label": "RANK",
+                "start": 27,
+                "end": 37,
+                "text": "Lieutenant"
+            },
+            {
+                "label": "PERSON",
+                "start": 38,
+                "end": 52,
+                "text": "Dopheld Mitaka"
+            },
+            {
+                "label": "PERSON",
+                "start": 61,
+                "end": 69,
+                "text": "Kylo Ren"
+            },
+            {
+                "label": "PERSON",
+                "start": 153,
+                "end": 160,
+                "text": "FN-2187"
+            }
+        ]
+    },
+    {
+        "text": "In the Chancellor's office within the Imperial Senate Building, Yoda confronts Palpatine.",
+        "mentions": [
+            {
+                "label": "RANK",
+                "start": 7,
+                "end": 19,
+                "text": "Chancellor's"
+            },
+            {
+                "label": "VEHICLE",
+                "start": 38,
+                "end": 62,
+                "text": "Imperial Senate Building"
+            },
+            {
+                "label": "PERSON",
+                "start": 64,
+                "end": 68,
+                "text": "Yoda"
+            },
+            {
+                "label": "PERSON",
+                "start": 79,
+                "end": 88,
+                "text": "Palpatine"
+            }
+        ]
+    },
+    {
+        "text": "Luke, aided by the voice of Kenobi and guided by the Force, accurately fires two proton torpedoes into the exhaust port and retreats.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Luke"
+            },
+            {
+                "label": "PERSON",
+                "start": 28,
+                "end": 34,
+                "text": "Kenobi"
+            },
+            {
+                "label": "MISC",
+                "start": 53,
+                "end": 58,
+                "text": "Force"
+            },
+            {
+                "label": "WEAPON",
+                "start": 81,
+                "end": 97,
+                "text": "proton torpedoes"
+            }
+        ]
+    },
+    {
+        "text": "Anakin confirms that the Jedi don't trust him, a fact that Palpatine expands to include the Senate, the Republic, and democracy as a whole.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 6,
+                "text": "Anakin"
+            },
+            {
+                "label": "ORG",
+                "start": 25,
+                "end": 29,
+                "text": "Jedi"
+            },
+            {
+                "label": "PERSON",
+                "start": 59,
+                "end": 68,
+                "text": "Palpatine"
+            },
+            {
+                "label": "ORG",
+                "start": 92,
+                "end": 98,
+                "text": "Senate"
+            },
+            {
+                "label": "GPE",
+                "start": 104,
+                "end": 112,
+                "text": "Republic"
+            }
+        ]
+    },
+    {
+        "text": "Obi-Wan continues to chase General Grievous on Utapau.",
+        "mentions": [
+            {
+                "label": "PERSON",
                 "start": 0,
                 "end": 7,
-                "text": "Ephraim"
-            }
-        ]
-    },
-    {
-        "text": "Despite Quicksilver's position and prior aid from his company, Virginia denies their proposals and she demands their votes instead.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 8,
-                "end": 21,
-                "text": "Quicksilver's"
+                "text": "Obi-Wan"
             },
             {
-                "label": "Person",
-                "start": 63,
-                "end": 71,
-                "text": "Virginia"
+                "label": "RANK",
+                "start": 27,
+                "end": 34,
+                "text": "General"
+            },
+            {
+                "label": "PERSON",
+                "start": 35,
+                "end": 43,
+                "text": "Grievous"
+            },
+            {
+                "label": "PLANET",
+                "start": 47,
+                "end": 53,
+                "text": "Utapau"
             }
         ]
     },
     {
-        "text": "But things go awry as soon as the Forum begins.",
+        "text": "She reluctantly tells them the base is on Dantooine, but Tarkin orders Alderaan to be destroyed anyway for its role in supporting the rebels.",
+        "mentions": [
+            {
+                "label": "PLANET",
+                "start": 42,
+                "end": 51,
+                "text": "Dantooine"
+            },
+            {
+                "label": "PERSON",
+                "start": 57,
+                "end": 63,
+                "text": "Tarkin"
+            },
+            {
+                "label": "PERSON",
+                "start": 71,
+                "end": 79,
+                "text": "Alderaan"
+            },
+            {
+                "label": "NORP",
+                "start": 134,
+                "end": 140,
+                "text": "rebels"
+            }
+        ]
+    },
+    {
+        "text": "Senator Bail Organa arrives at the flaming Temple to witness the slaughter of a young Padawan named Zett Jukassa by a squad of troopers led by Commander Appo.",
+        "mentions": [
+            {
+                "label": "RANK",
+                "start": 0,
+                "end": 7,
+                "text": "Senator"
+            },
+            {
+                "label": "PERSON",
+                "start": 8,
+                "end": 19,
+                "text": "Bail Organa"
+            },
+            {
+                "label": "LOCATION",
+                "start": 43,
+                "end": 49,
+                "text": "Temple"
+            },
+            {
+                "label": "RANK",
+                "start": 86,
+                "end": 93,
+                "text": "Padawan"
+            },
+            {
+                "label": "PERSON",
+                "start": 100,
+                "end": 112,
+                "text": "Zett Jukassa"
+            },
+            {
+                "label": "RANK",
+                "start": 143,
+                "end": 152,
+                "text": "Commander"
+            },
+            {
+                "label": "PERSON",
+                "start": 153,
+                "end": 157,
+                "text": "Appo"
+            }
+        ]
+    },
+    {
+        "text": "Windu declares Sidious has lost, but the Sith Lord then unleashes a torrent of Force lightning.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Windu"
+            },
+            {
+                "label": "PERSON",
+                "start": 15,
+                "end": 22,
+                "text": "Sidious"
+            },
+            {
+                "label": "RANK",
+                "start": 41,
+                "end": 50,
+                "text": "Sith Lord"
+            },
+            {
+                "label": "MISC",
+                "start": 79,
+                "end": 94,
+                "text": "Force lightning"
+            }
+        ]
+    },
+    {
+        "text": "Han Solo pilots the Millennium Falcon to Starkiller Base accompanied by Chewbacca and Finn.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 8,
+                "text": "Han Solo"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 20,
+                "end": 37,
+                "text": "Millennium Falcon"
+            },
+            {
+                "label": "WEAPON",
+                "start": 41,
+                "end": 56,
+                "text": "Starkiller Base"
+            },
+            {
+                "label": "PERSON",
+                "start": 72,
+                "end": 81,
+                "text": "Chewbacca"
+            },
+            {
+                "label": "PERSON",
+                "start": 86,
+                "end": 90,
+                "text": "Finn"
+            }
+        ]
+    },
+    {
+        "text": "Princess Leia Organa urges Han to stay with the Rebels.",
+        "mentions": [
+            {
+                "label": "RANK",
+                "start": 0,
+                "end": 8,
+                "text": "Princess"
+            },
+            {
+                "label": "PERSON",
+                "start": 9,
+                "end": 20,
+                "text": "Leia Organa"
+            },
+            {
+                "label": "PERSON",
+                "start": 27,
+                "end": 30,
+                "text": "Han"
+            },
+            {
+                "label": "GPE",
+                "start": 48,
+                "end": 54,
+                "text": "Rebels"
+            }
+        ]
+    },
+    {
+        "text": "Kenobi hopes to instead warn any surviving Jedi to stay away from the Temple.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 6,
+                "text": "Kenobi"
+            },
+            {
+                "label": "NORP",
+                "start": 43,
+                "end": 47,
+                "text": "Jedi"
+            },
+            {
+                "label": "LOCATION",
+                "start": 70,
+                "end": 76,
+                "text": "Temple"
+            }
+        ]
+    },
+    {
+        "text": "Yoda says they must destroy the Sith, but Obi-Wan is reluctant to kill Anakin and wants to go after the Emperor instead.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Yoda"
+            },
+            {
+                "label": "ORG",
+                "start": 32,
+                "end": 36,
+                "text": "Sith"
+            },
+            {
+                "label": "PERSON",
+                "start": 42,
+                "end": 49,
+                "text": "Obi-Wan"
+            },
+            {
+                "label": "PERSON",
+                "start": 71,
+                "end": 77,
+                "text": "Anakin"
+            },
+            {
+                "label": "RANK",
+                "start": 104,
+                "end": 111,
+                "text": "Emperor"
+            }
+        ]
+    },
+    {
+        "text": "The Jedi are all but eliminated with Obi-Wan Kenobi and Jedi Master Yoda surviving the event and forced into hiding.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 37,
+                "end": 51,
+                "text": "Obi-Wan Kenobi"
+            },
+            {
+                "label": "RANK",
+                "start": 56,
+                "end": 67,
+                "text": "Jedi Master"
+            },
+            {
+                "label": "PERSON",
+                "start": 68,
+                "end": 72,
+                "text": "Yoda"
+            },
+            {
+                "label": "NORP",
+                "start": 4,
+                "end": 8,
+                "text": "Jedi"
+            }
+        ]
+    },
+    {
+        "text": "At Starkiller Base, a planet converted into a superweapon, powered by draining the energy of a star, and capable of destroying star systems, Kylo Ren and General Hux are summoned by Supreme Leader Snoke, who appears as a large remote hologram projection.",
+        "mentions": [
+            {
+                "label": "WEAPON",
+                "start": 3,
+                "end": 18,
+                "text": "Starkiller Base"
+            },
+            {
+                "label": "PERSON",
+                "start": 141,
+                "end": 149,
+                "text": "Kylo Ren"
+            },
+            {
+                "label": "RANK",
+                "start": 154,
+                "end": 161,
+                "text": "General"
+            },
+            {
+                "label": "PERSON",
+                "start": 162,
+                "end": 165,
+                "text": "Hux"
+            },
+            {
+                "label": "RANK",
+                "start": 182,
+                "end": 196,
+                "text": "Supreme Leader"
+            },
+            {
+                "label": "PERSON",
+                "start": 197,
+                "end": 202,
+                "text": "Snoke"
+            }
+        ]
+    },
+    {
+        "text": "He also tells Anakin that the Jedi Order wishes to overthrow the Republic and that if he has suspected it, Anakin must surely have sensed it.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 14,
+                "end": 20,
+                "text": "Anakin"
+            },
+            {
+                "label": "ORG",
+                "start": 30,
+                "end": 40,
+                "text": "Jedi Order"
+            },
+            {
+                "label": "PERSON",
+                "start": 107,
+                "end": 113,
+                "text": "Anakin"
+            },
+            {
+                "label": "GPE",
+                "start": 65,
+                "end": 73,
+                "text": "Republic"
+            }
+        ]
+    },
+    {
+        "text": "Rey then makes her way through Starkiller Base, honing her Force abilities while using stealth.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 3,
+                "text": "Rey"
+            },
+            {
+                "label": "WEAPON",
+                "start": 31,
+                "end": 47,
+                "text": "Starkiller Base,"
+            },
+            {
+                "label": "MISC",
+                "start": 59,
+                "end": 64,
+                "text": "Force"
+            }
+        ]
+    },
+    {
+        "text": "With the aid of a few emergency firespeeders they land, hitting a control tower along on one of Coruscant's industrial landing platforms.",
+        "mentions": [
+            {
+                "label": "SPACECRAFT",
+                "start": 32,
+                "end": 44,
+                "text": "firespeeders"
+            },
+            {
+                "label": "PLANET",
+                "start": 96,
+                "end": 107,
+                "text": "Coruscant's"
+            }
+        ]
+    },
+    {
+        "text": "At the Mustafarian Mining Complex, Obi-Wan and Vader battle in the conference room on the desk.",
+        "mentions": [
+            {
+                "label": "LOCATION",
+                "start": 7,
+                "end": 33,
+                "text": "Mustafarian Mining Complex"
+            },
+            {
+                "label": "PERSON",
+                "start": 35,
+                "end": 42,
+                "text": "Obi-Wan"
+            },
+            {
+                "label": "PERSON",
+                "start": 47,
+                "end": 52,
+                "text": "Vader"
+            }
+        ]
+    },
+    {
+        "text": "Obi-Wan leaves on an eopie, heading to his exile in the Jundland Wastes.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 7,
+                "text": "Obi-Wan"
+            },
+            {
+                "label": "LOCATION",
+                "start": 56,
+                "end": 71,
+                "text": "Jundland Wastes"
+            }
+        ]
+    },
+    {
+        "text": "Anakin and Obi-Wan make their way through the flagship, using their lightsabers to fight through an army of droids.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 6,
+                "text": "Anakin"
+            },
+            {
+                "label": "PERSON",
+                "start": 11,
+                "end": 18,
+                "text": "Obi-Wan"
+            },
+            {
+                "label": "WEAPON",
+                "start": 68,
+                "end": 79,
+                "text": "lightsabers"
+            }
+        ]
+    },
+    {
+        "text": "It is at this point that the first physical manifestation of the dark side in Vader begins to show itself, as his irises turn a pallid yellow, the rest of his eyes taking on a bright crimson hue.",
         "mentions": [
             {
                 "label": "MISC",
+                "start": 65,
+                "end": 74,
+                "text": "dark side"
+            },
+            {
+                "label": "PERSON",
+                "start": 78,
+                "end": 83,
+                "text": "Vader"
+            }
+        ]
+    },
+    {
+        "text": "After taking the foodstuff, Rey heads to her home, a downed AT-AT, and prepares a meal for herself.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 28,
+                "end": 31,
+                "text": "Rey"
+            },
+            {
+                "label": "VEHICLE",
+                "start": 60,
+                "end": 65,
+                "text": "AT-AT"
+            }
+        ]
+    },
+    {
+        "text": "In front of him is the burned helmet of Vader, recovered from the funeral pyre on Endor.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 40,
+                "end": 45,
+                "text": "Vader"
+            },
+            {
+                "label": "PLANET",
+                "start": 82,
+                "end": 87,
+                "text": "Endor"
+            }
+        ]
+    },
+    {
+        "text": "Abandoning the arm, Obi-Wan leaps onto a hovering mining platform below, with Vader pursuing him back up the lava river atop a collection droid.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 20,
+                "end": 27,
+                "text": "Obi-Wan"
+            },
+            {
+                "label": "PERSON",
+                "start": 78,
+                "end": 83,
+                "text": "Vader"
+            },
+            {
+                "label": "DROID",
+                "start": 127,
+                "end": 143,
+                "text": "collection droid"
+            }
+        ]
+    },
+    {
+        "text": "Although they initially believe themselves to be captured by the First Order, they soon meet their real captors: Han Solo and Chewbacca, the former owners of the ship.",
+        "mentions": [
+            {
+                "label": "GPE",
+                "start": 65,
+                "end": 76,
+                "text": "First Order"
+            },
+            {
+                "label": "PERSON",
+                "start": 113,
+                "end": 121,
+                "text": "Han Solo"
+            },
+            {
+                "label": "PERSON",
+                "start": 126,
+                "end": 135,
+                "text": "Chewbacca"
+            }
+        ]
+    },
+    {
+        "text": "Enraged, Grievous repeatedly hits Obi-Wan and then picks up the helpless Jedi and throws him over the edge.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 9,
+                "end": 17,
+                "text": "Grievous"
+            },
+            {
+                "label": "PERSON",
                 "start": 34,
-                "end": 39,
-                "text": "Forum"
+                "end": 41,
+                "text": "Obi-Wan"
+            },
+            {
+                "label": "NORP",
+                "start": 73,
+                "end": 77,
+                "text": "Jedi"
             }
         ]
     },
     {
-        "text": "Though they are successful in rescuing Orion, it's obvious she has endured torture.",
+        "text": "He finds Grievous on the Tenth Level.",
         "mentions": [
             {
-                "label": "Person",
-                "start": 39,
-                "end": 44,
-                "text": "Orion"
+                "label": "PERSON",
+                "start": 9,
+                "end": 17,
+                "text": "Grievous"
+            },
+            {
+                "label": "LOCATION",
+                "start": 25,
+                "end": 36,
+                "text": "Tenth Level"
             }
         ]
     },
     {
-        "text": "Lysander tells him of how he had become a ward to Cassius, and of Cassius' death and the whereabouts of his body.",
+        "text": "As Windu is deciding to kill Sidious, Anakin argues that Palpatine must stand trial: Windu disregards this, stating Sidious's control over the Senate and courts make him too dangerous to be left alive.",
         "mentions": [
             {
-                "label": "Person",
-                "start": 0,
+                "label": "PERSON",
+                "start": 3,
                 "end": 8,
-                "text": "Lysander"
+                "text": "Windu"
             },
             {
-                "label": "Person",
-                "start": 50,
-                "end": 57,
-                "text": "Cassius"
+                "label": "PERSON",
+                "start": 29,
+                "end": 36,
+                "text": "Sidious"
             },
             {
-                "label": "Person",
-                "start": 66,
-                "end": 73,
-                "text": "Cassius"
-            }
-        ]
-    },
-    {
-        "text": "As he's about to voice his vote for Virginia, he collapses, having been poisoned, and dies.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 36,
-                "end": 44,
-                "text": "Virginia"
-            }
-        ]
-    },
-    {
-        "text": "But when it's Pax's group's turn, he doesn't play by their rules.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 14,
-                "end": 19,
-                "text": "Pax's"
-            }
-        ]
-    },
-    {
-        "text": "He spends his first days teaching the Skuggi how to speak the common language as only half of them know it.",
-        "mentions": [
-            {
-                "label": "Organization",
+                "label": "PERSON",
                 "start": 38,
                 "end": 44,
-                "text": "Skuggi"
-            }
-        ]
-    },
-    {
-        "text": "After his secrets are revealed, the Duke loses his memories, not even remembering what his own eye color is.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 36,
-                "end": 40,
-                "text": "Duke"
-            }
-        ]
-    },
-    {
-        "text": "Dancer agrees to side with Virginia.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 6,
-                "text": "Dancer"
+                "text": "Anakin"
             },
             {
-                "label": "Person",
-                "start": 27,
-                "end": 35,
-                "text": "Virginia"
-            }
-        ]
-    },
-    {
-        "text": "Darrow knows there's no escape, and Harnassus suggests surrender, thinking that though they will be tortured to death at least some of the civilians will survive.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 6,
-                "text": "Darrow"
+                "label": "PERSON",
+                "start": 57,
+                "end": 66,
+                "text": "Palpatine"
             },
             {
-                "label": "Person",
-                "start": 36,
-                "end": 45,
-                "text": "Harnassus"
-            }
-        ]
-    },
-    {
-        "text": "As alliances shift, break, and re-form\u00e2\u20ac\u201dand power is seized, lost, and reclaimed\u00e2\u20ac\u201devery player is at risk in a game of conquest that could turn the Rising into a new Dark Age.[5]",
-        "mentions": [
-            {
-                "label": "Organization",
-                "start": 146,
-                "end": 152,
-                "text": "Rising"
-            }
-        ]
-    },
-    {
-        "text": "They test Lysander to see if it's really him, and once it's confirmed, Ajax makes an effort to show his dislike of Diomedes and Seraphina.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 10,
-                "end": 18,
-                "text": "Lysander"
-            },
-            {
-                "label": "Person",
-                "start": 71,
-                "end": 75,
-                "text": "Ajax"
-            },
-            {
-                "label": "Person",
-                "start": 115,
-                "end": 123,
-                "text": "Diomedes"
-            },
-            {
-                "label": "Person",
-                "start": 128,
-                "end": 137,
-                "text": "Seraphina"
-            }
-        ]
-    },
-    {
-        "text": "She address her people, to gain their trust and support for the upcoming battle on Mercury.",
-        "mentions": [
-            {
-                "label": "Location",
-                "start": 83,
+                "label": "PERSON",
+                "start": 85,
                 "end": 90,
-                "text": "Mercury"
+                "text": "Windu"
+            },
+            {
+                "label": "PERSON",
+                "start": 116,
+                "end": 125,
+                "text": "Sidious's"
+            },
+            {
+                "label": "ORG",
+                "start": 143,
+                "end": 149,
+                "text": "Senate"
             }
         ]
     },
     {
-        "text": "Ephraim shows his confidence in his plan by making a blood wager.",
+        "text": "The First Order, tipped off to BB-8's presence, arrives and attacks Maz Kanata's castle.",
         "mentions": [
             {
-                "label": "Person",
+                "label": "GPE",
+                "start": 4,
+                "end": 15,
+                "text": "First Order"
+            },
+            {
+                "label": "PERSON",
+                "start": 31,
+                "end": 36,
+                "text": "BB-8'"
+            },
+            {
+                "label": "PERSON",
+                "start": 68,
+                "end": 80,
+                "text": "Maz Kanata's"
+            }
+        ]
+    },
+    {
+        "text": "On Coruscant, Anakin is praised for his heroics.",
+        "mentions": [
+            {
+                "label": "PLANET",
+                "start": 3,
+                "end": 12,
+                "text": "Coruscant"
+            },
+            {
+                "label": "PERSON",
+                "start": 14,
+                "end": 20,
+                "text": "Anakin"
+            }
+        ]
+    },
+    {
+        "text": "Grievous then sends a pair of his powerful IG-100 MagnaGuard droids after the Jedi.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 8,
+                "text": "Grievous"
+            },
+            {
+                "label": "DROID",
+                "start": 43,
+                "end": 60,
+                "text": "IG-100 MagnaGuard"
+            }
+        ]
+    },
+    {
+        "text": "As the majority of the Senate screams their approval, Padm\u00c3\u00a9 Amidala and Bail Organa, who are shocked at the result, simply look around and Padm\u00c3\u00a9 can only remark \"So this is how liberty dies, with thunderous applause.\"",
+        "mentions": [
+            {
+                "label": "ORG",
+                "start": 23,
+                "end": 29,
+                "text": "Senate"
+            },
+            {
+                "label": "PERSON",
+                "start": 54,
+                "end": 67,
+                "text": "Padm\u00c3\u00a9 Amidala"
+            },
+            {
+                "label": "PERSON",
+                "start": 72,
+                "end": 83,
+                "text": "Bail Organa"
+            },
+            {
+                "label": "PERSON",
+                "start": 139,
+                "end": 144,
+                "text": "Padm\u00c3\u00a9"
+            }
+        ]
+    },
+    {
+        "text": "Still mourning Obi-Wan's death, Luke helps Solo fend off a squadron of TIE fighters.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 15,
+                "end": 24,
+                "text": "Obi-Wan's"
+            },
+            {
+                "label": "PERSON",
+                "start": 32,
+                "end": 36,
+                "text": "Luke"
+            },
+            {
+                "label": "PERSON",
+                "start": 43,
+                "end": 47,
+                "text": "Solo"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 71,
+                "end": 83,
+                "text": "TIE fighters"
+            }
+        ]
+    },
+    {
+        "text": "The rathtars provide a distraction for Han and Chewie to escape, but one catches Finn and drags him around the freighter.",
+        "mentions": [
+            {
+                "label": "CREATURE",
+                "start": 4,
+                "end": 12,
+                "text": "rathtars"
+            },
+            {
+                "label": "PERSON",
+                "start": 39,
+                "end": 42,
+                "text": "Han"
+            },
+            {
+                "label": "PERSON",
+                "start": 47,
+                "end": 53,
+                "text": "Chewie"
+            },
+            {
+                "label": "PERSON",
+                "start": 81,
+                "end": 85,
+                "text": "Finn"
+            }
+        ]
+    },
+    {
+        "text": "Kylo grows even more livid, using the Force to pull the officer by his throat across the room in order to choke him with his bare hands, and asking him what girl it was.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Kylo"
+            },
+            {
+                "label": "MISC",
+                "start": 38,
+                "end": 43,
+                "text": "Force"
+            }
+        ]
+    },
+    {
+        "text": "Inside the main base, chaos reigns as General Hux has already fled, and the other officers rush to abandon the installation as well.",
+        "mentions": [
+            {
+                "label": "RANK",
+                "start": 38,
+                "end": 45,
+                "text": "General"
+            },
+            {
+                "label": "PERSON",
+                "start": 46,
+                "end": 49,
+                "text": "Hux"
+            }
+        ]
+    },
+    {
+        "text": "He leaves Gunray until last, slicing the Neimoidian across the chest even as he pleads for his life.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 10,
+                "end": 16,
+                "text": "Gunray"
+            },
+            {
+                "label": "SPECIES",
+                "start": 41,
+                "end": 51,
+                "text": "Neimoidian"
+            }
+        ]
+    },
+    {
+        "text": "Attempting to seek guidance from his grandfather, Darth Vader, Kylo Ren sits quietly in his meditation chamber.",
+        "mentions": [
+            {
+                "label": "RANK",
+                "start": 50,
+                "end": 55,
+                "text": "Darth"
+            },
+            {
+                "label": "PERSON",
+                "start": 56,
+                "end": 61,
+                "text": "Vader"
+            },
+            {
+                "label": "PERSON",
+                "start": 63,
+                "end": 71,
+                "text": "Kylo Ren"
+            }
+        ]
+    },
+    {
+        "text": "Obi-Wan uses a Jedi Mind trick on the lead trooper, who lets them pass.",
+        "mentions": [
+            {
+                "label": "PERSON",
                 "start": 0,
                 "end": 7,
-                "text": "Ephraim"
-            }
-        ]
-    },
-    {
-        "text": "During the ritual, Valdir shows his displeasure and voices his anger, stating that Ephraim's plan will fail.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 19,
-                "end": 25,
-                "text": "Valdir"
+                "text": "Obi-Wan"
             },
             {
-                "label": "Person",
-                "start": 83,
-                "end": 92,
-                "text": "Ephraim's"
+                "label": "MISC",
+                "start": 15,
+                "end": 30,
+                "text": "Jedi Mind trick"
             }
         ]
     },
     {
-        "text": "She shows her skill as her team wins.",
+        "text": "Finn arranges with Sidon Ithano and his first mate Quiggold that he will work as payment if they will fly him to the Outer Rim.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Finn"
+            },
+            {
+                "label": "PERSON",
+                "start": 19,
+                "end": 31,
+                "text": "Sidon Ithano"
+            },
+            {
+                "label": "PERSON",
+                "start": 51,
+                "end": 59,
+                "text": "Quiggold"
+            },
+            {
+                "label": "LOCATION",
+                "start": 117,
+                "end": 126,
+                "text": "Outer Rim"
+            }
+        ]
+    },
+    {
+        "text": "After he ignites it, he cuts himself free and cuts off the attacking wampa's arm just in time, running out of the cave and escaping into the cold night of Hoth.",
+        "mentions": [
+            {
+                "label": "CREATURE",
+                "start": 69,
+                "end": 76,
+                "text": "wampa's"
+            },
+            {
+                "label": "PLANET",
+                "start": 155,
+                "end": 159,
+                "text": "Hoth"
+            }
+        ]
+    },
+    {
+        "text": "After escaping from the trash compactor, the group hurries back to the Millennium Falcon, hoping that Obi-Wan has successfully shut down the tractor beam.",
+        "mentions": [
+            {
+                "label": "SPACECRAFT",
+                "start": 71,
+                "end": 88,
+                "text": "Millennium Falcon"
+            },
+            {
+                "label": "PERSON",
+                "start": 102,
+                "end": 109,
+                "text": "Obi-Wan"
+            }
+        ]
+    },
+    {
+        "text": "During the travel in hyperspace, the Falcon experiences a problem with its hyperdrive, but Rey demonstrates her knowledge of ships by bypassing the compressor and fixing the issue.",
+        "mentions": [
+            {
+                "label": "SPACECRAFT",
+                "start": 37,
+                "end": 43,
+                "text": "Falcon"
+            },
+            {
+                "label": "PERSON",
+                "start": 91,
+                "end": 94,
+                "text": "Rey"
+            }
+        ]
+    },
+    {
+        "text": "The First Order tracks Finn to the settlement, and launches an airstrike in attempt to search for BB-8 and the map.",
+        "mentions": [
+            {
+                "label": "GPE",
+                "start": 4,
+                "end": 15,
+                "text": "First Order"
+            },
+            {
+                "label": "PERSON",
+                "start": 23,
+                "end": 27,
+                "text": "Finn"
+            },
+            {
+                "label": "PERSON",
+                "start": 98,
+                "end": 102,
+                "text": "BB-8"
+            }
+        ]
+    },
+    {
+        "text": "After Grievous has the bridge crew regain control of his flagship by firing the emergency booster engines, he makes certain the two Jedi and their ward are captured.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 6,
+                "end": 14,
+                "text": "Grievous"
+            },
+            {
+                "label": "NORP",
+                "start": 132,
+                "end": 136,
+                "text": "Jedi"
+            }
+        ]
+    },
+    {
+        "text": "Despite Palpatine's persuasions that he should leave the unconscious Obi-Wan, Anakin carries him on his back, and maneuvers through the ship with the Chancellor.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 8,
+                "end": 19,
+                "text": "Palpatine's"
+            },
+            {
+                "label": "PERSON",
+                "start": 69,
+                "end": 76,
+                "text": "Obi-Wan"
+            },
+            {
+                "label": "PERSON",
+                "start": 78,
+                "end": 84,
+                "text": "Anakin"
+            },
+            {
+                "label": "RANK",
+                "start": 150,
+                "end": 160,
+                "text": "Chancellor"
+            }
+        ]
+    },
+    {
+        "text": "Finn, however, insists on leaving, and that there is no way to defeat the First Order.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Finn"
+            },
+            {
+                "label": "GPE",
+                "start": 74,
+                "end": 85,
+                "text": "First Order"
+            }
+        ]
+    },
+    {
+        "text": "Obi-Wan and Vader battle over the bridge and enter the Klegger Corp Mining Facility, making their way through the hallways.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 7,
+                "text": "Obi-Wan"
+            },
+            {
+                "label": "PERSON",
+                "start": 12,
+                "end": 17,
+                "text": "Vader"
+            },
+            {
+                "label": "LOCATION",
+                "start": 55,
+                "end": 83,
+                "text": "Klegger Corp Mining Facility"
+            }
+        ]
+    },
+    {
+        "text": "She also draws on her experience climbing through wrecked Imperial starships to make her way through the bowels of the installation's machinery.",
+        "mentions": [
+            {
+                "label": "NORP",
+                "start": 58,
+                "end": 66,
+                "text": "Imperial"
+            }
+        ]
+    },
+    {
+        "text": "He jumps into his landspeeder.",
+        "mentions": [
+            {
+                "label": "VEHICLE",
+                "start": 18,
+                "end": 29,
+                "text": "landspeeder"
+            }
+        ]
+    },
+    {
+        "text": "Sidious, cackling with glee, tortures and blasts the shocked Windu out of the window, sending him plunging to his death hundreds of stories below.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 60,
+                "end": 65,
+                "text": "Windu"
+            }
+        ]
+    },
+    {
+        "text": "He reveals to Vader's burned helmet that the light is pulling him in again and that even Snoke could sense it.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 14,
+                "end": 21,
+                "text": "Vader's"
+            },
+            {
+                "label": "PERSON",
+                "start": 89,
+                "end": 94,
+                "text": "Snoke"
+            }
+        ]
+    },
+    {
+        "text": "With the re-emergence of his father and Snoke's orders to kill him, Kylo feels an internal struggle within himself.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 40,
+                "end": 47,
+                "text": "Snoke's"
+            },
+            {
+                "label": "PERSON",
+                "start": 68,
+                "end": 72,
+                "text": "Kylo"
+            }
+        ]
+    },
+    {
+        "text": "Vader tumbles down the embankment and rolls to a stop at the edge of the river of lava.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Vader"
+            }
+        ]
+    },
+    {
+        "text": "Rey and Ren continue fighting: Ren has taken even more wounds, from Chewbacca, Finn, and Rey, but even so initially holds the advantage, drawing on his rage to ignore the pain.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 3,
+                "text": "Rey"
+            },
+            {
+                "label": "PERSON",
+                "start": 8,
+                "end": 11,
+                "text": "Ren"
+            },
+            {
+                "label": "PERSON",
+                "start": 31,
+                "end": 34,
+                "text": "Ren"
+            },
+            {
+                "label": "PERSON",
+                "start": 68,
+                "end": 77,
+                "text": "Chewbacca"
+            },
+            {
+                "label": "PERSON",
+                "start": 79,
+                "end": 83,
+                "text": "Finn"
+            },
+            {
+                "label": "PERSON",
+                "start": 89,
+                "end": 92,
+                "text": "Rey"
+            }
+        ]
+    },
+    {
+        "text": "Enraged, Chewbacca, Rey, and Finn start firing at Ren and the stormtroopers.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 9,
+                "end": 18,
+                "text": "Chewbacca"
+            },
+            {
+                "label": "PERSON",
+                "start": 20,
+                "end": 23,
+                "text": "Rey"
+            },
+            {
+                "label": "PERSON",
+                "start": 29,
+                "end": 33,
+                "text": "Finn"
+            },
+            {
+                "label": "PERSON",
+                "start": 50,
+                "end": 53,
+                "text": "Ren"
+            }
+        ]
+    },
+    {
+        "text": "Obi-Wan feels guilt for failing Anakin & Padm\u00c3\u00a9's happiness.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 31,
+                "end": 37,
+                "text": "Anakin"
+            },
+            {
+                "label": "PERSON",
+                "start": 40,
+                "end": 47,
+                "text": "Padm\u00c3\u00a9's"
+            }
+        ]
+    },
+    {
+        "text": "Finn, Han, and Chewie volunteer to disable the base's defensive shield from the inside.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Finn"
+            },
+            {
+                "label": "PERSON",
+                "start": 6,
+                "end": 9,
+                "text": "Han"
+            },
+            {
+                "label": "PERSON",
+                "start": 15,
+                "end": 21,
+                "text": "Chewie"
+            }
+        ]
+    },
+    {
+        "text": "They engage in an intense battle using their lightsabers and Force abilities.",
+        "mentions": [
+            {
+                "label": "ORG",
+                "start": 61,
+                "end": 66,
+                "text": "Force"
+            }
+        ]
+    },
+    {
+        "text": "Kolar is the first to die, run through the chest and as Kolar's life is ending due to the wound, Sidious turns and slices Tiin's torso.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Kolar"
+            },
+            {
+                "label": "PERSON",
+                "start": 56,
+                "end": 63,
+                "text": "Kolar's"
+            },
+            {
+                "label": "PERSON",
+                "start": 97,
+                "end": 104,
+                "text": "Sidious"
+            },
+            {
+                "label": "PERSON",
+                "start": 122,
+                "end": 128,
+                "text": "Tiin's"
+            }
+        ]
+    },
+    {
+        "text": "George Lucas had originally written the scenes and shot them at the suggestion of his industry friends who thought that audiences wouldn't understand the story strictly being told from a droid's point of view.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 12,
+                "text": "George Lucas"
+            }
+        ]
+    },
+    {
+        "text": "While cleaning R2, Luke discovers a short portion of the hologram.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 15,
+                "end": 17,
+                "text": "R2"
+            },
+            {
+                "label": "PERSON",
+                "start": 19,
+                "end": 23,
+                "text": "Luke"
+            }
+        ]
+    },
+    {
+        "text": "Leia is spotted by stormtroopers and they shoot her with a stun blast and bring her before Vader.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Leia"
+            },
+            {
+                "label": "PERSON",
+                "start": 91,
+                "end": 96,
+                "text": "Vader"
+            }
+        ]
+    },
+    {
+        "text": "Frightened by her vision, Rey runs into the woods with BB-8.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 26,
+                "end": 29,
+                "text": "Rey"
+            },
+            {
+                "label": "PERSON",
+                "start": 55,
+                "end": 60,
+                "text": "BB-8."
+            }
+        ]
+    },
+    {
+        "text": "He tells his story that he was a stormtrooper in the First Order.",
+        "mentions": [
+            {
+                "label": "GPE",
+                "start": 53,
+                "end": 64,
+                "text": "First Order"
+            }
+        ]
+    },
+    {
+        "text": "Tekka responds that he knows who Ren used to be, and chides Ren that he cannot escape his real identity.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Tekka"
+            },
+            {
+                "label": "PERSON",
+                "start": 33,
+                "end": 36,
+                "text": "Ren"
+            },
+            {
+                "label": "PERSON",
+                "start": 60,
+                "end": 63,
+                "text": "Ren"
+            }
+        ]
+    },
+    {
+        "text": "Meanwhile, Obi-Wan, remaining completely undetected, shuts down the tractor beam.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 11,
+                "end": 18,
+                "text": "Obi-Wan"
+            }
+        ]
+    },
+    {
+        "text": "Leia struggles to get to the top and Chewbacca tries to unlock the door.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Leia"
+            },
+            {
+                "label": "PERSON",
+                "start": 37,
+                "end": 46,
+                "text": "Chewbacca"
+            }
+        ]
+    },
+    {
+        "text": "Vader, mad with power, claims that they no longer have to run away and he can overthrow Palpatine so that the two of them can rule the galaxy together.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 85,
+                "end": 94,
+                "text": "Palpatine"
+            }
+        ]
+    },
+    {
+        "text": "Obi-Wan intervenes and demands Vader to release Padm\u00c3\u00a9, but Vader still chokes her unconscious.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 30,
+                "end": 35,
+                "text": "Vader"
+            },
+            {
+                "label": "PERSON",
+                "start": 47,
+                "end": 52,
+                "text": "Padm\u00c3\u00a9"
+            },
+            {
+                "label": "PERSON",
+                "start": 58,
+                "end": 63,
+                "text": "Vader"
+            }
+        ]
+    },
+    {
+        "text": "Upon realizing that the story was really about the droids' adventures and it was them leading things to Luke and Obi-Wan, etc.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 104,
+                "end": 108,
+                "text": "Luke"
+            },
+            {
+                "label": "PERSON",
+                "start": 113,
+                "end": 120,
+                "text": "Obi-Wan"
+            }
+        ]
+    },
+    {
+        "text": "Padm\u00c3\u00a9 also tells him Obi-Wan knew about them together, wanting to help them & begs him to run away with her to raise their child in peace.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 19,
+                "end": 26,
+                "text": "Obi-Wan"
+            }
+        ]
+    },
+    {
+        "text": "Seeing this, Han, Chewbacca, Finn, and Rey try to create an opening by planting thermal detonators inside the base.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 13,
+                "end": 16,
+                "text": "Han"
+            },
+            {
+                "label": "PERSON",
+                "start": 18,
+                "end": 27,
+                "text": "Chewbacca"
+            },
+            {
+                "label": "PERSON",
+                "start": 29,
+                "end": 33,
+                "text": "Finn"
+            },
+            {
+                "label": "PERSON",
+                "start": 39,
+                "end": 42,
+                "text": "Rey"
+            }
+        ]
+    },
+    {
+        "text": "In order to learn this power, Yoda declares himself an apprentice to the spirit of Qui-Gon Jinn.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 30,
+                "end": 34,
+                "text": "Yoda"
+            },
+            {
+                "label": "PERSON",
+                "start": 83,
+                "end": 95,
+                "text": "Qui-Gon Jinn"
+            }
+        ]
+    },
+    {
+        "text": "At the mention of Obi Wan, he wonders if she means his neighbor Ben Kenobi.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 18,
+                "end": 26,
+                "text": "Obi Wan,"
+            },
+            {
+                "label": "PERSON",
+                "start": 64,
+                "end": 74,
+                "text": "Ben Kenobi"
+            }
+        ]
+    },
+    {
+        "text": "Windu also adds that if what Anakin says is true then Anakin will have gained his trust but for now, he wants Anakin to wait in the Council Chambers until he returns.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Windu"
+            },
+            {
+                "label": "PERSON",
+                "start": 29,
+                "end": 35,
+                "text": "Anakin"
+            },
+            {
+                "label": "PERSON",
+                "start": 54,
+                "end": 60,
+                "text": "Anakin"
+            },
+            {
+                "label": "PERSON",
+                "start": 110,
+                "end": 116,
+                "text": "Anakin"
+            }
+        ]
+    },
+    {
+        "text": "However, Windu deflects it with his blade, casting much of the energy back into Sidious' body.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 9,
+                "end": 14,
+                "text": "Windu"
+            },
+            {
+                "label": "PERSON",
+                "start": 80,
+                "end": 87,
+                "text": "Sidious"
+            }
+        ]
+    },
+    {
+        "text": "Anakin attempts to shoot the droids off, though succeeds only in blasting apart the wing of his former Master's vessel.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 6,
+                "text": "Anakin"
+            }
+        ]
+    },
+    {
+        "text": "Rey returns to Finn, despairing that Finn is not waking up and that they are trapped on the rupturing planet.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 3,
+                "text": "Rey"
+            },
+            {
+                "label": "PERSON",
+                "start": 15,
+                "end": 19,
+                "text": "Finn"
+            },
+            {
+                "label": "PERSON",
+                "start": 37,
+                "end": 41,
+                "text": "Finn"
+            }
+        ]
+    },
+    {
+        "text": "After securing the area, the remaining villagers are herded into the town square.",
         "mentions": []
     },
     {
-        "text": "When he comes to again, he realizes that his injuries have been taken care of and his right leg has been replaced for a stronger one.",
+        "text": "He is dressed in black armor, a face mask is sealed tightly, and his helmet is fitted.",
         "mentions": []
     },
     {
-        "text": "Beset by political and criminal enemies, can she outwit her opponents in time to save him?",
+        "text": "He also explains that the war is almost over.",
         "mentions": []
     },
     {
-        "text": "As they get ready for their next plan, they are notified of a storm coming.",
+        "text": "This is a scene with Darth Vader and another Imperial officer on the Death Star.",
         "mentions": []
     },
     {
-        "text": "But as he leaves death and destruction in his wake, is he still the hero who broke the chains?",
+        "text": "Revenge of the Sith was released in theaters on Thursday, May 19, 2005 (the same day that the first episode of the prequel trilogy The Phantom Menace was released in 1999), and premiered (out of competition) on the 2005 Cannes Festival May 15.",
         "mentions": []
     },
     {
-        "text": "The prologue takes place two months prior to this speech.)",
+        "text": "It is now three years after the events of A New Hope.",
         "mentions": []
     },
     {
-        "text": "He puts her body with all the other bodies that were retrieved from the water.",
+        "text": "Biggs quietly tells Luke that he has decided to join the Rebellion against the Empire.",
         "mentions": []
     },
     {
-        "text": "Her last thoughts are for her husband, to endure, for she will come for him.",
+        "text": "Deak, Windy, Camie, Fixer and Biggs all follow Luke outside to see the battle with Luke's macrobinoculars.",
         "mentions": []
     },
     {
-        "text": "And then teaches them how to lie by playing karachi, a card game which is presumably a game of skills and technique, much like poker.",
+        "text": "On November 12, 2019, the film was included with the launch of Disney+.",
+        "mentions": []
+    },
+    {
+        "text": "A boy and a girl are born.",
+        "mentions": []
+    },
+    {
+        "text": "The scene would have appeared between the scene where Han Solo encounters Jabba the Hutt in Docking Bay 94 (also cut), and the scene where Luke and Ben find the Millennium Falcon in Docking Bay 94.",
+        "mentions": []
+    },
+    {
+        "text": "This scene was to come in between the scene where C-3PO spots a distant Jawa sandcrawler in the desert, and the capture of R2-D2 by the Jawas in the canyon.",
+        "mentions": []
+    },
+    {
+        "text": "She descends deeper and enters a chamber that contains many relics from the past.",
         "mentions": []
     }
 ]

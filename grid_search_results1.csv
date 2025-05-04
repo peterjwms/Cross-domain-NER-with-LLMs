@@ -1,0 +1,118 @@
+domain,n_examples,example_domain,example_selection,prompt,F1,precision,recall
+star_wars,0,self,most_dense,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",36.36,40.0,33.33
+star_wars,1,self,most_dense,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",34.78,36.36,33.33
+star_wars,0,self,most_unique,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",45.45,50.0,41.67
+star_wars,1,self,most_unique,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""Obi-Wan arrives in Pau City on Utapau, and begins his search for General Grievous, riding a varactyl named Boga.""
+{""entity"": ""Obi-Wan"", ""label"": ""PERSON""}
+{""entity"": ""Pau City"", ""label"": ""LOCATION""}
+{""entity"": ""Utapau"", ""label"": ""PLANET""}
+{""entity"": ""General"", ""label"": ""RANK""}
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""varactyl"", ""label"": ""CREATURE""}
+{""entity"": ""Boga"", ""label"": ""PERSON""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",41.67,41.67,41.67

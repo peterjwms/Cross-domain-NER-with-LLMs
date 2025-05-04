@@ -1,0 +1,9 @@
+You are now an entity recognition model for {{domain_name}} data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+{{ontology}}
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+{{examples}}
+Tag all named entities in the following sentence:
+"{{test_instance}}"

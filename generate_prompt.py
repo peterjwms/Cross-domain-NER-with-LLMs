@@ -53,24 +53,27 @@ def domain_name_print(domain: str) -> str:
         case 'red_rising':
             return 'Red Rising'
 
-def task_definition_prompt(target_domain, version: int = 1):
-    with open(f'prompts/v{version}/prompt.txt', 'r') as file:
+
+def task_definition_prompt(target_domain, type_descriptions):
+    with open(f'prompts/current_prompt.txt', 'r') as file:
         prompt = file.read()
 
-    type_descriptions = '\n'.join([e['label'] + ": " + e['name'] + ' - ' + e['description'] for e in get_entity_types(target_domain)])
-         
     prompt = prompt.replace('{{domain_name}}',domain_name_print(target_domain))
     prompt = prompt.replace('{{ontology}}',type_descriptions)
 
     return prompt
-    
+
+
+def stringify_ontology(target_domain):
+    type_descriptions = '\n'.join([e['label'] + ": " + e['name'] + ' - ' + e['description'] for e in get_entity_types(target_domain)])
+    return type_descriptions
+
 
 def get_k_examples(k: int, examples: list[dict]) -> str:
     examples_string = ''
     if k > 0:
-        prompt += "\nUse these examples to train your tagging system: \n"
-        examples_string = ''
-        for i in range(k):
+        examples_string += "Use these examples to train your tagging system: \n"
+        for _ in range(k):
             examples_string += f"\"{examples[k]['text']}\"" + '\n'
             for mention in examples[k]['mentions']:
                 examples_string += json.dumps({'entity': mention['text'], 'label': mention['label']})  + '\n' # f"{mention['label']}: {mention['text']}\n"
@@ -78,6 +81,8 @@ def get_k_examples(k: int, examples: list[dict]) -> str:
 
 
 def  get_entity_types(domain):
+    """Returns entity types as a list of dicts.
+    Use stringify_ontology to get a string representation for a domain's ontology."""
     entity_types = []
     with open(f'ontologies/{domain}.tsv','r') as file:
         tsv_reader = csv.reader(file, delimiter='\t')
@@ -85,8 +90,10 @@ def  get_entity_types(domain):
             entity_types.append({'name': line[0], 'label': line[1], 'description': line[2]})
     return entity_types
 
+
 def find_most_diverse(sentences, unique_only=False):
     return sorted(sentences, key=lambda x: count_mentions(x,unique_only), reverse=True)
+
 
 def count_mentions(x,unique_only):
     if not unique_only:
@@ -94,9 +101,11 @@ def count_mentions(x,unique_only):
     else:
         return len(set([mention['label'] for mention in x['mentions']]))
 
+
 def create_k_shot_prompt(train_data, source_name, selection_method, k: int, entity_types) -> None:
     examples = create_k_examples(train_data, source_name, selection_method, k) if k > 0 else None
     return task_definition_prompt(entity_types=entity_types, examples=examples)
+
 
 def create_k_examples(train_data, source_name, selection_method, k: int) -> None:
     filepath = f'sorted_examples/{source_name}_{selection_method}.json'
@@ -151,10 +160,3 @@ def get_train_test_dev_data(name: str, n: int = 100,):
         save_data_split(name, dev, 'dev')
 
     return train, dev, test
-
-    
-
-
-
-
-

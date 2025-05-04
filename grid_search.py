@@ -1,70 +1,68 @@
 import json
 import os
 from pprint import pprint
+from time import sleep
 from dotenv import load_dotenv
+from google import genai
 import pandas as pd
-from generate_prompt import create_k_examples, load_data_split, task_definition_prompt, get_k_examples
+from pydantic import BaseModel
+from generate_prompt import get_entity_types, create_k_examples, load_data_split, stringify_ontology, task_definition_prompt, get_k_examples
 from prompt_experiments import gemini_api_post_request
 
 
-json.loads()
+class Mention(BaseModel):
+    text: str
+    label: str
+
+    # TODO: maybe implement this further to check for equality more easily
 
 
-def run_grid_search(model, api_key, parameters: dict = None):
+def run_grid_search(model, client, parameters: dict = None):
     """
     Run a grid search over the parameters provided.
     """
 
-    create_all_examples(parameters['target_domain'], parameters['example_selection'])
+    # TODO: low-priority - could adjust create_k_examples to not return anything and to just create the files
+    # create_all_examples(parameters['target_domain'], parameters['example_selection'])
 
-    # TODO: potentially add indices to the dev/test/train splits that we can use to better evaluate
-    scores_df = pd.DataFrame(columns=['domain', 'n_examples', 'example_domain', 'example_selection', 'prompt', 'score'])
+    # TODO: low-priority - potentially add indices to the dev/test/train splits that we can use to better evaluate
+    scores_df = pd.DataFrame(columns=['domain', 'n_examples', 'example_domain', 'example_selection', 'prompt', 'F1', 'precision', 'recall'])
     i = 0
     for domain in parameters['target_domain']:
-        # TODO: load the test set for the domain here
+        # load the test set, ontology, and create task definition prompt for the domain
         dataset = load_data_split(domain, parameters['dataset'])
+        type_descriptions = stringify_ontology(domain)
+        prompt_definition = task_definition_prompt(domain, type_descriptions)
+        
         for example_domain in parameters['example_domain']:
             for example_selection in parameters['example_selection']:
-                # TODO: load the sorted examples for the domain and selection method here
-                prompt_definition = task_definition_prompt(target_domain=domain)
+                # get all examples for the domain using the selection method
                 examples = get_all_domain_examples(domain, example_domain, example_selection)
 
                 for n_examples in parameters['n_examples']:
                     print(f"Domain: {domain}, n_examples: {n_examples}, example_domain: {example_domain}, example_selection: {example_selection}")
                     i += 1
 
-                    # TODO: could change this to load the examples once, and then slice to the correct number here 
-                    # would be marginally faster by not loading the same file multiple times 
-                    
-                    base_prompt = prompt_definition.replace('{{examples}}', get_k_examples(n_examples,examples))
-                    
-                    # TODO: could change this function to also take pieces of the prompt we might want to test 
-                    # basically anything that's not the examples or test instance
-                    # can use the same format as the {{test_instance}}} in the prompt already for the examples and ontology
-                    # allows for better tracking of changes to the prompt
-                    
-                    
+                    # fill in {{examples}} slot in prompt with n_examples for this experiment
+                    base_prompt = prompt_definition.replace('{{examples}}', get_k_examples(n_examples, examples))
 
                     # run the experiment here on a full dev/test set using the base prompt built above
-                    # TODO: think about what we actually want to return and store from this
-                    # could save this full set of results to a file for later analysis
-                    # then could also save just the actual score post-evaluation 
-                    results = run_experiments(base_prompt, dataset, model, api_key)
+                    results = run_experiments(base_prompt, dataset, model, client)
                     results_df = pd.DataFrame(results, columns=['text', 'mentions', 'result'])
                     results_df.to_csv(f"results/{domain}_{parameters['dataset']}_{n_examples}_{example_domain}_{example_selection}.csv", index=False)
                     
-                    # TODO: evaluate results
-                    # score = evaluate_results(results)
+                    # evaluate results
+                    f1, precision, recall = evaluate_results(results)
+                    # print(f"F1: {f1}, precision: {precision}, recall: {recall}")
                     
-                    # TODO: save results to dataframe
-                    # scores_df = pd.concat([scores_df, 
-                    #                        pd.DataFrame({'domain': domain, 'n_examples': n_examples, 
-                    #                                      'example_domain': example_domain, 'example_selection': example_selection,
-                    #                                      'prompt': prompt_definition, 'score': score})])
+                    # append results to scores dataframe
+                    scores_df = pd.concat([scores_df, 
+                                           pd.DataFrame({'domain': domain, 'n_examples': n_examples, 'example_domain': example_domain, 
+                                                         'example_selection': example_selection, 'prompt': base_prompt, 
+                                                         'F1': f1, 'precision': precision, 'recall': recall}, index=[0])], ignore_index=True)
     
     # print(i)
-    # TODO: save all results to csv
-    # scores_df.to_csv('grid_search_results.csv', index=False)
+    scores_df.to_csv('grid_search_results1.csv', index=False)
 
     return results
 
@@ -74,51 +72,91 @@ def create_all_examples(domains, methods):
     Create all examples for each given domain for each selection method.
     """
     for domain in domains:
-        # print(f"Creating examples for {domain}")
         train = load_data_split(domain, 'train')
         for method in methods:
-            # TODO: could alter this to actually retrieve the examples here instead of just creating the files if they don't exist
             create_k_examples(train, domain, method, 5)
-            # print(f"Created examples for {domain} using {method} method")
-    pass
 
 
-def run_experiments(base_prompt, test_set, model_name, api_key):
+def get_all_domain_examples(target_domain, example_domain, example_selection):
+    # TODO: could add a check to see if the file exists and if not create it - shouldn't be necessary because we create all of them first in the grid search
+    if example_domain == 'self':
+        example_domain = target_domain
+        # print(f"Using {example_domain} as example domain")
+    
+    with open(f"sorted_examples/{example_domain}_{example_selection}.json", 'r') as file:
+        examples = json.load(file)
+        pprint(f"Loaded {len(examples)} examples from {example_domain} using {example_selection} method")
+        # pprint(examples)
+    return examples
+
+
+def run_experiments(base_prompt, test_set, model_name, client: genai.Client):
     """
     Run experiment on all instances of the test set, using the prompt provided.
     """
     results = []
     for i, test_instance in enumerate(test_set):
         full_prompt = base_prompt.replace("{{test_instance}}", test_instance['text'])
-        # print(full_prompt)
         
-        reply = gemini_api_post_request(api_key, model_name, full_prompt)
-        print(reply)
-        result = reply['candidates'][0]['content']['parts'][0]
-        # print(result)
-        results.append({'text': test_instance['text'], 'mentions': test_instance['mentions'], 'result': result}),
-        
+        try:
+            response = client.models.generate_content(
+                model=model_name,
+                contents=full_prompt,
+                config={
+                    'response_mime_type': 'application/json',
+                    'response_schema': list[Mention]
+                }
+            )
+            # print(response.text)
+            sleep(1.5) # rate limits - 30 requests per minute, this empirically seems to work
+            json_result = json.loads(response.text)
+            # print(json_result)
+            results.append({'text': test_instance['text'], 'mentions': test_instance['mentions'], 'result': json_result}),
+        except Exception as e:
+            print(f"Error: {e}") # most likely a rate limit error
+            # print(reply)
+            results.append({'text': test_instance['text'], 'mentions': test_instance['mentions'], 'result': None})        
         if i == 5: # for testing purposes
             break
 
     return results
 
 
-def get_all_domain_examples(target_domain, example_domain, example_selection):
-    if example_domain == 'self':
-        example_domain = target_domain
+def evaluate_results(results):
+    """
+    Evaluate results of the experiment for exact mention matching.
+    Returns the F1, precision, recall.
+    """
+    overall_tp = 0
+    overall_fp = 0
+    overall_fn = 0
+    for instance in results:
+        # this gets per-instance results
+        true_mentions = set([(mention['text'], mention['label']) for mention in instance['mentions']])
+        predicted_mentions = set([(mention['text'], mention['label']) for mention in instance['result']])
+
+        true_positives = true_mentions & predicted_mentions
+        false_positives = predicted_mentions - true_positives
+        false_negatives = true_mentions - true_positives
+
+        overall_tp += len(true_positives)
+        overall_fp += len(false_positives)
+        overall_fn += len(false_negatives)
+
     
-    with open(f"sorted_examples/{example_domain}_{example_selection}.json", 'r') as file:
-        examples = json.load(file)
-        pprint(f"Loaded {len(examples)} examples from {example_domain} using {example_selection} method")
-        pprint(examples)
-    return examples
+    precision = overall_tp / (overall_tp + overall_fp) if (overall_tp + overall_fp) > 0 else 0
+    recall = overall_tp / (overall_tp + overall_fn) if (overall_tp + overall_fn) > 0 else 0
+    f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+    
+    return float(f"{f1*100:0.2f}"), float(f"{precision*100:0.2f}"), float(f"{recall*100:0.2f}")
 
 
 if __name__ == "__main__":
     load_dotenv()
     api_key = os.environ.get('GOOGLE_API_KEY')
-    model_name = 'gemini-2.5-flash-preview-04-17'
+    # model_name = 'gemini-2.5-flash-preview-04-17' # RPM 10, TPM 250,000, RPD 500
+    model_name = 'gemini-2.0-flash-lite' # RPM 30, TPM 1,000,000, RPD 1500
+    client = genai.Client(api_key=api_key)
 
     search_parameters = {
         'dataset': 'dev',
@@ -127,5 +165,15 @@ if __name__ == "__main__":
         'example_selection': ['most_dense', 'most_unique'],
         'target_domain': ['star_wars', 'red_rising' ]# , 'star_trek']
     }
+
+    # just used in place of search_parameters to test evaluation
+    mini_test = {
+        'dataset': 'dev',
+        'n_examples': [0,1],
+        'example_domain': ['self'],
+        'example_selection': ['most_dense', 'most_unique'],
+        'target_domain': ['star_wars']
+    }
+
     create_all_examples(search_parameters['target_domain'], search_parameters['example_selection'])
-    results = run_grid_search(model_name, api_key, search_parameters)
+    results = run_grid_search(model_name, client, mini_test)
