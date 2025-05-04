@@ -61,7 +61,7 @@ def run_grid_search(model, client, parameters: dict = None):
                     i += 1
 
                     # fill in {{examples}} slot in prompt with n_examples for this experiment
-                    base_prompt = prompt_definition.replace('{{examples}}', get_k_examples(n_examples, examples, parameters['example_domain']))
+                    base_prompt = prompt_definition.replace('{{examples}}', get_k_examples(n_examples, examples, example_domain))
 
                     # run the experiment here on a full dev/test set using the base prompt built above
                     results = run_experiments(base_prompt, dataset, model, client)
@@ -191,17 +191,17 @@ if __name__ == "__main__":
         'n_examples': [0,1,3,5],
         'example_domain': ['self', 'star_wars'],
         'example_selection': ['most_dense', 'most_unique'],
-        'target_domain': ['star_wars', 'red_rising' ]# , 'star_trek']
+        'target_domain': ['star_wars', 'star_trek' ]# , 'star_trek']
     }
 
     # just used in place of search_parameters to test evaluation
     mini_test = {
         'dataset': 'dev',
-        'n_examples': [0,1],
+        'n_examples': [5, 0,1],
         'example_domain': ['self'],
         'example_selection': ['most_dense', 'most_unique'],
         'target_domain': ['star_wars']
     }
 
     create_all_examples(search_parameters['target_domain'], search_parameters['example_selection'])
-    results = run_grid_search(model_name, client, mini_test)
+    results = run_grid_search(model_name, client, search_parameters)
