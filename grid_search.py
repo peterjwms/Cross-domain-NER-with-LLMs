@@ -61,7 +61,7 @@ def run_grid_search(model, client, parameters: dict = None):
                     i += 1
 
                     # fill in {{examples}} slot in prompt with n_examples for this experiment
-                    base_prompt = prompt_definition.replace('{{examples}}', get_k_examples(n_examples, examples))
+                    base_prompt = prompt_definition.replace('{{examples}}', get_k_examples(n_examples, examples, parameters['example_domain']))
 
                     # run the experiment here on a full dev/test set using the base prompt built above
                     results = run_experiments(base_prompt, dataset, model, client)
@@ -125,7 +125,7 @@ def run_experiments(base_prompt, test_set, model_name, client: genai.Client):
                 }
             )
             # print(response.text)
-            sleep(1.5) # rate limits - 30 requests per minute, this empirically seems to work
+            sleep(2) # rate limits - 30 requests per minute, this empirically seems to work
             json_result = json.loads(response.text)
             # print(json_result)
             results.append({'text': test_instance['text'], 'mentions': test_instance['mentions'], 'result': json_result}),
@@ -133,8 +133,8 @@ def run_experiments(base_prompt, test_set, model_name, client: genai.Client):
             print(f"Error: {e}") # most likely a rate limit error
             # print(reply)
             results.append({'text': test_instance['text'], 'mentions': test_instance['mentions'], 'result': None})        
-        if i == 5: # for testing purposes
-            break
+        # if i == 5: # for testing purposes
+        #     break
 
     return results
 

@@ -11,6 +11,8 @@ def preprocess_json(filepath: str) -> list[dict]:
         data = json.load(file)
     sentences = []
     for entry in data:
+        if entry['total_annotations'] == 0:
+            continue  # skip items with cancelled annotations
         sentence = {}
         sentence['text'] = entry['data']['text']
         mentions = []
@@ -69,10 +71,14 @@ def stringify_ontology(target_domain):
     return type_descriptions
 
 
-def get_k_examples(k: int, examples: list[dict]) -> str:
+def get_k_examples(k: int, examples: list[dict], example_domain: str) -> str:
     examples_string = ''
     if k > 0:
-        examples_string += "Use these examples to train your tagging system: \n"
+        if example_domain == 'self':
+            examples_string += "Use these examples to train your tagging system: \n"
+        else:
+            examples_string += f"Use these examples of {domain_name_print(example_domain)} data to train your tagging system. This is for cross-domain learning."
+            examples_string += "These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.\n"
         for _ in range(k):
             examples_string += f"\"{examples[k]['text']}\"" + '\n'
             for mention in examples[k]['mentions']:

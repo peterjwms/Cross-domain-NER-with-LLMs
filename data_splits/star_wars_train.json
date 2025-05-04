@@ -1,79 +1,2112 @@
 [
     {
-        "text": "After securing the area, the remaining villagers are herded into the town square.",
-        "mentions": []
-    },
-    {
-        "text": "A brief scuffle with stormtroopers and henchmen sent by Jabba ensues, and the Falcon escapes Imperial Star-Destroyers over Tatooine and sets a course to Alderaan, unaware that the Death Star has just arrived there as well.",
+        "text": "Obi-Wan and Yoda will watch and wait until the time is ready for the Skywalker children to do their part.",
         "mentions": [
             {
                 "label": "PERSON",
-                "start": 56,
-                "end": 61,
-                "text": "Jabba"
+                "start": 11,
+                "end": 15,
+                "text": "Yoda"
             },
             {
-                "label": "SPACECRAFT",
-                "start": 78,
-                "end": 84,
-                "text": "Falcon"
-            },
-            {
-                "label": "SPACECRAFT",
-                "start": 93,
-                "end": 117,
-                "text": "Imperial Star-Destroyers"
-            },
-            {
-                "label": "PLANET",
-                "start": 123,
-                "end": 131,
-                "text": "Tatooine"
-            },
-            {
-                "label": "PLANET",
-                "start": 153,
-                "end": 161,
-                "text": "Alderaan"
-            },
-            {
-                "label": "WEAPON",
-                "start": 180,
-                "end": 190,
-                "text": "Death Star"
+                "label": "PERSON",
+                "start": 68,
+                "end": 77,
+                "text": "Skywalker"
             }
         ]
     },
     {
-        "text": "He is dressed in black armor, a face mask is sealed tightly, and his helmet is fitted.",
-        "mentions": []
-    },
-    {
-        "text": "Upon finding the location of the Resistance base, the Starkiller begins draining the power of the sun to destroy D'Qar.",
+        "text": "Han tries but fails to convince both parties that he would fix things eventually, with the Guavian Death Gang negotiator, Bala-Tik, recognizing the BB-8 astromech droid from a First Order bounty placed on it.",
         "mentions": [
             {
+                "label": "ORG",
+                "start": 91,
+                "end": 109,
+                "text": "Guavian Death Gang"
+            },
+            {
+                "label": "PERSON",
+                "start": 122,
+                "end": 130,
+                "text": "Bala-Tik"
+            },
+            {
+                "label": "PERSON",
+                "start": 148,
+                "end": 152,
+                "text": "BB-8"
+            },
+            {
+                "label": "DROID",
+                "start": 153,
+                "end": 168,
+                "text": "astromech droid"
+            },
+            {
+                "label": "GPE",
+                "start": 176,
+                "end": 187,
+                "text": "First Order"
+            }
+        ]
+    },
+    {
+        "text": "With Padm\u00c3\u00a9's final breath, she maintains that there is still good in Anakin.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 5,
+                "end": 12,
+                "text": "Padm\u00c3\u00a9's"
+            },
+            {
+                "label": "PERSON",
+                "start": 69,
+                "end": 75,
+                "text": "Anakin"
+            }
+        ]
+    },
+    {
+        "text": "After Grievous has the bridge crew regain control of his flagship by firing the emergency booster engines, he makes certain the two Jedi and their ward are captured.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 6,
+                "end": 14,
+                "text": "Grievous"
+            },
+            {
                 "label": "NORP",
-                "start": 33,
-                "end": 43,
-                "text": "Resistance"
+                "start": 132,
+                "end": 136,
+                "text": "Jedi"
+            }
+        ]
+    },
+    {
+        "text": "With Bail Organa's help, Yoda flees the Senate Building, intending to go into exile.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 5,
+                "end": 18,
+                "text": "Bail Organa's"
+            },
+            {
+                "label": "PERSON",
+                "start": 25,
+                "end": 29,
+                "text": "Yoda"
+            },
+            {
+                "label": "LOCATION",
+                "start": 40,
+                "end": 55,
+                "text": "Senate Building"
+            }
+        ]
+    },
+    {
+        "text": "He appoints Anakin to be his personal representative on the Council.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 12,
+                "end": 18,
+                "text": "Anakin"
+            },
+            {
+                "label": "ORG",
+                "start": 60,
+                "end": 67,
+                "text": "Council"
+            }
+        ]
+    },
+    {
+        "text": "He jumps into his landspeeder.",
+        "mentions": [
+            {
+                "label": "VEHICLE",
+                "start": 18,
+                "end": 29,
+                "text": "landspeeder"
+            }
+        ]
+    },
+    {
+        "text": "After arguing and going their separate ways for a while, the droids are individually picked up by Jawa traders and brought aboard a Sandcrawler.",
+        "mentions": [
+            {
+                "label": "SPECIES",
+                "start": 98,
+                "end": 102,
+                "text": "Jawa"
+            },
+            {
+                "label": "VEHICLE",
+                "start": 132,
+                "end": 143,
+                "text": "Sandcrawler"
+            }
+        ]
+    },
+    {
+        "text": "He angrily shouts that Vader has failed in his life and destiny, and has hurt all those who loved him, including Obi-Wan himself.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 23,
+                "end": 28,
+                "text": "Vader"
+            },
+            {
+                "label": "PERSON",
+                "start": 113,
+                "end": 120,
+                "text": "Obi-Wan"
+            }
+        ]
+    },
+    {
+        "text": "Yoda believes that a Master with more experience is needed to confront, and defeat, Grievous.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Yoda"
+            },
+            {
+                "label": "RANK",
+                "start": 21,
+                "end": 27,
+                "text": "Master"
+            },
+            {
+                "label": "PERSON",
+                "start": 84,
+                "end": 92,
+                "text": "Grievous"
+            }
+        ]
+    },
+    {
+        "text": "Luke refuses but agrees to take Obi-Wan as far as Anchorhead.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Luke"
+            },
+            {
+                "label": "PERSON",
+                "start": 32,
+                "end": 39,
+                "text": "Obi-Wan"
+            },
+            {
+                "label": "LOCATION",
+                "start": 50,
+                "end": 60,
+                "text": "Anchorhead"
+            }
+        ]
+    },
+    {
+        "text": "However, Chewbacca arrives with the Millennium Falcon to rescue them.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 9,
+                "end": 18,
+                "text": "Chewbacca"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 36,
+                "end": 53,
+                "text": "Millennium Falcon"
+            }
+        ]
+    },
+    {
+        "text": "The Force calls her to Maz's curio box, an ancient Wroshyr wood chest.",
+        "mentions": [
+            {
+                "label": "MISC",
+                "start": 4,
+                "end": 9,
+                "text": "Force"
+            },
+            {
+                "label": "PERSON",
+                "start": 23,
+                "end": 28,
+                "text": "Maz's"
+            },
+            {
+                "label": "MISC",
+                "start": 51,
+                "end": 58,
+                "text": "Wroshyr"
+            }
+        ]
+    },
+    {
+        "text": "On Utapau, Kenobi is flung off a cliff by a blast from an All Terrain Tactical Enforcer, but he and Boga survive the drop, and Obi-Wan flees on Grievous's hidden starfighter; on Mygeeto, Jedi Master Ki-Adi-Mundi is gunned down by CC-1138 and the 21st Nova Corps; on the lush, tropical planet of Felucia, Jedi Knight Aayla Secura is murdered by CC-5052 and his 327th Star Corps; on Cato Neimoidia, Plo Koon's Jedi starfighter is shot down by Aggressive ReConnaissance-170 starfighters, sending it smashing into a clone staging area; and on Saleucami, Stass Allie's 74-Z speeder bike is destroyed by CC-8826 and his wingman, riding BARC speeders.",
+        "mentions": [
+            {
+                "label": "PLANET",
+                "start": 3,
+                "end": 9,
+                "text": "Utapau"
+            },
+            {
+                "label": "PERSON",
+                "start": 11,
+                "end": 17,
+                "text": "Kenobi"
+            },
+            {
+                "label": "VEHICLE",
+                "start": 58,
+                "end": 87,
+                "text": "All Terrain Tactical Enforcer"
+            },
+            {
+                "label": "PERSON",
+                "start": 100,
+                "end": 104,
+                "text": "Boga"
+            },
+            {
+                "label": "PERSON",
+                "start": 127,
+                "end": 134,
+                "text": "Obi-Wan"
+            },
+            {
+                "label": "PERSON",
+                "start": 144,
+                "end": 154,
+                "text": "Grievous's"
+            },
+            {
+                "label": "PLANET",
+                "start": 178,
+                "end": 185,
+                "text": "Mygeeto"
+            },
+            {
+                "label": "RANK",
+                "start": 187,
+                "end": 198,
+                "text": "Jedi Master"
+            },
+            {
+                "label": "PERSON",
+                "start": 199,
+                "end": 211,
+                "text": "Ki-Adi-Mundi"
+            },
+            {
+                "label": "PERSON",
+                "start": 230,
+                "end": 237,
+                "text": "CC-1138"
+            },
+            {
+                "label": "ORG",
+                "start": 246,
+                "end": 261,
+                "text": "21st Nova Corps"
+            },
+            {
+                "label": "PLANET",
+                "start": 295,
+                "end": 302,
+                "text": "Felucia"
+            },
+            {
+                "label": "RANK",
+                "start": 304,
+                "end": 315,
+                "text": "Jedi Knight"
+            },
+            {
+                "label": "PERSON",
+                "start": 316,
+                "end": 328,
+                "text": "Aayla Secura"
+            },
+            {
+                "label": "PERSON",
+                "start": 344,
+                "end": 351,
+                "text": "CC-5052"
+            },
+            {
+                "label": "ORG",
+                "start": 360,
+                "end": 376,
+                "text": "327th Star Corps"
+            },
+            {
+                "label": "PLANET",
+                "start": 381,
+                "end": 395,
+                "text": "Cato Neimoidia"
+            },
+            {
+                "label": "PERSON",
+                "start": 397,
+                "end": 407,
+                "text": "Plo Koon's"
+            },
+            {
+                "label": "SPECIES",
+                "start": 408,
+                "end": 424,
+                "text": "Jedi starfighter"
+            },
+            {
+                "label": "VEHICLE",
+                "start": 441,
+                "end": 470,
+                "text": "Aggressive ReConnaissance-170"
+            },
+            {
+                "label": "PLANET",
+                "start": 539,
+                "end": 548,
+                "text": "Saleucami"
+            },
+            {
+                "label": "PERSON",
+                "start": 550,
+                "end": 563,
+                "text": "Stass Allie's"
+            },
+            {
+                "label": "VEHICLE",
+                "start": 564,
+                "end": 581,
+                "text": "74-Z speeder bike"
+            },
+            {
+                "label": "PERSON",
+                "start": 598,
+                "end": 605,
+                "text": "CC-8826"
+            },
+            {
+                "label": "VEHICLE",
+                "start": 630,
+                "end": 643,
+                "text": "BARC speeders"
+            }
+        ]
+    },
+    {
+        "text": "Returning to Coruscant, Sidious tells Yoda that the Jedi will be no more.",
+        "mentions": [
+            {
+                "label": "PLANET",
+                "start": 13,
+                "end": 22,
+                "text": "Coruscant"
+            },
+            {
+                "label": "PERSON",
+                "start": 24,
+                "end": 31,
+                "text": "Sidious"
+            },
+            {
+                "label": "PERSON",
+                "start": 38,
+                "end": 42,
+                "text": "Yoda"
+            },
+            {
+                "label": "ORG",
+                "start": 52,
+                "end": 56,
+                "text": "Jedi"
+            }
+        ]
+    },
+    {
+        "text": "With his last shred of hope and love now gone and his mind broken by the realization he himself killed the person he wanted to save, Vader rips himself free of the operating table and unleashes a powerful scream of rage, shame, and grief through the Force, shattering the droids and equipment.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 132,
+                "end": 137,
+                "text": "Vader"
+            },
+            {
+                "label": "ORG",
+                "start": 249,
+                "end": 254,
+                "text": "Force"
+            }
+        ]
+    },
+    {
+        "text": "Anakin agrees it was a bad idea.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 6,
+                "text": "Anakin"
+            }
+        ]
+    },
+    {
+        "text": "Sensing his father's presence, Kylo goes to meet Han. Han then confronts his son, Kylo Ren, calling to him by his birth name, \"Ben\".",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 31,
+                "end": 35,
+                "text": "Kylo"
+            },
+            {
+                "label": "PERSON",
+                "start": 49,
+                "end": 52,
+                "text": "Han"
+            },
+            {
+                "label": "PERSON",
+                "start": 54,
+                "end": 57,
+                "text": "Han"
+            },
+            {
+                "label": "PERSON",
+                "start": 82,
+                "end": 90,
+                "text": "Kylo Ren"
+            },
+            {
+                "label": "PERSON",
+                "start": 127,
+                "end": 130,
+                "text": "Ben"
+            }
+        ]
+    },
+    {
+        "text": "Sidious, seeking to cut Vader's last tie to his old life and permanently cement the dark side in his heart, lies to Vader, telling him that he accidentally killed his wife while Force choking her.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 23,
+                "end": 30,
+                "text": "Vader's"
+            },
+            {
+                "label": "PERSON",
+                "start": 115,
+                "end": 120,
+                "text": "Vader"
+            },
+            {
+                "label": "MISC",
+                "start": 177,
+                "end": 190,
+                "text": "Force choking"
+            }
+        ]
+    },
+    {
+        "text": "In order to learn this power, Yoda declares himself an apprentice to the spirit of Qui-Gon Jinn.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 30,
+                "end": 34,
+                "text": "Yoda"
+            },
+            {
+                "label": "PERSON",
+                "start": 83,
+                "end": 95,
+                "text": "Qui-Gon Jinn"
+            }
+        ]
+    },
+    {
+        "text": "Plutt then sends two thugs to steal BB-8.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 36,
+                "end": 40,
+                "text": "BB-8"
+            }
+        ]
+    },
+    {
+        "text": "With the shields down, Blue Squadron and Red Squadron led by Black Leader Poe Dameron commence their assault.",
+        "mentions": [
+            {
+                "label": "ORG",
+                "start": 23,
+                "end": 36,
+                "text": "Blue Squadron"
+            },
+            {
+                "label": "ORG",
+                "start": 41,
+                "end": 53,
+                "text": "Red Squadron"
+            },
+            {
+                "label": "MISC",
+                "start": 61,
+                "end": 73,
+                "text": "Black Leader"
+            },
+            {
+                "label": "PERSON",
+                "start": 74,
+                "end": 85,
+                "text": "Poe Dameron"
+            }
+        ]
+    },
+    {
+        "text": "Chewbacca injures Ren with his bowcaster, but Ren chases them out of the base and catches up to Finn and Rey in the forest.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 9,
+                "text": "Chewbacca"
+            },
+            {
+                "label": "PERSON",
+                "start": 18,
+                "end": 21,
+                "text": "Ren"
+            },
+            {
+                "label": "PERSON",
+                "start": 46,
+                "end": 49,
+                "text": "Ren"
+            },
+            {
+                "label": "PERSON",
+                "start": 96,
+                "end": 100,
+                "text": "Finn"
+            },
+            {
+                "label": "PERSON",
+                "start": 105,
+                "end": 108,
+                "text": "Rey"
+            }
+        ]
+    },
+    {
+        "text": "Obi-Wan loses it after getting kicked in the stomach, but he retrieves it.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 7,
+                "text": "Obi-Wan"
+            }
+        ]
+    },
+    {
+        "text": "Leia struggles to get to the top and Chewbacca tries to unlock the door.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Leia"
+            },
+            {
+                "label": "PERSON",
+                "start": 37,
+                "end": 46,
+                "text": "Chewbacca"
+            }
+        ]
+    },
+    {
+        "text": "Frightened by her vision, Rey runs into the woods with BB-8.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 26,
+                "end": 29,
+                "text": "Rey"
+            },
+            {
+                "label": "PERSON",
+                "start": 55,
+                "end": 60,
+                "text": "BB-8."
+            }
+        ]
+    },
+    {
+        "text": "Hux suggests using the Starkiller superweapon to destroy the government of the New Republic and the Resistance, and Snoke grants him the permission to do so.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 3,
+                "text": "Hux"
             },
             {
                 "label": "WEAPON",
-                "start": 54,
-                "end": 64,
+                "start": 23,
+                "end": 33,
                 "text": "Starkiller"
             },
             {
-                "label": "PLANET",
-                "start": 113,
-                "end": 118,
-                "text": "D'Qar"
+                "label": "GPE",
+                "start": 79,
+                "end": 91,
+                "text": "New Republic"
+            },
+            {
+                "label": "GPE",
+                "start": 100,
+                "end": 110,
+                "text": "Resistance"
+            },
+            {
+                "label": "PERSON",
+                "start": 116,
+                "end": 121,
+                "text": "Snoke"
             }
         ]
     },
     {
-        "text": "He also explains that the war is almost over.",
+        "text": "Sidious uses Force Lightning to push the Jedi Master backwards into a pillar.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 7,
+                "text": "Sidious"
+            },
+            {
+                "label": "MISC",
+                "start": 13,
+                "end": 28,
+                "text": "Force Lightning"
+            },
+            {
+                "label": "RANK",
+                "start": 41,
+                "end": 52,
+                "text": "Jedi Master"
+            }
+        ]
+    },
+    {
+        "text": "Finn pulls out Luke's old lightsaber and attacks him in a rage.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Finn"
+            },
+            {
+                "label": "PERSON",
+                "start": 15,
+                "end": 21,
+                "text": "Luke's"
+            },
+            {
+                "label": "WEAPON",
+                "start": 26,
+                "end": 36,
+                "text": "lightsaber"
+            }
+        ]
+    },
+    {
+        "text": "Yoda says they should act quickly and decisively on this information.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Yoda"
+            }
+        ]
+    },
+    {
+        "text": "Meanwhile, from his office, Sidious broadcasts a command to Commander Cody and many other clone troopers spread throughout the galaxy: to execute Order 66, a protocol to kill all Jedi, to which the Clones comply (explained in seasons 6 and 7 of Star Wars: The Clone Wars).",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 28,
+                "end": 35,
+                "text": "Sidious"
+            },
+            {
+                "label": "RANK",
+                "start": 60,
+                "end": 69,
+                "text": "Commander"
+            },
+            {
+                "label": "PERSON",
+                "start": 70,
+                "end": 74,
+                "text": "Cody"
+            },
+            {
+                "label": "MISC",
+                "start": 146,
+                "end": 154,
+                "text": "Order 66"
+            },
+            {
+                "label": "NORP",
+                "start": 179,
+                "end": 183,
+                "text": "Jedi"
+            }
+        ]
+    },
+    {
+        "text": "Anakin warns Windu that Palpatine is very powerful and they'll need his help to arrest Palpatine, but Windu urges him to stay out of it as he senses much fear in Anakin and it could cloud his judgment.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 6,
+                "text": "Anakin"
+            },
+            {
+                "label": "PERSON",
+                "start": 13,
+                "end": 18,
+                "text": "Windu"
+            },
+            {
+                "label": "PERSON",
+                "start": 24,
+                "end": 33,
+                "text": "Palpatine"
+            },
+            {
+                "label": "PERSON",
+                "start": 87,
+                "end": 96,
+                "text": "Palpatine"
+            },
+            {
+                "label": "PERSON",
+                "start": 102,
+                "end": 107,
+                "text": "Windu"
+            },
+            {
+                "label": "PERSON",
+                "start": 162,
+                "end": 168,
+                "text": "Anakin"
+            }
+        ]
+    },
+    {
+        "text": "Luke convinces Han and Chewbacca to rescue her with the vague promise of a grand reward.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Luke"
+            },
+            {
+                "label": "PERSON",
+                "start": 15,
+                "end": 18,
+                "text": "Han"
+            },
+            {
+                "label": "PERSON",
+                "start": 23,
+                "end": 32,
+                "text": "Chewbacca"
+            }
+        ]
+    },
+    {
+        "text": "Rey returns to Finn, despairing that Finn is not waking up and that they are trapped on the rupturing planet.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 3,
+                "text": "Rey"
+            },
+            {
+                "label": "PERSON",
+                "start": 15,
+                "end": 19,
+                "text": "Finn"
+            },
+            {
+                "label": "PERSON",
+                "start": 37,
+                "end": 41,
+                "text": "Finn"
+            }
+        ]
+    },
+    {
+        "text": "An Imperial Star Destroyer, dispatched by the Sith Lord Darth Vader, continuing his quest for Luke Skywalker, launches thousands of probe droids across the galaxy, one of which lands on Hoth and begins its survey of the planet.",
+        "mentions": [
+            {
+                "label": "NORP",
+                "start": 3,
+                "end": 11,
+                "text": "Imperial"
+            },
+            {
+                "label": "VEHICLE",
+                "start": 12,
+                "end": 26,
+                "text": "Star Destroyer"
+            },
+            {
+                "label": "RANK",
+                "start": 46,
+                "end": 55,
+                "text": "Sith Lord"
+            },
+            {
+                "label": "RANK",
+                "start": 56,
+                "end": 61,
+                "text": "Darth"
+            },
+            {
+                "label": "PERSON",
+                "start": 62,
+                "end": 67,
+                "text": "Vader"
+            },
+            {
+                "label": "PERSON",
+                "start": 94,
+                "end": 108,
+                "text": "Luke Skywalker"
+            },
+            {
+                "label": "DROID",
+                "start": 132,
+                "end": 144,
+                "text": "probe droids"
+            },
+            {
+                "label": "PLANET",
+                "start": 186,
+                "end": 190,
+                "text": "Hoth"
+            }
+        ]
+    },
+    {
+        "text": "Rey implores Finn not to leave, but instead to help her find the Resistance.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 3,
+                "text": "Rey"
+            },
+            {
+                "label": "PERSON",
+                "start": 13,
+                "end": 17,
+                "text": "Finn"
+            },
+            {
+                "label": "GPE",
+                "start": 65,
+                "end": 75,
+                "text": "Resistance"
+            }
+        ]
+    },
+    {
+        "text": "Grievous drops his remaining two lightsabers and attempts to flee on his wheel bike, while Obi-Wan pursues on Boga.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 8,
+                "text": "Grievous"
+            },
+            {
+                "label": "WEAPON",
+                "start": 33,
+                "end": 44,
+                "text": "lightsabers"
+            },
+            {
+                "label": "PERSON",
+                "start": 91,
+                "end": 98,
+                "text": "Obi-Wan"
+            },
+            {
+                "label": "PERSON",
+                "start": 110,
+                "end": 114,
+                "text": "Boga"
+            },
+            {
+                "label": "VEHICLE",
+                "start": 73,
+                "end": 83,
+                "text": "wheel bike"
+            }
+        ]
+    },
+    {
+        "text": "As Windu is about to deliver the killing blow, Anakin betrays Windu and cuts off his sword arm.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 2,
+                "end": 7,
+                "text": "Windu"
+            },
+            {
+                "label": "PERSON",
+                "start": 46,
+                "end": 52,
+                "text": "Anakin"
+            },
+            {
+                "label": "PERSON",
+                "start": 61,
+                "end": 66,
+                "text": "Windu"
+            }
+        ]
+    },
+    {
+        "text": "Tekka is captured and brought before Kylo Ren, who demands to know where the map leading to Luke is.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Tekka"
+            },
+            {
+                "label": "PERSON",
+                "start": 37,
+                "end": 45,
+                "text": "Kylo Ren"
+            },
+            {
+                "label": "PERSON",
+                "start": 92,
+                "end": 96,
+                "text": "Luke"
+            }
+        ]
+    },
+    {
+        "text": "He tells him that he knows of Anakin's turning, while addressing him as his Sith name.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 30,
+                "end": 38,
+                "text": "Anakin's"
+            },
+            {
+                "label": "RANK",
+                "start": 76,
+                "end": 80,
+                "text": "Sith"
+            }
+        ]
+    },
+    {
+        "text": "Kenobi's spirit ghost instructs Luke to go to Dagobah to undergo training under Yoda, a Jedi Grand Master.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 8,
+                "text": "Kenobi's"
+            },
+            {
+                "label": "PERSON",
+                "start": 32,
+                "end": 36,
+                "text": "Luke"
+            },
+            {
+                "label": "PLANET",
+                "start": 46,
+                "end": 53,
+                "text": "Dagobah"
+            },
+            {
+                "label": "PERSON",
+                "start": 80,
+                "end": 84,
+                "text": "Yoda"
+            },
+            {
+                "label": "RANK",
+                "start": 88,
+                "end": 105,
+                "text": "Jedi Grand Master"
+            }
+        ]
+    },
+    {
+        "text": "It is thought that there is no longer any clear footage of this scene available.",
         "mentions": []
+    },
+    {
+        "text": "Sidious instructs Vader launch Operation:",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 7,
+                "text": "Sidious"
+            },
+            {
+                "label": "PERSON",
+                "start": 18,
+                "end": 23,
+                "text": "Vader"
+            }
+        ]
+    },
+    {
+        "text": "After Finn leaves, Rey hears the screaming of a young girl.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 6,
+                "end": 10,
+                "text": "Finn"
+            },
+            {
+                "label": "PERSON",
+                "start": 19,
+                "end": 22,
+                "text": "Rey"
+            }
+        ]
+    },
+    {
+        "text": "Ren activates his lightsaber and lashes out in a rage-fueled tantrum, slashing at an instrument panel uncontrollably.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 3,
+                "text": "Ren"
+            },
+            {
+                "label": "WEAPON",
+                "start": 18,
+                "end": 28,
+                "text": "lightsaber"
+            }
+        ]
+    },
+    {
+        "text": "Yoda, Luminara Unduli, and Gree, along with Tarfful and Chewbacca defend Kashyyyk against the Corporate Alliance Tanks, Dwarf Spider droids, Droid Gunships, and legions of battle droids.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Yoda"
+            },
+            {
+                "label": "PERSON",
+                "start": 6,
+                "end": 21,
+                "text": "Luminara Unduli"
+            },
+            {
+                "label": "PERSON",
+                "start": 27,
+                "end": 31,
+                "text": "Gree"
+            },
+            {
+                "label": "PERSON",
+                "start": 44,
+                "end": 51,
+                "text": "Tarfful"
+            },
+            {
+                "label": "PERSON",
+                "start": 56,
+                "end": 65,
+                "text": "Chewbacca"
+            },
+            {
+                "label": "PLANET",
+                "start": 73,
+                "end": 81,
+                "text": "Kashyyyk"
+            },
+            {
+                "label": "DROID",
+                "start": 120,
+                "end": 139,
+                "text": "Dwarf Spider droids"
+            },
+            {
+                "label": "DROID",
+                "start": 172,
+                "end": 185,
+                "text": "battle droids"
+            },
+            {
+                "label": "VEHICLE",
+                "start": 94,
+                "end": 118,
+                "text": "Corporate Alliance Tanks"
+            },
+            {
+                "label": "VEHICLE",
+                "start": 141,
+                "end": 155,
+                "text": "Droid Gunships"
+            }
+        ]
+    },
+    {
+        "text": "All Vader can do is scream in pain and powerless rage, cursing his former friend and Master.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 4,
+                "end": 9,
+                "text": "Vader"
+            }
+        ]
+    },
+    {
+        "text": "Moments later the battle station explodes, killing Tarkin and everyone on board, while Vader escapes into space.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 51,
+                "end": 57,
+                "text": "Tarkin"
+            },
+            {
+                "label": "PERSON",
+                "start": 87,
+                "end": 92,
+                "text": "Vader"
+            }
+        ]
+    },
+    {
+        "text": "Grievous then sends a pair of his powerful IG-100 MagnaGuard droids after the Jedi.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 8,
+                "text": "Grievous"
+            },
+            {
+                "label": "DROID",
+                "start": 43,
+                "end": 60,
+                "text": "IG-100 MagnaGuard"
+            }
+        ]
+    },
+    {
+        "text": "Leia is spotted by stormtroopers and they shoot her with a stun blast and bring her before Vader.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Leia"
+            },
+            {
+                "label": "PERSON",
+                "start": 91,
+                "end": 96,
+                "text": "Vader"
+            }
+        ]
+    },
+    {
+        "text": "Finn manages to deal him a glancing wound, but nonetheless Ren quickly overpowers the former stormtrooper and deals him a grievous injury to his back.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Finn"
+            },
+            {
+                "label": "PERSON",
+                "start": 59,
+                "end": 62,
+                "text": "Ren"
+            }
+        ]
+    },
+    {
+        "text": "Elsewhere on Jakku, a scavenger named Rey traverses the corridors of a downed Imperial-class Star Destroyer at the Graveyard of Giants.",
+        "mentions": [
+            {
+                "label": "PLANET",
+                "start": 13,
+                "end": 18,
+                "text": "Jakku"
+            },
+            {
+                "label": "PERSON",
+                "start": 38,
+                "end": 41,
+                "text": "Rey"
+            },
+            {
+                "label": "VEHICLE",
+                "start": 78,
+                "end": 107,
+                "text": "Imperial-class Star Destroyer"
+            },
+            {
+                "label": "LOCATION",
+                "start": 115,
+                "end": 134,
+                "text": "Graveyard of Giants"
+            }
+        ]
+    },
+    {
+        "text": "At the mention of Obi Wan, he wonders if she means his neighbor Ben Kenobi.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 18,
+                "end": 26,
+                "text": "Obi Wan,"
+            },
+            {
+                "label": "PERSON",
+                "start": 64,
+                "end": 74,
+                "text": "Ben Kenobi"
+            }
+        ]
+    },
+    {
+        "text": "He slaughters Poggle the Lesser, Rune Haako, Po Nudo, and Wat Tambor among others.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 14,
+                "end": 31,
+                "text": "Poggle the Lesser"
+            },
+            {
+                "label": "PERSON",
+                "start": 33,
+                "end": 43,
+                "text": "Rune Haako"
+            },
+            {
+                "label": "PERSON",
+                "start": 45,
+                "end": 52,
+                "text": "Po Nudo"
+            },
+            {
+                "label": "PERSON",
+                "start": 58,
+                "end": 68,
+                "text": "Wat Tambor"
+            }
+        ]
+    },
+    {
+        "text": "Poe finds an opening in the thermal oscillator and enters, while a following TIE crashes, unable to execute the same flight maneuver.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 3,
+                "text": "Poe"
+            },
+            {
+                "label": "VEHICLE",
+                "start": 77,
+                "end": 88,
+                "text": "TIE crashes"
+            }
+        ]
+    },
+    {
+        "text": "He meets secretly with Padm\u00c3\u00a9 Amidala, and they share a kiss in the shadows of the Senate office building, keeping their love secret.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 23,
+                "end": 36,
+                "text": "Padm\u00c3\u00a9 Amidala"
+            },
+            {
+                "label": "ORG",
+                "start": 82,
+                "end": 88,
+                "text": "Senate"
+            }
+        ]
+    },
+    {
+        "text": "They rescue Darth Vader from the edge of death using a stasis pod and Sith medicines held in the Emperor's shuttle.",
+        "mentions": [
+            {
+                "label": "RANK",
+                "start": 12,
+                "end": 17,
+                "text": "Darth"
+            },
+            {
+                "label": "PERSON",
+                "start": 18,
+                "end": 23,
+                "text": "Vader"
+            },
+            {
+                "label": "NORP",
+                "start": 70,
+                "end": 74,
+                "text": "Sith"
+            },
+            {
+                "label": "RANK",
+                "start": 97,
+                "end": 106,
+                "text": "Emperor's"
+            }
+        ]
+    },
+    {
+        "text": "Ultimately, Rey is able to overpower Ren and deal him a severe wound to his face while severing his lightsaber in two.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 12,
+                "end": 15,
+                "text": "Rey"
+            },
+            {
+                "label": "PERSON",
+                "start": 37,
+                "end": 40,
+                "text": "Ren"
+            },
+            {
+                "label": "WEAPON",
+                "start": 100,
+                "end": 110,
+                "text": "lightsaber"
+            }
+        ]
+    },
+    {
+        "text": "Rey sees Cloud City and sees that there Luke duelled Darth Vader.",
+        "mentions": [
+            {
+                "label": "LOCATION",
+                "start": 9,
+                "end": 19,
+                "text": "Cloud City"
+            },
+            {
+                "label": "PERSON",
+                "start": 40,
+                "end": 44,
+                "text": "Luke"
+            },
+            {
+                "label": "RANK",
+                "start": 53,
+                "end": 58,
+                "text": "Darth"
+            },
+            {
+                "label": "PERSON",
+                "start": 59,
+                "end": 64,
+                "text": "Vader"
+            }
+        ]
+    },
+    {
+        "text": "He had deserted after his first battle because he didn't want to kill unarmed villagers, for the First Order.",
+        "mentions": [
+            {
+                "label": "GPE",
+                "start": 97,
+                "end": 108,
+                "text": "First Order"
+            }
+        ]
+    },
+    {
+        "text": "While cleaning R2, Luke discovers a short portion of the hologram.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 15,
+                "end": 17,
+                "text": "R2"
+            },
+            {
+                "label": "PERSON",
+                "start": 19,
+                "end": 23,
+                "text": "Luke"
+            }
+        ]
+    },
+    {
+        "text": "Anakin uses one of his fighter wings to knock some of the buzz droids off Obi-Wan's fighter, but one manages to crawl onto Anakin's ship although it is quickly disabled by R2-D2.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 6,
+                "text": "Anakin"
+            },
+            {
+                "label": "DROID",
+                "start": 58,
+                "end": 69,
+                "text": "buzz droids"
+            },
+            {
+                "label": "PERSON",
+                "start": 74,
+                "end": 83,
+                "text": "Obi-Wan's"
+            },
+            {
+                "label": "PERSON",
+                "start": 123,
+                "end": 131,
+                "text": "Anakin's"
+            },
+            {
+                "label": "PERSON",
+                "start": 172,
+                "end": 177,
+                "text": "R2-D2"
+            }
+        ]
+    },
+    {
+        "text": "Meanwhile, Obi-Wan, remaining completely undetected, shuts down the tractor beam.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 11,
+                "end": 18,
+                "text": "Obi-Wan"
+            }
+        ]
+    },
+    {
+        "text": "They are later bought by moisture farmer Owen Lars and his nephew, Luke Skywalker, a young farmer who lost his parents as a baby and hopes to one day be a starfighter pilot just like his friends.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 41,
+                "end": 50,
+                "text": "Owen Lars"
+            },
+            {
+                "label": "PERSON",
+                "start": 67,
+                "end": 81,
+                "text": "Luke Skywalker"
+            }
+        ]
+    },
+    {
+        "text": "Windu and the three other Jedi Masters arrive at Chancellor Palpatine's office.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Windu"
+            },
+            {
+                "label": "NORP",
+                "start": 26,
+                "end": 38,
+                "text": "Jedi Masters"
+            },
+            {
+                "label": "RANK",
+                "start": 49,
+                "end": 59,
+                "text": "Chancellor"
+            },
+            {
+                "label": "PERSON",
+                "start": 60,
+                "end": 71,
+                "text": "Palpatine's"
+            }
+        ]
+    },
+    {
+        "text": "Palpatine describes Darth Plagueis as a Dark Lord of the Sith so powerful and wise that he could use the Force to influence the midi-chlorians to create life.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 9,
+                "text": "Palpatine"
+            },
+            {
+                "label": "RANK",
+                "start": 20,
+                "end": 25,
+                "text": "Darth"
+            },
+            {
+                "label": "PERSON",
+                "start": 26,
+                "end": 34,
+                "text": "Plagueis"
+            },
+            {
+                "label": "RANK",
+                "start": 40,
+                "end": 61,
+                "text": "Dark Lord of the Sith"
+            },
+            {
+                "label": "MISC",
+                "start": 105,
+                "end": 110,
+                "text": "Force"
+            }
+        ]
+    },
+    {
+        "text": "With the recovered map from BB-8 displayed on hologram, 3PO reveals that it is only partially complete, and that the map matches no charted system on record.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 28,
+                "end": 32,
+                "text": "BB-8"
+            },
+            {
+                "label": "PERSON",
+                "start": 56,
+                "end": 59,
+                "text": "3PO"
+            }
+        ]
+    },
+    {
+        "text": "Rey goes to Unkar Plutt to again exchange her salvage for foodstuff, and the Crolute offers to buy BB-8 for sixty food portions; while tempted, Rey declines the offer.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 3,
+                "text": "Rey"
+            },
+            {
+                "label": "PERSON",
+                "start": 12,
+                "end": 23,
+                "text": "Unkar Plutt"
+            },
+            {
+                "label": "SPECIES",
+                "start": 77,
+                "end": 84,
+                "text": "Crolute"
+            },
+            {
+                "label": "PERSON",
+                "start": 99,
+                "end": 107,
+                "text": "BB-8 for"
+            }
+        ]
+    },
+    {
+        "text": "Ki-Adi-Mundi agrees and nominates Obi-Wan to go.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 12,
+                "text": "Ki-Adi-Mundi"
+            },
+            {
+                "label": "PERSON",
+                "start": 34,
+                "end": 41,
+                "text": "Obi-Wan"
+            }
+        ]
+    },
+    {
+        "text": "Tekka responds that he knows who Ren used to be, and chides Ren that he cannot escape his real identity.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Tekka"
+            },
+            {
+                "label": "PERSON",
+                "start": 33,
+                "end": 36,
+                "text": "Ren"
+            },
+            {
+                "label": "PERSON",
+                "start": 60,
+                "end": 63,
+                "text": "Ren"
+            }
+        ]
+    },
+    {
+        "text": "FN-2187 goes to help his squadmate, but FN-2003's wound proves fatal, and in his final moments, FN-2003 smears his blood on FN-2187's helmet before dying, deeply affecting FN-2187.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 7,
+                "text": "FN-2187"
+            },
+            {
+                "label": "PERSON",
+                "start": 40,
+                "end": 48,
+                "text": "FN-2003'"
+            },
+            {
+                "label": "PERSON",
+                "start": 96,
+                "end": 103,
+                "text": "FN-2003"
+            },
+            {
+                "label": "PERSON",
+                "start": 124,
+                "end": 131,
+                "text": "FN-2187"
+            },
+            {
+                "label": "PERSON",
+                "start": 172,
+                "end": 179,
+                "text": "FN-2187"
+            }
+        ]
+    },
+    {
+        "text": "This was also why the criminal gangs were able to track it down so quickly, and meant the First Order could track it as well.",
+        "mentions": [
+            {
+                "label": "GPE",
+                "start": 90,
+                "end": 101,
+                "text": "First Order"
+            }
+        ]
+    },
+    {
+        "text": "Windu declares Palpatine is under arrest and the Masters ignite their lightsabers.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Windu"
+            },
+            {
+                "label": "PERSON",
+                "start": 15,
+                "end": 24,
+                "text": "Palpatine"
+            },
+            {
+                "label": "WEAPON",
+                "start": 70,
+                "end": 81,
+                "text": "lightsabers"
+            },
+            {
+                "label": "NORP",
+                "start": 49,
+                "end": 56,
+                "text": "Masters"
+            }
+        ]
+    },
+    {
+        "text": "Grievous's arms split in half, allowing him to use four lightsabers at once.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 10,
+                "text": "Grievous's"
+            },
+            {
+                "label": "WEAPON",
+                "start": 56,
+                "end": 67,
+                "text": "lightsabers"
+            }
+        ]
+    },
+    {
+        "text": "Ren angrily accuses Finn of being a traitor.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 3,
+                "text": "Ren"
+            },
+            {
+                "label": "PERSON",
+                "start": 20,
+                "end": 24,
+                "text": "Finn"
+            }
+        ]
+    },
+    {
+        "text": "The Invisible Hand crosses by a Venator-class Star Destroyer.",
+        "mentions": [
+            {
+                "label": "SPACECRAFT",
+                "start": 4,
+                "end": 18,
+                "text": "Invisible Hand"
+            },
+            {
+                "label": "VEHICLE",
+                "start": 32,
+                "end": 60,
+                "text": "Venator-class Star Destroyer"
+            }
+        ]
+    },
+    {
+        "text": "After defeating the small number of guards defending the ship, the Sith Lord Darth Vader arrives to assess the damage.",
+        "mentions": [
+            {
+                "label": "RANK",
+                "start": 67,
+                "end": 76,
+                "text": "Sith Lord"
+            },
+            {
+                "label": "RANK",
+                "start": 77,
+                "end": 82,
+                "text": "Darth"
+            },
+            {
+                "label": "PERSON",
+                "start": 83,
+                "end": 88,
+                "text": "Vader"
+            }
+        ]
+    },
+    {
+        "text": "She frees the droid and gives it directions to Niima Outpost and sends it on its way, but BB-8 insists on traveling with her.",
+        "mentions": [
+            {
+                "label": "LOCATION",
+                "start": 47,
+                "end": 60,
+                "text": "Niima Outpost"
+            },
+            {
+                "label": "PERSON",
+                "start": 90,
+                "end": 102,
+                "text": "BB-8 insists"
+            }
+        ]
+    },
+    {
+        "text": "Luke and C-3PO search the desert and find R2 the next day, only to be attacked by Sand people.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Luke"
+            },
+            {
+                "label": "PERSON",
+                "start": 9,
+                "end": 14,
+                "text": "C-3PO"
+            },
+            {
+                "label": "PERSON",
+                "start": 42,
+                "end": 44,
+                "text": "R2"
+            },
+            {
+                "label": "SPECIES",
+                "start": 82,
+                "end": 93,
+                "text": "Sand people"
+            }
+        ]
+    },
+    {
+        "text": "Sidious then blasts Yoda with Force Lightning, causing the Jedi master to lose his lightsaber.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 7,
+                "text": "Sidious"
+            },
+            {
+                "label": "PERSON",
+                "start": 20,
+                "end": 24,
+                "text": "Yoda"
+            },
+            {
+                "label": "MISC",
+                "start": 30,
+                "end": 45,
+                "text": "Force Lightning"
+            },
+            {
+                "label": "PERSON",
+                "start": 59,
+                "end": 63,
+                "text": "Jedi"
+            },
+            {
+                "label": "WEAPON",
+                "start": 83,
+                "end": 93,
+                "text": "lightsaber"
+            }
+        ]
+    },
+    {
+        "text": "Masters Windu, Kit Fisto, Agen Kolar, and Saesee Tiin board a gunship and head to Palpatine's office.",
+        "mentions": [
+            {
+                "label": "RANK",
+                "start": 0,
+                "end": 7,
+                "text": "Masters"
+            },
+            {
+                "label": "PERSON",
+                "start": 8,
+                "end": 13,
+                "text": "Windu"
+            },
+            {
+                "label": "PERSON",
+                "start": 15,
+                "end": 24,
+                "text": "Kit Fisto"
+            },
+            {
+                "label": "PERSON",
+                "start": 26,
+                "end": 36,
+                "text": "Agen Kolar"
+            },
+            {
+                "label": "PERSON",
+                "start": 42,
+                "end": 53,
+                "text": "Saesee Tiin"
+            },
+            {
+                "label": "VEHICLE",
+                "start": 62,
+                "end": 69,
+                "text": "gunship"
+            },
+            {
+                "label": "PERSON",
+                "start": 82,
+                "end": 93,
+                "text": "Palpatine's"
+            }
+        ]
+    },
+    {
+        "text": "He returns to the star skiff and leaves the planet with the unconscious Padm\u00c3\u00a9 and her droids.",
+        "mentions": [
+            {
+                "label": "VEHICLE",
+                "start": 18,
+                "end": 28,
+                "text": "star skiff"
+            },
+            {
+                "label": "PERSON",
+                "start": 72,
+                "end": 77,
+                "text": "Padm\u00c3\u00a9"
+            }
+        ]
+    },
+    {
+        "text": "With only one option left, the trio manages to escape in the Millennium Falcon.",
+        "mentions": [
+            {
+                "label": "SPACECRAFT",
+                "start": 61,
+                "end": 78,
+                "text": "Millennium Falcon"
+            }
+        ]
+    },
+    {
+        "text": "He asks for her loyalty to the Chancellor, then tells her that he will go to the Mustafar system, where the remaining Separatists have gathered, to end the war.",
+        "mentions": [
+            {
+                "label": "RANK",
+                "start": 30,
+                "end": 40,
+                "text": "Chancellor"
+            },
+            {
+                "label": "PLANET",
+                "start": 80,
+                "end": 88,
+                "text": "Mustafar"
+            },
+            {
+                "label": "NORP",
+                "start": 117,
+                "end": 128,
+                "text": "Separatists"
+            }
+        ]
+    },
+    {
+        "text": "She reluctantly tells them the base is on Dantooine, but Tarkin orders Alderaan to be destroyed anyway for its role in supporting the rebels.",
+        "mentions": [
+            {
+                "label": "PLANET",
+                "start": 42,
+                "end": 51,
+                "text": "Dantooine"
+            },
+            {
+                "label": "PERSON",
+                "start": 57,
+                "end": 63,
+                "text": "Tarkin"
+            },
+            {
+                "label": "PERSON",
+                "start": 71,
+                "end": 79,
+                "text": "Alderaan"
+            },
+            {
+                "label": "NORP",
+                "start": 134,
+                "end": 140,
+                "text": "rebels"
+            }
+        ]
+    },
+    {
+        "text": "Palpatine encourages Anakin to kill Dooku, much to the shock of the latter who looks at the Chancellor pleadingly, only to be met with a sinister smile from Palpatine.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 9,
+                "text": "Palpatine"
+            },
+            {
+                "label": "PERSON",
+                "start": 21,
+                "end": 27,
+                "text": "Anakin"
+            },
+            {
+                "label": "PERSON",
+                "start": 36,
+                "end": 41,
+                "text": "Dooku"
+            },
+            {
+                "label": "RANK",
+                "start": 92,
+                "end": 102,
+                "text": "Chancellor"
+            },
+            {
+                "label": "RANK",
+                "start": 157,
+                "end": 166,
+                "text": "Palpatine"
+            }
+        ]
     },
     {
         "text": "Rey calls Ren a monster and then proceeds to shoot him with her blaster, but Ren knocks Rey out by Force pushing her into a tree.",
@@ -117,1767 +2150,70 @@
         ]
     },
     {
-        "text": "With the aid of a few emergency firespeeders they land, hitting a control tower along on one of Coruscant's industrial landing platforms.",
-        "mentions": [
-            {
-                "label": "SPACECRAFT",
-                "start": 32,
-                "end": 44,
-                "text": "firespeeders"
-            },
-            {
-                "label": "PLANET",
-                "start": 96,
-                "end": 107,
-                "text": "Coruscant's"
-            }
-        ]
-    },
-    {
-        "text": "At the Mustafarian Mining Complex, Obi-Wan and Vader battle in the conference room on the desk.",
-        "mentions": [
-            {
-                "label": "LOCATION",
-                "start": 7,
-                "end": 33,
-                "text": "Mustafarian Mining Complex"
-            },
-            {
-                "label": "PERSON",
-                "start": 35,
-                "end": 42,
-                "text": "Obi-Wan"
-            },
-            {
-                "label": "PERSON",
-                "start": 47,
-                "end": 52,
-                "text": "Vader"
-            }
-        ]
-    },
-    {
-        "text": "Hoping that the stolen plans can save her people and restore freedom to the galaxy, Princess Leia Organa, who is in custody of the plans, attempts to race home aboard the Tantive IV.",
-        "mentions": [
-            {
-                "label": "SPACECRAFT",
-                "start": 171,
-                "end": 181,
-                "text": "Tantive IV"
-            },
-            {
-                "label": "PERSON",
-                "start": 93,
-                "end": 104,
-                "text": "Leia Organa"
-            },
-            {
-                "label": "RANK",
-                "start": 84,
-                "end": 92,
-                "text": "Princess"
-            }
-        ]
-    },
-    {
-        "text": "She also draws on her experience climbing through wrecked Imperial starships to make her way through the bowels of the installation's machinery.",
-        "mentions": [
-            {
-                "label": "NORP",
-                "start": 58,
-                "end": 66,
-                "text": "Imperial"
-            }
-        ]
-    },
-    {
-        "text": "Anakin returns to the Jedi Temple and approaches Windu who tells Anakin that they have just been informed that Obi-Wan has destroyed General Grievous and so they are going to go to the Senate to ensure that Chancellor Palpatine gives back his emergency powers.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 6,
-                "text": "Anakin"
-            },
-            {
-                "label": "LOCATION",
-                "start": 22,
-                "end": 33,
-                "text": "Jedi Temple"
-            },
-            {
-                "label": "PERSON",
-                "start": 49,
-                "end": 54,
-                "text": "Windu"
-            },
-            {
-                "label": "PERSON",
-                "start": 65,
-                "end": 71,
-                "text": "Anakin"
-            },
-            {
-                "label": "PERSON",
-                "start": 111,
-                "end": 118,
-                "text": "Obi-Wan"
-            },
-            {
-                "label": "PERSON",
-                "start": 141,
-                "end": 149,
-                "text": "Grievous"
-            },
-            {
-                "label": "RANK",
-                "start": 133,
-                "end": 140,
-                "text": "General"
-            },
-            {
-                "label": "ORG",
-                "start": 185,
-                "end": 191,
-                "text": "Senate"
-            },
-            {
-                "label": "RANK",
-                "start": 207,
-                "end": 217,
-                "text": "Chancellor"
-            },
-            {
-                "label": "PERSON",
-                "start": 218,
-                "end": 227,
-                "text": "Palpatine"
-            }
-        ]
-    },
-    {
-        "text": "Back aboard the Finalizer, Lieutenant Dopheld Mitaka informs Kylo Ren that the droid escaped on a stolen freighter and that it was aided by the deserter FN-2187.",
-        "mentions": [
-            {
-                "label": "SPACECRAFT",
-                "start": 16,
-                "end": 25,
-                "text": "Finalizer"
-            },
-            {
-                "label": "RANK",
-                "start": 27,
-                "end": 37,
-                "text": "Lieutenant"
-            },
-            {
-                "label": "PERSON",
-                "start": 38,
-                "end": 52,
-                "text": "Dopheld Mitaka"
-            },
-            {
-                "label": "PERSON",
-                "start": 61,
-                "end": 69,
-                "text": "Kylo Ren"
-            },
-            {
-                "label": "PERSON",
-                "start": 153,
-                "end": 160,
-                "text": "FN-2187"
-            }
-        ]
-    },
-    {
-        "text": "Obi-Wan leaves on an eopie, heading to his exile in the Jundland Wastes.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 7,
-                "text": "Obi-Wan"
-            },
-            {
-                "label": "LOCATION",
-                "start": 56,
-                "end": 71,
-                "text": "Jundland Wastes"
-            }
-        ]
-    },
-    {
-        "text": "He jumps into his landspeeder.",
-        "mentions": [
-            {
-                "label": "VEHICLE",
-                "start": 18,
-                "end": 29,
-                "text": "landspeeder"
-            }
-        ]
-    },
-    {
-        "text": "Anakin and Obi-Wan make their way through the flagship, using their lightsabers to fight through an army of droids.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 6,
-                "text": "Anakin"
-            },
-            {
-                "label": "PERSON",
-                "start": 11,
-                "end": 18,
-                "text": "Obi-Wan"
-            },
-            {
-                "label": "WEAPON",
-                "start": 68,
-                "end": 79,
-                "text": "lightsabers"
-            }
-        ]
-    },
-    {
-        "text": "It is at this point that the first physical manifestation of the dark side in Vader begins to show itself, as his irises turn a pallid yellow, the rest of his eyes taking on a bright crimson hue.",
-        "mentions": [
-            {
-                "label": "MISC",
-                "start": 65,
-                "end": 74,
-                "text": "dark side"
-            },
-            {
-                "label": "PERSON",
-                "start": 78,
-                "end": 83,
-                "text": "Vader"
-            }
-        ]
-    },
-    {
-        "text": "After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the \"illegitimate\" government of the New Republic in one fell swoop.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 29,
-                "end": 36,
-                "text": "Snoke's"
-            },
-            {
-                "label": "RANK",
-                "start": 14,
-                "end": 28,
-                "text": "Supreme Leader"
-            },
-            {
-                "label": "WEAPON",
-                "start": 60,
-                "end": 70,
-                "text": "Starkiller"
-            },
-            {
-                "label": "PERSON",
-                "start": 84,
-                "end": 87,
-                "text": "Hux"
-            },
-            {
-                "label": "PLANET",
-                "start": 100,
-                "end": 107,
-                "text": "Hosnian"
-            },
-            {
-                "label": "GPE",
-                "start": 147,
-                "end": 159,
-                "text": "New Republic"
-            },
-            {
-                "label": "PLANET",
-                "start": 161,
-                "end": 175,
-                "text": "Hosnian Prime,"
-            },
-            {
-                "label": "ORG",
-                "start": 191,
-                "end": 217,
-                "text": "New Republic Defense Fleet"
-            },
-            {
-                "label": "GPE",
-                "start": 260,
-                "end": 271,
-                "text": "First Order"
-            },
-            {
-                "label": "GPE",
-                "start": 335,
-                "end": 347,
-                "text": "New Republic"
-            }
-        ]
-    },
-    {
-        "text": "Sidious, cackling with glee, tortures and blasts the shocked Windu out of the window, sending him plunging to his death hundreds of stories below.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 60,
-                "end": 65,
-                "text": "Windu"
-            }
-        ]
-    },
-    {
-        "text": "After taking the foodstuff, Rey heads to her home, a downed AT-AT, and prepares a meal for herself.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 28,
-                "end": 31,
-                "text": "Rey"
-            },
-            {
-                "label": "VEHICLE",
-                "start": 60,
-                "end": 65,
-                "text": "AT-AT"
-            }
-        ]
-    },
-    {
-        "text": "In front of him is the burned helmet of Vader, recovered from the funeral pyre on Endor.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 40,
-                "end": 45,
-                "text": "Vader"
-            },
-            {
-                "label": "PLANET",
-                "start": 82,
-                "end": 87,
-                "text": "Endor"
-            }
-        ]
-    },
-    {
-        "text": "He reveals to Vader's burned helmet that the light is pulling him in again and that even Snoke could sense it.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 14,
-                "end": 21,
-                "text": "Vader's"
-            },
-            {
-                "label": "PERSON",
-                "start": 89,
-                "end": 94,
-                "text": "Snoke"
-            }
-        ]
-    },
-    {
-        "text": "With the re-emergence of his father and Snoke's orders to kill him, Kylo feels an internal struggle within himself.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 40,
-                "end": 47,
-                "text": "Snoke's"
-            },
-            {
-                "label": "PERSON",
-                "start": 68,
-                "end": 72,
-                "text": "Kylo"
-            }
-        ]
-    },
-    {
-        "text": "In the Chancellor's office within the Imperial Senate Building, Yoda confronts Palpatine.",
-        "mentions": [
-            {
-                "label": "RANK",
-                "start": 7,
-                "end": 19,
-                "text": "Chancellor's"
-            },
-            {
-                "label": "VEHICLE",
-                "start": 38,
-                "end": 62,
-                "text": "Imperial Senate Building"
-            },
-            {
-                "label": "PERSON",
-                "start": 64,
-                "end": 68,
-                "text": "Yoda"
-            },
-            {
-                "label": "PERSON",
-                "start": 79,
-                "end": 88,
-                "text": "Palpatine"
-            }
-        ]
-    },
-    {
-        "text": "This is a scene with Darth Vader and another Imperial officer on the Death Star.",
-        "mentions": []
-    },
-    {
-        "text": "Luke, aided by the voice of Kenobi and guided by the Force, accurately fires two proton torpedoes into the exhaust port and retreats.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 4,
-                "text": "Luke"
-            },
-            {
-                "label": "PERSON",
-                "start": 28,
-                "end": 34,
-                "text": "Kenobi"
-            },
-            {
-                "label": "MISC",
-                "start": 53,
-                "end": 58,
-                "text": "Force"
-            },
-            {
-                "label": "WEAPON",
-                "start": 81,
-                "end": 97,
-                "text": "proton torpedoes"
-            }
-        ]
-    },
-    {
-        "text": "Abandoning the arm, Obi-Wan leaps onto a hovering mining platform below, with Vader pursuing him back up the lava river atop a collection droid.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 20,
-                "end": 27,
-                "text": "Obi-Wan"
-            },
-            {
-                "label": "PERSON",
-                "start": 78,
-                "end": 83,
-                "text": "Vader"
-            },
-            {
-                "label": "DROID",
-                "start": 127,
-                "end": 143,
-                "text": "collection droid"
-            }
-        ]
-    },
-    {
-        "text": "Although they initially believe themselves to be captured by the First Order, they soon meet their real captors: Han Solo and Chewbacca, the former owners of the ship.",
-        "mentions": [
-            {
-                "label": "GPE",
-                "start": 65,
-                "end": 76,
-                "text": "First Order"
-            },
-            {
-                "label": "PERSON",
-                "start": 113,
-                "end": 121,
-                "text": "Han Solo"
-            },
-            {
-                "label": "PERSON",
-                "start": 126,
-                "end": 135,
-                "text": "Chewbacca"
-            }
-        ]
-    },
-    {
-        "text": "Anakin confirms that the Jedi don't trust him, a fact that Palpatine expands to include the Senate, the Republic, and democracy as a whole.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 6,
-                "text": "Anakin"
-            },
-            {
-                "label": "ORG",
-                "start": 25,
-                "end": 29,
-                "text": "Jedi"
-            },
-            {
-                "label": "PERSON",
-                "start": 59,
-                "end": 68,
-                "text": "Palpatine"
-            },
-            {
-                "label": "ORG",
-                "start": 92,
-                "end": 98,
-                "text": "Senate"
-            },
-            {
-                "label": "GPE",
-                "start": 104,
-                "end": 112,
-                "text": "Republic"
-            }
-        ]
-    },
-    {
-        "text": "Obi-Wan continues to chase General Grievous on Utapau.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 7,
-                "text": "Obi-Wan"
-            },
-            {
-                "label": "RANK",
-                "start": 27,
-                "end": 34,
-                "text": "General"
-            },
-            {
-                "label": "PERSON",
-                "start": 35,
-                "end": 43,
-                "text": "Grievous"
-            },
-            {
-                "label": "PLANET",
-                "start": 47,
-                "end": 53,
-                "text": "Utapau"
-            }
-        ]
-    },
-    {
-        "text": "She reluctantly tells them the base is on Dantooine, but Tarkin orders Alderaan to be destroyed anyway for its role in supporting the rebels.",
-        "mentions": [
-            {
-                "label": "PLANET",
-                "start": 42,
-                "end": 51,
-                "text": "Dantooine"
-            },
-            {
-                "label": "PERSON",
-                "start": 57,
-                "end": 63,
-                "text": "Tarkin"
-            },
-            {
-                "label": "PERSON",
-                "start": 71,
-                "end": 79,
-                "text": "Alderaan"
-            },
-            {
-                "label": "NORP",
-                "start": 134,
-                "end": 140,
-                "text": "rebels"
-            }
-        ]
-    },
-    {
-        "text": "Senator Bail Organa arrives at the flaming Temple to witness the slaughter of a young Padawan named Zett Jukassa by a squad of troopers led by Commander Appo.",
-        "mentions": [
-            {
-                "label": "RANK",
-                "start": 0,
-                "end": 7,
-                "text": "Senator"
-            },
-            {
-                "label": "PERSON",
-                "start": 8,
-                "end": 19,
-                "text": "Bail Organa"
-            },
-            {
-                "label": "LOCATION",
-                "start": 43,
-                "end": 49,
-                "text": "Temple"
-            },
-            {
-                "label": "RANK",
-                "start": 86,
-                "end": 93,
-                "text": "Padawan"
-            },
-            {
-                "label": "PERSON",
-                "start": 100,
-                "end": 112,
-                "text": "Zett Jukassa"
-            },
-            {
-                "label": "RANK",
-                "start": 143,
-                "end": 152,
-                "text": "Commander"
-            },
-            {
-                "label": "PERSON",
-                "start": 153,
-                "end": 157,
-                "text": "Appo"
-            }
-        ]
-    },
-    {
-        "text": "Enraged, Grievous repeatedly hits Obi-Wan and then picks up the helpless Jedi and throws him over the edge.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 9,
-                "end": 17,
-                "text": "Grievous"
-            },
-            {
-                "label": "PERSON",
-                "start": 34,
-                "end": 41,
-                "text": "Obi-Wan"
-            },
-            {
-                "label": "NORP",
-                "start": 73,
-                "end": 77,
-                "text": "Jedi"
-            }
-        ]
-    },
-    {
-        "text": "Vader tumbles down the embankment and rolls to a stop at the edge of the river of lava.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 5,
-                "text": "Vader"
-            }
-        ]
-    },
-    {
-        "text": "He finds Grievous on the Tenth Level.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 9,
-                "end": 17,
-                "text": "Grievous"
-            },
-            {
-                "label": "LOCATION",
-                "start": 25,
-                "end": 36,
-                "text": "Tenth Level"
-            }
-        ]
-    },
-    {
-        "text": "Rey and Ren continue fighting: Ren has taken even more wounds, from Chewbacca, Finn, and Rey, but even so initially holds the advantage, drawing on his rage to ignore the pain.",
+        "text": "Ren takes off his helmet and shows her his face.",
         "mentions": [
             {
                 "label": "PERSON",
                 "start": 0,
                 "end": 3,
-                "text": "Rey"
-            },
-            {
-                "label": "PERSON",
-                "start": 8,
-                "end": 11,
-                "text": "Ren"
-            },
-            {
-                "label": "PERSON",
-                "start": 31,
-                "end": 34,
-                "text": "Ren"
-            },
-            {
-                "label": "PERSON",
-                "start": 68,
-                "end": 77,
-                "text": "Chewbacca"
-            },
-            {
-                "label": "PERSON",
-                "start": 79,
-                "end": 83,
-                "text": "Finn"
-            },
-            {
-                "label": "PERSON",
-                "start": 89,
-                "end": 92,
-                "text": "Rey"
-            }
-        ]
-    },
-    {
-        "text": "Windu declares Sidious has lost, but the Sith Lord then unleashes a torrent of Force lightning.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 5,
-                "text": "Windu"
-            },
-            {
-                "label": "PERSON",
-                "start": 15,
-                "end": 22,
-                "text": "Sidious"
-            },
-            {
-                "label": "RANK",
-                "start": 41,
-                "end": 50,
-                "text": "Sith Lord"
-            },
-            {
-                "label": "MISC",
-                "start": 79,
-                "end": 94,
-                "text": "Force lightning"
-            }
-        ]
-    },
-    {
-        "text": "Revenge of the Sith was released in theaters on Thursday, May 19, 2005 (the same day that the first episode of the prequel trilogy The Phantom Menace was released in 1999), and premiered (out of competition) on the 2005 Cannes Festival May 15.",
-        "mentions": []
-    },
-    {
-        "text": "Enraged, Chewbacca, Rey, and Finn start firing at Ren and the stormtroopers.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 9,
-                "end": 18,
-                "text": "Chewbacca"
-            },
-            {
-                "label": "PERSON",
-                "start": 20,
-                "end": 23,
-                "text": "Rey"
-            },
-            {
-                "label": "PERSON",
-                "start": 29,
-                "end": 33,
-                "text": "Finn"
-            },
-            {
-                "label": "PERSON",
-                "start": 50,
-                "end": 53,
                 "text": "Ren"
             }
         ]
     },
     {
-        "text": "As Windu is deciding to kill Sidious, Anakin argues that Palpatine must stand trial: Windu disregards this, stating Sidious's control over the Senate and courts make him too dangerous to be left alive.",
+        "text": "When Han assumes it is because she has feelings for him, Leia loses her temper and calls him a \"stuck-up, half-witted, scruffy-looking nerf herder.\"",
         "mentions": [
             {
                 "label": "PERSON",
-                "start": 3,
+                "start": 5,
                 "end": 8,
-                "text": "Windu"
-            },
-            {
-                "label": "PERSON",
-                "start": 29,
-                "end": 36,
-                "text": "Sidious"
-            },
-            {
-                "label": "PERSON",
-                "start": 38,
-                "end": 44,
-                "text": "Anakin"
+                "text": "Han"
             },
             {
                 "label": "PERSON",
                 "start": 57,
-                "end": 66,
-                "text": "Palpatine"
+                "end": 61,
+                "text": "Leia"
             },
             {
-                "label": "PERSON",
-                "start": 85,
-                "end": 90,
-                "text": "Windu"
-            },
-            {
-                "label": "PERSON",
-                "start": 116,
-                "end": 125,
-                "text": "Sidious's"
-            },
-            {
-                "label": "ORG",
-                "start": 143,
-                "end": 149,
-                "text": "Senate"
+                "label": "CREATURE",
+                "start": 135,
+                "end": 139,
+                "text": "nerf"
             }
         ]
     },
     {
-        "text": "Obi-Wan feels guilt for failing Anakin & Padm\u00c3\u00a9's happiness.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 31,
-                "end": 37,
-                "text": "Anakin"
-            },
-            {
-                "label": "PERSON",
-                "start": 40,
-                "end": 47,
-                "text": "Padm\u00c3\u00a9's"
-            }
-        ]
-    },
-    {
-        "text": "It is now three years after the events of A New Hope.",
-        "mentions": []
-    },
-    {
-        "text": "Finn, Han, and Chewie volunteer to disable the base's defensive shield from the inside.",
+        "text": "Finn and Dameron eject from the TIE shortly before it crashes, each landing separately some distance from the wreckage.",
         "mentions": [
             {
                 "label": "PERSON",
                 "start": 0,
                 "end": 4,
                 "text": "Finn"
-            },
-            {
-                "label": "PERSON",
-                "start": 6,
-                "end": 9,
-                "text": "Han"
-            },
-            {
-                "label": "PERSON",
-                "start": 15,
-                "end": 21,
-                "text": "Chewie"
-            }
-        ]
-    },
-    {
-        "text": "Han Solo pilots the Millennium Falcon to Starkiller Base accompanied by Chewbacca and Finn.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 8,
-                "text": "Han Solo"
-            },
-            {
-                "label": "SPACECRAFT",
-                "start": 20,
-                "end": 37,
-                "text": "Millennium Falcon"
-            },
-            {
-                "label": "WEAPON",
-                "start": 41,
-                "end": 56,
-                "text": "Starkiller Base"
-            },
-            {
-                "label": "PERSON",
-                "start": 72,
-                "end": 81,
-                "text": "Chewbacca"
-            },
-            {
-                "label": "PERSON",
-                "start": 86,
-                "end": 90,
-                "text": "Finn"
-            }
-        ]
-    },
-    {
-        "text": "The First Order, tipped off to BB-8's presence, arrives and attacks Maz Kanata's castle.",
-        "mentions": [
-            {
-                "label": "GPE",
-                "start": 4,
-                "end": 15,
-                "text": "First Order"
-            },
-            {
-                "label": "PERSON",
-                "start": 31,
-                "end": 36,
-                "text": "BB-8'"
-            },
-            {
-                "label": "PERSON",
-                "start": 68,
-                "end": 80,
-                "text": "Maz Kanata's"
-            }
-        ]
-    },
-    {
-        "text": "On Coruscant, Anakin is praised for his heroics.",
-        "mentions": [
-            {
-                "label": "PLANET",
-                "start": 3,
-                "end": 12,
-                "text": "Coruscant"
-            },
-            {
-                "label": "PERSON",
-                "start": 14,
-                "end": 20,
-                "text": "Anakin"
-            }
-        ]
-    },
-    {
-        "text": "They engage in an intense battle using their lightsabers and Force abilities.",
-        "mentions": [
-            {
-                "label": "ORG",
-                "start": 61,
-                "end": 66,
-                "text": "Force"
-            }
-        ]
-    },
-    {
-        "text": "Kolar is the first to die, run through the chest and as Kolar's life is ending due to the wound, Sidious turns and slices Tiin's torso.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 5,
-                "text": "Kolar"
-            },
-            {
-                "label": "PERSON",
-                "start": 56,
-                "end": 63,
-                "text": "Kolar's"
-            },
-            {
-                "label": "PERSON",
-                "start": 97,
-                "end": 104,
-                "text": "Sidious"
-            },
-            {
-                "label": "PERSON",
-                "start": 122,
-                "end": 128,
-                "text": "Tiin's"
-            }
-        ]
-    },
-    {
-        "text": "George Lucas had originally written the scenes and shot them at the suggestion of his industry friends who thought that audiences wouldn't understand the story strictly being told from a droid's point of view.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 12,
-                "text": "George Lucas"
-            }
-        ]
-    },
-    {
-        "text": "Grievous then sends a pair of his powerful IG-100 MagnaGuard droids after the Jedi.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 8,
-                "text": "Grievous"
-            },
-            {
-                "label": "DROID",
-                "start": 43,
-                "end": 60,
-                "text": "IG-100 MagnaGuard"
-            }
-        ]
-    },
-    {
-        "text": "Princess Leia Organa urges Han to stay with the Rebels.",
-        "mentions": [
-            {
-                "label": "RANK",
-                "start": 0,
-                "end": 8,
-                "text": "Princess"
             },
             {
                 "label": "PERSON",
                 "start": 9,
-                "end": 20,
-                "text": "Leia Organa"
-            },
-            {
-                "label": "PERSON",
-                "start": 27,
-                "end": 30,
-                "text": "Han"
-            },
-            {
-                "label": "GPE",
-                "start": 48,
-                "end": 54,
-                "text": "Rebels"
-            }
-        ]
-    },
-    {
-        "text": "Kenobi hopes to instead warn any surviving Jedi to stay away from the Temple.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 6,
-                "text": "Kenobi"
-            },
-            {
-                "label": "NORP",
-                "start": 43,
-                "end": 47,
-                "text": "Jedi"
-            },
-            {
-                "label": "LOCATION",
-                "start": 70,
-                "end": 76,
-                "text": "Temple"
-            }
-        ]
-    },
-    {
-        "text": "Biggs quietly tells Luke that he has decided to join the Rebellion against the Empire.",
-        "mentions": []
-    },
-    {
-        "text": "While cleaning R2, Luke discovers a short portion of the hologram.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 15,
-                "end": 17,
-                "text": "R2"
-            },
-            {
-                "label": "PERSON",
-                "start": 19,
-                "end": 23,
-                "text": "Luke"
-            }
-        ]
-    },
-    {
-        "text": "As the majority of the Senate screams their approval, Padm\u00c3\u00a9 Amidala and Bail Organa, who are shocked at the result, simply look around and Padm\u00c3\u00a9 can only remark \"So this is how liberty dies, with thunderous applause.\"",
-        "mentions": [
-            {
-                "label": "ORG",
-                "start": 23,
-                "end": 29,
-                "text": "Senate"
-            },
-            {
-                "label": "PERSON",
-                "start": 54,
-                "end": 67,
-                "text": "Padm\u00c3\u00a9 Amidala"
-            },
-            {
-                "label": "PERSON",
-                "start": 72,
-                "end": 83,
-                "text": "Bail Organa"
-            },
-            {
-                "label": "PERSON",
-                "start": 139,
-                "end": 144,
-                "text": "Padm\u00c3\u00a9"
-            }
-        ]
-    },
-    {
-        "text": "Leia is spotted by stormtroopers and they shoot her with a stun blast and bring her before Vader.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 4,
-                "text": "Leia"
-            },
-            {
-                "label": "PERSON",
-                "start": 91,
-                "end": 96,
-                "text": "Vader"
-            }
-        ]
-    },
-    {
-        "text": "Yoda says they must destroy the Sith, but Obi-Wan is reluctant to kill Anakin and wants to go after the Emperor instead.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 4,
-                "text": "Yoda"
-            },
-            {
-                "label": "ORG",
-                "start": 32,
-                "end": 36,
-                "text": "Sith"
-            },
-            {
-                "label": "PERSON",
-                "start": 42,
-                "end": 49,
-                "text": "Obi-Wan"
-            },
-            {
-                "label": "PERSON",
-                "start": 71,
-                "end": 77,
-                "text": "Anakin"
-            },
-            {
-                "label": "RANK",
-                "start": 104,
-                "end": 111,
-                "text": "Emperor"
-            }
-        ]
-    },
-    {
-        "text": "Frightened by her vision, Rey runs into the woods with BB-8.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 26,
-                "end": 29,
-                "text": "Rey"
-            },
-            {
-                "label": "PERSON",
-                "start": 55,
-                "end": 60,
-                "text": "BB-8."
-            }
-        ]
-    },
-    {
-        "text": "Still mourning Obi-Wan's death, Luke helps Solo fend off a squadron of TIE fighters.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 15,
-                "end": 24,
-                "text": "Obi-Wan's"
-            },
-            {
-                "label": "PERSON",
-                "start": 32,
-                "end": 36,
-                "text": "Luke"
-            },
-            {
-                "label": "PERSON",
-                "start": 43,
-                "end": 47,
-                "text": "Solo"
-            },
-            {
-                "label": "SPACECRAFT",
-                "start": 71,
-                "end": 83,
-                "text": "TIE fighters"
-            }
-        ]
-    },
-    {
-        "text": "The Jedi are all but eliminated with Obi-Wan Kenobi and Jedi Master Yoda surviving the event and forced into hiding.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 37,
-                "end": 51,
-                "text": "Obi-Wan Kenobi"
-            },
-            {
-                "label": "RANK",
-                "start": 56,
-                "end": 67,
-                "text": "Jedi Master"
-            },
-            {
-                "label": "PERSON",
-                "start": 68,
-                "end": 72,
-                "text": "Yoda"
-            },
-            {
-                "label": "NORP",
-                "start": 4,
-                "end": 8,
-                "text": "Jedi"
-            }
-        ]
-    },
-    {
-        "text": "He tells his story that he was a stormtrooper in the First Order.",
-        "mentions": [
-            {
-                "label": "GPE",
-                "start": 53,
-                "end": 64,
-                "text": "First Order"
-            }
-        ]
-    },
-    {
-        "text": "The rathtars provide a distraction for Han and Chewie to escape, but one catches Finn and drags him around the freighter.",
-        "mentions": [
-            {
-                "label": "CREATURE",
-                "start": 4,
-                "end": 12,
-                "text": "rathtars"
-            },
-            {
-                "label": "PERSON",
-                "start": 39,
-                "end": 42,
-                "text": "Han"
-            },
-            {
-                "label": "PERSON",
-                "start": 47,
-                "end": 53,
-                "text": "Chewie"
-            },
-            {
-                "label": "PERSON",
-                "start": 81,
-                "end": 85,
-                "text": "Finn"
-            }
-        ]
-    },
-    {
-        "text": "Deak, Windy, Camie, Fixer and Biggs all follow Luke outside to see the battle with Luke's macrobinoculars.",
-        "mentions": []
-    },
-    {
-        "text": "Tekka responds that he knows who Ren used to be, and chides Ren that he cannot escape his real identity.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 5,
-                "text": "Tekka"
-            },
-            {
-                "label": "PERSON",
-                "start": 33,
-                "end": 36,
-                "text": "Ren"
-            },
-            {
-                "label": "PERSON",
-                "start": 60,
-                "end": 63,
-                "text": "Ren"
-            }
-        ]
-    },
-    {
-        "text": "On November 12, 2019, the film was included with the launch of Disney+.",
-        "mentions": []
-    },
-    {
-        "text": "Kylo grows even more livid, using the Force to pull the officer by his throat across the room in order to choke him with his bare hands, and asking him what girl it was.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 4,
-                "text": "Kylo"
-            },
-            {
-                "label": "MISC",
-                "start": 38,
-                "end": 43,
-                "text": "Force"
-            }
-        ]
-    },
-    {
-        "text": "Meanwhile, Obi-Wan, remaining completely undetected, shuts down the tractor beam.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 11,
-                "end": 18,
-                "text": "Obi-Wan"
-            }
-        ]
-    },
-    {
-        "text": "A boy and a girl are born.",
-        "mentions": []
-    },
-    {
-        "text": "Leia struggles to get to the top and Chewbacca tries to unlock the door.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 4,
-                "text": "Leia"
-            },
-            {
-                "label": "PERSON",
-                "start": 37,
-                "end": 46,
-                "text": "Chewbacca"
-            }
-        ]
-    },
-    {
-        "text": "Inside the main base, chaos reigns as General Hux has already fled, and the other officers rush to abandon the installation as well.",
-        "mentions": [
-            {
-                "label": "RANK",
-                "start": 38,
-                "end": 45,
-                "text": "General"
-            },
-            {
-                "label": "PERSON",
-                "start": 46,
-                "end": 49,
-                "text": "Hux"
-            }
-        ]
-    },
-    {
-        "text": "He leaves Gunray until last, slicing the Neimoidian across the chest even as he pleads for his life.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 10,
                 "end": 16,
-                "text": "Gunray"
+                "text": "Dameron"
             },
             {
-                "label": "SPECIES",
-                "start": 41,
-                "end": 51,
-                "text": "Neimoidian"
-            }
-        ]
-    },
-    {
-        "text": "Attempting to seek guidance from his grandfather, Darth Vader, Kylo Ren sits quietly in his meditation chamber.",
-        "mentions": [
-            {
-                "label": "RANK",
-                "start": 50,
-                "end": 55,
-                "text": "Darth"
-            },
-            {
-                "label": "PERSON",
-                "start": 56,
-                "end": 61,
-                "text": "Vader"
-            },
-            {
-                "label": "PERSON",
-                "start": 63,
-                "end": 71,
-                "text": "Kylo Ren"
-            }
-        ]
-    },
-    {
-        "text": "Obi-Wan uses a Jedi Mind trick on the lead trooper, who lets them pass.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 7,
-                "text": "Obi-Wan"
-            },
-            {
-                "label": "MISC",
-                "start": 15,
-                "end": 30,
-                "text": "Jedi Mind trick"
-            }
-        ]
-    },
-    {
-        "text": "Vader, mad with power, claims that they no longer have to run away and he can overthrow Palpatine so that the two of them can rule the galaxy together.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 85,
-                "end": 94,
-                "text": "Palpatine"
-            }
-        ]
-    },
-    {
-        "text": "The scene would have appeared between the scene where Han Solo encounters Jabba the Hutt in Docking Bay 94 (also cut), and the scene where Luke and Ben find the Millennium Falcon in Docking Bay 94.",
-        "mentions": []
-    },
-    {
-        "text": "Obi-Wan intervenes and demands Vader to release Padm\u00c3\u00a9, but Vader still chokes her unconscious.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 30,
+                "label": "VEHICLE",
+                "start": 32,
                 "end": 35,
-                "text": "Vader"
-            },
-            {
-                "label": "PERSON",
-                "start": 47,
-                "end": 52,
-                "text": "Padm\u00c3\u00a9"
-            },
-            {
-                "label": "PERSON",
-                "start": 58,
-                "end": 63,
-                "text": "Vader"
+                "text": "TIE"
             }
         ]
     },
     {
-        "text": "Finn arranges with Sidon Ithano and his first mate Quiggold that he will work as payment if they will fly him to the Outer Rim.",
+        "text": "He is still concerned with saving his wife, and believes only Palpatine's knowledge will ensure this.",
         "mentions": [
             {
                 "label": "PERSON",
-                "start": 0,
-                "end": 4,
-                "text": "Finn"
-            },
-            {
-                "label": "PERSON",
-                "start": 19,
-                "end": 31,
-                "text": "Sidon Ithano"
-            },
-            {
-                "label": "PERSON",
-                "start": 51,
-                "end": 59,
-                "text": "Quiggold"
-            },
-            {
-                "label": "LOCATION",
-                "start": 117,
-                "end": 126,
-                "text": "Outer Rim"
-            }
-        ]
-    },
-    {
-        "text": "After he ignites it, he cuts himself free and cuts off the attacking wampa's arm just in time, running out of the cave and escaping into the cold night of Hoth.",
-        "mentions": [
-            {
-                "label": "CREATURE",
-                "start": 69,
-                "end": 76,
-                "text": "wampa's"
-            },
-            {
-                "label": "PLANET",
-                "start": 155,
-                "end": 159,
-                "text": "Hoth"
-            }
-        ]
-    },
-    {
-        "text": "Upon realizing that the story was really about the droids' adventures and it was them leading things to Luke and Obi-Wan, etc.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 104,
-                "end": 108,
-                "text": "Luke"
-            },
-            {
-                "label": "PERSON",
-                "start": 113,
-                "end": 120,
-                "text": "Obi-Wan"
-            }
-        ]
-    },
-    {
-        "text": "After escaping from the trash compactor, the group hurries back to the Millennium Falcon, hoping that Obi-Wan has successfully shut down the tractor beam.",
-        "mentions": [
-            {
-                "label": "SPACECRAFT",
-                "start": 71,
-                "end": 88,
-                "text": "Millennium Falcon"
-            },
-            {
-                "label": "PERSON",
-                "start": 102,
-                "end": 109,
-                "text": "Obi-Wan"
-            }
-        ]
-    },
-    {
-        "text": "Padm\u00c3\u00a9 also tells him Obi-Wan knew about them together, wanting to help them & begs him to run away with her to raise their child in peace.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 19,
-                "end": 26,
-                "text": "Obi-Wan"
-            }
-        ]
-    },
-    {
-        "text": "During the travel in hyperspace, the Falcon experiences a problem with its hyperdrive, but Rey demonstrates her knowledge of ships by bypassing the compressor and fixing the issue.",
-        "mentions": [
-            {
-                "label": "SPACECRAFT",
-                "start": 37,
-                "end": 43,
-                "text": "Falcon"
-            },
-            {
-                "label": "PERSON",
-                "start": 91,
-                "end": 94,
-                "text": "Rey"
-            }
-        ]
-    },
-    {
-        "text": "Obi-Wan arrives in Pau City on Utapau, and begins his search for General Grievous, riding a varactyl named Boga.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 7,
-                "text": "Obi-Wan"
-            },
-            {
-                "label": "LOCATION",
-                "start": 19,
-                "end": 27,
-                "text": "Pau City"
-            },
-            {
-                "label": "PLANET",
-                "start": 31,
-                "end": 37,
-                "text": "Utapau"
-            },
-            {
-                "label": "RANK",
-                "start": 65,
-                "end": 72,
-                "text": "General"
-            },
-            {
-                "label": "PERSON",
-                "start": 73,
-                "end": 81,
-                "text": "Grievous"
-            },
-            {
-                "label": "CREATURE",
-                "start": 92,
-                "end": 100,
-                "text": "varactyl"
-            },
-            {
-                "label": "PERSON",
-                "start": 107,
-                "end": 111,
-                "text": "Boga"
-            }
-        ]
-    },
-    {
-        "text": "Seeing this, Han, Chewbacca, Finn, and Rey try to create an opening by planting thermal detonators inside the base.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 13,
-                "end": 16,
-                "text": "Han"
-            },
-            {
-                "label": "PERSON",
-                "start": 18,
-                "end": 27,
-                "text": "Chewbacca"
-            },
-            {
-                "label": "PERSON",
-                "start": 29,
-                "end": 33,
-                "text": "Finn"
-            },
-            {
-                "label": "PERSON",
-                "start": 39,
-                "end": 42,
-                "text": "Rey"
-            }
-        ]
-    },
-    {
-        "text": "The First Order tracks Finn to the settlement, and launches an airstrike in attempt to search for BB-8 and the map.",
-        "mentions": [
-            {
-                "label": "GPE",
-                "start": 4,
-                "end": 15,
-                "text": "First Order"
-            },
-            {
-                "label": "PERSON",
-                "start": 23,
-                "end": 27,
-                "text": "Finn"
-            },
-            {
-                "label": "PERSON",
-                "start": 98,
-                "end": 102,
-                "text": "BB-8"
-            }
-        ]
-    },
-    {
-        "text": "In order to learn this power, Yoda declares himself an apprentice to the spirit of Qui-Gon Jinn.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 30,
-                "end": 34,
-                "text": "Yoda"
-            },
-            {
-                "label": "PERSON",
-                "start": 83,
-                "end": 95,
-                "text": "Qui-Gon Jinn"
-            }
-        ]
-    },
-    {
-        "text": "At Starkiller Base, a planet converted into a superweapon, powered by draining the energy of a star, and capable of destroying star systems, Kylo Ren and General Hux are summoned by Supreme Leader Snoke, who appears as a large remote hologram projection.",
-        "mentions": [
-            {
-                "label": "WEAPON",
-                "start": 3,
-                "end": 18,
-                "text": "Starkiller Base"
-            },
-            {
-                "label": "PERSON",
-                "start": 141,
-                "end": 149,
-                "text": "Kylo Ren"
-            },
-            {
-                "label": "RANK",
-                "start": 154,
-                "end": 161,
-                "text": "General"
-            },
-            {
-                "label": "PERSON",
-                "start": 162,
-                "end": 165,
-                "text": "Hux"
-            },
-            {
-                "label": "RANK",
-                "start": 182,
-                "end": 196,
-                "text": "Supreme Leader"
-            },
-            {
-                "label": "PERSON",
-                "start": 197,
-                "end": 202,
-                "text": "Snoke"
-            }
-        ]
-    },
-    {
-        "text": "After Grievous has the bridge crew regain control of his flagship by firing the emergency booster engines, he makes certain the two Jedi and their ward are captured.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 6,
-                "end": 14,
-                "text": "Grievous"
-            },
-            {
-                "label": "NORP",
-                "start": 132,
-                "end": 136,
-                "text": "Jedi"
+                "start": 62,
+                "end": 73,
+                "text": "Palpatine's"
             }
         ]
     },
@@ -1911,86 +2247,123 @@
         ]
     },
     {
-        "text": "This scene was to come in between the scene where C-3PO spots a distant Jawa sandcrawler in the desert, and the capture of R2-D2 by the Jawas in the canyon.",
-        "mentions": []
-    },
-    {
-        "text": "At the mention of Obi Wan, he wonders if she means his neighbor Ben Kenobi.",
+        "text": "He tells Luke that he and his father were a part of the Jedi order that once protected the galaxy before the Empire took over and that Darth Vader was once his apprentice before he fell to the dark side of the Force and murdered Luke's father.",
         "mentions": [
             {
                 "label": "PERSON",
-                "start": 18,
-                "end": 26,
-                "text": "Obi Wan,"
-            },
-            {
-                "label": "PERSON",
-                "start": 64,
-                "end": 74,
-                "text": "Ben Kenobi"
-            }
-        ]
-    },
-    {
-        "text": "Finn, however, insists on leaving, and that there is no way to defeat the First Order.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 4,
-                "text": "Finn"
-            },
-            {
-                "label": "GPE",
-                "start": 74,
-                "end": 85,
-                "text": "First Order"
-            }
-        ]
-    },
-    {
-        "text": "He also tells Anakin that the Jedi Order wishes to overthrow the Republic and that if he has suspected it, Anakin must surely have sensed it.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 14,
-                "end": 20,
-                "text": "Anakin"
+                "start": 9,
+                "end": 13,
+                "text": "Luke"
             },
             {
                 "label": "ORG",
-                "start": 30,
-                "end": 40,
-                "text": "Jedi Order"
+                "start": 56,
+                "end": 66,
+                "text": "Jedi order"
             },
             {
                 "label": "PERSON",
-                "start": 107,
-                "end": 113,
-                "text": "Anakin"
+                "start": 210,
+                "end": 215,
+                "text": "Force"
+            },
+            {
+                "label": "PERSON",
+                "start": 229,
+                "end": 235,
+                "text": "Luke's"
+            },
+            {
+                "label": "PERSON",
+                "start": 141,
+                "end": 146,
+                "text": "Vader"
+            },
+            {
+                "label": "RANK",
+                "start": 135,
+                "end": 140,
+                "text": "Darth"
             },
             {
                 "label": "GPE",
-                "start": 65,
-                "end": 73,
-                "text": "Republic"
+                "start": 109,
+                "end": 115,
+                "text": "Empire"
             }
         ]
     },
     {
-        "text": "Windu also adds that if what Anakin says is true then Anakin will have gained his trust but for now, he wants Anakin to wait in the Council Chambers until he returns.",
+        "text": "Rey attacks Finn, believing him to be a thief.",
         "mentions": [
             {
                 "label": "PERSON",
                 "start": 0,
-                "end": 5,
-                "text": "Windu"
+                "end": 3,
+                "text": "Rey"
             },
             {
                 "label": "PERSON",
-                "start": 29,
-                "end": 35,
-                "text": "Anakin"
+                "start": 12,
+                "end": 16,
+                "text": "Finn"
+            }
+        ]
+    },
+    {
+        "text": "With a swift sweep of his blade, Obi-Wan slices off Vader's left arm and legs.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 33,
+                "end": 40,
+                "text": "Obi-Wan"
+            },
+            {
+                "label": "PERSON",
+                "start": 52,
+                "end": 59,
+                "text": "Vader's"
+            }
+        ]
+    },
+    {
+        "text": "After BB-8 displays a projection of the map, Han explains that after Luke disappeared, there were many parties that went searching for him.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 6,
+                "end": 10,
+                "text": "BB-8"
+            },
+            {
+                "label": "PERSON",
+                "start": 45,
+                "end": 48,
+                "text": "Han"
+            },
+            {
+                "label": "PERSON",
+                "start": 69,
+                "end": 73,
+                "text": "Luke"
+            }
+        ]
+    },
+    {
+        "text": "As they approach Grievous's flagship, Obi-Wan reminds Anakin their shields are still up, so Anakin breaks formation and attacks a shield generator, knocking out the shields on the docking bay of the ship.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 17,
+                "end": 27,
+                "text": "Grievous's"
+            },
+            {
+                "label": "PERSON",
+                "start": 38,
+                "end": 45,
+                "text": "Obi-Wan"
             },
             {
                 "label": "PERSON",
@@ -2000,145 +2373,90 @@
             },
             {
                 "label": "PERSON",
-                "start": 110,
-                "end": 116,
+                "start": 92,
+                "end": 98,
                 "text": "Anakin"
             }
         ]
     },
     {
-        "text": "Obi-Wan and Vader battle over the bridge and enter the Klegger Corp Mining Facility, making their way through the hallways.",
+        "text": "As Grievous moves in for the kill, Obi-Wan uses the Force to retrieve the General's blaster and fires at Grievous's exposed organs.",
         "mentions": [
             {
                 "label": "PERSON",
-                "start": 0,
-                "end": 7,
+                "start": 3,
+                "end": 11,
+                "text": "Grievous"
+            },
+            {
+                "label": "PERSON",
+                "start": 35,
+                "end": 42,
                 "text": "Obi-Wan"
             },
             {
-                "label": "PERSON",
-                "start": 12,
-                "end": 17,
-                "text": "Vader"
-            },
-            {
-                "label": "LOCATION",
-                "start": 55,
-                "end": 83,
-                "text": "Klegger Corp Mining Facility"
-            }
-        ]
-    },
-    {
-        "text": "Rey then makes her way through Starkiller Base, honing her Force abilities while using stealth.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 3,
-                "text": "Rey"
-            },
-            {
-                "label": "WEAPON",
-                "start": 31,
-                "end": 47,
-                "text": "Starkiller Base,"
-            },
-            {
                 "label": "MISC",
-                "start": 59,
-                "end": 64,
+                "start": 52,
+                "end": 57,
                 "text": "Force"
-            }
-        ]
-    },
-    {
-        "text": "She descends deeper and enters a chamber that contains many relics from the past.",
-        "mentions": []
-    },
-    {
-        "text": "However, Windu deflects it with his blade, casting much of the energy back into Sidious' body.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 9,
-                "end": 14,
-                "text": "Windu"
             },
             {
-                "label": "PERSON",
-                "start": 80,
-                "end": 87,
-                "text": "Sidious"
-            }
-        ]
-    },
-    {
-        "text": "Aboard the Death Star, Cassio Tagge argues with Conan Antonio Motti about the stations vulnerability to the rebels and points out that the rebellion has been gaining support within the imperial senate.",
-        "mentions": [
+                "label": "RANK",
+                "start": 74,
+                "end": 83,
+                "text": "General's"
+            },
             {
                 "label": "WEAPON",
-                "start": 11,
-                "end": 21,
-                "text": "Death Star"
+                "start": 84,
+                "end": 91,
+                "text": "blaster"
             },
             {
                 "label": "PERSON",
-                "start": 23,
+                "start": 105,
+                "end": 115,
+                "text": "Grievous's"
+            }
+        ]
+    },
+    {
+        "text": "Solo explains that he was able to find the Millennium Falcon soon after it entered space because he and Chewbacca were scanning for its signature.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Solo"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 43,
+                "end": 60,
+                "text": "Millennium Falcon"
+            },
+            {
+                "label": "PERSON",
+                "start": 104,
+                "end": 113,
+                "text": "Chewbacca"
+            }
+        ]
+    },
+    {
+        "text": "When her parents were leaving Jakku, Unkar Plutt told her to quiet herself.",
+        "mentions": [
+            {
+                "label": "PLANET",
+                "start": 30,
                 "end": 35,
-                "text": "Cassio Tagge"
-            },
-            {
-                "label": "PERSON",
-                "start": 48,
-                "end": 67,
-                "text": "Conan Antonio Motti"
-            },
-            {
-                "label": "ORG",
-                "start": 185,
-                "end": 200,
-                "text": "imperial senate"
-            },
-            {
-                "label": "GPE",
-                "start": 139,
-                "end": 148,
-                "text": "rebellion"
-            }
-        ]
-    },
-    {
-        "text": "Anakin attempts to shoot the droids off, though succeeds only in blasting apart the wing of his former Master's vessel.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 6,
-                "text": "Anakin"
-            }
-        ]
-    },
-    {
-        "text": "Rey returns to Finn, despairing that Finn is not waking up and that they are trapped on the rupturing planet.",
-        "mentions": [
-            {
-                "label": "PERSON",
-                "start": 0,
-                "end": 3,
-                "text": "Rey"
-            },
-            {
-                "label": "PERSON",
-                "start": 15,
-                "end": 19,
-                "text": "Finn"
+                "text": "Jakku"
             },
             {
                 "label": "PERSON",
                 "start": 37,
-                "end": 41,
-                "text": "Finn"
+                "end": 48,
+                "text": "Unkar Plutt"
             }
         ]
     }
