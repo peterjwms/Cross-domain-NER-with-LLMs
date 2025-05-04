@@ -8,13 +8,30 @@ import pandas as pd
 from pydantic import BaseModel
 from generate_prompt import get_entity_types, create_k_examples, load_data_split, stringify_ontology, task_definition_prompt, get_k_examples
 from prompt_experiments import gemini_api_post_request
-
+import re
 
 class Mention(BaseModel):
     text: str
     label: str
 
-    # TODO: maybe implement this further to check for equality more easily
+    def __init__(self, text: str, label: str):
+        super().__init__(text=re.sub(r"'s$", "", text), label=label)
+
+
+    def __eq__(self, other: "Mention") -> bool:
+        if not isinstance(other, Mention):
+            raise TypeError(f'Incompatible types: Mention and {type(other)}')
+        return self.label == other.label and self.text == other.text
+    
+    def __hash__(self) -> int:
+        return hash((self.label, self.text))
+    
+    def ispartialmatch(self, other: "Mention") -> bool:
+        if not isinstance(other, Mention):
+            raise TypeError(f'Incompatible types: Mention and {type(other)}')
+        return NotImplementedError
+
+        # TODO: maybe implement this further to check for equality more easily
 
 
 def run_grid_search(model, client, parameters: dict = None):
@@ -122,7 +139,7 @@ def run_experiments(base_prompt, test_set, model_name, client: genai.Client):
     return results
 
 
-def evaluate_results(results):
+def evaluate_results(results, skip_missing: bool = True):
     """
     Evaluate results of the experiment for exact mention matching.
     Returns the F1, precision, recall.
@@ -130,10 +147,20 @@ def evaluate_results(results):
     overall_tp = 0
     overall_fp = 0
     overall_fn = 0
+
+    unusable_results = 0
+
     for instance in results:
         # this gets per-instance results
-        true_mentions = set([(mention['text'], mention['label']) for mention in instance['mentions']])
-        predicted_mentions = set([(mention['text'], mention['label']) for mention in instance['result']])
+        true_mentions = set([Mention(mention['text'], mention['label']) for mention in instance['mentions']])
+        if instance['result'] is None:
+            unusable_results += 1
+            if skip_missing:
+                continue
+            predicted_mentions = set([])
+
+        else:
+            predicted_mentions = set([Mention(mention['text'], mention['label']) for mention in instance['result']])
 
         true_positives = true_mentions & predicted_mentions
         false_positives = predicted_mentions - true_positives
@@ -142,12 +169,13 @@ def evaluate_results(results):
         overall_tp += len(true_positives)
         overall_fp += len(false_positives)
         overall_fn += len(false_negatives)
-
     
     precision = overall_tp / (overall_tp + overall_fp) if (overall_tp + overall_fp) > 0 else 0
     recall = overall_tp / (overall_tp + overall_fn) if (overall_tp + overall_fn) > 0 else 0
     f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
     
+    if skip_missing:
+        print(f'{unusable_results} of {len(results)} instances could not be evaluated')
     return float(f"{f1*100:0.2f}"), float(f"{precision*100:0.2f}"), float(f"{recall*100:0.2f}")
 
 
