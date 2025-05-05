@@ -6,7 +6,7 @@ Organization	Organization	Names of companies, government agencies, educational i
 Nationality, Other, Religion, Political	NORP	Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.	Howler, Fulminata
 Event	Event	Events with proper names, such as specific wars, battles, or political landmarks.	Day of Red Doves, Battle of the Ladon
 Weapon	Weapon	Any named armament specific to Red Rising, regardless of size - excludes generic items like ‘weapon,’ ‘cannon,’. etc	StarShell, razor
-Vehicle name	Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.	Morning Star, Blood Medusa
+Vehicle name	Vehicle	Proper name of a specific instance of a vehicle, typically capable of space travel.	Morning Star, Blood Medusa
 Rank/Title	Rank	Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.	Sovereign, archGovernor, Primus
 Technology	Technology	Named instance of a technology specific to Red Rising. Storm God, gravBike
 Profession	Profession	Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
