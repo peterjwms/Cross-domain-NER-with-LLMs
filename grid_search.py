@@ -135,6 +135,8 @@ def run_experiments(base_prompt, dataset, model_name, client: genai.Client):
             # sleep(2) # rate limits - 30 requests per minute, this empirically seems to work
             json_result = json.loads(response.text)
             # print(json_result)
+            # TODO: fix these results to look like json with ""
+            # also need to make sure anything that's empty is an empty list
             results.append({'text': test_instance['text'], 'mentions': test_instance['mentions'], 'result': json_result}),
         except Exception as e:
             print(f"Error: {e}") # most likely a rate limit error
