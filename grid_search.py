@@ -180,7 +180,9 @@ def evaluate_results(results, skip_missing: bool = True):
     
     if skip_missing:
         pass
-        # print(f'\n{unusable_results} of {len(results)} instances could not be evaluated\n')
+        with open('results/evaluation.txt', 'a') as file:
+            print(f'\n{unusable_results} of {len(results)} instances could not be evaluated\n', file=file)
+    
     return float(f"{f1*100:0.2f}"), float(f"{precision*100:0.2f}"), float(f"{recall*100:0.2f}")
 
 
