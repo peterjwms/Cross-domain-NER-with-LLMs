@@ -64,6 +64,7 @@ def run_grid_search(model, client, parameters: dict = None):
 
                     # fill in {{examples}} slot in prompt with n_examples for this experiment
                     base_prompt = prompt_definition.replace('{{examples}}', get_k_examples(n_examples, examples, example_domain))
+                    # print(base_prompt)
 
                     # run the experiment here on a full dev/test set using the base prompt built above
                     results = run_experiments(base_prompt, dataset, model, client)
@@ -121,6 +122,7 @@ def run_experiments(base_prompt, dataset, model_name, client: genai.Client):
         # if i == 5: # for testing purposes
         #     break
         try:
+            # TODO: look into batch embed requests
             response = client.models.generate_content(
                 model=model_name,
                 contents=full_prompt,
@@ -130,7 +132,7 @@ def run_experiments(base_prompt, dataset, model_name, client: genai.Client):
                 }
             )
             # print(response.text)
-            sleep(2) # rate limits - 30 requests per minute, this empirically seems to work
+            # sleep(2) # rate limits - 30 requests per minute, this empirically seems to work
             json_result = json.loads(response.text)
             # print(json_result)
             results.append({'text': test_instance['text'], 'mentions': test_instance['mentions'], 'result': json_result}),
@@ -181,7 +183,7 @@ def evaluate_results(results, skip_missing: bool = True):
     if skip_missing:
         pass
         with open('results/evaluation.txt', 'a') as file:
-            print(f'\n{unusable_results} of {len(results)} instances could not be evaluated\n', file=file)
+            print(f'{unusable_results} of {len(results)} instances could not be evaluated', file=file)
     
     return float(f"{f1*100:0.2f}"), float(f"{precision*100:0.2f}"), float(f"{recall*100:0.2f}")
 
@@ -204,14 +206,19 @@ if __name__ == "__main__":
     # just used in place of search_parameters to test evaluation
     mini_test = {
         'dataset': 'dev',
-        'n_examples': [0,1],
+        'n_examples': [3,5],
         'example_domain': ['self'],
         'example_selection': ['most_dense', 'most_unique'],
         'target_domain': ['star_trek']
     }
 
+    # creates train/test/dev splits for each domain if they don't already exist
     for domain in search_parameters['target_domain']:
         _, _, _ = get_train_test_dev_data(domain, n=100)
+
+    # reset the log evaluation file for a new run
+    with open('results/evaluation.txt', 'w') as file:
+        pass
 
     create_all_examples(search_parameters['target_domain'], search_parameters['example_selection'])
     results = run_grid_search(model_name, client, search_parameters)

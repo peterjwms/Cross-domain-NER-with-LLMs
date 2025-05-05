@@ -79,9 +79,9 @@ def get_k_examples(k: int, examples: list[dict], example_domain: str) -> str:
         else:
             examples_string += f"Use these examples of {domain_name_print(example_domain)} data to train your tagging system. This is for cross-domain learning."
             examples_string += "These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.\n"
-        for _ in range(k):
-            examples_string += f"\"{examples[k]['text']}\"" + '\n'
-            for mention in examples[k]['mentions']:
+        for i in range(k):
+            examples_string += f"\"{examples[i]['text']}\"" + '\n'
+            for mention in examples[i]['mentions']:
                 examples_string += json.dumps({'entity': mention['text'], 'label': mention['label']})  + '\n' # f"{mention['label']}: {mention['text']}\n"
     return examples_string
 
