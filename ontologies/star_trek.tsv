@@ -1,0 +1,11 @@
+PERSON	Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.	Spock, Data, Pavel Chekov
+SPECIES	Names of sentient species/races	Reman, whale
+LOC	Name of any place, such as a planet, city or geographical feature.	Veridian III, San Francisco
+ORG	Names of companies, government agencies, educational institutions, military units	Starfleet
+GPE	Names of governing bodies	Borgs, Federation, Romulan Empire
+NORP	Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.	Klingon, Federation, Romulan
+WEAPON	Any named armament, regardless of size - excludes generic terms like ‘weapon,’ ‘cannon,’ etc	phaser, photon torpedo
+TECH	Technobabble used to describe futuristic technology or the use thereof	PADD, beams, sonic shower
+SPACECRAFT	Proper name of a specific instance of a vehicle capable of space travel	Enterprise, Reliant, V'ger
+RANK	Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.	Captain, Ambassador, Ahdar, Doctor
+MISC	Other named entities, such as works of art or pet names	Hamlet, God, Spot
