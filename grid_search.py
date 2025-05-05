@@ -2,11 +2,13 @@ import json
 import os
 from pprint import pprint
 from time import sleep
+import warnings
 from dotenv import load_dotenv
 from google import genai
 import pandas as pd
 from pydantic import BaseModel
-from generate_prompt import get_entity_types, create_k_examples, load_data_split, stringify_ontology, task_definition_prompt, get_k_examples
+from tqdm import tqdm
+from generate_prompt import get_entity_types, create_k_examples, get_train_test_dev_data, load_data_split, stringify_ontology, task_definition_prompt, get_k_examples
 from prompt_experiments import gemini_api_post_request
 import re
 
@@ -43,22 +45,22 @@ def run_grid_search(model, client, parameters: dict = None):
     # create_all_examples(parameters['target_domain'], parameters['example_selection'])
 
     # TODO: low-priority - potentially add indices to the dev/test/train splits that we can use to better evaluate
-    scores_df = pd.DataFrame(columns=['domain', 'n_examples', 'example_domain', 'example_selection', 'prompt', 'F1', 'precision', 'recall'])
-    i = 0
-    for domain in parameters['target_domain']:
+    scores_list = []
+    # i = 0
+    for domain in tqdm(parameters['target_domain'], desc="Domains", unit="domain"):
         # load the test set, ontology, and create task definition prompt for the domain
         dataset = load_data_split(domain, parameters['dataset'])
         type_descriptions = stringify_ontology(domain)
         prompt_definition = task_definition_prompt(domain, type_descriptions)
         
-        for example_domain in parameters['example_domain']:
-            for example_selection in parameters['example_selection']:
+        for example_domain in tqdm(parameters['example_domain'], desc="Example Domains", leave=False):
+            for example_selection in tqdm(parameters['example_selection'], desc="Example Selection Methods", leave=False):
                 # get all examples for the domain using the selection method
                 examples = get_all_domain_examples(domain, example_domain, example_selection)
 
-                for n_examples in parameters['n_examples']:
-                    print(f"Domain: {domain}, n_examples: {n_examples}, example_domain: {example_domain}, example_selection: {example_selection}")
-                    i += 1
+                for n_examples in tqdm(parameters['n_examples'], desc="Number of Examples", leave=False):
+                    # print(f"Domain: {domain}, n_examples: {n_examples}, example_domain: {example_domain}, example_selection: {example_selection}")
+                    # i += 1
 
                     # fill in {{examples}} slot in prompt with n_examples for this experiment
                     base_prompt = prompt_definition.replace('{{examples}}', get_k_examples(n_examples, examples, example_domain))
@@ -73,13 +75,13 @@ def run_grid_search(model, client, parameters: dict = None):
                     # print(f"F1: {f1}, precision: {precision}, recall: {recall}")
                     
                     # append results to scores dataframe
-                    scores_df = pd.concat([scores_df, 
-                                           pd.DataFrame({'domain': domain, 'n_examples': n_examples, 'example_domain': example_domain, 
-                                                         'example_selection': example_selection, 'prompt': base_prompt, 
-                                                         'F1': f1, 'precision': precision, 'recall': recall}, index=[0])], ignore_index=True)
+                    scores_list.append(pd.DataFrame({'domain': domain, 'n_examples': n_examples, 'example_domain': example_domain, 
+                                                     'example_selection': example_selection, 'prompt': base_prompt, 
+                                                     'F1': f1, 'precision': precision, 'recall': recall}, index=[0]))
     
     # print(i)
-    scores_df.to_csv('grid_search_results1.csv', index=False)
+    scores_df = pd.concat(scores_list, ignore_index=True)
+    scores_df.to_csv(f'{parameters['dataset']}_grid_search_results.csv', index=False)
 
     return results
 
@@ -102,19 +104,22 @@ def get_all_domain_examples(target_domain, example_domain, example_selection):
     
     with open(f"sorted_examples/{example_domain}_{example_selection}.json", 'r') as file:
         examples = json.load(file)
-        pprint(f"Loaded {len(examples)} examples from {example_domain} using {example_selection} method")
+        # pprint(f"Loaded {len(examples)} examples from {example_domain} using {example_selection} method")
         # pprint(examples)
     return examples
 
 
-def run_experiments(base_prompt, test_set, model_name, client: genai.Client):
+def run_experiments(base_prompt, dataset, model_name, client: genai.Client):
     """
     Run experiment on all instances of the test set, using the prompt provided.
     """
     results = []
-    for i, test_instance in enumerate(test_set):
+    i = 0
+    for test_instance in tqdm(dataset, desc="Running experiments", unit="instance", leave=False):
         full_prompt = base_prompt.replace("{{test_instance}}", test_instance['text'])
-        
+        # i += 1
+        # if i == 5: # for testing purposes
+        #     break
         try:
             response = client.models.generate_content(
                 model=model_name,
@@ -133,8 +138,7 @@ def run_experiments(base_prompt, test_set, model_name, client: genai.Client):
             print(f"Error: {e}") # most likely a rate limit error
             # print(reply)
             results.append({'text': test_instance['text'], 'mentions': test_instance['mentions'], 'result': None})        
-        # if i == 5: # for testing purposes
-        #     break
+        
 
     return results
 
@@ -175,7 +179,8 @@ def evaluate_results(results, skip_missing: bool = True):
     f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
     
     if skip_missing:
-        print(f'{unusable_results} of {len(results)} instances could not be evaluated')
+        pass
+        # print(f'\n{unusable_results} of {len(results)} instances could not be evaluated\n')
     return float(f"{f1*100:0.2f}"), float(f"{precision*100:0.2f}"), float(f"{recall*100:0.2f}")
 
 
@@ -191,17 +196,20 @@ if __name__ == "__main__":
         'n_examples': [0,1,3,5],
         'example_domain': ['self', 'star_wars'],
         'example_selection': ['most_dense', 'most_unique'],
-        'target_domain': ['star_wars', 'star_trek' ]# , 'star_trek']
+        'target_domain': ['star_wars', 'star_trek', 'red_rising']
     }
 
     # just used in place of search_parameters to test evaluation
     mini_test = {
         'dataset': 'dev',
-        'n_examples': [5, 0,1],
+        'n_examples': [0,1],
         'example_domain': ['self'],
         'example_selection': ['most_dense', 'most_unique'],
-        'target_domain': ['star_wars']
+        'target_domain': ['star_trek']
     }
+
+    for domain in search_parameters['target_domain']:
+        _, _, _ = get_train_test_dev_data(domain, n=100)
 
     create_all_examples(search_parameters['target_domain'], search_parameters['example_selection'])
     results = run_grid_search(model_name, client, search_parameters)

@@ -1,0 +1,2231 @@
+[
+    {
+        "text": "The volcano has a small eruption, with pyroclastic ejecta destroying the temple in which the group of Nibirans had been worshiping.",
+        "mentions": [
+            {
+                "label": "SPECIES",
+                "start": 102,
+                "end": 111,
+                "text": "Nibirans "
+            },
+            {
+                "label": "TECH",
+                "start": 39,
+                "end": 58,
+                "text": "pyroclastic ejecta "
+            }
+        ]
+    },
+    {
+        "text": "No meaning, no hope.",
+        "mentions": []
+    },
+    {
+        "text": "Sulu also comments that the intruder has slowed to sub-warp speed and is only three minutes from Earth orbit.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Sulu "
+            },
+            {
+                "label": "LOC",
+                "start": 97,
+                "end": 103,
+                "text": "Earth "
+            },
+            {
+                "label": "TECH",
+                "start": 51,
+                "end": 66,
+                "text": "sub-warp speed "
+            }
+        ]
+    },
+    {
+        "text": "San informed her that the weapon's engineers took their own lives upon its completion.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 3,
+                "text": "San"
+            }
+        ]
+    },
+    {
+        "text": "Sybok questions why McCoy did it, who responds that he did it to preserve his father's dignity.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Sybok"
+            },
+            {
+                "label": "PERSON",
+                "start": 20,
+                "end": 25,
+                "text": "McCoy"
+            }
+        ]
+    },
+    {
+        "text": "Kirk flips open his communicator and begs with Scott to tell him that he has finally repaired the transporter.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Kirk "
+            },
+            {
+                "label": "TECH",
+                "start": 98,
+                "end": 109,
+                "text": "transporter"
+            },
+            {
+                "label": "TECH",
+                "start": 20,
+                "end": 33,
+                "text": "communicator "
+            },
+            {
+                "label": "PERSON",
+                "start": 47,
+                "end": 53,
+                "text": "Scott "
+            }
+        ]
+    },
+    {
+        "text": "Checking the coordinates, Kirk realizes they beamed into the Regula planetoid.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 26,
+                "end": 31,
+                "text": "Kirk "
+            },
+            {
+                "label": "TECH",
+                "start": 45,
+                "end": 52,
+                "text": "beamed "
+            },
+            {
+                "label": "LOC",
+                "start": 61,
+                "end": 77,
+                "text": "Regula planetoid"
+            }
+        ]
+    },
+    {
+        "text": "Data tells Picard that the ship is \"clearly of Federation origin.\"",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Data"
+            },
+            {
+                "label": "PERSON",
+                "start": 11,
+                "end": 17,
+                "text": "Picard"
+            },
+            {
+                "label": "NORP",
+                "start": 47,
+                "end": 57,
+                "text": "Federation"
+            }
+        ]
+    },
+    {
+        "text": "Sybok regrets he couldn't help Kirk but believes he has swayed Spock and McCoy to his cause and asks them to join him on the bridge.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Sybok"
+            },
+            {
+                "label": "PERSON",
+                "start": 31,
+                "end": 35,
+                "text": "Kirk"
+            },
+            {
+                "label": "PERSON",
+                "start": 63,
+                "end": 68,
+                "text": "Spock"
+            },
+            {
+                "label": "PERSON",
+                "start": 73,
+                "end": 78,
+                "text": "McCoy"
+            }
+        ]
+    },
+    {
+        "text": "Chekov is grateful that they'll soon be rescued but warns Sulu not to tell Uhura that they got lost after she instructs them to return to a set of prearranged coordinates.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 7,
+                "text": "Chekov "
+            },
+            {
+                "label": "PERSON",
+                "start": 58,
+                "end": 63,
+                "text": "Sulu "
+            },
+            {
+                "label": "PERSON",
+                "start": 75,
+                "end": 81,
+                "text": "Uhura "
+            }
+        ]
+    },
+    {
+        "text": "Fuzz was to exit his Vulcan disguise to infiltrate and sabotage Dada Noe's body modifications, with Garrett overseeing to ensure Noe's life would not be placed in jeopardy.",
+        "mentions": [
+            {
+                "label": "SPECIES",
+                "start": 21,
+                "end": 27,
+                "text": "Vulcan"
+            },
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Fuzz"
+            },
+            {
+                "label": "PERSON",
+                "start": 100,
+                "end": 107,
+                "text": "Garrett"
+            },
+            {
+                "label": "TECH",
+                "start": 75,
+                "end": 93,
+                "text": "body modifications"
+            },
+            {
+                "label": "PERSON",
+                "start": 129,
+                "end": 132,
+                "text": "Noe"
+            },
+            {
+                "label": "PERSON",
+                "start": 64,
+                "end": 72,
+                "text": "Dada Noe"
+            }
+        ]
+    },
+    {
+        "text": "This turns out to be fortuitous; shortly afterward, Kruge's Bird-of-Prey decloaks.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 52,
+                "end": 57,
+                "text": "Kruge"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 60,
+                "end": 73,
+                "text": "Bird-of-Prey "
+            }
+        ]
+    },
+    {
+        "text": "With the help of his loyal crew, Kirk then begins to put his plan into motion.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 33,
+                "end": 37,
+                "text": "Kirk"
+            }
+        ]
+    },
+    {
+        "text": "Spock tells him he is crying for V'ger, and that he weeps for V'ger as he would for a brother.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Spock"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 33,
+                "end": 38,
+                "text": "V'ger"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 62,
+                "end": 67,
+                "text": "V'ger"
+            }
+        ]
+    },
+    {
+        "text": "Decker tells Kirk that Voyager 6 disappeared through what was then called a black hole.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 6,
+                "text": "Decker"
+            },
+            {
+                "label": "PERSON",
+                "start": 13,
+                "end": 17,
+                "text": "Kirk"
+            },
+            {
+                "label": "TECH",
+                "start": 76,
+                "end": 86,
+                "text": "black hole"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 23,
+                "end": 32,
+                "text": "Voyager 6"
+            }
+        ]
+    },
+    {
+        "text": "Kirk is dismayed by Spock's apparent betrayal.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 20,
+                "end": 25,
+                "text": "Spock"
+            },
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Kirk"
+            }
+        ]
+    },
+    {
+        "text": "As Picard climbs through the hole in Soran's force field, he jostles the rocks which sets off the field.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 3,
+                "end": 10,
+                "text": "Picard "
+            },
+            {
+                "label": "PERSON",
+                "start": 37,
+                "end": 42,
+                "text": "Soran"
+            },
+            {
+                "label": "TECH",
+                "start": 45,
+                "end": 56,
+                "text": "force field"
+            },
+            {
+                "label": "TECH",
+                "start": 98,
+                "end": 103,
+                "text": "field"
+            }
+        ]
+    },
+    {
+        "text": "With the away team still on the station, Picard orders Riker and Worf to retrieve Data and La Forge.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 41,
+                "end": 47,
+                "text": "Picard"
+            },
+            {
+                "label": "PERSON",
+                "start": 55,
+                "end": 60,
+                "text": "Riker"
+            },
+            {
+                "label": "PERSON",
+                "start": 65,
+                "end": 69,
+                "text": "Worf"
+            },
+            {
+                "label": "PERSON",
+                "start": 82,
+                "end": 86,
+                "text": "Data"
+            },
+            {
+                "label": "PERSON",
+                "start": 91,
+                "end": 99,
+                "text": "La Forge"
+            }
+        ]
+    },
+    {
+        "text": "It then reveals to Sahar that it is on autopilot before going offline.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 19,
+                "end": 24,
+                "text": "Sahar"
+            }
+        ]
+    },
+    {
+        "text": "She wins his trust by offering to share her own answers and arguing the only way they can succeed is to know each other.",
+        "mentions": []
+    },
+    {
+        "text": "A minor explosion on the bridge prompts Kirk to order auxiliary power, but Spock reports that the auxiliary circuits have been destroyed.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 40,
+                "end": 45,
+                "text": "Kirk "
+            },
+            {
+                "label": "TECH",
+                "start": 98,
+                "end": 117,
+                "text": "auxiliary circuits "
+            },
+            {
+                "label": "PERSON",
+                "start": 75,
+                "end": 81,
+                "text": "Spock "
+            },
+            {
+                "label": "TECH",
+                "start": 54,
+                "end": 69,
+                "text": "auxiliary power"
+            }
+        ]
+    },
+    {
+        "text": "The next day, Kirk, McCoy, Uhura, and a few other Starfleet recruits are in the Kobayashi Maru simulation test on Kirk's third attempt.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 14,
+                "end": 18,
+                "text": "Kirk"
+            },
+            {
+                "label": "PERSON",
+                "start": 20,
+                "end": 25,
+                "text": "McCoy"
+            },
+            {
+                "label": "PERSON",
+                "start": 27,
+                "end": 32,
+                "text": "Uhura"
+            },
+            {
+                "label": "ORG",
+                "start": 50,
+                "end": 60,
+                "text": "Starfleet "
+            },
+            {
+                "label": "PERSON",
+                "start": 114,
+                "end": 118,
+                "text": "Kirk"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 80,
+                "end": 95,
+                "text": "Kobayashi Maru "
+            },
+            {
+                "label": "TECH",
+                "start": 95,
+                "end": 111,
+                "text": "simulation test "
+            }
+        ]
+    },
+    {
+        "text": "Data, instead, leaves the captain and takes his place at the Queen's side, telling her that Picard will be an \"excellent drone\" as Borg drones take hold of the betrayed captain.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Data"
+            },
+            {
+                "label": "RANK",
+                "start": 26,
+                "end": 33,
+                "text": "captain"
+            },
+            {
+                "label": "RANK",
+                "start": 169,
+                "end": 176,
+                "text": "captain"
+            },
+            {
+                "label": "RANK",
+                "start": 61,
+                "end": 66,
+                "text": "Queen"
+            },
+            {
+                "label": "NORP",
+                "start": 131,
+                "end": 135,
+                "text": "Borg"
+            }
+        ]
+    },
+    {
+        "text": "Kirk asks if this means goodbye, especially as one might say back in the 20th century, he doesn't even have Gillian's telephone number and asks how he'll find her.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Kirk"
+            },
+            {
+                "label": "PERSON",
+                "start": 108,
+                "end": 115,
+                "text": "Gillian"
+            }
+        ]
+    },
+    {
+        "text": "Scott comments that he doubts it was so easy with Admiral Nogura, and Kirk tells him he's right.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 6,
+                "text": "Scott "
+            },
+            {
+                "label": "PERSON",
+                "start": 58,
+                "end": 64,
+                "text": "Nogura"
+            },
+            {
+                "label": "RANK",
+                "start": 50,
+                "end": 58,
+                "text": "Admiral "
+            },
+            {
+                "label": "PERSON",
+                "start": 70,
+                "end": 75,
+                "text": "Kirk "
+            }
+        ]
+    },
+    {
+        "text": "Nichols says he can and as he commandeers a forklift for them to ride on, McCoy tells Scott \"Don't bury yourself in the part!\"",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 74,
+                "end": 79,
+                "text": "McCoy"
+            },
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 7,
+                "text": "Nichols"
+            },
+            {
+                "label": "PERSON",
+                "start": 86,
+                "end": 91,
+                "text": "Scott"
+            }
+        ]
+    },
+    {
+        "text": "Either of two buttons could open the bay, or either could begin a self-destruct protocol.",
+        "mentions": [
+            {
+                "label": "TECH",
+                "start": 66,
+                "end": 88,
+                "text": "self-destruct protocol"
+            }
+        ]
+    },
+    {
+        "text": "She informs him that the Enterprise is almost upon arrival at the rendezvous point.",
+        "mentions": [
+            {
+                "label": "SPACECRAFT",
+                "start": 25,
+                "end": 35,
+                "text": "Enterprise"
+            }
+        ]
+    },
+    {
+        "text": "He had sold it some years prior.",
+        "mentions": []
+    },
+    {
+        "text": "Kirk gets a look at Harrison as he beams out of the falling jumpship.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 20,
+                "end": 28,
+                "text": "Harrison"
+            },
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Kirk"
+            },
+            {
+                "label": "TECH",
+                "start": 35,
+                "end": 40,
+                "text": "beams"
+            },
+            {
+                "label": "TECH",
+                "start": 60,
+                "end": 68,
+                "text": "jumpship"
+            }
+        ]
+    },
+    {
+        "text": "While Kirk is preparing breakfast, Picard asks \"How long have you been here?\"",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 6,
+                "end": 10,
+                "text": "Kirk"
+            },
+            {
+                "label": "PERSON",
+                "start": 35,
+                "end": 41,
+                "text": "Picard"
+            }
+        ]
+    },
+    {
+        "text": "He moves to Troi's chair and lies down, his head in her lap.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 12,
+                "end": 16,
+                "text": "Troi"
+            }
+        ]
+    },
+    {
+        "text": "Kirk goes over to Spock's station and sees that Spock has been crying.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 18,
+                "end": 23,
+                "text": "Spock"
+            },
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Kirk"
+            },
+            {
+                "label": "PERSON",
+                "start": 48,
+                "end": 53,
+                "text": "Spock"
+            }
+        ]
+    },
+    {
+        "text": "Taylor figures she probably won't believe it either.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 6,
+                "text": "Taylor"
+            }
+        ]
+    },
+    {
+        "text": "Kirk has little luck physically, but is able to shoot several Klingon warriors armed with disruptors and various blade weapons, including daggers and bat'leths.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Kirk"
+            },
+            {
+                "label": "NORP",
+                "start": 62,
+                "end": 69,
+                "text": "Klingon"
+            },
+            {
+                "label": "WEAPON",
+                "start": 90,
+                "end": 100,
+                "text": "disruptors"
+            },
+            {
+                "label": "WEAPON",
+                "start": 138,
+                "end": 145,
+                "text": "daggers"
+            },
+            {
+                "label": "WEAPON",
+                "start": 150,
+                "end": 159,
+                "text": "bat'leths"
+            }
+        ]
+    },
+    {
+        "text": "Spock then points out that nuclear power was widely used on Naval vessels.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 6,
+                "text": "Spock "
+            },
+            {
+                "label": "TECH",
+                "start": 27,
+                "end": 41,
+                "text": "nuclear power "
+            }
+        ]
+    },
+    {
+        "text": "From the bridge, Ru'afo watches from his plush command chair as the Son'a collector's separation sequence begins, counting down from three minutes.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 17,
+                "end": 23,
+                "text": "Ru'afo"
+            },
+            {
+                "label": "NORP",
+                "start": 68,
+                "end": 73,
+                "text": "Son'a"
+            },
+            {
+                "label": "TECH",
+                "start": 74,
+                "end": 83,
+                "text": "collector"
+            }
+        ]
+    },
+    {
+        "text": "Kruge is furious, as he had desired to take the science ship, and its data, intact, and the crew as prisoners.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Kruge"
+            }
+        ]
+    },
+    {
+        "text": "Harrison immediately surrenders, unconditionally.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 8,
+                "text": "Harrison"
+            }
+        ]
+    },
+    {
+        "text": "Determined, Riker orders full impulse, but La Forge is hesitant; the impulse engines cannot handle that much speed in the Briar Patch.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 12,
+                "end": 17,
+                "text": "Riker"
+            },
+            {
+                "label": "TECH",
+                "start": 69,
+                "end": 84,
+                "text": "impulse engines"
+            },
+            {
+                "label": "LOC",
+                "start": 122,
+                "end": 133,
+                "text": "Briar Patch"
+            },
+            {
+                "label": "PERSON",
+                "start": 43,
+                "end": 51,
+                "text": "La Forge"
+            }
+        ]
+    },
+    {
+        "text": "Spock mentions regulations against the captain and first officer going on such a mission, but chooses not to debate the point knowing Kirk will ignore his argument.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Spock"
+            },
+            {
+                "label": "RANK",
+                "start": 39,
+                "end": 46,
+                "text": "captain"
+            },
+            {
+                "label": "RANK",
+                "start": 51,
+                "end": 64,
+                "text": "first officer"
+            },
+            {
+                "label": "PERSON",
+                "start": 134,
+                "end": 138,
+                "text": "Kirk"
+            }
+        ]
+    },
+    {
+        "text": "Not long after arrival, the Enterprise comes under attack from a swarm of thousands of small, heavily-armed alien ships.",
+        "mentions": [
+            {
+                "label": "SPACECRAFT",
+                "start": 28,
+                "end": 38,
+                "text": "Enterprise"
+            }
+        ]
+    },
+    {
+        "text": "With a glint of satisfaction, the Queen informs Picard that she doesn't need him as she's already found her equal - Data.",
+        "mentions": [
+            {
+                "label": "RANK",
+                "start": 34,
+                "end": 39,
+                "text": "Queen"
+            },
+            {
+                "label": "PERSON",
+                "start": 48,
+                "end": 54,
+                "text": "Picard"
+            },
+            {
+                "label": "PERSON",
+                "start": 116,
+                "end": 120,
+                "text": "Data"
+            }
+        ]
+    },
+    {
+        "text": "When the Son'a and the war-torn Federation plan to exploit the planet in order to rejuvenate themselves, Captain Jean-Luc Picard and the crew of the Starship Enterprise must rebel against the orders of the Federation Council in order to save the Ba'ku and expose the atrocities that are about to take place.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 9,
+                "end": 14,
+                "text": "Son'a"
+            },
+            {
+                "label": "GPE",
+                "start": 32,
+                "end": 42,
+                "text": "Federation"
+            },
+            {
+                "label": "RANK",
+                "start": 105,
+                "end": 112,
+                "text": "Captain"
+            },
+            {
+                "label": "PERSON",
+                "start": 113,
+                "end": 128,
+                "text": "Jean-Luc Picard"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 149,
+                "end": 168,
+                "text": "Starship Enterprise"
+            },
+            {
+                "label": "ORG",
+                "start": 206,
+                "end": 224,
+                "text": "Federation Council"
+            },
+            {
+                "label": "SPECIES",
+                "start": 246,
+                "end": 251,
+                "text": "Ba'ku"
+            }
+        ]
+    },
+    {
+        "text": "Cochrane approaches them as the alien leader makes his way forward and removes his hood, revealing a set of pointed ears and extends his hand in greeting: \"Live long and prosper.\"",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 9,
+                "text": "Cochrane "
+            }
+        ]
+    },
+    {
+        "text": "Valeris is stunned to see Kirk and her mentor Spock in the bio-beds instead of the dead crewmen.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 7,
+                "text": "Valeris"
+            },
+            {
+                "label": "PERSON",
+                "start": 26,
+                "end": 30,
+                "text": "Kirk"
+            },
+            {
+                "label": "PERSON",
+                "start": 46,
+                "end": 51,
+                "text": "Spock"
+            },
+            {
+                "label": "TECH",
+                "start": 59,
+                "end": 67,
+                "text": "bio-beds"
+            }
+        ]
+    },
+    {
+        "text": "Noting this as a spring day eleven years prior \u00e2\u20ac\u201c the day he met Antonia \u00e2\u20ac\u201c Kirk grabs a saddle, jumps onto a horse, and gallops out into rolling hills.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 64,
+                "end": 72,
+                "text": "Antonia "
+            },
+            {
+                "label": "PERSON",
+                "start": 74,
+                "end": 79,
+                "text": "Kirk "
+            }
+        ]
+    },
+    {
+        "text": "B-4 begins to mumble lyrics from \"Blue Skies.\"",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "B-4 "
+            },
+            {
+                "label": "MISC",
+                "start": 34,
+                "end": 44,
+                "text": "Blue Skies"
+            }
+        ]
+    },
+    {
+        "text": "In sickbay, the Ilia probe lays on a diagnostic table, its sensors slowly taking readings.",
+        "mentions": [
+            {
+                "label": "TECH",
+                "start": 16,
+                "end": 26,
+                "text": "Ilia probe"
+            }
+        ]
+    },
+    {
+        "text": "They are summoned to a meeting in the Daystrom Conference Room at Starfleet Headquarters.",
+        "mentions": [
+            {
+                "label": "LOC",
+                "start": 38,
+                "end": 62,
+                "text": "Daystrom Conference Room"
+            },
+            {
+                "label": "LOC",
+                "start": 66,
+                "end": 88,
+                "text": "Starfleet Headquarters"
+            }
+        ]
+    },
+    {
+        "text": "Outside the simulator room, Spock awaits Kirk's opinion of the cadets' performance.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 28,
+                "end": 34,
+                "text": "Spock "
+            },
+            {
+                "label": "PERSON",
+                "start": 41,
+                "end": 45,
+                "text": "Kirk"
+            },
+            {
+                "label": "TECH",
+                "start": 12,
+                "end": 26,
+                "text": "simulator room"
+            }
+        ]
+    },
+    {
+        "text": "Opening the casket, they are puzzled to find Spock's body missing entirely, although they recover his burial robe.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 45,
+                "end": 50,
+                "text": "Spock"
+            }
+        ]
+    },
+    {
+        "text": "In the galley, Spock and Valeris observe the search going on.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 15,
+                "end": 21,
+                "text": "Spock "
+            },
+            {
+                "label": "PERSON",
+                "start": 25,
+                "end": 33,
+                "text": "Valeris "
+            }
+        ]
+    },
+    {
+        "text": "The boy responds that he was playing in the hills by the dam and leads the way.",
+        "mentions": []
+    },
+    {
+        "text": "Back on the ship, Georgiou presents herself to Noe, to his confusion.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 18,
+                "end": 27,
+                "text": "Georgiou "
+            },
+            {
+                "label": "PERSON",
+                "start": 47,
+                "end": 50,
+                "text": "Noe"
+            }
+        ]
+    },
+    {
+        "text": "Cartwright takes advantage of the ruckus and tries to flee but is thwarted when Sulu, armed and accompanied by two security guards, transports from Excelsior and holds him there.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 10,
+                "text": "Cartwright"
+            },
+            {
+                "label": "PERSON",
+                "start": 80,
+                "end": 84,
+                "text": "Sulu"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 148,
+                "end": 157,
+                "text": "Excelsior"
+            },
+            {
+                "label": "TECH",
+                "start": 132,
+                "end": 142,
+                "text": "transports"
+            }
+        ]
+    },
+    {
+        "text": "McCoy is angry that his Starfleet commission was reactivated.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "McCoy"
+            },
+            {
+                "label": "ORG",
+                "start": 24,
+                "end": 33,
+                "text": "Starfleet"
+            }
+        ]
+    },
+    {
+        "text": "Garrett explains what their plan to prevent Noe's sale was before Georgiou spotted them \u00e2\u20ac\u201c Sahar would have neutralized Georgiou while Quasi would have taken on her appearance to greet Noe.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 7,
+                "text": "Garrett"
+            },
+            {
+                "label": "PERSON",
+                "start": 44,
+                "end": 47,
+                "text": "Noe"
+            },
+            {
+                "label": "PERSON",
+                "start": 66,
+                "end": 74,
+                "text": "Georgiou"
+            },
+            {
+                "label": "PERSON",
+                "start": 90,
+                "end": 95,
+                "text": "Sahar"
+            },
+            {
+                "label": "PERSON",
+                "start": 184,
+                "end": 187,
+                "text": "Noe"
+            },
+            {
+                "label": "PERSON",
+                "start": 119,
+                "end": 127,
+                "text": "Georgiou"
+            },
+            {
+                "label": "PERSON",
+                "start": 134,
+                "end": 139,
+                "text": "Quasi"
+            }
+        ]
+    },
+    {
+        "text": "Kirk orders the Bounty into a full power descent and they arrive over the whales just in time to prevent the whaler's harpoon from hitting one of them.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Kirk"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 16,
+                "end": 22,
+                "text": "Bounty"
+            },
+            {
+                "label": "SPECIES",
+                "start": 74,
+                "end": 80,
+                "text": "whales"
+            },
+            {
+                "label": "WEAPON",
+                "start": 118,
+                "end": 125,
+                "text": "harpoon"
+            }
+        ]
+    },
+    {
+        "text": "The Narada exited over one hundred and fifty years in the past, where it confronted the Kelvin.",
+        "mentions": [
+            {
+                "label": "SPACECRAFT",
+                "start": 4,
+                "end": 10,
+                "text": "Narada"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 88,
+                "end": 94,
+                "text": "Kelvin"
+            }
+        ]
+    },
+    {
+        "text": "In particular, Chekov says the Federation believes all worlds have the sovereign claim to inalienable Human rights and Azetbur points out that this statement is racist and that the Federation is little better than a homo sapiens only club, \"present company excepted, of course,\" Chang adds.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 15,
+                "end": 21,
+                "text": "Chekov"
+            },
+            {
+                "label": "GPE",
+                "start": 31,
+                "end": 41,
+                "text": "Federation"
+            },
+            {
+                "label": "SPECIES",
+                "start": 102,
+                "end": 107,
+                "text": "Human"
+            },
+            {
+                "label": "PERSON",
+                "start": 119,
+                "end": 126,
+                "text": "Azetbur"
+            },
+            {
+                "label": "SPECIES",
+                "start": 216,
+                "end": 228,
+                "text": "homo sapiens"
+            },
+            {
+                "label": "GPE",
+                "start": 181,
+                "end": 191,
+                "text": "Federation"
+            },
+            {
+                "label": "PERSON",
+                "start": 279,
+                "end": 284,
+                "text": "Chang"
+            }
+        ]
+    },
+    {
+        "text": "Back in engineering, Picard is confined to an operation table as Data targets the Phoenix with quantum torpedoes, which the Queen orders destroyed.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 21,
+                "end": 27,
+                "text": "Picard"
+            },
+            {
+                "label": "PERSON",
+                "start": 65,
+                "end": 69,
+                "text": "Data"
+            },
+            {
+                "label": "WEAPON",
+                "start": 95,
+                "end": 112,
+                "text": "quantum torpedoes"
+            },
+            {
+                "label": "RANK",
+                "start": 124,
+                "end": 129,
+                "text": "Queen"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 82,
+                "end": 89,
+                "text": "Phoenix"
+            }
+        ]
+    },
+    {
+        "text": "Confused, Data points out that his eyes are identical to the other android's.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 10,
+                "end": 14,
+                "text": "Data"
+            },
+            {
+                "label": "TECH",
+                "start": 67,
+                "end": 74,
+                "text": "android"
+            }
+        ]
+    },
+    {
+        "text": "Nero recognizes and welcomes the appearance of Ambassador Spock, and orders the ship to be captured.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Nero"
+            },
+            {
+                "label": "RANK",
+                "start": 47,
+                "end": 57,
+                "text": "Ambassador"
+            },
+            {
+                "label": "PERSON",
+                "start": 58,
+                "end": 63,
+                "text": "Spock"
+            }
+        ]
+    },
+    {
+        "text": "Chang finds out about this from the commandant and prepares to intercept the Enterprise.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Chang"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 77,
+                "end": 87,
+                "text": "Enterprise"
+            }
+        ]
+    },
+    {
+        "text": "Once they reach the shuttlebay, Data attempts to decipher the code while Picard holds off the Reman security force by himself.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 32,
+                "end": 37,
+                "text": "Data "
+            },
+            {
+                "label": "TECH",
+                "start": 20,
+                "end": 30,
+                "text": "shuttlebay"
+            },
+            {
+                "label": "PERSON",
+                "start": 73,
+                "end": 80,
+                "text": "Picard "
+            },
+            {
+                "label": "NORP",
+                "start": 94,
+                "end": 100,
+                "text": "Reman "
+            }
+        ]
+    },
+    {
+        "text": "For a brief time, the crew is unconscious as Kirk dreams of their voices and faces (quotes from later in the story are heard here, including Scott saying \"Admiral, there be whales here!\"), of a whale, and eventually of a person falling from space, through Earth's atmosphere and landing in a lake in a tranquil forest, with a sound of what may be a ship landing.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 45,
+                "end": 49,
+                "text": "Kirk"
+            },
+            {
+                "label": "PERSON",
+                "start": 141,
+                "end": 146,
+                "text": "Scott"
+            },
+            {
+                "label": "RANK",
+                "start": 155,
+                "end": 162,
+                "text": "Admiral"
+            },
+            {
+                "label": "SPECIES",
+                "start": 173,
+                "end": 179,
+                "text": "whales"
+            },
+            {
+                "label": "SPECIES",
+                "start": 194,
+                "end": 199,
+                "text": "whale"
+            },
+            {
+                "label": "SPECIES",
+                "start": 221,
+                "end": 227,
+                "text": "person"
+            },
+            {
+                "label": "LOC",
+                "start": 256,
+                "end": 261,
+                "text": "Earth"
+            }
+        ]
+    },
+    {
+        "text": "I never thought to see your face again.\"",
+        "mentions": []
+    },
+    {
+        "text": "Reliant is crippled and drifts away, trailing plasma.",
+        "mentions": [
+            {
+                "label": "SPACECRAFT",
+                "start": 0,
+                "end": 7,
+                "text": "Reliant"
+            },
+            {
+                "label": "TECH",
+                "start": 46,
+                "end": 52,
+                "text": "plasma"
+            }
+        ]
+    },
+    {
+        "text": "Picard vents the plasma from engineering and descends to the deck, which is littered with Borg corpses.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 6,
+                "text": "Picard"
+            },
+            {
+                "label": "TECH",
+                "start": 17,
+                "end": 23,
+                "text": "plasma"
+            },
+            {
+                "label": "NORP",
+                "start": 90,
+                "end": 94,
+                "text": "Borg"
+            }
+        ]
+    },
+    {
+        "text": "Back on the bridge, Worf tells Picard that the Enterprise's warp signature was obscured by the moon's gravitational field and thus was not detected by the Vulcans, while La Forge can recreate the temporal vortex that brought them there by reconfiguring their warp field.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 20,
+                "end": 24,
+                "text": "Worf"
+            },
+            {
+                "label": "PERSON",
+                "start": 31,
+                "end": 37,
+                "text": "Picard"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 47,
+                "end": 57,
+                "text": "Enterprise"
+            },
+            {
+                "label": "GPE",
+                "start": 155,
+                "end": 162,
+                "text": "Vulcans"
+            },
+            {
+                "label": "PERSON",
+                "start": 170,
+                "end": 178,
+                "text": "La Forge"
+            },
+            {
+                "label": "TECH",
+                "start": 259,
+                "end": 269,
+                "text": "warp field"
+            },
+            {
+                "label": "TECH",
+                "start": 60,
+                "end": 74,
+                "text": "warp signature"
+            },
+            {
+                "label": "TECH",
+                "start": 196,
+                "end": 211,
+                "text": "temporal vortex"
+            }
+        ]
+    },
+    {
+        "text": "\"A hero's welcome, son?",
+        "mentions": []
+    },
+    {
+        "text": "He tells Taylor to sit down and orders Sulu and Chekov, fully recovered, to take off.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 9,
+                "end": 16,
+                "text": "Taylor "
+            },
+            {
+                "label": "PERSON",
+                "start": 39,
+                "end": 44,
+                "text": "Sulu "
+            },
+            {
+                "label": "PERSON",
+                "start": 48,
+                "end": 54,
+                "text": "Chekov"
+            }
+        ]
+    },
+    {
+        "text": "\"You will return my men or this alliance will end with the destruction of your ship.\"",
+        "mentions": []
+    },
+    {
+        "text": "Materializing on the transporter pad, Kirk asks Spock if he couldn't have waited just two more seconds, as the warden was about to explain the whole thing.",
+        "mentions": [
+            {
+                "label": "TECH",
+                "start": 21,
+                "end": 36,
+                "text": "transporter pad"
+            },
+            {
+                "label": "PERSON",
+                "start": 38,
+                "end": 42,
+                "text": "Kirk"
+            },
+            {
+                "label": "PERSON",
+                "start": 48,
+                "end": 53,
+                "text": "Spock"
+            }
+        ]
+    },
+    {
+        "text": "Setting up a com-line in the anteroom, Picard contacts the admiral.",
+        "mentions": [
+            {
+                "label": "TECH",
+                "start": 13,
+                "end": 21,
+                "text": "com-line"
+            },
+            {
+                "label": "PERSON",
+                "start": 39,
+                "end": 45,
+                "text": "Picard"
+            },
+            {
+                "label": "RANK",
+                "start": 59,
+                "end": 66,
+                "text": "admiral"
+            }
+        ]
+    },
+    {
+        "text": "However, the Human and Klingon ambassadors, St. John Talbot and General Korrd, are much more jaded and cynical, and point out that it has rapidly devolved to a barren wasteland rife with corruption and debauchery.",
+        "mentions": [
+            {
+                "label": "NORP",
+                "start": 23,
+                "end": 30,
+                "text": "Klingon"
+            },
+            {
+                "label": "NORP",
+                "start": 13,
+                "end": 18,
+                "text": "Human"
+            },
+            {
+                "label": "RANK",
+                "start": 44,
+                "end": 47,
+                "text": "St."
+            },
+            {
+                "label": "RANK",
+                "start": 64,
+                "end": 71,
+                "text": "General"
+            },
+            {
+                "label": "PERSON",
+                "start": 48,
+                "end": 59,
+                "text": "John Talbot"
+            },
+            {
+                "label": "PERSON",
+                "start": 72,
+                "end": 77,
+                "text": "Korrd"
+            }
+        ]
+    },
+    {
+        "text": "He stops petting Spot and walks over to the computer and begins working it with the apparent skill and ability of Data.",
+        "mentions": [
+            {
+                "label": "MISC",
+                "start": 17,
+                "end": 22,
+                "text": "Spot "
+            },
+            {
+                "label": "PERSON",
+                "start": 114,
+                "end": 118,
+                "text": "Data"
+            }
+        ]
+    },
+    {
+        "text": "The Enterprise has been undergoing a complete refitting for the past eighteen months and is now under final preparations to leave drydock, which will take at least twenty hours, but Kirk informs him that they only have twelve.",
+        "mentions": [
+            {
+                "label": "SPACECRAFT",
+                "start": 4,
+                "end": 14,
+                "text": "Enterprise"
+            },
+            {
+                "label": "PERSON",
+                "start": 182,
+                "end": 186,
+                "text": "Kirk"
+            },
+            {
+                "label": "TECH",
+                "start": 130,
+                "end": 137,
+                "text": "drydock"
+            }
+        ]
+    },
+    {
+        "text": "He leads the Klingon delegation out of the room, thinking they might enjoy a brief tour of the vessel.",
+        "mentions": [
+            {
+                "label": "NORP",
+                "start": 13,
+                "end": 21,
+                "text": "Klingon "
+            }
+        ]
+    },
+    {
+        "text": "Data stands up on the dais and calls for everyone's attention.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Data"
+            }
+        ]
+    },
+    {
+        "text": "Just ahead, the babbling of the waterfall silences as the water becomes a fine mist, flowing more like sand than water.",
+        "mentions": []
+    },
+    {
+        "text": "The crew celebrates the end of the crisis in the water as a Starfleet shuttle heads toward them to pick them up.",
+        "mentions": [
+            {
+                "label": "ORG",
+                "start": 60,
+                "end": 69,
+                "text": "Starfleet"
+            },
+            {
+                "label": "TECH",
+                "start": 70,
+                "end": 77,
+                "text": "shuttle"
+            }
+        ]
+    },
+    {
+        "text": "With this information at hand, Picard realizes that Shinzon will come for him.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 31,
+                "end": 38,
+                "text": "Picard "
+            },
+            {
+                "label": "PERSON",
+                "start": 52,
+                "end": 60,
+                "text": "Shinzon "
+            }
+        ]
+    },
+    {
+        "text": "Finished with trying to reason with Picard, Dougherty orders Picard to release the Son'a officers and then depart for the Goren system.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 36,
+                "end": 42,
+                "text": "Picard"
+            },
+            {
+                "label": "PERSON",
+                "start": 44,
+                "end": 53,
+                "text": "Dougherty"
+            },
+            {
+                "label": "PERSON",
+                "start": 61,
+                "end": 67,
+                "text": "Picard"
+            },
+            {
+                "label": "GPE",
+                "start": 83,
+                "end": 88,
+                "text": "Son'a"
+            },
+            {
+                "label": "LOC",
+                "start": 122,
+                "end": 134,
+                "text": "Goren system"
+            }
+        ]
+    },
+    {
+        "text": "Noe tries to pass himself off as the Dada Noe of the Prime Universe, claiming he ran a pathology lab in the Watt colonies.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 4,
+                "text": "Noe "
+            },
+            {
+                "label": "PERSON",
+                "start": 37,
+                "end": 46,
+                "text": "Dada Noe "
+            },
+            {
+                "label": "LOC",
+                "start": 53,
+                "end": 67,
+                "text": "Prime Universe"
+            },
+            {
+                "label": "LOC",
+                "start": 108,
+                "end": 121,
+                "text": "Watt colonies"
+            }
+        ]
+    },
+    {
+        "text": "The Remans tap into him and begin a download of the files that he accessed from the Enterprise.",
+        "mentions": [
+            {
+                "label": "SPACECRAFT",
+                "start": 84,
+                "end": 94,
+                "text": "Enterprise"
+            },
+            {
+                "label": "SPECIES",
+                "start": 4,
+                "end": 11,
+                "text": "Remans "
+            }
+        ]
+    },
+    {
+        "text": "The ship, beset by explosions, crashes into a sand dune, spreading burning debris all over the ground.",
+        "mentions": []
+    },
+    {
+        "text": "Faced with this, Harriman reluctantly orders the Enterprise into action, having the ship accelerated to maximum warp.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 17,
+                "end": 26,
+                "text": "Harriman "
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 49,
+                "end": 60,
+                "text": "Enterprise "
+            },
+            {
+                "label": "TECH",
+                "start": 104,
+                "end": 116,
+                "text": "maximum warp"
+            }
+        ]
+    },
+    {
+        "text": "He closes the channel.",
+        "mentions": []
+    },
+    {
+        "text": "Kirk says Harrison must have known that a terrorist attack on a Starfleet facility would result in this kind of meeting.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Kirk "
+            },
+            {
+                "label": "PERSON",
+                "start": 10,
+                "end": 19,
+                "text": "Harrison "
+            },
+            {
+                "label": "ORG",
+                "start": 64,
+                "end": 74,
+                "text": "Starfleet "
+            }
+        ]
+    },
+    {
+        "text": "He relays transport coordinates to the Enterprise and promptly cuts off the transmission.",
+        "mentions": [
+            {
+                "label": "TECH",
+                "start": 10,
+                "end": 31,
+                "text": "transport coordinates"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 39,
+                "end": 49,
+                "text": "Enterprise"
+            }
+        ]
+    },
+    {
+        "text": "The assailant comes through, able to freely walk up to the case, which is just out of Georgiou's reach.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 86,
+                "end": 94,
+                "text": "Georgiou"
+            }
+        ]
+    },
+    {
+        "text": "In the observation lounge, Picard sits at the table and tries to reconfigure his phaser rifle as Lily enters calling him a \"son of a bitch.\"",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 27,
+                "end": 33,
+                "text": "Picard"
+            },
+            {
+                "label": "PERSON",
+                "start": 97,
+                "end": 101,
+                "text": "Lily"
+            },
+            {
+                "label": "WEAPON",
+                "start": 81,
+                "end": 93,
+                "text": "phaser rifle"
+            }
+        ]
+    },
+    {
+        "text": "Communication is cut off as the Kelvin smashes into the Narada, temporarily crippling it and giving the shuttles time to escape.",
+        "mentions": [
+            {
+                "label": "SPACECRAFT",
+                "start": 56,
+                "end": 62,
+                "text": "Narada"
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 32,
+                "end": 38,
+                "text": "Kelvin"
+            },
+            {
+                "label": "TECH",
+                "start": 104,
+                "end": 112,
+                "text": "shuttles"
+            }
+        ]
+    },
+    {
+        "text": "Found out, Picard orders his command crew to return to their quarters, but, as Riker says, \"No uniform, no orders.\"",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 11,
+                "end": 17,
+                "text": "Picard"
+            },
+            {
+                "label": "PERSON",
+                "start": 79,
+                "end": 84,
+                "text": "Riker"
+            }
+        ]
+    },
+    {
+        "text": "Faced with gravimetric distortions that threaten to destroy his ship, Harriman \u00e2\u20ac\u201c at the urging of Captain Kirk \u00e2\u20ac\u201c resolves to take the Enterprise into the ribbon.",
+        "mentions": [
+            {
+                "label": "TECH",
+                "start": 11,
+                "end": 35,
+                "text": "gravimetric distortions "
+            },
+            {
+                "label": "PERSON",
+                "start": 70,
+                "end": 79,
+                "text": "Harriman "
+            },
+            {
+                "label": "PERSON",
+                "start": 106,
+                "end": 111,
+                "text": "Kirk "
+            },
+            {
+                "label": "RANK",
+                "start": 98,
+                "end": 106,
+                "text": "Captain "
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 134,
+                "end": 145,
+                "text": "Enterprise "
+            },
+            {
+                "label": "TECH",
+                "start": 154,
+                "end": 160,
+                "text": "ribbon"
+            }
+        ]
+    },
+    {
+        "text": "Just as her mother asks what she has to do, Georgiou's brother begins coughing and retching, followed by both parents.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 44,
+                "end": 52,
+                "text": "Georgiou"
+            }
+        ]
+    },
+    {
+        "text": "Meanwhile, aboard the Enterprise, Scott hands McCoy a handful of parts from Excelsior's transwarp drive computer as a souvenir \"from one surgeon to another.\"",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 34,
+                "end": 40,
+                "text": "Scott "
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 22,
+                "end": 32,
+                "text": "Enterprise"
+            },
+            {
+                "label": "PERSON",
+                "start": 46,
+                "end": 52,
+                "text": "McCoy "
+            },
+            {
+                "label": "TECH",
+                "start": 88,
+                "end": 113,
+                "text": "transwarp drive computer "
+            },
+            {
+                "label": "SPACECRAFT",
+                "start": 76,
+                "end": 85,
+                "text": "Excelsior"
+            }
+        ]
+    },
+    {
+        "text": "After the freighter's destruction, he sets course for the Federation-Klingon neutral zone and orders one of his crew to feed his pet.",
+        "mentions": [
+            {
+                "label": "NORP",
+                "start": 58,
+                "end": 68,
+                "text": "Federation"
+            },
+            {
+                "label": "NORP",
+                "start": 69,
+                "end": 76,
+                "text": "Klingon"
+            }
+        ]
+    },
+    {
+        "text": "When Troi asks if he's all right, Data tells her that he is unsure \u00e2\u20ac\u201c he is happy to see Spot, yet is crying.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 5,
+                "end": 9,
+                "text": "Troi"
+            },
+            {
+                "label": "PERSON",
+                "start": 34,
+                "end": 38,
+                "text": "Data"
+            },
+            {
+                "label": "MISC",
+                "start": 88,
+                "end": 92,
+                "text": "Spot"
+            }
+        ]
+    },
+    {
+        "text": "On the bridge, a bleeding Riker keeps his post as sparks shower from damaged terminals.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 26,
+                "end": 31,
+                "text": "Riker"
+            }
+        ]
+    },
+    {
+        "text": "The barricade in the shuttlebay flies up to contain the craft before it crashes through the wall and decompresses additional compartments of the ship.",
+        "mentions": [
+            {
+                "label": "TECH",
+                "start": 21,
+                "end": 31,
+                "text": "shuttlebay"
+            }
+        ]
+    },
+    {
+        "text": "Spock and McCoy complete their modifications to the photon torpedo, and with a great deal of satisfaction, Kirk gives the order to fire.",
+        "mentions": [
+            {
+                "label": "PERSON",
+                "start": 0,
+                "end": 5,
+                "text": "Spock"
+            },
+            {
+                "label": "PERSON",
+                "start": 10,
+                "end": 15,
+                "text": "McCoy"
+            },
+            {
+                "label": "WEAPON",
+                "start": 52,
+                "end": 66,
+                "text": "photon torpedo"
+            },
+            {
+                "label": "PERSON",
+                "start": 107,
+                "end": 111,
+                "text": "Kirk"
+            }
+        ]
+    },
+    {
+        "text": "Inside the Vengeance, Scott is caught by a lone security officer, but he is able to actuate the airlock, allowing Khan and Kirk in, while also blowing out the security officer.",
+        "mentions": [
+            {
+                "label": "SPACECRAFT",
+                "start": 11,
+                "end": 20,
+                "text": "Vengeance"
+            },
+            {
+                "label": "PERSON",
+                "start": 22,
+                "end": 27,
+                "text": "Scott"
+            },
+            {
+                "label": "PERSON",
+                "start": 114,
+                "end": 118,
+                "text": "Khan"
+            },
+            {
+                "label": "PERSON",
+                "start": 123,
+                "end": 127,
+                "text": "Kirk"
+            }
+        ]
+    },
+    {
+        "text": "Surely, the best of times.\"",
+        "mentions": []
+    }
+]

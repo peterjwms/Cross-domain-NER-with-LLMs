@@ -61,7 +61,7 @@ if __name__ == "__main__":
 
     model_name = 'gemini-2.5-flash-preview-04-17'
 
-    for domain in ["red_rising", "star_wars"]:
+    for domain in ["red_rising"]:
         train, test, dev = get_train_test_dev_data(domain)
         # ontology = f'ontologies/{domain}.tsv'
         entity_types = get_entity_types(domain)

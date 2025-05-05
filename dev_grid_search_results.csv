@@ -1,0 +1,99 @@
+domain,n_examples,example_domain,example_selection,prompt,F1,precision,recall
+star_trek,0,self,most_dense,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.: PERSON - Spock, Data, Pavel Chekov
+Names of sentient species/races: SPECIES - Reman, whale
+Name of any place, such as a planet, city or geographical feature.: LOC - Veridian III, San Francisco
+Names of companies, government agencies, educational institutions, military units: ORG - Starfleet
+Names of governing bodies: GPE - Borgs, Federation, Romulan Empire
+Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.: NORP - Klingon, Federation, Romulan
+Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc: WEAPON - phaser, photon torpedo
+Technobabble used to describe futuristic technology or the use thereof: TECH - PADD, beams, sonic shower
+Proper name of a specific instance of a vehicle capable of space travel: SPACECRAFT - Enterprise, Reliant, V'ger
+Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.: RANK - Captain, Ambassador, Ahdar, Doctor
+Other named entities, such as works of art or pet names: MISC - Hamlet, God, Spot
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",47.62,50.0,45.45
+star_trek,1,self,most_dense,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.: PERSON - Spock, Data, Pavel Chekov
+Names of sentient species/races: SPECIES - Reman, whale
+Name of any place, such as a planet, city or geographical feature.: LOC - Veridian III, San Francisco
+Names of companies, government agencies, educational institutions, military units: ORG - Starfleet
+Names of governing bodies: GPE - Borgs, Federation, Romulan Empire
+Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.: NORP - Klingon, Federation, Romulan
+Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc: WEAPON - phaser, photon torpedo
+Technobabble used to describe futuristic technology or the use thereof: TECH - PADD, beams, sonic shower
+Proper name of a specific instance of a vehicle capable of space travel: SPACECRAFT - Enterprise, Reliant, V'ger
+Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.: RANK - Captain, Ambassador, Ahdar, Doctor
+Other named entities, such as works of art or pet names: MISC - Hamlet, God, Spot
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""The next day, Kirk, McCoy, Uhura, and a few other Starfleet recruits are in the Kobayashi Maru simulation test on Kirk's third attempt.""
+{""entity"": ""Kirk"", ""label"": ""PERSON""}
+{""entity"": ""McCoy"", ""label"": ""PERSON""}
+{""entity"": ""Uhura"", ""label"": ""PERSON""}
+{""entity"": ""Starfleet "", ""label"": ""ORG""}
+{""entity"": ""Kirk"", ""label"": ""PERSON""}
+{""entity"": ""Kobayashi Maru "", ""label"": ""SPACECRAFT""}
+{""entity"": ""simulation test "", ""label"": ""TECH""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",45.45,45.45,45.45
+star_trek,0,self,most_unique,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.: PERSON - Spock, Data, Pavel Chekov
+Names of sentient species/races: SPECIES - Reman, whale
+Name of any place, such as a planet, city or geographical feature.: LOC - Veridian III, San Francisco
+Names of companies, government agencies, educational institutions, military units: ORG - Starfleet
+Names of governing bodies: GPE - Borgs, Federation, Romulan Empire
+Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.: NORP - Klingon, Federation, Romulan
+Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc: WEAPON - phaser, photon torpedo
+Technobabble used to describe futuristic technology or the use thereof: TECH - PADD, beams, sonic shower
+Proper name of a specific instance of a vehicle capable of space travel: SPACECRAFT - Enterprise, Reliant, V'ger
+Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.: RANK - Captain, Ambassador, Ahdar, Doctor
+Other named entities, such as works of art or pet names: MISC - Hamlet, God, Spot
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",45.45,45.45,45.45
+star_trek,1,self,most_unique,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.: PERSON - Spock, Data, Pavel Chekov
+Names of sentient species/races: SPECIES - Reman, whale
+Name of any place, such as a planet, city or geographical feature.: LOC - Veridian III, San Francisco
+Names of companies, government agencies, educational institutions, military units: ORG - Starfleet
+Names of governing bodies: GPE - Borgs, Federation, Romulan Empire
+Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.: NORP - Klingon, Federation, Romulan
+Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc: WEAPON - phaser, photon torpedo
+Technobabble used to describe futuristic technology or the use thereof: TECH - PADD, beams, sonic shower
+Proper name of a specific instance of a vehicle capable of space travel: SPACECRAFT - Enterprise, Reliant, V'ger
+Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.: RANK - Captain, Ambassador, Ahdar, Doctor
+Other named entities, such as works of art or pet names: MISC - Hamlet, God, Spot
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""The next day, Kirk, McCoy, Uhura, and a few other Starfleet recruits are in the Kobayashi Maru simulation test on Kirk's third attempt.""
+{""entity"": ""Kirk"", ""label"": ""PERSON""}
+{""entity"": ""McCoy"", ""label"": ""PERSON""}
+{""entity"": ""Uhura"", ""label"": ""PERSON""}
+{""entity"": ""Starfleet "", ""label"": ""ORG""}
+{""entity"": ""Kirk"", ""label"": ""PERSON""}
+{""entity"": ""Kobayashi Maru "", ""label"": ""SPACECRAFT""}
+{""entity"": ""simulation test "", ""label"": ""TECH""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",43.48,41.67,45.45

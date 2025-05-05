@@ -157,9 +157,9 @@ def get_train_test_dev_data(name: str, n: int = 100,):
         random.seed(42)
         random.shuffle(data)
 
-        train = data[:n]
+        test = data[:n]
         dev = data[n:2*n]
-        test = data[2*n:]
+        train = data[2*n:]
 
         save_data_split(name, test, 'test')
         save_data_split(name, train, 'train')

@@ -1,410 +1,184 @@
 [
     {
-        "text": "Pax also lets him know that he believes Valdir, who is Sefi's concubine, and Freihild, a highly respected Skuggi, are lovers.",
+        "text": "He meets with the mineMagistrate and tells him to bring the food he brought from his ship and allow the people a feast.",
         "mentions": [
             {
-                "label": "Person",
-                "start": 0,
-                "end": 3,
-                "text": "Pax"
-            },
-            {
-                "label": "Person",
-                "start": 40,
-                "end": 46,
-                "text": "Valdir"
-            },
-            {
-                "label": "Person",
-                "start": 55,
-                "end": 61,
-                "text": "Sefi's"
-            },
-            {
-                "label": "Person",
-                "start": 77,
-                "end": 85,
-                "text": "Freihild"
-            },
-            {
-                "label": "Rank",
-                "start": 106,
-                "end": 112,
-                "text": "Skuggi"
+                "label": "Profession",
+                "start": 18,
+                "end": 32,
+                "text": "mineMagistrate"
             }
         ]
     },
     {
-        "text": "Lysander travels with Diomedes au Raa and Seraphina au Raa to board the Annihilo orbiting Mercury and meet with Atalantia au Grimmus and Ajax au Grimmus.",
+        "text": "It is revealed that although Kalindora exterior wounds were mended, she was poisoned by Darrow's blade, and she has days left to live.",
         "mentions": [
             {
                 "label": "Person",
-                "start": 0,
-                "end": 8,
-                "text": "Lysander"
-            },
-            {
-                "label": "Person",
-                "start": 22,
-                "end": 37,
-                "text": "Diomedes au Raa"
-            },
-            {
-                "label": "Person",
-                "start": 42,
-                "end": 58,
-                "text": "Seraphina au Raa"
-            },
-            {
-                "label": "Vehicle",
-                "start": 72,
-                "end": 80,
-                "text": "Annihilo"
-            },
-            {
-                "label": "Location",
-                "start": 90,
-                "end": 97,
-                "text": "Mercury"
-            },
-            {
-                "label": "Person",
-                "start": 112,
-                "end": 132,
-                "text": "Atalantia au Grimmus"
-            },
-            {
-                "label": "Person",
-                "start": 137,
-                "end": 152,
-                "text": "Ajax au Grimmus"
-            }
-        ]
-    },
-    {
-        "text": "Though Lysander no longer feels comfortable about their attack on possible civilians, Kalindora reminds him they're in a war.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 7,
-                "end": 15,
-                "text": "Lysander"
-            },
-            {
-                "label": "Person",
-                "start": 86,
-                "end": 95,
+                "start": 29,
+                "end": 38,
                 "text": "Kalindora"
+            },
+            {
+                "label": "Person",
+                "start": 88,
+                "end": 96,
+                "text": "Darrow's"
             }
         ]
     },
     {
-        "text": "Pax guesses that Atlas might have helped the Volsung into power.",
+        "text": "The next day, as Volga and Lyria prepare to take Ephraim's body to Earth, the archGovernor of Mars, Kieran O'Lykos, arrives with news that Heliopolis and the Free Legions have fallen, and that Darrow is dead, as they haven't heard from Cassius since he got there to aid Darrow.",
         "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 3,
-                "text": "Pax"
-            },
             {
                 "label": "Person",
                 "start": 17,
                 "end": 22,
-                "text": "Atlas"
-            },
-            {
-                "label": "Person",
-                "start": 45,
-                "end": 52,
-                "text": "Volsung"
-            }
-        ]
-    },
-    {
-        "text": "Dago is now blind and weakened and offers Darrow some soil from Lykos to keep with him.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 4,
-                "text": "Dago"
-            },
-            {
-                "label": "Person",
-                "start": 42,
-                "end": 48,
-                "text": "Darrow"
-            },
-            {
-                "label": "Location",
-                "start": 64,
-                "end": 69,
-                "text": "Lykos"
-            }
-        ]
-    },
-    {
-        "text": "Colloway locates and retrieves Orion's body from the sea after six days of searching, having killed one-hundred ninety three of Atalantia's men during those days.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 8,
-                "text": "Colloway"
-            },
-            {
-                "label": "Person",
-                "start": 31,
-                "end": 38,
-                "text": "Orion's"
-            },
-            {
-                "label": "Person",
-                "start": 128,
-                "end": 139,
-                "text": "Atalantia's"
-            }
-        ]
-    },
-    {
-        "text": "When he tries to flee, he is caught by Valdir the Unshorn and flown back up to Eagle Rest by Godeater, Sefi's griffin.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 93,
-                "end": 101,
-                "text": "Godeater"
-            },
-            {
-                "label": "Person",
-                "start": 103,
-                "end": 109,
-                "text": "Sefi's"
-            },
-            {
-                "label": "Location",
-                "start": 79,
-                "end": 89,
-                "text": "Eagle Rest"
-            },
-            {
-                "label": "Person",
-                "start": 39,
-                "end": 57,
-                "text": "Valdir the Unshorn"
-            }
-        ]
-    },
-    {
-        "text": "For a decade Darrow led a revolution against the corrupt color-coded Society.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 13,
-                "end": 19,
-                "text": "Darrow"
-            },
-            {
-                "label": "Organization",
-                "start": 69,
-                "end": 76,
-                "text": "Society"
-            }
-        ]
-    },
-    {
-        "text": "If he teaches Sefi's Skuggi how to be better in \"freelancing,\" things that will be useful other than killing, she will rescue Volga and Lyria from Victra au Barca's hold, as that is who has them, and pay him a large sum of money.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 14,
-                "end": 20,
-                "text": "Sefi's"
-            },
-            {
-                "label": "Organization",
-                "start": 21,
-                "end": 27,
-                "text": "Skuggi"
-            },
-            {
-                "label": "Person",
-                "start": 126,
-                "end": 131,
                 "text": "Volga"
             },
             {
                 "label": "Person",
-                "start": 136,
-                "end": 141,
+                "start": 27,
+                "end": 32,
                 "text": "Lyria"
             },
             {
                 "label": "Person",
-                "start": 147,
-                "end": 164,
-                "text": "Victra au Barca's"
-            }
-        ]
-    },
-    {
-        "text": "Darrow surmises that Atalantia is also suffering many casualties as there hasn't been another attack since.",
-        "mentions": [
+                "start": 49,
+                "end": 58,
+                "text": "Ephraim's"
+            },
             {
-                "label": "Person",
-                "start": 0,
-                "end": 6,
-                "text": "Darrow"
+                "label": "Planet",
+                "start": 67,
+                "end": 72,
+                "text": "Earth"
+            },
+            {
+                "label": "Rank",
+                "start": 78,
+                "end": 90,
+                "text": "archGovernor"
+            },
+            {
+                "label": "Planet",
+                "start": 94,
+                "end": 98,
+                "text": "Mars"
             },
             {
                 "label": "Person",
-                "start": 21,
-                "end": 30,
-                "text": "Atalantia"
-            }
-        ]
-    },
-    {
-        "text": "Virginia and Sevro surprise Dancer when he comes to visit Deanna.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 8,
-                "text": "Virginia"
-            },
-            {
-                "label": "Person",
-                "start": 13,
-                "end": 18,
-                "text": "Sevro"
-            },
-            {
-                "label": "Person",
-                "start": 28,
-                "end": 34,
-                "text": "Dancer"
-            },
-            {
-                "label": "Person",
-                "start": 58,
-                "end": 64,
-                "text": "Deanna"
-            }
-        ]
-    },
-    {
-        "text": "Alexandar has yet to appear from where Darrow left him, at Tyche, and presumes he's likely dead.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 9,
-                "text": "Alexandar"
-            },
-            {
-                "label": "Person",
-                "start": 39,
-                "end": 45,
-                "text": "Darrow"
+                "start": 100,
+                "end": 114,
+                "text": "Kieran O'Lykos"
             },
             {
                 "label": "Location",
-                "start": 59,
-                "end": 64,
-                "text": "Tyche"
-            }
-        ]
-    },
-    {
-        "text": "After that's said, Rhonna tells Darrow that Atalantia requests an audience.",
-        "mentions": [
+                "start": 139,
+                "end": 149,
+                "text": "Heliopolis"
+            },
             {
-                "label": "Person",
-                "start": 19,
-                "end": 25,
-                "text": "Rhonna"
+                "label": "Organization",
+                "start": 158,
+                "end": 170,
+                "text": "Free Legions"
             },
             {
                 "label": "Person",
-                "start": 32,
-                "end": 38,
+                "start": 193,
+                "end": 199,
                 "text": "Darrow"
             },
             {
                 "label": "Person",
-                "start": 44,
-                "end": 53,
-                "text": "Atalantia"
+                "start": 236,
+                "end": 243,
+                "text": "Cassius"
+            },
+            {
+                "label": "Person",
+                "start": 270,
+                "end": 276,
+                "text": "Darrow"
             }
         ]
     },
     {
-        "text": "When the Iron Rain starts, Lysander and the rest of them shoot towards the ground while bombs are going off all over the planet.",
+        "text": "She accepts.",
+        "mentions": []
+    },
+    {
+        "text": "Another sandstorm races towards them, and Lysander, in his weakened state, shelters himself inside the burrow.",
         "mentions": [
             {
                 "label": "Person",
-                "start": 27,
-                "end": 35,
+                "start": 42,
+                "end": 50,
                 "text": "Lysander"
             }
         ]
     },
     {
-        "text": "Virginia's team is able to contain the Duke of Hands before Sevro can get to him.",
+        "text": "He issues orders for the non-Golds onboard the ship to overtake their Gold commanders, which most do.",
         "mentions": [
             {
-                "label": "Person",
-                "start": 0,
-                "end": 10,
-                "text": "Virginia's"
+                "label": "Caste",
+                "start": 25,
+                "end": 34,
+                "text": "non-Golds"
+            },
+            {
+                "label": "Caste",
+                "start": 70,
+                "end": 74,
+                "text": "Gold"
+            }
+        ]
+    },
+    {
+        "text": "Darrow then drops his facade and reveals that during the time between the Institute and the Academy, he had been training in the art of Kravat with the former Rage Knight, Lorn au Arcos.",
+        "mentions": [
+            {
+                "label": "MISC",
+                "start": 72,
+                "end": 81,
+                "text": "Institute"
+            },
+            {
+                "label": "MISC",
+                "start": 90,
+                "end": 97,
+                "text": "Academy"
+            },
+            {
+                "label": "MISC",
+                "start": 134,
+                "end": 140,
+                "text": "Kravat"
             },
             {
                 "label": "Rank",
-                "start": 39,
-                "end": 52,
-                "text": "Duke of Hands"
+                "start": 157,
+                "end": 168,
+                "text": "Rage Knight"
             },
             {
                 "label": "Person",
-                "start": 60,
-                "end": 65,
-                "text": "Sevro"
+                "start": 170,
+                "end": 183,
+                "text": "Lorn au Arcos"
             }
         ]
     },
     {
-        "text": "As Virginia is beaten and being hauled away, she sees it is Lilath au Faran who cuts off Daxo's head.",
+        "text": "She knows he fears death, and retaliation by the Vox Populi in the aftermath.",
         "mentions": [
             {
-                "label": "Person",
-                "start": 3,
-                "end": 11,
-                "text": "Virginia"
-            },
-            {
-                "label": "Person",
-                "start": 60,
-                "end": 75,
-                "text": "Lilath au Faran"
-            },
-            {
-                "label": "Person",
-                "start": 89,
-                "end": 95,
-                "text": "Daxo's"
-            }
-        ]
-    },
-    {
-        "text": "He gives Virginia words of encouragement before he leaves.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 9,
-                "end": 17,
-                "text": "Virginia"
+                "label": "Organization",
+                "start": 49,
+                "end": 59,
+                "text": "Vox Populi"
             }
         ]
     },
@@ -420,137 +194,37 @@
         ]
     },
     {
-        "text": "But the plan falls through as soon as they realize that Atlas is not going where they had planned, and Darrow orders Orion to go to BlueReach One, a location off the coast of Tyche.",
+        "text": "During Virginia's trial, Lilath arrives with her Boneriders and reveals herself to Publius, whom he was secretly working with, but thought was a red.",
         "mentions": [
             {
                 "label": "Person",
-                "start": 56,
-                "end": 61,
-                "text": "Atlas"
+                "start": 7,
+                "end": 17,
+                "text": "Virginia's"
             },
             {
                 "label": "Person",
-                "start": 103,
-                "end": 109,
-                "text": "Darrow"
+                "start": 25,
+                "end": 31,
+                "text": "Lilath"
+            },
+            {
+                "label": "NORP",
+                "start": 49,
+                "end": 59,
+                "text": "Boneriders"
             },
             {
                 "label": "Person",
-                "start": 117,
-                "end": 122,
-                "text": "Orion"
-            },
-            {
-                "label": "Location",
-                "start": 132,
-                "end": 145,
-                "text": "BlueReach One"
-            },
-            {
-                "label": "Location",
-                "start": 175,
-                "end": 180,
-                "text": "Tyche"
-            }
-        ]
-    },
-    {
-        "text": "Sevro arrives ready to kill the Duke of Hands, but when Virginia theorizes correctly the whereabouts of Pax and Electra, that they're with Sefi and her Obsidians on Mars, and why Sevro and Victra kept Virginia out of it, she convinces Sevro to return to her command, along with the Howler First Cohort.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 5,
-                "text": "Sevro"
-            },
-            {
-                "label": "Person",
-                "start": 32,
-                "end": 45,
-                "text": "Duke of Hands"
-            },
-            {
-                "label": "Person",
-                "start": 56,
-                "end": 64,
-                "text": "Virginia"
-            },
-            {
-                "label": "Person",
-                "start": 104,
-                "end": 107,
-                "text": "Pax"
-            },
-            {
-                "label": "Person",
-                "start": 112,
-                "end": 119,
-                "text": "Electra"
-            },
-            {
-                "label": "Person",
-                "start": 139,
-                "end": 143,
-                "text": "Sefi"
-            },
-            {
-                "label": "Location",
-                "start": 165,
-                "end": 169,
-                "text": "Mars"
-            },
-            {
-                "label": "Person",
-                "start": 179,
-                "end": 184,
-                "text": "Sevro"
-            },
-            {
-                "label": "Person",
-                "start": 189,
-                "end": 195,
-                "text": "Victra"
-            },
-            {
-                "label": "Person",
-                "start": 201,
-                "end": 209,
-                "text": "Virginia"
-            },
-            {
-                "label": "Person",
-                "start": 235,
-                "end": 240,
-                "text": "Sevro"
-            },
-            {
-                "label": "Organization",
-                "start": 282,
-                "end": 301,
-                "text": "Howler First Cohort"
+                "start": 83,
+                "end": 90,
+                "text": "Publius"
             },
             {
                 "label": "Caste",
-                "start": 152,
-                "end": 161,
-                "text": "Obsidians"
-            }
-        ]
-    },
-    {
-        "text": "Sefi does the same, showing her confidence in Ephraim's plan as well.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 0,
-                "end": 4,
-                "text": "Sefi"
-            },
-            {
-                "label": "Person",
-                "start": 46,
-                "end": 55,
-                "text": "Ephraim's"
+                "start": 145,
+                "end": 148,
+                "text": "red"
             }
         ]
     },
@@ -590,36 +264,47 @@
         ]
     },
     {
-        "text": "She meets with Daxo au Telemanus on his skyhook, where he is with Publius cu Caraval arguing his point, and states that he cannot side with Daxo if they allow Quicksilver to do as he wishes, basically.",
+        "text": "Glirastes demands to see Cato or threatens to stop working.",
         "mentions": [
             {
                 "label": "Person",
-                "start": 15,
-                "end": 32,
-                "text": "Daxo au Telemanus"
+                "start": 0,
+                "end": 9,
+                "text": "Glirastes"
             },
             {
                 "label": "Person",
-                "start": 66,
-                "end": 84,
-                "text": "Publius cu Caraval"
-            },
-            {
-                "label": "Person",
-                "start": 140,
-                "end": 144,
-                "text": "Daxo"
-            },
-            {
-                "label": "Person",
-                "start": 159,
-                "end": 170,
-                "text": "Quicksilver"
+                "start": 25,
+                "end": 29,
+                "text": "Cato"
             }
         ]
     },
     {
-        "text": "Darrow and his team make it out in time, but Angelia and several other cities are bombed.",
+        "text": "He also realizes he's in the ruined city of Olympia on Eagle Rest, the old citadel of House Bellona.",
+        "mentions": [
+            {
+                "label": "Location",
+                "start": 44,
+                "end": 51,
+                "text": "Olympia"
+            },
+            {
+                "label": "Location",
+                "start": 55,
+                "end": 65,
+                "text": "Eagle Rest"
+            },
+            {
+                "label": "Organization",
+                "start": 86,
+                "end": 99,
+                "text": "House Bellona"
+            }
+        ]
+    },
+    {
+        "text": "Darrow and his men face off against Lysander and his group easily, taking them as \"light resistance,\" on their way to Heliopolis.",
         "mentions": [
             {
                 "label": "Person",
@@ -628,133 +313,142 @@
                 "text": "Darrow"
             },
             {
+                "label": "Person",
+                "start": 36,
+                "end": 44,
+                "text": "Lysander"
+            },
+            {
                 "label": "Location",
-                "start": 45,
-                "end": 52,
-                "text": "Angelia"
+                "start": 118,
+                "end": 128,
+                "text": "Heliopolis"
             }
         ]
     },
     {
-        "text": "By the time he arrived, the soldiers were already defeated, left dying and booby-trapped for anyone who dare try to rescue them.",
-        "mentions": []
-    },
-    {
-        "text": "(Prior to the Prologue, there is a speech by Virginia, Sovereign of the Solar Republic.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 45,
-                "end": 53,
-                "text": "Virginia"
-            },
-            {
-                "label": "Rank",
-                "start": 55,
-                "end": 64,
-                "text": "Sovereign"
-            },
-            {
-                "label": "Organization",
-                "start": 72,
-                "end": 86,
-                "text": "Solar Republic"
-            }
-        ]
-    },
-    {
-        "text": "Or will another legend rise to take his place?",
-        "mentions": []
-    },
-    {
-        "text": "Once a Red refugee, young Lyria now stands accused of treason, and her only hope is a desperate escape with unlikely new allies.",
-        "mentions": [
-            {
-                "label": "Caste",
-                "start": 7,
-                "end": 10,
-                "text": "Red"
-            },
-            {
-                "label": "Person",
-                "start": 26,
-                "end": 31,
-                "text": "Lyria"
-            }
-        ]
-    },
-    {
-        "text": "Ephraim hints at the possibility of helping Pax and Electra escape.",
+        "text": "Alexandar is brought to surgery for his multiple injuries.",
         "mentions": [
             {
                 "label": "Person",
                 "start": 0,
-                "end": 7,
-                "text": "Ephraim"
+                "end": 9,
+                "text": "Alexandar"
+            }
+        ]
+    },
+    {
+        "text": "But Darrow persists, knowing that Ragnar is much more than he lets on.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 4,
+                "end": 10,
+                "text": "Darrow"
             },
             {
                 "label": "Person",
-                "start": 44,
-                "end": 47,
+                "start": 34,
+                "end": 40,
+                "text": "Ragnar"
+            }
+        ]
+    },
+    {
+        "text": "They make love.",
+        "mentions": []
+    },
+    {
+        "text": "Atalantia, playing nice, greets him and Atlas at the top of the Mound of Votum, to give him his Peerless scar.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 9,
+                "text": "Atalantia"
+            },
+            {
+                "label": "Person",
+                "start": 40,
+                "end": 45,
+                "text": "Atlas"
+            },
+            {
+                "label": "Location",
+                "start": 64,
+                "end": 78,
+                "text": "Mound of Votum"
+            },
+            {
+                "label": "Rank",
+                "start": 96,
+                "end": 104,
+                "text": "Peerless"
+            }
+        ]
+    },
+    {
+        "text": "The EMP goes off, and the city is in darkness, with the shield around it down, while Atalantia's ships in the sky all plummet.",
+        "mentions": [
+            {
+                "label": "Weapon",
+                "start": 4,
+                "end": 7,
+                "text": "EMP"
+            },
+            {
+                "label": "Person",
+                "start": 85,
+                "end": 96,
+                "text": "Atalantia's"
+            }
+        ]
+    },
+    {
+        "text": "She refuses, saying that she needs to go back to find her nephew, Liam, but Pax says he will help her find Liam if she does something for him, mentioning a city called Oculus.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 66,
+                "end": 70,
+                "text": "Liam"
+            },
+            {
+                "label": "Person",
+                "start": 76,
+                "end": 79,
                 "text": "Pax"
             },
             {
                 "label": "Person",
-                "start": 52,
-                "end": 59,
-                "text": "Electra"
-            }
-        ]
-    },
-    {
-        "text": "When he goes to check on Orion, he already knows that despite her passing her psychiatric evaluation and completing her duties on schedule, she's different somehow.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 25,
-                "end": 30,
-                "text": "Orion"
-            }
-        ]
-    },
-    {
-        "text": "Before Darrow could arrive in the city of Angelia, where Atlas was said to be, he had already been lost to Alexandar and the rest of Darrow's men due to exhaustion and lack of sleep.",
-        "mentions": [
-            {
-                "label": "Person",
-                "start": 7,
-                "end": 13,
-                "text": "Darrow"
+                "start": 107,
+                "end": 111,
+                "text": "Liam"
             },
             {
                 "label": "Location",
-                "start": 42,
-                "end": 49,
-                "text": "Angelia"
-            },
-            {
-                "label": "Person",
-                "start": 57,
-                "end": 62,
-                "text": "Atlas"
-            },
-            {
-                "label": "Person",
-                "start": 107,
-                "end": 116,
-                "text": "Alexandar"
-            },
-            {
-                "label": "Person",
-                "start": 133,
-                "end": 141,
-                "text": "Darrow's"
+                "start": 168,
+                "end": 174,
+                "text": "Oculus"
             }
         ]
     },
     {
-        "text": "He is forced to use his master switch on her, killing her.",
-        "mentions": []
+        "text": "Freihild injures it, but Ephraim uses one of the brave's rifles and shoots the Drake, killing it.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 8,
+                "text": "Freihild"
+            },
+            {
+                "label": "Person",
+                "start": 25,
+                "end": 32,
+                "text": "Ephraim"
+            }
+        ]
     },
     {
         "text": "Lysander and Seraphina volunteer to go destroy the Storm God.",
@@ -780,82 +474,1379 @@
         ]
     },
     {
-        "text": "After her speech, Dancer contacts her, voicing his disagreement about her intentions to send a fleet out to Mercury.",
+        "text": "The prologue takes place two months prior to this speech.)",
+        "mentions": []
+    },
+    {
+        "text": "Atlas reassures Xenophon of their reward after the mission is completed.",
         "mentions": [
             {
                 "label": "Person",
-                "start": 18,
-                "end": 24,
-                "text": "Dancer"
-            },
-            {
-                "label": "Location",
-                "start": 108,
-                "end": 115,
-                "text": "Mercury"
+                "start": 15,
+                "end": 23,
+                "text": "Xenophon"
             }
         ]
     },
     {
-        "text": "She uses psychospikes on him and uses the results to improve the technology she has been working on, which is refined from Octavia au Lune's Pandemonium Chair.",
+        "text": "This forces Lorn's hand, pushing the retired Rage Knight back into war.",
         "mentions": [
             {
-                "label": "Technology",
-                "start": 9,
-                "end": 21,
-                "text": "psychospikes"
-            },
-            {
                 "label": "Person",
-                "start": 123,
-                "end": 140,
-                "text": "Octavia au Lune's"
-            },
-            {
-                "label": "Technology",
-                "start": 141,
-                "end": 158,
-                "text": "Pandemonium Chair"
-            }
-        ]
-    },
-    {
-        "text": "On Luna, Mustang, Sovereign of the Republic, campaigns to unite the Republic behind her husband.",
-        "mentions": [
-            {
-                "label": "Location",
-                "start": 3,
-                "end": 7,
-                "text": "Luna"
-            },
-            {
-                "label": "Person",
-                "start": 9,
-                "end": 16,
-                "text": "Mustang"
+                "start": 12,
+                "end": 18,
+                "text": "Lorn's"
             },
             {
                 "label": "Rank",
-                "start": 18,
-                "end": 27,
-                "text": "Sovereign"
-            },
-            {
-                "label": "Organization",
-                "start": 35,
-                "end": 43,
-                "text": "Republic"
-            },
-            {
-                "label": "Organization",
-                "start": 68,
-                "end": 76,
-                "text": "Republic"
+                "start": 45,
+                "end": 56,
+                "text": "Rage Knight"
             }
         ]
     },
     {
-        "text": "They also realize the city's reactor is being overloaded to explode the city and any other city reactors connected to it.",
+        "text": "Brea is immediately assaulted by Cormac.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 4,
+                "text": "Brea"
+            },
+            {
+                "label": "Person",
+                "start": 33,
+                "end": 39,
+                "text": "Cormac"
+            }
+        ]
+    },
+    {
+        "text": "Lysander then appoints Rhone as his Dux, a title that usually goes to a Gold.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 8,
+                "text": "Lysander"
+            },
+            {
+                "label": "Person",
+                "start": 23,
+                "end": 28,
+                "text": "Rhone"
+            },
+            {
+                "label": "Rank",
+                "start": 36,
+                "end": 39,
+                "text": "Dux"
+            },
+            {
+                "label": "Caste",
+                "start": 72,
+                "end": 76,
+                "text": "Gold"
+            }
+        ]
+    },
+    {
+        "text": "Mustang arrives with a ship and all are evacuated.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 7,
+                "text": "Mustang"
+            }
+        ]
+    },
+    {
+        "text": "Freihild brings them to see Sefi, where they witness Sefi's men kill Amel, Sefi's Pink servant, for treason and an assassination attempt against her.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 8,
+                "text": "Freihild"
+            },
+            {
+                "label": "Person",
+                "start": 28,
+                "end": 32,
+                "text": "Sefi"
+            },
+            {
+                "label": "Person",
+                "start": 53,
+                "end": 59,
+                "text": "Sefi's"
+            },
+            {
+                "label": "Person",
+                "start": 69,
+                "end": 73,
+                "text": "Amel"
+            },
+            {
+                "label": "Person",
+                "start": 75,
+                "end": 81,
+                "text": "Sefi's"
+            },
+            {
+                "label": "Caste",
+                "start": 82,
+                "end": 86,
+                "text": "Pink"
+            }
+        ]
+    },
+    {
+        "text": "In the melee, Nero's lead Lancer and likely heir, Leto, is killed by Karnus.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 14,
+                "end": 20,
+                "text": "Nero's"
+            },
+            {
+                "label": "Rank",
+                "start": 26,
+                "end": 32,
+                "text": "Lancer"
+            },
+            {
+                "label": "Person",
+                "start": 50,
+                "end": 54,
+                "text": "Leto"
+            },
+            {
+                "label": "Person",
+                "start": 69,
+                "end": 75,
+                "text": "Karnus"
+            }
+        ]
+    },
+    {
+        "text": "As they get ready for their next plan, they are notified of a storm coming.",
         "mentions": []
+    },
+    {
+        "text": "They spend hours talking about what she learned in Luna, how she never lost loyalty to her family, about the Board of Quality Control, and about the unproductive rigidity of society laws.",
+        "mentions": [
+            {
+                "label": "Planet",
+                "start": 51,
+                "end": 55,
+                "text": "Luna"
+            },
+            {
+                "label": "Organization",
+                "start": 109,
+                "end": 133,
+                "text": "Board of Quality Control"
+            }
+        ]
+    },
+    {
+        "text": "They tell her that they can't go back to help Sevro, but they did send teams to try to get them out.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 46,
+                "end": 51,
+                "text": "Sevro"
+            }
+        ]
+    },
+    {
+        "text": "Ozgard tries to attack him, but F\u00c3\u00a1 blinds him in his right eye.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 31,
+                "end": 33,
+                "text": "F\u00c3\u00a1"
+            }
+        ]
+    },
+    {
+        "text": "Sevro tries to attack, but he's beaten into unconsciousness.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 5,
+                "text": "Sevro"
+            }
+        ]
+    },
+    {
+        "text": "It shows Obsidian attacking the Pandora.",
+        "mentions": [
+            {
+                "label": "Caste",
+                "start": 9,
+                "end": 17,
+                "text": "Obsidian"
+            },
+            {
+                "label": "Vehicle",
+                "start": 32,
+                "end": 39,
+                "text": "Pandora"
+            }
+        ]
+    },
+    {
+        "text": "All of the obsidians in the army are going wild he says.",
+        "mentions": [
+            {
+                "label": "Caste",
+                "start": 11,
+                "end": 20,
+                "text": "obsidians"
+            }
+        ]
+    },
+    {
+        "text": "After, she goes to talk with Victra.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 29,
+                "end": 35,
+                "text": "Victra"
+            }
+        ]
+    },
+    {
+        "text": "She sends out a broad spectrum signal for help, then gets herself imprisoned in Victra's cell, as she planned.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 80,
+                "end": 88,
+                "text": "Victra's"
+            }
+        ]
+    },
+    {
+        "text": "She knows the Society will eventually break somehow.",
+        "mentions": [
+            {
+                "label": "Organization",
+                "start": 14,
+                "end": 21,
+                "text": "Society"
+            }
+        ]
+    },
+    {
+        "text": "He spends his first days teaching the Skuggi how to speak the common language as only half of them know it.",
+        "mentions": [
+            {
+                "label": "NORP",
+                "start": 38,
+                "end": 44,
+                "text": "Skuggi"
+            }
+        ]
+    },
+    {
+        "text": "Volga agrees to go, leaving Lyria the task of bringing Ephraim's body to Earth.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 27,
+                "end": 32,
+                "text": "Lyria"
+            },
+            {
+                "label": "Person",
+                "start": 54,
+                "end": 63,
+                "text": "Ephraim's"
+            },
+            {
+                "label": "Planet",
+                "start": 72,
+                "end": 77,
+                "text": "Earth"
+            }
+        ]
+    },
+    {
+        "text": "Victra and Lyria join in the fight against the Hand.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 6,
+                "text": "Victra"
+            },
+            {
+                "label": "Person",
+                "start": 11,
+                "end": 16,
+                "text": "Lyria"
+            },
+            {
+                "label": "Organization",
+                "start": 47,
+                "end": 51,
+                "text": "Hand"
+            }
+        ]
+    },
+    {
+        "text": "Victra still keeps her imprisoned.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 6,
+                "text": "Victra"
+            }
+        ]
+    },
+    {
+        "text": "At the same time, the Twins of South Pacifica shoot out projectiles filled with supplies and medicine, along with a message for Darrow stating he has not been abandoned.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 128,
+                "end": 134,
+                "text": "Darrow"
+            },
+            {
+                "label": "Technology",
+                "start": 22,
+                "end": 45,
+                "text": "Twins of South Pacifica"
+            }
+        ]
+    },
+    {
+        "text": "Knowing he must repair his decaying friendships to avoid another Tactus, Darrow goes after Sevro to try to comfort him.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 65,
+                "end": 71,
+                "text": "Tactus"
+            },
+            {
+                "label": "Person",
+                "start": 73,
+                "end": 79,
+                "text": "Darrow"
+            },
+            {
+                "label": "Person",
+                "start": 91,
+                "end": 96,
+                "text": "Sevro"
+            }
+        ]
+    },
+    {
+        "text": "Sevro follows the shuttle thinking he may have to kill her before she can expose who Darrow is.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 5,
+                "text": "Sevro"
+            },
+            {
+                "label": "Person",
+                "start": 85,
+                "end": 91,
+                "text": "Darrow"
+            }
+        ]
+    },
+    {
+        "text": "When he tells F\u00c3\u00a1 that Volga is dead, F\u00c3\u00a1 knows he is lying and orders him dead.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 13,
+                "end": 15,
+                "text": "F\u00c3\u00a1"
+            },
+            {
+                "label": "Person",
+                "start": 21,
+                "end": 26,
+                "text": "Volga"
+            },
+            {
+                "label": "Person",
+                "start": 36,
+                "end": 38,
+                "text": "F\u00c3\u00a1"
+            }
+        ]
+    },
+    {
+        "text": "Harmony is there, and even though they have an opportunity to kill her, they don't.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 7,
+                "text": "Harmony"
+            }
+        ]
+    },
+    {
+        "text": "Harmony's torchShip is getting ready to bomb the mine, but Lyria's signal was successful in calling out for help.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 9,
+                "text": "Harmony's"
+            },
+            {
+                "label": "Technology",
+                "start": 10,
+                "end": 19,
+                "text": "torchShip"
+            },
+            {
+                "label": "Person",
+                "start": 59,
+                "end": 66,
+                "text": "Lyria's"
+            }
+        ]
+    },
+    {
+        "text": "Darrow now understands why Sevro went back, and he vows to himself to be the father and husband Pax and Virginia deserve.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 27,
+                "end": 32,
+                "text": "Sevro"
+            },
+            {
+                "label": "Person",
+                "start": 96,
+                "end": 99,
+                "text": "Pax"
+            },
+            {
+                "label": "Person",
+                "start": 104,
+                "end": 112,
+                "text": "Virginia"
+            }
+        ]
+    },
+    {
+        "text": "She then challenges him to a game of truths, which if he wins, allows him a chance to get whatever he wishes from her.",
+        "mentions": []
+    },
+    {
+        "text": "When he goes to check on Orion, he already knows that despite her passing her psychiatric evaluation and completing her duties on schedule, she's different somehow.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 25,
+                "end": 30,
+                "text": "Orion"
+            }
+        ]
+    },
+    {
+        "text": "He becomes a Gold, infiltrating their privileged realm so that he can destroy it from within.",
+        "mentions": [
+            {
+                "label": "Caste",
+                "start": 9,
+                "end": 13,
+                "text": "Gold"
+            }
+        ]
+    },
+    {
+        "text": "Darrow settles on a sarcastic and outcast Blue, Orion xe Aquarii.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 6,
+                "text": "Darrow"
+            },
+            {
+                "label": "Caste",
+                "start": 42,
+                "end": 46,
+                "text": "Blue"
+            },
+            {
+                "label": "Person",
+                "start": 48,
+                "end": 64,
+                "text": "Orion xe Aquarii"
+            }
+        ]
+    },
+    {
+        "text": "Roque questions Darrow's tactics, proposing a city siege rather than an outright attack.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 5,
+                "text": "Roque"
+            },
+            {
+                "label": "Person",
+                "start": 16,
+                "end": 24,
+                "text": "Darrow's"
+            }
+        ]
+    },
+    {
+        "text": "And Darrow wants to take Mustang with him.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 4,
+                "end": 10,
+                "text": "Darrow"
+            },
+            {
+                "label": "Person",
+                "start": 25,
+                "end": 32,
+                "text": "Mustang"
+            }
+        ]
+    },
+    {
+        "text": "They take back Heliopolis, but Ajax escapes, and Darrow suffers another heart attack.",
+        "mentions": [
+            {
+                "label": "Location",
+                "start": 15,
+                "end": 25,
+                "text": "Heliopolis"
+            },
+            {
+                "label": "Person",
+                "start": 31,
+                "end": 35,
+                "text": "Ajax"
+            },
+            {
+                "label": "Person",
+                "start": 49,
+                "end": 55,
+                "text": "Darrow"
+            }
+        ]
+    },
+    {
+        "text": "Lyria is locked in with twenty other girls.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 5,
+                "text": "Lyria"
+            }
+        ]
+    },
+    {
+        "text": "They watch on a hologram the pending space battle between Niobe's fleets and the Vox fleet, which has blocked their entry to the planet.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 58,
+                "end": 65,
+                "text": "Niobe's"
+            },
+            {
+                "label": "Organization",
+                "start": 81,
+                "end": 84,
+                "text": "Vox"
+            }
+        ]
+    },
+    {
+        "text": "Two weeks later, they hear Lyria's signal and boost it through all of Mars.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 27,
+                "end": 34,
+                "text": "Lyria's"
+            },
+            {
+                "label": "Planet",
+                "start": 70,
+                "end": 74,
+                "text": "Mars"
+            }
+        ]
+    },
+    {
+        "text": "It is from Volga, who is also a prisoner there.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 11,
+                "end": 16,
+                "text": "Volga"
+            }
+        ]
+    },
+    {
+        "text": "It is a boy, and Victra names him Ulysses.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 17,
+                "end": 23,
+                "text": "Victra"
+            },
+            {
+                "label": "Person",
+                "start": 34,
+                "end": 41,
+                "text": "Ulysses"
+            }
+        ]
+    },
+    {
+        "text": "Valdir is angered by this, thinking it was Ozgard's doing, but Sefi tells him it was Xenophon, the logos who serves the Alltribe, who told her.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 6,
+                "text": "Valdir"
+            },
+            {
+                "label": "Person",
+                "start": 43,
+                "end": 51,
+                "text": "Ozgard's"
+            },
+            {
+                "label": "Person",
+                "start": 63,
+                "end": 67,
+                "text": "Sefi"
+            },
+            {
+                "label": "Person",
+                "start": 85,
+                "end": 93,
+                "text": "Xenophon"
+            },
+            {
+                "label": "Profession",
+                "start": 99,
+                "end": 104,
+                "text": "logos"
+            },
+            {
+                "label": "Organization",
+                "start": 120,
+                "end": 128,
+                "text": "Alltribe"
+            }
+        ]
+    },
+    {
+        "text": "Later, Ephraim asks Pax what happened, Pax says he forgot to keep the bow in its heat sheath, making the cord contract, but Ephraim speculates there's something wrong with Sefi.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 7,
+                "end": 14,
+                "text": "Ephraim"
+            },
+            {
+                "label": "Person",
+                "start": 20,
+                "end": 23,
+                "text": "Pax"
+            },
+            {
+                "label": "Person",
+                "start": 39,
+                "end": 42,
+                "text": "Pax"
+            },
+            {
+                "label": "Person",
+                "start": 124,
+                "end": 131,
+                "text": "Ephraim"
+            },
+            {
+                "label": "Person",
+                "start": 172,
+                "end": 176,
+                "text": "Sefi"
+            }
+        ]
+    },
+    {
+        "text": "The Jackal also reveals to Darrow how he actually killed Quinn and was only pretending to save her life.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 2,
+                "end": 8,
+                "text": "Jackal"
+            },
+            {
+                "label": "Person",
+                "start": 25,
+                "end": 31,
+                "text": "Darrow"
+            },
+            {
+                "label": "Person",
+                "start": 55,
+                "end": 60,
+                "text": "Quinn"
+            }
+        ]
+    },
+    {
+        "text": "Since Cato has arrived, he's been suspicious of him as well, but it's only when he hears Cato say something in his sleep from the surveillance camera Darrow set up does realize what's wrong.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 6,
+                "end": 10,
+                "text": "Cato"
+            },
+            {
+                "label": "Person",
+                "start": 89,
+                "end": 93,
+                "text": "Cato"
+            },
+            {
+                "label": "Person",
+                "start": 150,
+                "end": 156,
+                "text": "Darrow"
+            }
+        ]
+    },
+    {
+        "text": "Lysander's Triumph route is twelve kilometers long, with Atalantia's snipers shooting at him from rooftops, unable to penetrate the pulseShield that encapsulates the chariot.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 10,
+                "text": "Lysander's"
+            },
+            {
+                "label": "Ritual/Holiday",
+                "start": 11,
+                "end": 18,
+                "text": "Triumph"
+            },
+            {
+                "label": "Person",
+                "start": 57,
+                "end": 68,
+                "text": "Atalantia's"
+            },
+            {
+                "label": "Technology",
+                "start": 132,
+                "end": 143,
+                "text": "pulseShield"
+            }
+        ]
+    },
+    {
+        "text": "Realizing they have no chance of fighting their way out, Darrow decides to use the ace Sevro brought.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 57,
+                "end": 63,
+                "text": "Darrow"
+            },
+            {
+                "label": "Person",
+                "start": 87,
+                "end": 92,
+                "text": "Sevro"
+            }
+        ]
+    },
+    {
+        "text": "After attacking a group of Grays, Darrow manages to jump aboard the Sovereign's ship.",
+        "mentions": [
+            {
+                "label": "Caste",
+                "start": 27,
+                "end": 32,
+                "text": "Grays"
+            },
+            {
+                "label": "Person",
+                "start": 34,
+                "end": 40,
+                "text": "Darrow"
+            },
+            {
+                "label": "Rank",
+                "start": 68,
+                "end": 79,
+                "text": "Sovereign's"
+            }
+        ]
+    },
+    {
+        "text": "Atlas lets him know Atalantia plans a chemical attack on Heliopolis.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 5,
+                "text": "Atlas"
+            },
+            {
+                "label": "Person",
+                "start": 20,
+                "end": 29,
+                "text": "Atalantia"
+            },
+            {
+                "label": "Location",
+                "start": 57,
+                "end": 67,
+                "text": "Heliopolis"
+            }
+        ]
+    },
+    {
+        "text": "They find out that Adrius had left Lilath instructions and DNA samples so she can impregnate herself with the clone and raise him.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 19,
+                "end": 25,
+                "text": "Adrius"
+            },
+            {
+                "label": "Person",
+                "start": 35,
+                "end": 41,
+                "text": "Lilath"
+            }
+        ]
+    },
+    {
+        "text": "Atalantia gives him twenty-four hours to surrender.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 9,
+                "text": "Atalantia"
+            }
+        ]
+    },
+    {
+        "text": "It's noted that Sevro has a stateroom in the city.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 16,
+                "end": 21,
+                "text": "Sevro"
+            }
+        ]
+    },
+    {
+        "text": "They show him the images from the Duke of Hands' memory, and he's furious, thinking they're blackmailing him to keep his secret, since Reds are against homosexuality.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 34,
+                "end": 47,
+                "text": "Duke of Hands"
+            },
+            {
+                "label": "Caste",
+                "start": 135,
+                "end": 139,
+                "text": "Reds"
+            }
+        ]
+    },
+    {
+        "text": "Darrow is able to talk his old enemy turned friend turned enemy again down, promising forgiveness and a spot back at Darrow's side.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 115,
+                "end": 123,
+                "text": "Darrow's"
+            }
+        ]
+    },
+    {
+        "text": "When Harmony starts torturing and questioning her, other men start dying from the implants that Lyria's girls were also implanted with.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 5,
+                "end": 12,
+                "text": "Harmony"
+            }
+        ]
+    },
+    {
+        "text": "He finds the guard that used to be the biggest problem in his life, Ugly Dan.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 68,
+                "end": 76,
+                "text": "Ugly Dan"
+            }
+        ]
+    },
+    {
+        "text": "But after some time, Lysander realizes they know something and after probing them with the Mind's Eye, he attacks Rhonna to unconsciousness and kills Alexandar.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 21,
+                "end": 29,
+                "text": "Lysander"
+            },
+            {
+                "label": "MISC",
+                "start": 91,
+                "end": 101,
+                "text": "Mind's Eye"
+            },
+            {
+                "label": "Person",
+                "start": 114,
+                "end": 120,
+                "text": "Rhonna"
+            },
+            {
+                "label": "Person",
+                "start": 150,
+                "end": 159,
+                "text": "Alexandar"
+            }
+        ]
+    },
+    {
+        "text": "Atlas made it through the night, locked in a cell on the Morning Star, let loose by his Gorgons.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 5,
+                "text": "Atlas"
+            },
+            {
+                "label": "Vehicle",
+                "start": 57,
+                "end": 69,
+                "text": "Morning Star"
+            },
+            {
+                "label": "NORP",
+                "start": 88,
+                "end": 95,
+                "text": "Gorgons"
+            }
+        ]
+    },
+    {
+        "text": "He sees that Sevro also adorned his room with holos of his daughters.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 13,
+                "end": 18,
+                "text": "Sevro"
+            }
+        ]
+    },
+    {
+        "text": "During the choosing ritual, Duncan O'Cyros picks Lyria to be his wife.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 28,
+                "end": 42,
+                "text": "Duncan O'Cyros"
+            },
+            {
+                "label": "Person",
+                "start": 49,
+                "end": 54,
+                "text": "Lyria"
+            }
+        ]
+    },
+    {
+        "text": "At the gala, with the bomb strapped to his chest, Darrow sees many familiar faces, including Antonia and Karnus.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 50,
+                "end": 56,
+                "text": "Darrow"
+            },
+            {
+                "label": "Person",
+                "start": 93,
+                "end": 100,
+                "text": "Antonia"
+            },
+            {
+                "label": "Person",
+                "start": 105,
+                "end": 111,
+                "text": "Karnus"
+            }
+        ]
+    },
+    {
+        "text": "He (and his army of heavily armored Obsidians) convinces House Mars to return to their estate.",
+        "mentions": [
+            {
+                "label": "Caste",
+                "start": 36,
+                "end": 45,
+                "text": "Obsidians"
+            },
+            {
+                "label": "Organization",
+                "start": 57,
+                "end": 67,
+                "text": "House Mars"
+            }
+        ]
+    },
+    {
+        "text": "Ephraim then sneaks into Xenophon's room, where he watches as Xenophon plays a message from Atlas au Raa, stating that Volsun F\u00c3\u00a1 will wait for their signal.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 7,
+                "text": "Ephraim"
+            },
+            {
+                "label": "Person",
+                "start": 25,
+                "end": 35,
+                "text": "Xenophon's"
+            },
+            {
+                "label": "Person",
+                "start": 62,
+                "end": 70,
+                "text": "Xenophon"
+            },
+            {
+                "label": "Person",
+                "start": 92,
+                "end": 104,
+                "text": "Atlas au Raa"
+            },
+            {
+                "label": "Person",
+                "start": 119,
+                "end": 128,
+                "text": "Volsun F\u00c3\u00a1"
+            }
+        ]
+    },
+    {
+        "text": "After Harmony arrives, and finds out about the tooth implants, it's already too late as Lyria used her second tooth to free Victra from her cuffs and unlock the cell.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 6,
+                "end": 13,
+                "text": "Harmony"
+            },
+            {
+                "label": "Person",
+                "start": 88,
+                "end": 93,
+                "text": "Lyria"
+            },
+            {
+                "label": "Person",
+                "start": 124,
+                "end": 130,
+                "text": "Victra"
+            }
+        ]
+    },
+    {
+        "text": "Lorn offers him a massive sculpted Griffin, Icarus, on which to flee, but Darrow does not take the offer.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 4,
+                "text": "Lorn"
+            },
+            {
+                "label": "Person",
+                "start": 44,
+                "end": 50,
+                "text": "Icarus"
+            },
+            {
+                "label": "Person",
+                "start": 74,
+                "end": 80,
+                "text": "Darrow"
+            }
+        ]
+    },
+    {
+        "text": "Mustang is there and tells him that all of Cassius\u00e2\u20ac\u2122s family are dead save he and his mother who are still missing.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 7,
+                "text": "Mustang"
+            },
+            {
+                "label": "Person",
+                "start": 43,
+                "end": 52,
+                "text": "Cassius\u00e2\u20ac\u2122s"
+            }
+        ]
+    },
+    {
+        "text": "Virginia arrives on Mars via the Dejah Thoris.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 8,
+                "text": "Virginia"
+            },
+            {
+                "label": "Planet",
+                "start": 20,
+                "end": 24,
+                "text": "Mars"
+            },
+            {
+                "label": "Vehicle",
+                "start": 33,
+                "end": 45,
+                "text": "Dejah Thoris"
+            }
+        ]
+    },
+    {
+        "text": "She then confirms that Ragnar is Volga's father after Victra had Volga's DNA tested.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 23,
+                "end": 29,
+                "text": "Ragnar"
+            },
+            {
+                "label": "Person",
+                "start": 33,
+                "end": 40,
+                "text": "Volga's"
+            },
+            {
+                "label": "Person",
+                "start": 54,
+                "end": 60,
+                "text": "Victra"
+            },
+            {
+                "label": "Person",
+                "start": 65,
+                "end": 72,
+                "text": "Volga's"
+            }
+        ]
+    },
+    {
+        "text": "His hands are too injured to show whether he's familiar with a razor.",
+        "mentions": [
+            {
+                "label": "Weapon",
+                "start": 63,
+                "end": 68,
+                "text": "razor"
+            }
+        ]
+    },
+    {
+        "text": "As far as the Obsidian is concerned, he is to obey Gold and nothing more.",
+        "mentions": [
+            {
+                "label": "Caste",
+                "start": 14,
+                "end": 22,
+                "text": "Obsidian"
+            },
+            {
+                "label": "Caste",
+                "start": 51,
+                "end": 55,
+                "text": "Gold"
+            }
+        ]
+    },
+    {
+        "text": "Colloway locates and retrieves Orion's body from the sea after six days of searching, having killed one-hundred ninety three of Atalantia's men during those days.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 8,
+                "text": "Colloway"
+            },
+            {
+                "label": "Person",
+                "start": 31,
+                "end": 38,
+                "text": "Orion's"
+            },
+            {
+                "label": "Person",
+                "start": 128,
+                "end": 139,
+                "text": "Atalantia's"
+            }
+        ]
+    },
+    {
+        "text": "He is soon chased all over the city, but when the EMP goes off, this gives him the advantage as he makes his way to the Hippodrome.",
+        "mentions": [
+            {
+                "label": "Location",
+                "start": 120,
+                "end": 130,
+                "text": "Hippodrome"
+            },
+            {
+                "label": "Weapon",
+                "start": 50,
+                "end": 53,
+                "text": "EMP"
+            }
+        ]
+    },
+    {
+        "text": "He reminds his liege of Claudius\u00e2\u20ac\u2122s death at the hands of Karnus and the growing boldness of Bellona children.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 24,
+                "end": 34,
+                "text": "Claudius\u00e2\u20ac\u2122s"
+            },
+            {
+                "label": "Person",
+                "start": 57,
+                "end": 63,
+                "text": "Karnus"
+            },
+            {
+                "label": "NORP",
+                "start": 92,
+                "end": 99,
+                "text": "Bellona"
+            }
+        ]
+    },
+    {
+        "text": "The Sovereign has no choice but to let them go.",
+        "mentions": [
+            {
+                "label": "Rank",
+                "start": 4,
+                "end": 13,
+                "text": "Sovereign"
+            }
+        ]
+    },
+    {
+        "text": "Darrow and Sevro are able to overtake the bridge.",
+        "mentions": [
+            {
+                "label": "Person",
+                "start": 0,
+                "end": 6,
+                "text": "Darrow"
+            },
+            {
+                "label": "Person",
+                "start": 11,
+                "end": 16,
+                "text": "Sevro"
+            }
+        ]
+    },
+    {
+        "text": "She plays along.",
+        "mentions": []
+    },
+    {
+        "text": "She recognizes the golden version of her son immediately.",
+        "mentions": [
+            {
+                "label": "Caste",
+                "start": 19,
+                "end": 25,
+                "text": "golden"
+            }
+        ]
+    },
+    {
+        "text": "Six monsters enter through the hole and start killing the Sol Guards.",
+        "mentions": [
+            {
+                "label": "NORP",
+                "start": 58,
+                "end": 68,
+                "text": "Sol Guards"
+            }
+        ]
     }
 ]
