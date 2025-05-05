@@ -54,6 +54,7 @@ def run_grid_search(model, client, parameters: dict = None):
         prompt_definition = task_definition_prompt(domain, type_descriptions)
         
         for example_domain in tqdm(parameters['example_domain'], desc="Example Domains", leave=False):
+            # TODO: other example selection methods??
             for example_selection in tqdm(parameters['example_selection'], desc="Example Selection Methods", leave=False):
                 # get all examples for the domain using the selection method
                 examples = get_all_domain_examples(domain, example_domain, example_selection)
@@ -224,3 +225,10 @@ if __name__ == "__main__":
 
     create_all_examples(search_parameters['target_domain'], search_parameters['example_selection'])
     results = run_grid_search(model_name, client, search_parameters)
+
+
+    # notes from presentation
+    # should run each experiment multiple times (3-5) to get an average/range of scores
+    # dense examples sometimes will just get things like lists, which aren't necessarily good/helpful examples
+    # might be good to pull cross-domain examples that only have entity types that are also in the target domain
+    
