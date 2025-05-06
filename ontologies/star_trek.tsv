@@ -1,4 +1,4 @@
-Person Name	PERSON	Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.	Spock, Data, Pavel Chekov
+Person Name	PER	Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.	Spock, Data, Pavel Chekov
 Species	SPECIES	Names of sentient species/races	Reman, whale
 Location	LOC	Name of any place, such as a planet, city or geographical feature.	Veridian III, San Francisco
 Organization	ORG	Names of companies, government agencies, educational institutions, military units	Starfleet

@@ -37,13 +37,13 @@
         "text": "Before dying, Gorkon reaches up to Kirk, grasping the back of his head, and begs him not to let it end this way.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 14,
                 "end": 20,
                 "text": "Gorkon"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 35,
                 "end": 39,
                 "text": "Kirk"
@@ -54,7 +54,7 @@
         "text": "Picard and the Ahdar stand opposite each other, Picard fully expecting to die right there.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 6,
                 "text": "Picard"
@@ -66,7 +66,7 @@
                 "text": "Ahdar"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 48,
                 "end": 54,
                 "text": "Picard"
@@ -77,13 +77,13 @@
         "text": "In the cave, Saavik asks Kirk, who casually eats an apple, about his performance on the Kobayashi Maru scenario.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 13,
                 "end": 20,
                 "text": "Saavik "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 25,
                 "end": 29,
                 "text": "Kirk"
@@ -100,7 +100,7 @@
         "text": "Decker wonders what V'ger would need to fulfil itself.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 6,
                 "text": "Decker"
@@ -117,7 +117,7 @@
         "text": "She asks if any of them have been to Turkana IV, to Georgiou's enticement.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 52,
                 "end": 60,
                 "text": "Georgiou"
@@ -140,13 +140,13 @@
                 "text": "Admiral"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 8,
                 "end": 17,
                 "text": "Dougherty"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 22,
                 "end": 28,
                 "text": "Ru'afo"
@@ -175,7 +175,7 @@
         "text": "In preparation for the task ahead, Worf too has been hard at work, modifying a tricorder to deactivate Data.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 35,
                 "end": 39,
                 "text": "Worf"
@@ -187,7 +187,7 @@
                 "text": "tricorder"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 103,
                 "end": 107,
                 "text": "Data"
@@ -198,13 +198,13 @@
         "text": "With all his might, Picard pulls Kirk to safety and the two collapse on the ground, noticing the PADD intact on the other half of the bridge, a deep chasm away.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 20,
                 "end": 26,
                 "text": "Picard"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 33,
                 "end": 37,
                 "text": "Kirk"
@@ -221,13 +221,13 @@
         "text": "Dougherty backs down, but Ru'afo is persistent, \"This is going to end now.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 9,
                 "text": "Dougherty"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 26,
                 "end": 32,
                 "text": "Ru'afo"
@@ -238,7 +238,7 @@
         "text": "Though no one is thrilled that their best weapon is a beam for collecting garbage, Georgiou heads to engineering to redirect power to it because, \"being judgy never helped anything.\"",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 83,
                 "end": 92,
                 "text": "Georgiou "
@@ -255,13 +255,13 @@
         "text": "Kirk tells Uhura to transmit an image of the alien to Starfleet, but she explains that any transmission sent out of the cloud is being reflected back to them.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 5,
                 "text": "Kirk "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 11,
                 "end": 17,
                 "text": "Uhura "
@@ -278,13 +278,13 @@
         "text": "Just then her boss, Bob Briggs, steps up and asks how Gillian is doing and she admits she's very upset.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 20,
                 "end": 30,
                 "text": "Bob Briggs"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 54,
                 "end": 61,
                 "text": "Gillian"
@@ -295,7 +295,7 @@
         "text": "Kirk asks what the whale's radio transmitter's frequency is, but Taylor refuses to tell him, citing that it's classified information.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 5,
                 "text": "Kirk "
@@ -307,7 +307,7 @@
                 "text": "whale"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 65,
                 "end": 72,
                 "text": "Taylor "
@@ -318,13 +318,13 @@
         "text": "J'onn takes an injured Dr. McCoy and Kirk to the brig as Sybok asks Spock to accompany him to the bridge but again Spock refuses.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 5,
                 "text": "J'onn"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 27,
                 "end": 33,
                 "text": "McCoy "
@@ -336,25 +336,25 @@
                 "text": "Dr."
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 37,
                 "end": 42,
                 "text": "Kirk "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 57,
                 "end": 63,
                 "text": "Sybok "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 68,
                 "end": 74,
                 "text": "Spock "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 115,
                 "end": 121,
                 "text": "Spock "
@@ -365,7 +365,7 @@
         "text": "Although modern dogma says that place is a myth, Sybok believes it exists and has taken the Enterprise with the intent of making the greatest discovery of all time \u00e2\u20ac\u201c the discovery of Sha Ka Ree, which lies beyond the Great Barrier at the center of the galaxy.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 49,
                 "end": 54,
                 "text": "Sybok"
@@ -405,13 +405,13 @@
         "text": "Kerla reluctantly allows them to follow him to Gorkon, who is badly wounded.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 6,
                 "text": "Kerla "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 47,
                 "end": 53,
                 "text": "Gorkon"
@@ -422,7 +422,7 @@
         "text": "Their debate is ended when Nero, belligerent to the last, says he prefers to die in agony than accept help from them.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 27,
                 "end": 31,
                 "text": "Nero"
@@ -433,13 +433,13 @@
         "text": "Valeris dodges the accusation by accusing Kirk and the entire ship of betraying Starfleet.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 8,
                 "text": "Valeris "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 42,
                 "end": 47,
                 "text": "Kirk "
@@ -456,25 +456,25 @@
         "text": "McCoy comes up and tells Kirk he's got to be able to go to the hospital and begs Kirk not to leave Chekov in the hands of 20th century medicine.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 5,
                 "text": "McCoy"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 25,
                 "end": 29,
                 "text": "Kirk"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 81,
                 "end": 85,
                 "text": "Kirk"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 99,
                 "end": 105,
                 "text": "Chekov"
@@ -485,7 +485,7 @@
         "text": "McCoy admits that it wasn't \u00e2\u20ac\u201c the real sorrow was that not long after he euthanized his father, a cure to the disease was found \u00e2\u20ac\u201c had he not killed him, he might have lived.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 6,
                 "text": "McCoy "
@@ -496,13 +496,13 @@
         "text": "While Kirk faces his accuser, Spock, and tries to defend himself, the hearing is suddenly interrupted when the committee is informed that the Federation has received a distress call from Vulcan.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 6,
                 "end": 11,
                 "text": "Kirk "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 30,
                 "end": 35,
                 "text": "Spock"
@@ -525,13 +525,13 @@
         "text": "She questions how he could know that about her, and Fuzz reveals that San is alive, having faked his death by slowly building up an immunity to the poison he took.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 52,
                 "end": 57,
                 "text": "Fuzz "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 70,
                 "end": 74,
                 "text": "San "
@@ -546,13 +546,13 @@
         "text": "Martia changes into a duplicate Kirk and they fight, rolling all over the snow before being stopped by a jackal mastiff, Klingon guards, and the warden.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 32,
                 "end": 36,
                 "text": "Kirk"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 6,
                 "text": "Martia"
@@ -575,13 +575,13 @@
         "text": "However, Kirk gets to the artifact first and gives it to Ensign Syl before ordering the crew to abandon ship.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 9,
                 "end": 14,
                 "text": "Kirk "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 64,
                 "end": 68,
                 "text": "Syl "
@@ -598,7 +598,7 @@
         "text": "J'onn believes them to be their lookout party and allows them access to Paradise City.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 5,
                 "text": "J'onn"
@@ -615,7 +615,7 @@
         "text": "With the Enterprise still an hour away from transmission range, Riker needs to buy time.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 64,
                 "end": 69,
                 "text": "Riker"
@@ -632,7 +632,7 @@
         "text": "Anij answers a knock at her door.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 4,
                 "text": "Anij"
@@ -643,7 +643,7 @@
         "text": "Crusher tells him that it's just a bit of harmless fun, and he should try and get into the spirit of things and \"do something unexpected.\"",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 7,
                 "text": "Crusher"
@@ -658,13 +658,13 @@
         "text": "Full of happiness, Data reports to his station to aid in the search for Picard and is so jubilant he plays his console like a piano as he scans for lifeforms causing the whole bridge crew to stare at him.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 19,
                 "end": 24,
                 "text": "Data "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 72,
                 "end": 79,
                 "text": "Picard "
@@ -675,7 +675,7 @@
         "text": "Dr. McCoy performs scans and determines that Spock endured massive neurological trauma from the mind meld.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 4,
                 "end": 9,
                 "text": "McCoy"
@@ -687,7 +687,7 @@
                 "text": "Dr."
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 45,
                 "end": 50,
                 "text": "Spock"
@@ -704,19 +704,19 @@
         "text": "When Kirk protests, Morrow states to him, \"Jim, the Enterprise is twenty years old.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 5,
                 "end": 9,
                 "text": "Kirk"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 20,
                 "end": 26,
                 "text": "Morrow"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 43,
                 "end": 46,
                 "text": "Jim"
@@ -744,13 +744,13 @@
         "text": "When Kirk finishes the modifications, Harriman orders the deflector activated, creating a resonance burst that pushes the Enterprise free.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 5,
                 "end": 10,
                 "text": "Kirk "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 38,
                 "end": 47,
                 "text": "Harriman "
@@ -785,7 +785,7 @@
                 "text": "re-crystallization "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 80,
                 "end": 86,
                 "text": "Scott "
@@ -813,13 +813,13 @@
         "text": "Resting near a small waterfall, Picard and Anij sit on rocks, the captain staring through binoculars at their destination: caves set into distant mountains.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 32,
                 "end": 38,
                 "text": "Picard"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 43,
                 "end": 47,
                 "text": "Anij"
@@ -842,7 +842,7 @@
         "text": "Lily admits that while she may not know anything about the time where the crew comes from, she knows that everyone on the bridge believes that staying aboard the ship and fighting the Borg is suicide, they just won't tell Picard.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 4,
                 "text": "Lily"
@@ -854,7 +854,7 @@
                 "text": "Borg"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 222,
                 "end": 228,
                 "text": "Picard"
@@ -865,19 +865,19 @@
         "text": "As McCoy and Spock speculate on whether or not God is actually out there, Kirk postulates that while God might not be out in space, perhaps he goes with them wherever they are in the Human heart.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 3,
                 "end": 9,
                 "text": "McCoy "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 13,
                 "end": 19,
                 "text": "Spock "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 74,
                 "end": 79,
                 "text": "Kirk "
@@ -906,19 +906,19 @@
         "text": "Shinzon says he's never met a Human woman before, but Troi tells Shinzon she's only half-Human.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 7,
                 "text": "Shinzon"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 54,
                 "end": 58,
                 "text": "Troi"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 65,
                 "end": 72,
                 "text": "Shinzon"
@@ -964,13 +964,13 @@
         "text": "David chuckles and says he cheated, and Kirk qualifies that he \"changed the conditions of the test.\"",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 5,
                 "text": "David"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 40,
                 "end": 44,
                 "text": "Kirk"
@@ -992,13 +992,13 @@
         "text": "Troi realizes this isn't real, but the image of Shinzon changes into the Viceroy.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 4,
                 "text": "Troi"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 48,
                 "end": 55,
                 "text": "Shinzon"
@@ -1015,7 +1015,7 @@
         "text": "After a chase through the chaos that has now engulfed the heart of Starfleet, Spock catches up with Khan on top of a moving garbage barge.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 78,
                 "end": 84,
                 "text": "Spock "
@@ -1027,7 +1027,7 @@
                 "text": "Starfleet"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 100,
                 "end": 105,
                 "text": "Khan "
@@ -1038,13 +1038,13 @@
         "text": "She calls it a miracle but Scotty says that's still to come and Kirk explains that their chances of getting home aren't great and she might have been better off staying where she belonged.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 27,
                 "end": 33,
                 "text": "Scotty"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 64,
                 "end": 68,
                 "text": "Kirk"
@@ -1055,13 +1055,13 @@
         "text": "The pressure is heavily damaging the ship as Kirk orders Scott to get them out of there at all cost.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 45,
                 "end": 49,
                 "text": "Kirk"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 57,
                 "end": 62,
                 "text": "Scott"
@@ -1072,13 +1072,13 @@
         "text": "The message he received from Harewood was a confession, and informed him of who put him up to the attack: John Harrison, a Starfleet officer who has gone rogue.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 29,
                 "end": 38,
                 "text": "Harewood "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 106,
                 "end": 119,
                 "text": "John Harrison"
@@ -1095,7 +1095,7 @@
         "text": "Shinzon says that when he returns to Romulus, he and Suran will have a little chat about showing proper respect.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 7,
                 "text": "Shinzon"
@@ -1107,7 +1107,7 @@
                 "text": "Romulus"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 53,
                 "end": 58,
                 "text": "Suran"
@@ -1118,13 +1118,13 @@
         "text": "Later, on the bridge, Dr. McCoy, Carol Marcus, and Kirk stare at the Genesis Planet on the main viewscreen as the Enterprise departs for Ceti Alpha V to pick up the surviving crew of the Reliant.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 26,
                 "end": 31,
                 "text": "McCoy"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 33,
                 "end": 45,
                 "text": "Carol Marcus"
@@ -1136,7 +1136,7 @@
                 "text": "Dr."
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 51,
                 "end": 56,
                 "text": "Kirk "
@@ -1177,13 +1177,13 @@
         "text": "Spock pulls Decker away and smashes the controls, which works.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 5,
                 "text": "Spock"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 12,
                 "end": 18,
                 "text": "Decker"
@@ -1194,13 +1194,13 @@
         "text": "Sahar and Georgiou hold hands as they fly into the portal prepared to die and hopefully take a large swath of the mirror universe with them.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 5,
                 "text": "Sahar"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 10,
                 "end": 18,
                 "text": "Georgiou"
@@ -1217,7 +1217,7 @@
         "text": "Ru'afo obliges, but repeats his order to the bridge crew to deploy the collector.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 6,
                 "text": "Ru'afo"
@@ -1234,7 +1234,7 @@
         "text": "Picard is freed of his manacles and given a disruptor.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 7,
                 "text": "Picard "
@@ -1251,19 +1251,19 @@
         "text": "In the officers lounge, Spock meets with Kirk and McCoy.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 24,
                 "end": 30,
                 "text": "Spock "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 41,
                 "end": 46,
                 "text": "Kirk "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 50,
                 "end": 55,
                 "text": "McCoy"
@@ -1274,13 +1274,13 @@
         "text": "Shinzon explains that his face isn't exactly as Picard's was because of how he's endured a lifetime of violence, with the Romulans breaking his nose and jaw.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 7,
                 "text": "Shinzon"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 48,
                 "end": 54,
                 "text": "Picard"
@@ -1303,19 +1303,19 @@
                 "text": "Reliant"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 30,
                 "end": 34,
                 "text": "Khan"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 68,
                 "end": 72,
                 "text": "Kirk"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 52,
                 "end": 59,
                 "text": "Terrell"
@@ -1326,13 +1326,13 @@
         "text": "As Spock walks into the turbolift, Kirk stops him and welcomes him aboard.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 3,
                 "end": 8,
                 "text": "Spock"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 35,
                 "end": 39,
                 "text": "Kirk"
@@ -1349,7 +1349,7 @@
         "text": "When McCoy worriedly recites a line from Hamlet, \"Angels and ministers of grace, defend us,\" and Spock recognizes it as act one, scene four, Kirk establishes his faith in Spock's memory and has the ship prepared for warp speed.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 5,
                 "end": 10,
                 "text": "McCoy"
@@ -1361,19 +1361,19 @@
                 "text": "Hamlet"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 97,
                 "end": 102,
                 "text": "Spock"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 141,
                 "end": 145,
                 "text": "Kirk"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 171,
                 "end": 176,
                 "text": "Spock"
@@ -1407,13 +1407,13 @@
         "text": "As Sybok's followers begin to take up positions on the bridge, Sulu begins entering commands into the navigation console.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 3,
                 "end": 8,
                 "text": "Sybok"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 63,
                 "end": 68,
                 "text": "Sulu "
@@ -1430,7 +1430,7 @@
         "text": "She explains to them over dinner how eighteen children were culled from the corners of the Empire to be pitted against each other in a contest of slaughter on Terra until only two remained, herself and San.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 202,
                 "end": 205,
                 "text": "San"
@@ -1453,13 +1453,13 @@
         "text": "However, Soran cryptically tells Picard that \"time is the fire in which we burn and right now, my time is running out.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 9,
                 "end": 14,
                 "text": "Soran"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 33,
                 "end": 39,
                 "text": "Picard"
@@ -1470,13 +1470,13 @@
         "text": "Spock admits to feeling conflicted and feels a rage he cannot control towards Nero over the death of his mother.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 5,
                 "text": "Spock"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 78,
                 "end": 82,
                 "text": "Nero"
@@ -1487,7 +1487,7 @@
         "text": "Spock says that they can't discuss the subject because they don't have a common frame of reference.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 5,
                 "text": "Spock"
@@ -1498,7 +1498,7 @@
         "text": "\"Fine, I'll kill you later,\" Kirk says.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 29,
                 "end": 34,
                 "text": "Kirk "
@@ -1509,7 +1509,7 @@
         "text": "Shinzon proposes unity, tearing down the Neutral Zone and establishing peace.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 7,
                 "text": "Shinzon"
@@ -1526,13 +1526,13 @@
         "text": "Considering Morrow's words for just a moment, Kirk tells the admiral that he hears him and says he had to at least try.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 12,
                 "end": 18,
                 "text": "Morrow"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 46,
                 "end": 50,
                 "text": "Kirk"
@@ -1549,7 +1549,7 @@
         "text": "Picard goes to his quarters.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 6,
                 "text": "Picard"
@@ -1560,7 +1560,7 @@
         "text": "Meanwhile, Harrison materializes on a completely different planet, lifts up the hood of his longcoat, and walks away.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 11,
                 "end": 19,
                 "text": "Harrison"
@@ -1581,7 +1581,7 @@
                 "text": "Starfleet"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 50,
                 "end": 55,
                 "text": "Uhura"
@@ -1592,7 +1592,7 @@
         "text": "She protests, but Kirk knows that he has no choice but to stay behind and continue the attack in order to protect his wife and child and the others.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 18,
                 "end": 22,
                 "text": "Kirk"
@@ -1603,7 +1603,7 @@
         "text": "And with that, Picard is off to the ship's gymnasium.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 15,
                 "end": 22,
                 "text": "Picard "
@@ -1614,19 +1614,19 @@
         "text": "Data is doing nothing but laughing now and when an annoyed La Forge finally asks him to knock it off, Data says, while laughing, that he can't help it and something must be wrong and starts reeling in pain, before collapsing as his neural net has been overloaded by the emotion chip.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 4,
                 "text": "Data"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 59,
                 "end": 67,
                 "text": "La Forge"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 102,
                 "end": 106,
                 "text": "Data"
@@ -1649,7 +1649,7 @@
         "text": "He moves over to the science station and tells Kirk that he is aware of the crisis and knows about the ship's engine design difficulties.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 47,
                 "end": 51,
                 "text": "Kirk"
@@ -1660,7 +1660,7 @@
         "text": "Doctor Crusher returns to the Enterprise with Lily in her care, promising to keep her unconscious as Picard calls up to Geordi La Forge, asking the chief engineer to bring a repair crew to the silo.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 7,
                 "end": 15,
                 "text": "Crusher "
@@ -1678,19 +1678,19 @@
                 "text": "Enterprise "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 46,
                 "end": 51,
                 "text": "Lily "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 101,
                 "end": 108,
                 "text": "Picard "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 120,
                 "end": 135,
                 "text": "Geordi La Forge"
@@ -1707,7 +1707,7 @@
         "text": "An escape pod is found drifting out of a nearby nebula and its occupant, Kalara, claims her ship is stranded on the planet Altamid, which is located past the dangerous, unexplored nebula that will block communications with Starfleet.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 73,
                 "end": 79,
                 "text": "Kalara"
@@ -1742,19 +1742,19 @@
                 "text": "Son'a"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 38,
                 "end": 44,
                 "text": "Picard"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 46,
                 "end": 50,
                 "text": "Worf"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 56,
                 "end": 64,
                 "text": "Gallatin"
@@ -1771,7 +1771,7 @@
         "text": "Georgiou finds that the ship's asymtote coil is missing, likely scavenged.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 9,
                 "text": "Georgiou "
@@ -1788,19 +1788,19 @@
         "text": "Azetbur tells Kirk he's restored her father's faith and Kirk tells her she's restored his son's.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 7,
                 "text": "Azetbur"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 14,
                 "end": 18,
                 "text": "Kirk"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 56,
                 "end": 60,
                 "text": "Kirk"
@@ -1821,13 +1821,13 @@
                 "text": "San Francisco"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 91,
                 "end": 96,
                 "text": "Kirk "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 163,
                 "end": 167,
                 "text": "Kirk"
@@ -1850,13 +1850,13 @@
                 "text": "PADD "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 9,
                 "text": "Gallatin "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 42,
                 "end": 48,
                 "text": "Ru'afo"
@@ -1867,7 +1867,7 @@
         "text": "The bridge buckles and careens down the rock face, taking Kirk with it.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 58,
                 "end": 62,
                 "text": "Kirk"
@@ -1878,7 +1878,7 @@
         "text": "Deactivating his weapon, Gallatin says it is hopeless; the collector cannot be deactivated except from the bridge, which is too well-defended; and no matter what they do, Ru'afo can override any commands to the injector with his communicator.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 25,
                 "end": 34,
                 "text": "Gallatin "
@@ -1890,7 +1890,7 @@
                 "text": "collector "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 171,
                 "end": 178,
                 "text": "Ru'afo "
@@ -1913,19 +1913,19 @@
         "text": "On board, San retracts his mask and removes Georgiou's knife from Fuzz's damaged body.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 44,
                 "end": 52,
                 "text": "Georgiou"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 66,
                 "end": 70,
                 "text": "Fuzz"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 10,
                 "end": 13,
                 "text": "San"
@@ -1936,13 +1936,13 @@
         "text": "Georgiou strikes him, Sahar explaining she will do so every time he is untruthful.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 8,
                 "text": "Georgiou"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 22,
                 "end": 27,
                 "text": "Sahar"
@@ -1953,13 +1953,13 @@
         "text": "Picard and Anij are having difficulty saying goodbye.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 11,
                 "end": 15,
                 "text": "Anij"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 6,
                 "text": "Picard"
@@ -1970,7 +1970,7 @@
         "text": "Soran heaves himself onto the launcher, just in time to read the display screen: the locking clamps have been engaged.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 6,
                 "text": "Soran "
@@ -2011,7 +2011,7 @@
                 "text": "torpedo "
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 46,
                 "end": 53,
                 "text": "Chekov "
@@ -2034,7 +2034,7 @@
         "text": "Though Kirk doesn't want to be dragged into it, he admits that she's right.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 7,
                 "end": 11,
                 "text": "Kirk"
@@ -2057,7 +2057,7 @@
                 "text": "Doctor"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 46,
                 "end": 53,
                 "text": "Crusher"
@@ -2068,7 +2068,7 @@
         "text": "As Troi wishes him luck, her tricorder detects a faint lifeform in the wreckage.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 3,
                 "end": 8,
                 "text": "Troi "
@@ -2085,7 +2085,7 @@
         "text": "Kirk tells her this is all about the future and that history has not ended quite yet.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 5,
                 "text": "Kirk "
@@ -2096,7 +2096,7 @@
         "text": "Nero speaks about how the Narada, in his time, was a mining ship, and he was laboring to support his wife, who was expecting his child, before they were killed when Romulus was destroyed.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 4,
                 "text": "Nero"

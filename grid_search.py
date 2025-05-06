@@ -54,6 +54,8 @@ def run_grid_search(model, client, parameters: dict = None):
         prompt_definition = task_definition_prompt(domain, type_descriptions)
         
         for example_domain in tqdm(parameters['example_domain'], desc="Example Domains", leave=False):
+            if example_domain == domain:
+                continue # skip for star_wars where there is no transfer learning
             # TODO: other example selection methods?? - random
             for example_selection in tqdm(parameters['example_selection'], desc="Example Selection Methods", leave=False):
                 # get all examples for the domain using the selection method
@@ -202,7 +204,7 @@ if __name__ == "__main__":
         'dataset': 'dev',
         'n_examples': [0,1,3,5],
         'example_domain': ['self', 'star_wars'],
-        'example_selection': ['most_dense', 'most_unique'],
+        'example_selection': ['random','most_dense', 'most_unique'],
         'target_domain': ['star_wars', 'star_trek', 'red_rising']
     }
 
@@ -211,7 +213,7 @@ if __name__ == "__main__":
         'dataset': 'dev',
         'n_examples': [3,5],
         'example_domain': ['self'],
-        'example_selection': ['most_dense', 'most_unique'],
+        'example_selection': ['random','most_dense', 'most_unique'],
         'target_domain': ['star_trek']
     }
 
@@ -224,6 +226,7 @@ if __name__ == "__main__":
         pass
 
     create_all_examples(search_parameters['target_domain'], search_parameters['example_selection'])
+    results = run_grid_search(model_name, client, mini_test)
     results = run_grid_search(model_name, client, search_parameters)
 
 

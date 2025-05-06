@@ -19,7 +19,7 @@ def preprocess_json(filepath: str) -> list[dict]:
         for annotation in entry['annotations'][0]['result']:
             mention = annotation['value']
             mentions.append({
-                'label': mention['labels'][0],
+                'label': format_label(mention['labels'][0]),
                 'start': mention['start'],
                 'end': mention['end'],
                 'text': mention['text']
@@ -28,6 +28,9 @@ def preprocess_json(filepath: str) -> list[dict]:
         sentences.append(sentence)
     return sentences
 
+
+def format_label(label: str) -> str:
+    return label.upper().replace('PERSON', 'PER').replace('ORGANIZATION', 'ORG').replace('TECHNOLOGY', 'TECH').replace('LOCATION', 'LOC').replace('RITUAL/HOLIDAY','RITUAL')
 
 def split_sentences(entries: list[dict]) -> list[dict]:
     nlp = spacy.load("en_core_web_sm")

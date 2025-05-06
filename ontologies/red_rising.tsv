@@ -1,14 +1,14 @@
-Person Name	Person	Proper names of people, including first names, last names, individual or family names, unique nicknames.	Darrow, Reaper, Sevro
-Caste	Caste	Names of human caste.	Gold, Red
+Person Name	PER	Proper names of people, including first names, last names, individual or family names, unique nicknames.	Darrow, Reaper, Sevro
+Caste	CASTE	Names of human caste.	Gold, Red
 Planet	Planet	Name of a planet or moon.	Earth, Mars
-Location	Location	Name of any place that is not a planet. Often a city or geographical feature.	Heliopolis, Core, Lykos
-Organization	Organization	Names of companies, government agencies, educational institutions, military units.	Society, Republic, First Army
+Location	LOC	Name of any place that is not a planet. Often a city or geographical feature.	Heliopolis, Core, Lykos
+Organization	ORG	Names of companies, government agencies, educational institutions, military units.	Society, Republic, First Army
 Nationality, Other, Religion, Political	NORP	Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.	Howler, Fulminata
-Event	Event	Events with proper names, such as specific wars, battles, or political landmarks.	Day of Red Doves, Battle of the Ladon
-Weapon	Weapon	Any named armament specific to Red Rising, regardless of size - excludes generic items like ‘weapon,’ ‘cannon,’. etc	StarShell, razor
-Vehicle name	Vehicle	Proper name of a specific instance of a vehicle, typically capable of space travel.	Morning Star, Blood Medusa
-Rank/Title	Rank	Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.	Sovereign, archGovernor, Primus
-Technology	Technology	Named instance of a technology specific to Red Rising. Storm God, gravBike
-Profession	Profession	Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
-Ritual/Holiday	Ritual/Holiday	Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+Event	EVENT	Events with proper names, such as specific wars, battles, or political landmarks.	Day of Red Doves, Battle of the Ladon
+Weapon	WEAPON	Any named armament specific to Red Rising, regardless of size - excludes generic items like ‘weapon,’ ‘cannon,’. etc	StarShell, razor
+Vehicle name	VEHICLE	Proper name of a specific instance of a vehicle, typically capable of space travel.	Morning Star, Blood Medusa
+Rank/Title	RANK	Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.	Sovereign, archGovernor, Primus
+Technology	TECH	Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession	PROFESSION	Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday	RITUAL	Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
 Miscellaneous	MISC	Other named entities    Iron Rain

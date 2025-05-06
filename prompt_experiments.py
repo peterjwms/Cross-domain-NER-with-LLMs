@@ -1,7 +1,7 @@
 from pprint import pprint
 import requests
 import os
-from generate_prompt import  get_entity_types, domain_name_print, load_data_split
+from generate_prompt import  get_entity_types, domain_name_print, load_data_split, get_train_test_dev_data
 import random
 from dotenv import load_dotenv
 import json
@@ -111,6 +111,8 @@ def draw_pie_chart(domain: str, entity_counts: dict, split: str = 'all'):
 
 
 if __name__ == "__main__":
+    for domain in ['star_wars','star_trek','red_rising']:
+       _, _, _ = get_train_test_dev_data(domain)
     calculate_label_distributions()
     # api_key =  os.environ.get('GOOGLE_API_KEY')
     # print(f"{api_key=}")

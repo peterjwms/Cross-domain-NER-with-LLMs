@@ -1,7 +1,7 @@
-Person Name	PERSON	Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.	Luke Skywalker, Vader, R2D2
+Person Name	PER	Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.	Luke Skywalker, Vader, R2D2
 Species	SPECIES	Names of sentient alien species/races	Gungan, Twi'lek
 Planet	PLANET	Name of a planet or star system.	Tatooine, Yavin 4
-Location	LOCATION	Name of any place that is not a planet. Often a city or geographical feature.	Mos Eisley, Beggar's Canyon, Dune Sea
+Location	LOC	Name of any place that is not a planet. Often a city or geographical feature.	Mos Eisley, Beggar's Canyon, Dune Sea
 Organization	ORG	Names of companies, government agencies, educational institutions, military units	Jedi Order, Trade Federation, Galactic Senate
 Geopolitical Entity	GPE	Names of governing bodies	Galactic Empire, Confederacy of Independent Systems
 Nationality, Other, Religion, Political	NORP	Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.	Imperial, Jedi, Rebels

@@ -3,7 +3,7 @@
         "text": "Obi-Wan continues to chase General Grievous on Utapau.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 7,
                 "text": "Obi-Wan"
@@ -15,7 +15,7 @@
                 "text": "General"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 35,
                 "end": 43,
                 "text": "Grievous"
@@ -32,31 +32,31 @@
         "text": "At first, Anakin hesitates but Palpatine firmly insists; completely unaware of Palpatine's true intentions, Anakin viciously decapitates the helpless Dooku.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 10,
                 "end": 16,
                 "text": "Anakin"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 31,
                 "end": 40,
                 "text": "Palpatine"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 79,
                 "end": 90,
                 "text": "Palpatine's"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 108,
                 "end": 114,
                 "text": "Anakin"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 150,
                 "end": 155,
                 "text": "Dooku"
@@ -73,7 +73,7 @@
                 "text": "General"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 8,
                 "end": 15,
                 "text": "Dodonna"
@@ -96,19 +96,19 @@
         "text": "Still mourning Obi-Wan's death, Luke helps Solo fend off a squadron of TIE fighters.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 15,
                 "end": 24,
                 "text": "Obi-Wan's"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 32,
                 "end": 36,
                 "text": "Luke"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 43,
                 "end": 47,
                 "text": "Solo"
@@ -125,7 +125,7 @@
         "text": "George Lucas had originally written the scenes and shot them at the suggestion of his industry friends who thought that audiences wouldn't understand the story strictly being told from a droid's point of view.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 12,
                 "text": "George Lucas"
@@ -136,13 +136,13 @@
         "text": "For their own safety, Luke and Leia will be split up in hopes that the Sith will not sense their presence.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 21,
                 "end": 25,
                 "text": "Luke"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 30,
                 "end": 34,
                 "text": "Leia"
@@ -159,37 +159,37 @@
         "text": "As Windu is deciding to kill Sidious, Anakin argues that Palpatine must stand trial: Windu disregards this, stating Sidious's control over the Senate and courts make him too dangerous to be left alive.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 3,
                 "end": 8,
                 "text": "Windu"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 29,
                 "end": 36,
                 "text": "Sidious"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 38,
                 "end": 44,
                 "text": "Anakin"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 57,
                 "end": 66,
                 "text": "Palpatine"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 85,
                 "end": 90,
                 "text": "Windu"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 116,
                 "end": 125,
                 "text": "Sidious's"
@@ -206,13 +206,13 @@
         "text": "The two join Han and Chewie and successfully jump to hyperspace in the Falcon.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 13,
                 "end": 16,
                 "text": "Han"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 21,
                 "end": 27,
                 "text": "Chewie"
@@ -229,19 +229,19 @@
         "text": "When Rey and Finn explain that they were going to take a droid named BB-8 to the Resistance because it has a map that would reveal Luke's location, Han and Chewie agree to help them.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 5,
                 "end": 8,
                 "text": "Rey"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 13,
                 "end": 17,
                 "text": "Finn"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 69,
                 "end": 73,
                 "text": "BB-8"
@@ -253,19 +253,19 @@
                 "text": "Resistance"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 131,
                 "end": 137,
                 "text": "Luke's"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 148,
                 "end": 151,
                 "text": "Han"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 156,
                 "end": 162,
                 "text": "Chewie"
@@ -282,7 +282,7 @@
                 "text": "Third Systems Army"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 71,
                 "end": 86,
                 "text": "CC-2224 \"Cody.\""
@@ -293,7 +293,7 @@
         "text": "The Jedi are all but eliminated with Obi-Wan Kenobi and Jedi Master Yoda surviving the event and forced into hiding.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 37,
                 "end": 51,
                 "text": "Obi-Wan Kenobi"
@@ -305,7 +305,7 @@
                 "text": "Jedi Master"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 68,
                 "end": 72,
                 "text": "Yoda"
@@ -322,7 +322,7 @@
         "text": "Vader fumes that those who are against him are his enemies and engages Obi-Wan in a ferocious duel between Master and Apprentice.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 69,
                 "end": 76,
                 "text": "Obi-Wan"
@@ -333,25 +333,25 @@
         "text": "Not only this, but having such power and knowledge of the dark side, Plagueis could use thistle ability to save people he cared about from death, a statement which gets Anakin's attention (which was Palpatine's desire) and Palpatine describes the dark side of the Force as a pathway to many abilities considered by some to be unnatural.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 69,
                 "end": 77,
                 "text": "Plagueis"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 169,
                 "end": 177,
                 "text": "Anakin's"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 199,
                 "end": 210,
                 "text": "Palpatine's"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 223,
                 "end": 232,
                 "text": "Palpatine"
@@ -380,7 +380,7 @@
         "text": "Vader tumbles down the embankment and rolls to a stop at the edge of the river of lava.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 5,
                 "text": "Vader"
@@ -391,19 +391,19 @@
         "text": "Sparing one last glance at Luke, Obi-Wan allows himself to be struck down by Vader, thus becoming one with the Force and allowing Luke and the others to escape.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 27,
                 "end": 31,
                 "text": "Luke"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 33,
                 "end": 40,
                 "text": "Obi-Wan"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 77,
                 "end": 82,
                 "text": "Vader"
@@ -415,7 +415,7 @@
                 "text": "Force"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 130,
                 "end": 134,
                 "text": "Luke"
@@ -426,19 +426,19 @@
         "text": "As the movie and prequel trilogy ends, Owen and Beru, holding the infant Luke, look out to the horizon and watch the setting of Tatooine's twin suns.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 39,
                 "end": 43,
                 "text": "Owen"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 48,
                 "end": 52,
                 "text": "Beru"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 73,
                 "end": 77,
                 "text": "Luke"
@@ -455,13 +455,13 @@
         "text": "After viewing Princess Leia's full recording, Obi-Wan attempts to persuade Luke to accompany him to Alderaan.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 46,
                 "end": 53,
                 "text": "Obi-Wan"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 75,
                 "end": 79,
                 "text": "Luke"
@@ -473,7 +473,7 @@
                 "text": "Alderaan"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 23,
                 "end": 29,
                 "text": "Leia's"
@@ -507,13 +507,13 @@
         "text": "Initially, Ren is able to see into Rey's mind, mentioning an island surrounded by water.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 11,
                 "end": 14,
                 "text": "Ren"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 35,
                 "end": 40,
                 "text": "Rey's"
@@ -524,13 +524,13 @@
         "text": "Luke, aided by the voice of Kenobi and guided by the Force, accurately fires two proton torpedoes into the exhaust port and retreats.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 4,
                 "text": "Luke"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 28,
                 "end": 34,
                 "text": "Kenobi"
@@ -565,13 +565,13 @@
                 "text": "Mustafar"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 38,
                 "end": 43,
                 "text": "Padm\u00c3\u00a9"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 68,
                 "end": 73,
                 "text": "Vader"
@@ -582,7 +582,7 @@
         "text": "Unfortunately for Plagueis, he taught his apprentice, who happened to be Darth Sidious, all he knew: after he had, his apprentice killed him in his sleep.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 18,
                 "end": 26,
                 "text": "Plagueis"
@@ -594,7 +594,7 @@
                 "text": "Darth"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 79,
                 "end": 86,
                 "text": "Sidious"
@@ -628,7 +628,7 @@
         "text": "Anakin is finally forced to choose between the Jedi Order or Padm\u00c3\u00a9.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 6,
                 "text": "Anakin"
@@ -640,7 +640,7 @@
                 "text": "Jedi Order"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 61,
                 "end": 66,
                 "text": "Padm\u00c3\u00a9"
@@ -689,7 +689,7 @@
         "text": "Despite their supposed victory, Leia correctly believes the empire let them go in order to track them to the rebel base.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 32,
                 "end": 36,
                 "text": "Leia"
@@ -718,19 +718,19 @@
                 "text": "D'Qar"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 38,
                 "end": 42,
                 "text": "Leia"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 74,
                 "end": 77,
                 "text": "Han"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 94,
                 "end": 99,
                 "text": "Force"
@@ -741,13 +741,13 @@
         "text": "Tarkin is told by an imperial officer that the Rebels do pose a danger, but Tarkin refuses to evacuate in their supposed moment of triumph.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 6,
                 "text": "Tarkin"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 76,
                 "end": 82,
                 "text": "Tarkin"
@@ -770,13 +770,13 @@
                 "text": "Polis Massa"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 38,
                 "end": 42,
                 "text": "Yoda"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 83,
                 "end": 95,
                 "text": "Qui-Gon Jinn"
@@ -787,19 +787,19 @@
         "text": "Han and Chewie speak with Maz.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 3,
                 "text": "Han"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 8,
                 "end": 14,
                 "text": "Chewie"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 26,
                 "end": 29,
                 "text": "Maz"
@@ -810,7 +810,7 @@
         "text": "Using his anger, Anakin taps into the dark side of the Force and gets the better of the duel.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 17,
                 "end": 23,
                 "text": "Anakin"
@@ -845,7 +845,7 @@
                 "text": "Yavin 4,"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 103,
                 "end": 108,
                 "text": "R2-D2"
@@ -862,13 +862,13 @@
         "text": "When Kylo discovers that Rey escaped, he throws another fit of rage, slashing at her empty restraint chair.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 5,
                 "end": 9,
                 "text": "Kylo"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 25,
                 "end": 28,
                 "text": "Rey"
@@ -885,19 +885,19 @@
                 "text": "Resistance"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 38,
                 "end": 42,
                 "text": "Finn"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 44,
                 "end": 47,
                 "text": "Han"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 53,
                 "end": 62,
                 "text": "Chewbacca"
@@ -912,13 +912,13 @@
         "text": "Palpatine tells Anakin Clone Intelligence has located General Grievous hiding in the Utapau system.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 9,
                 "text": "Palpatine"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 16,
                 "end": 22,
                 "text": "Anakin"
@@ -936,7 +936,7 @@
                 "text": "General"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 62,
                 "end": 70,
                 "text": "Grievous"
@@ -963,7 +963,7 @@
                 "text": "Death Star"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 71,
                 "end": 85,
                 "text": "Luke Skywalker"
@@ -980,13 +980,13 @@
         "text": "As his children are born, Vader is being rebuilt at the Grand Republic Medical Facility on Coruscant.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 26,
                 "end": 31,
                 "text": "Vader"
             },
             {
-                "label": "LOCATION",
+                "label": "LOC",
                 "start": 56,
                 "end": 87,
                 "text": "Grand Republic Medical Facility"
@@ -1003,7 +1003,7 @@
         "text": "Upon waking up, Luke finds himself hanging upside down in a cave; his eyes opening to the sight of a wampa eating his tauntaun.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 16,
                 "end": 20,
                 "text": "Luke"
@@ -1030,13 +1030,13 @@
         "text": "However, Windu deflects it with his blade, casting much of the energy back into Sidious' body.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 9,
                 "end": 14,
                 "text": "Windu"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 80,
                 "end": 87,
                 "text": "Sidious"
@@ -1059,7 +1059,7 @@
                 "text": "T-70 X-wings"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 40,
                 "end": 51,
                 "text": "Poe Dameron"
@@ -1087,31 +1087,31 @@
         "text": "Not wanting Rey and Finn to be involved, Han hides both of them in the lower corridors of the freighter while he and Chewie go meet with the criminals, with BB-8 accompanying them.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 12,
                 "end": 15,
                 "text": "Rey"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 20,
                 "end": 24,
                 "text": "Finn"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 41,
                 "end": 44,
                 "text": "Han"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 117,
                 "end": 123,
                 "text": "Chewie"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 157,
                 "end": 161,
                 "text": "BB-8"
@@ -1128,7 +1128,7 @@
                 "text": "First Order"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 67,
                 "end": 75,
                 "text": "Kylo Ren"
@@ -1140,7 +1140,7 @@
                 "text": "Captain"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 88,
                 "end": 94,
                 "text": "Phasma"
@@ -1155,13 +1155,13 @@
         "text": "They approach each other on a bridge over a large pit, and Han pleads with his son to reject Snoke and return to the light side of the Force.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 59,
                 "end": 62,
                 "text": "Han"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 93,
                 "end": 98,
                 "text": "Snoke"
@@ -1184,7 +1184,7 @@
         "text": "The fight appears to be even early on, but Windu gradually gains ground, slowly driving the Sith Lord out of the Chancellor's antechamber and into the office proper.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 43,
                 "end": 48,
                 "text": "Windu"
@@ -1207,7 +1207,7 @@
         "text": "Anakin confirms that the Jedi don't trust him, a fact that Palpatine expands to include the Senate, the Republic, and democracy as a whole.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 6,
                 "text": "Anakin"
@@ -1219,7 +1219,7 @@
                 "text": "Jedi"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 59,
                 "end": 68,
                 "text": "Palpatine"
@@ -1242,7 +1242,7 @@
         "text": "Grievous is uncertain about this, given Count Dooku's death.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 8,
                 "text": "Grievous"
@@ -1254,7 +1254,7 @@
                 "text": "Count"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 46,
                 "end": 53,
                 "text": "Dooku's"
@@ -1288,19 +1288,19 @@
         "text": "The few remaining ships (those of Wedge Antilles, Luke, Han, and a Y-wing Pilot) return to Yavin 4 and a victory ceremony commences, where medals are presented to the heroes, Han Solo and Luke Skywalker, by Princess Leia, as the rebels give them a standing ovation.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 34,
                 "end": 48,
                 "text": "Wedge Antilles"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 50,
                 "end": 54,
                 "text": "Luke"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 56,
                 "end": 59,
                 "text": "Han"
@@ -1312,13 +1312,13 @@
                 "text": "Yavin 4"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 175,
                 "end": 183,
                 "text": "Han Solo"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 188,
                 "end": 202,
                 "text": "Luke Skywalker"
@@ -1330,7 +1330,7 @@
                 "text": "Princess"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 216,
                 "end": 220,
                 "text": "Leia"
@@ -1347,25 +1347,25 @@
         "text": "BB-8 notices Finn, wearing his master Dameron's jacket, prompting Rey to chase after him.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 4,
                 "text": "BB-8"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 13,
                 "end": 17,
                 "text": "Finn"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 38,
                 "end": 47,
                 "text": "Dameron's"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 66,
                 "end": 69,
                 "text": "Rey"
@@ -1382,13 +1382,13 @@
                 "text": "First Order"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 109,
                 "end": 112,
                 "text": "Han"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 155,
                 "end": 158,
                 "text": "Rey"
@@ -1399,13 +1399,13 @@
         "text": "As the door opens, Obi-Wan and Vader exit the mining facility and head outside.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 19,
                 "end": 26,
                 "text": "Obi-Wan"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 31,
                 "end": 36,
                 "text": "Vader"
@@ -1416,13 +1416,13 @@
         "text": "Palpatine notes the irony of how Plagueis could keep others from dying, but not himself.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 9,
                 "text": "Palpatine"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 33,
                 "end": 41,
                 "text": "Plagueis"
@@ -1433,7 +1433,7 @@
         "text": "Sidious arrives on Mustafar with a group of shock troopers led by Commander Thire.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 7,
                 "text": "Sidious"
@@ -1451,7 +1451,7 @@
                 "text": "Commander"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 76,
                 "end": 81,
                 "text": "Thire"
@@ -1485,25 +1485,25 @@
                 "text": "Tatooine"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 13,
                 "end": 20,
                 "text": "Obi-Wan"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 28,
                 "end": 32,
                 "text": "Luke"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 63,
                 "end": 67,
                 "text": "Owen"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 83,
                 "end": 87,
                 "text": "Beru"
@@ -1514,31 +1514,31 @@
         "text": "Luke and Leia briefly become separated from Han and Chewie when Han chases after a group of stormtroopers, only to run into a whole battalion and be chased by them instead.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 4,
                 "text": "Luke"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 9,
                 "end": 13,
                 "text": "Leia"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 44,
                 "end": 47,
                 "text": "Han"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 52,
                 "end": 58,
                 "text": "Chewie"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 64,
                 "end": 67,
                 "text": "Han"
@@ -1549,19 +1549,19 @@
         "text": "Yoda resumes fighting Sidious until they are taken the Galactic Senate Chamber, the heart of the Senate.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 4,
                 "text": "Yoda"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 22,
                 "end": 29,
                 "text": "Sidious"
             },
             {
-                "label": "LOCATION",
+                "label": "LOC",
                 "start": 55,
                 "end": 78,
                 "text": "Galactic Senate Chamber"
@@ -1582,7 +1582,7 @@
         "text": "Their conversation shifts to Palpatine's knowledge of the Force and dark side, both of which he learned from his mentor (Plagueis), much to the shock of Anakin who starts to become wary of the Chancellor.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 29,
                 "end": 40,
                 "text": "Palpatine's"
@@ -1600,13 +1600,13 @@
                 "text": "dark side"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 121,
                 "end": 129,
                 "text": "Plagueis"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 153,
                 "end": 159,
                 "text": "Anakin"
@@ -1623,7 +1623,7 @@
         "text": "Obi-Wan later regains consciousness.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 7,
                 "text": "Obi-Wan"
@@ -1634,19 +1634,19 @@
         "text": "Meanwhile, after failed attempts of torturing Poe for vital information about the map of Luke Skywalker's location, Ren uses his mind probe Force power to pry the information from Poe's mind.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 46,
                 "end": 49,
                 "text": "Poe"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 89,
                 "end": 105,
                 "text": "Luke Skywalker's"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 116,
                 "end": 119,
                 "text": "Ren"
@@ -1658,7 +1658,7 @@
                 "text": "Force"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 180,
                 "end": 185,
                 "text": "Poe's"
@@ -1669,7 +1669,7 @@
         "text": "He severs both of Dooku's hands, rendering him incapable of defending himself, and then holds him at blade point with both his own lightsaber and Dooku's weapon.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 18,
                 "end": 25,
                 "text": "Dooku's"
@@ -1681,7 +1681,7 @@
                 "text": "lightsaber"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 146,
                 "end": 153,
                 "text": "Dooku's"
@@ -1692,13 +1692,13 @@
         "text": "Anakin reacts angrily at this perceived slight, but is quickly shut down by Mace Windu.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 6,
                 "text": "Anakin"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 76,
                 "end": 86,
                 "text": "Mace Windu"
@@ -1709,13 +1709,13 @@
         "text": "Ren becomes so impressed with Rey that he tries to tempt her, complimenting her strength with the Force and offering to complete her training if she joins him.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 3,
                 "text": "Ren"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 30,
                 "end": 33,
                 "text": "Rey"
@@ -1732,13 +1732,13 @@
         "text": "Leia will be adopted by Bail Organa, and Luke would be sent to his father's step family on Tatooine.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 23,
                 "end": 34,
                 "text": "Bail Organa"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 40,
                 "end": 44,
                 "text": "Luke"
@@ -1755,19 +1755,19 @@
         "text": "R2 escapes from the Lars' homestead in search of Obi-Wan, whom the droid claims to be the property of.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 2,
                 "text": "R2"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 20,
                 "end": 24,
                 "text": "Lars"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 49,
                 "end": 56,
                 "text": "Obi-Wan"
@@ -1778,7 +1778,7 @@
         "text": "Vader begins to speak through his vocabulator to the Emperor, asking about Padm\u00c3\u00a9.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 5,
                 "text": "Vader"
@@ -1790,7 +1790,7 @@
                 "text": "Emperor"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 75,
                 "end": 80,
                 "text": "Padm\u00c3\u00a9"
@@ -1801,7 +1801,7 @@
         "text": "Before Rey can move in to finish him off, a large trench forms between them as the base begins to fall apart.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 7,
                 "end": 10,
                 "text": "Rey"
@@ -1812,19 +1812,19 @@
         "text": "Rey, Finn, and BB-8 attempt to flee towards a Quadjumper, but TIE/fo fighters destroy it.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 3,
                 "text": "Rey"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 5,
                 "end": 9,
                 "text": "Finn"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 15,
                 "end": 19,
                 "text": "BB-8"
@@ -1864,13 +1864,13 @@
         "text": "Obi-Wan later tells Anakin that the Council wants Anakin to report on all the Chancellor's dealings, essentially spying on him.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 7,
                 "text": "Obi-Wan"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 20,
                 "end": 26,
                 "text": "Anakin"
@@ -1882,7 +1882,7 @@
                 "text": "Council"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 50,
                 "end": 56,
                 "text": "Anakin"
@@ -1899,43 +1899,43 @@
         "text": "Obi-Wan calls Anakin strong and wise and tells Anakin he's very proud of him and while Obi-Wan trained him since Anakin was a boy, he calls Anakin a far greater Jedi than Obi-Wan could hope to be.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 7,
                 "text": "Obi-Wan"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 14,
                 "end": 20,
                 "text": "Anakin"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 47,
                 "end": 53,
                 "text": "Anakin"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 87,
                 "end": 94,
                 "text": "Obi-Wan"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 113,
                 "end": 119,
                 "text": "Anakin"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 140,
                 "end": 146,
                 "text": "Anakin"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 171,
                 "end": 178,
                 "text": "Obi-Wan"
@@ -1952,7 +1952,7 @@
         "text": "In order to bring BB-8 to the Resistance, they needed to switch to a clean ship, which Han says he can obtain from an old friend.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 18,
                 "end": 22,
                 "text": "BB-8"
@@ -1964,7 +1964,7 @@
                 "text": "Resistance"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 87,
                 "end": 90,
                 "text": "Han"
@@ -1975,25 +1975,25 @@
         "text": "Leia takes charge, blasting a hole in a nearby grate and jumping through while Chewbacca, Luke, and Han all dive after the princess.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 4,
                 "text": "Leia"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 79,
                 "end": 88,
                 "text": "Chewbacca"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 90,
                 "end": 94,
                 "text": "Luke"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 100,
                 "end": 103,
                 "text": "Han"
@@ -2010,7 +2010,7 @@
         "text": "Using Grievous's electrostaff, he manages to destabilize the speeder, and it goes into a spin.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 6,
                 "end": 16,
                 "text": "Grievous's"
@@ -2045,7 +2045,7 @@
                 "text": "snowspeeders"
             },
             {
-                "label": "LOCATION",
+                "label": "LOC",
                 "start": 68,
                 "end": 77,
                 "text": "Echo Base"
@@ -2056,7 +2056,7 @@
         "text": "She then goes to Unkar Plutt to exchange her scraps for foodstuff, and he offers her a quarter portion for her salvage.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 17,
                 "end": 28,
                 "text": "Unkar Plutt"
@@ -2067,7 +2067,7 @@
         "text": "Han Solo pilots the Millennium Falcon to Starkiller Base accompanied by Chewbacca and Finn.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 8,
                 "text": "Han Solo"
@@ -2085,13 +2085,13 @@
                 "text": "Starkiller Base"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 72,
                 "end": 81,
                 "text": "Chewbacca"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 86,
                 "end": 90,
                 "text": "Finn"
@@ -2106,19 +2106,19 @@
         "text": "Obi-Wan and Vader battle over the bridge and enter the Klegger Corp Mining Facility, making their way through the hallways.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 7,
                 "text": "Obi-Wan"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 12,
                 "end": 17,
                 "text": "Vader"
             },
             {
-                "label": "LOCATION",
+                "label": "LOC",
                 "start": 55,
                 "end": 83,
                 "text": "Klegger Corp Mining Facility"
@@ -2129,37 +2129,37 @@
         "text": "Anakin returns to the Jedi Temple and approaches Windu who tells Anakin that they have just been informed that Obi-Wan has destroyed General Grievous and so they are going to go to the Senate to ensure that Chancellor Palpatine gives back his emergency powers.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 6,
                 "text": "Anakin"
             },
             {
-                "label": "LOCATION",
+                "label": "LOC",
                 "start": 22,
                 "end": 33,
                 "text": "Jedi Temple"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 49,
                 "end": 54,
                 "text": "Windu"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 65,
                 "end": 71,
                 "text": "Anakin"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 111,
                 "end": 118,
                 "text": "Obi-Wan"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 141,
                 "end": 149,
                 "text": "Grievous"
@@ -2183,7 +2183,7 @@
                 "text": "Chancellor"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 218,
                 "end": 227,
                 "text": "Palpatine"
@@ -2205,7 +2205,7 @@
         "text": "Finn, however, insists on leaving, and that there is no way to defeat the First Order.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 4,
                 "text": "Finn"
@@ -2222,19 +2222,19 @@
         "text": "Palpatine takes Anakin back to some of the early political lessons Palpatine tried to teach him, about how all those who gain power are afraid to lose it and that includes the Jedi.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 9,
                 "text": "Palpatine"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 16,
                 "end": 22,
                 "text": "Anakin"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 67,
                 "end": 76,
                 "text": "Palpatine"
@@ -2251,13 +2251,13 @@
         "text": "He reveals to Vader's burned helmet that the light is pulling him in again and that even Snoke could sense it.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 14,
                 "end": 21,
                 "text": "Vader's"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 89,
                 "end": 94,
                 "text": "Snoke"
@@ -2283,19 +2283,19 @@
         "text": "Anakin stops Obi-Wan and tells him that he knows he's disappointed Obi-Wan and that he's not been acting very grateful for the training he received.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 0,
                 "end": 6,
                 "text": "Anakin"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 13,
                 "end": 20,
                 "text": "Obi-Wan"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 67,
                 "end": 74,
                 "text": "Obi-Wan"
@@ -2306,25 +2306,25 @@
         "text": "At the Galaxies Opera House in the Uscru District, Anakin joins Palpatine in watching the Mon Calamari Aquatic Ballet performing Squid Lake.",
         "mentions": [
             {
-                "label": "LOCATION",
+                "label": "LOC",
                 "start": 7,
                 "end": 27,
                 "text": "Galaxies Opera House"
             },
             {
-                "label": "LOCATION",
+                "label": "LOC",
                 "start": 35,
                 "end": 49,
                 "text": "Uscru District"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 51,
                 "end": 57,
                 "text": "Anakin"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 64,
                 "end": 73,
                 "text": "Palpatine"
@@ -2341,13 +2341,13 @@
         "text": "But Obi-Wan encourages Anakin to be patient and that it won't be long before the Council makes Anakin a Jedi Master.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 4,
                 "end": 11,
                 "text": "Obi-Wan"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 23,
                 "end": 29,
                 "text": "Anakin"
@@ -2359,7 +2359,7 @@
                 "text": "Council"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 95,
                 "end": 101,
                 "text": "Anakin"
@@ -2393,19 +2393,19 @@
         "text": "When Anakin asks if it is possible to learn the power to stop death, Palpatine simply replies, \"Not from a Jedi,\" further alienating Anakin from the Jedi Order.",
         "mentions": [
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 5,
                 "end": 11,
                 "text": "Anakin"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 69,
                 "end": 78,
                 "text": "Palpatine"
             },
             {
-                "label": "PERSON",
+                "label": "PER",
                 "start": 133,
                 "end": 139,
                 "text": "Anakin"
