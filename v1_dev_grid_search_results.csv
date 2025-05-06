@@ -1,0 +1,2295 @@
+domain,n_examples,example_domain,example_selection,prompt,F1,precision,recall
+star_wars,0,self,most_dense,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",71.62,71.15,72.09
+star_wars,1,self,most_dense,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",71.52,69.72,73.42
+star_wars,3,self,most_dense,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+""Elsewhere, Grievous, now both the political and military leader of the Separatists, arrives on Utapau, where Trade Federation Viceroy Nute Gunray, Geonosian Archduke Poggle the Lesser, Techno Union head of state and Foreman Wat Tambor, and others on the Separatist Council remain in hiding.""
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Utapau"", ""label"": ""PLANET""}
+{""entity"": ""Trade Federation"", ""label"": ""ORG""}
+{""entity"": ""Viceroy"", ""label"": ""RANK""}
+{""entity"": ""Nute Gunray"", ""label"": ""PERSON""}
+{""entity"": ""Geonosian"", ""label"": ""PLANET""}
+{""entity"": ""Archduke"", ""label"": ""RANK""}
+{""entity"": ""Poggle the Lesser"", ""label"": ""PERSON""}
+{""entity"": ""Techno Union"", ""label"": ""ORG""}
+{""entity"": ""Foreman"", ""label"": ""RANK""}
+{""entity"": ""Wat Tambor"", ""label"": ""PLANET""}
+{""entity"": ""Separatist Council"", ""label"": ""ORG""}
+{""entity"": ""Separatists"", ""label"": ""NORP""}
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",75.21,74.35,76.08
+star_wars,5,self,most_dense,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+""Elsewhere, Grievous, now both the political and military leader of the Separatists, arrives on Utapau, where Trade Federation Viceroy Nute Gunray, Geonosian Archduke Poggle the Lesser, Techno Union head of state and Foreman Wat Tambor, and others on the Separatist Council remain in hiding.""
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Utapau"", ""label"": ""PLANET""}
+{""entity"": ""Trade Federation"", ""label"": ""ORG""}
+{""entity"": ""Viceroy"", ""label"": ""RANK""}
+{""entity"": ""Nute Gunray"", ""label"": ""PERSON""}
+{""entity"": ""Geonosian"", ""label"": ""PLANET""}
+{""entity"": ""Archduke"", ""label"": ""RANK""}
+{""entity"": ""Poggle the Lesser"", ""label"": ""PERSON""}
+{""entity"": ""Techno Union"", ""label"": ""ORG""}
+{""entity"": ""Foreman"", ""label"": ""RANK""}
+{""entity"": ""Wat Tambor"", ""label"": ""PLANET""}
+{""entity"": ""Separatist Council"", ""label"": ""ORG""}
+{""entity"": ""Separatists"", ""label"": ""NORP""}
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+""While eating dinner with Owen and his Aunt Beru Whitesun Lars, Owen asks Luke to take R2 to Anchorhead the next day to have his memory wiped, and expresses his hope Luke will stay with them for one more harvest season before applying to the Academy.""
+{""entity"": ""Owen"", ""label"": ""PERSON""}
+{""entity"": ""Beru Whitesun Lars"", ""label"": ""PERSON""}
+{""entity"": ""Aunt"", ""label"": ""RANK""}
+{""entity"": ""Owen"", ""label"": ""PERSON""}
+{""entity"": ""Luke"", ""label"": ""PERSON""}
+{""entity"": ""R2"", ""label"": ""PERSON""}
+{""entity"": ""Anchorhead"", ""label"": ""LOCATION""}
+{""entity"": ""Luke"", ""label"": ""PERSON""}
+{""entity"": ""Academy"", ""label"": ""ORG""}
+""The Confederacy's cyborg military leader, General Grievous of the Separatist Droid Army, has brought the war to Coruscant and captured Supreme Chancellor Sheev Palpatine, leader of the Galactic Senate, during a massive space battle.""
+{""entity"": ""General"", ""label"": ""RANK""}
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Separatist Droid Army"", ""label"": ""ORG""}
+{""entity"": ""Coruscant"", ""label"": ""PLANET""}
+{""entity"": ""Supreme Chancellor"", ""label"": ""RANK""}
+{""entity"": ""Sheev Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Galactic Senate"", ""label"": ""ORG""}
+{""entity"": ""Confederacy's"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",75.29,76.19,74.42
+star_wars,0,self,most_unique,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",72.88,73.0,72.76
+star_wars,1,self,most_unique,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",73.03,72.31,73.75
+star_wars,3,self,most_unique,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+""Arriving at Chalmun's Spaceport Cantina, the group hires smuggler Han Solo and his First Mate, a Wookiee named Chewbacca, for 17,000 credits, 2,000 in advance and 15,000 upon arrival, to take the four of them to Alderaan aboard their ship, the Millennium Falcon.""
+{""entity"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOCATION""}
+{""entity"": ""Han Solo"", ""label"": ""PERSON""}
+{""entity"": ""First Mate"", ""label"": ""RANK""}
+{""entity"": ""Wookiee"", ""label"": ""SPECIES""}
+{""entity"": ""Chewbacca"", ""label"": ""PERSON""}
+{""entity"": ""Alderaan"", ""label"": ""PLANET""}
+{""entity"": ""Millennium Falcon"", ""label"": ""SPACECRAFT""}
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",75.45,74.84,76.08
+star_wars,5,self,most_unique,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+""Arriving at Chalmun's Spaceport Cantina, the group hires smuggler Han Solo and his First Mate, a Wookiee named Chewbacca, for 17,000 credits, 2,000 in advance and 15,000 upon arrival, to take the four of them to Alderaan aboard their ship, the Millennium Falcon.""
+{""entity"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOCATION""}
+{""entity"": ""Han Solo"", ""label"": ""PERSON""}
+{""entity"": ""First Mate"", ""label"": ""RANK""}
+{""entity"": ""Wookiee"", ""label"": ""SPECIES""}
+{""entity"": ""Chewbacca"", ""label"": ""PERSON""}
+{""entity"": ""Alderaan"", ""label"": ""PLANET""}
+{""entity"": ""Millennium Falcon"", ""label"": ""SPACECRAFT""}
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+""The Confederacy's cyborg military leader, General Grievous of the Separatist Droid Army, has brought the war to Coruscant and captured Supreme Chancellor Sheev Palpatine, leader of the Galactic Senate, during a massive space battle.""
+{""entity"": ""General"", ""label"": ""RANK""}
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Separatist Droid Army"", ""label"": ""ORG""}
+{""entity"": ""Coruscant"", ""label"": ""PLANET""}
+{""entity"": ""Supreme Chancellor"", ""label"": ""RANK""}
+{""entity"": ""Sheev Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Galactic Senate"", ""label"": ""ORG""}
+{""entity"": ""Confederacy's"", ""label"": ""GPE""}
+""As the Separatist Droid Army attempts to escape the Galactic capital, a massive space battle erupts, into which race Jedi Master Obi-Wan Kenobi and his former padawan, now Jedi Knight Anakin Skywalker, leading a mission to rescue the Chancellor.""
+{""entity"": ""Separatist Droid Army"", ""label"": ""ORG""}
+{""entity"": ""Jedi Master"", ""label"": ""RANK""}
+{""entity"": ""Obi-Wan Kenobi"", ""label"": ""DROID""}
+{""entity"": ""Jedi Knight"", ""label"": ""RANK""}
+{""entity"": ""Anakin Skywalker"", ""label"": ""PERSON""}
+{""entity"": ""Chancellor"", ""label"": ""RANK""}
+{""entity"": ""Galactic"", ""label"": ""NORP""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",74.79,74.42,75.17
+star_wars,0,star_wars,most_dense,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",70.59,69.45,71.76
+star_wars,1,star_wars,most_dense,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",72.19,71.24,73.15
+star_wars,3,star_wars,most_dense,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+""Elsewhere, Grievous, now both the political and military leader of the Separatists, arrives on Utapau, where Trade Federation Viceroy Nute Gunray, Geonosian Archduke Poggle the Lesser, Techno Union head of state and Foreman Wat Tambor, and others on the Separatist Council remain in hiding.""
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Utapau"", ""label"": ""PLANET""}
+{""entity"": ""Trade Federation"", ""label"": ""ORG""}
+{""entity"": ""Viceroy"", ""label"": ""RANK""}
+{""entity"": ""Nute Gunray"", ""label"": ""PERSON""}
+{""entity"": ""Geonosian"", ""label"": ""PLANET""}
+{""entity"": ""Archduke"", ""label"": ""RANK""}
+{""entity"": ""Poggle the Lesser"", ""label"": ""PERSON""}
+{""entity"": ""Techno Union"", ""label"": ""ORG""}
+{""entity"": ""Foreman"", ""label"": ""RANK""}
+{""entity"": ""Wat Tambor"", ""label"": ""PLANET""}
+{""entity"": ""Separatist Council"", ""label"": ""ORG""}
+{""entity"": ""Separatists"", ""label"": ""NORP""}
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",73.03,73.65,72.43
+star_wars,5,star_wars,most_dense,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+""Elsewhere, Grievous, now both the political and military leader of the Separatists, arrives on Utapau, where Trade Federation Viceroy Nute Gunray, Geonosian Archduke Poggle the Lesser, Techno Union head of state and Foreman Wat Tambor, and others on the Separatist Council remain in hiding.""
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Utapau"", ""label"": ""PLANET""}
+{""entity"": ""Trade Federation"", ""label"": ""ORG""}
+{""entity"": ""Viceroy"", ""label"": ""RANK""}
+{""entity"": ""Nute Gunray"", ""label"": ""PERSON""}
+{""entity"": ""Geonosian"", ""label"": ""PLANET""}
+{""entity"": ""Archduke"", ""label"": ""RANK""}
+{""entity"": ""Poggle the Lesser"", ""label"": ""PERSON""}
+{""entity"": ""Techno Union"", ""label"": ""ORG""}
+{""entity"": ""Foreman"", ""label"": ""RANK""}
+{""entity"": ""Wat Tambor"", ""label"": ""PLANET""}
+{""entity"": ""Separatist Council"", ""label"": ""ORG""}
+{""entity"": ""Separatists"", ""label"": ""NORP""}
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+""While eating dinner with Owen and his Aunt Beru Whitesun Lars, Owen asks Luke to take R2 to Anchorhead the next day to have his memory wiped, and expresses his hope Luke will stay with them for one more harvest season before applying to the Academy.""
+{""entity"": ""Owen"", ""label"": ""PERSON""}
+{""entity"": ""Beru Whitesun Lars"", ""label"": ""PERSON""}
+{""entity"": ""Aunt"", ""label"": ""RANK""}
+{""entity"": ""Owen"", ""label"": ""PERSON""}
+{""entity"": ""Luke"", ""label"": ""PERSON""}
+{""entity"": ""R2"", ""label"": ""PERSON""}
+{""entity"": ""Anchorhead"", ""label"": ""LOCATION""}
+{""entity"": ""Luke"", ""label"": ""PERSON""}
+{""entity"": ""Academy"", ""label"": ""ORG""}
+""The Confederacy's cyborg military leader, General Grievous of the Separatist Droid Army, has brought the war to Coruscant and captured Supreme Chancellor Sheev Palpatine, leader of the Galactic Senate, during a massive space battle.""
+{""entity"": ""General"", ""label"": ""RANK""}
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Separatist Droid Army"", ""label"": ""ORG""}
+{""entity"": ""Coruscant"", ""label"": ""PLANET""}
+{""entity"": ""Supreme Chancellor"", ""label"": ""RANK""}
+{""entity"": ""Sheev Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Galactic Senate"", ""label"": ""ORG""}
+{""entity"": ""Confederacy's"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",75.04,76.74,73.42
+star_wars,0,star_wars,most_unique,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",71.17,70.59,71.76
+star_wars,1,star_wars,most_unique,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",74.2,75.34,73.09
+star_wars,3,star_wars,most_unique,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+""Arriving at Chalmun's Spaceport Cantina, the group hires smuggler Han Solo and his First Mate, a Wookiee named Chewbacca, for 17,000 credits, 2,000 in advance and 15,000 upon arrival, to take the four of them to Alderaan aboard their ship, the Millennium Falcon.""
+{""entity"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOCATION""}
+{""entity"": ""Han Solo"", ""label"": ""PERSON""}
+{""entity"": ""First Mate"", ""label"": ""RANK""}
+{""entity"": ""Wookiee"", ""label"": ""SPECIES""}
+{""entity"": ""Chewbacca"", ""label"": ""PERSON""}
+{""entity"": ""Alderaan"", ""label"": ""PLANET""}
+{""entity"": ""Millennium Falcon"", ""label"": ""SPACECRAFT""}
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",74.58,75.08,74.09
+star_wars,5,star_wars,most_unique,"You are now an entity recognition model for Star Wars data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient alien species/races
+PLANET: Planet - Name of a planet or star system.
+LOC: Location - Name of any place that is not a planet. Often a city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+EVENT: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+WEAPON: Weapon - Any named armament specific to Star Wars, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™ etc
+CREATURE: Creature - Any non-sentient creature/monster/animal native to the Star Wars universe
+DROID: Droid Type - Name of a type or class or droid
+VEHICLE: Vehicle type - Name of a type of class of vehicle
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous/Force - Other named entities, often generic references to the Force
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+""Arriving at Chalmun's Spaceport Cantina, the group hires smuggler Han Solo and his First Mate, a Wookiee named Chewbacca, for 17,000 credits, 2,000 in advance and 15,000 upon arrival, to take the four of them to Alderaan aboard their ship, the Millennium Falcon.""
+{""entity"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOCATION""}
+{""entity"": ""Han Solo"", ""label"": ""PERSON""}
+{""entity"": ""First Mate"", ""label"": ""RANK""}
+{""entity"": ""Wookiee"", ""label"": ""SPECIES""}
+{""entity"": ""Chewbacca"", ""label"": ""PERSON""}
+{""entity"": ""Alderaan"", ""label"": ""PLANET""}
+{""entity"": ""Millennium Falcon"", ""label"": ""SPACECRAFT""}
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+""The Confederacy's cyborg military leader, General Grievous of the Separatist Droid Army, has brought the war to Coruscant and captured Supreme Chancellor Sheev Palpatine, leader of the Galactic Senate, during a massive space battle.""
+{""entity"": ""General"", ""label"": ""RANK""}
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Separatist Droid Army"", ""label"": ""ORG""}
+{""entity"": ""Coruscant"", ""label"": ""PLANET""}
+{""entity"": ""Supreme Chancellor"", ""label"": ""RANK""}
+{""entity"": ""Sheev Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Galactic Senate"", ""label"": ""ORG""}
+{""entity"": ""Confederacy's"", ""label"": ""GPE""}
+""As the Separatist Droid Army attempts to escape the Galactic capital, a massive space battle erupts, into which race Jedi Master Obi-Wan Kenobi and his former padawan, now Jedi Knight Anakin Skywalker, leading a mission to rescue the Chancellor.""
+{""entity"": ""Separatist Droid Army"", ""label"": ""ORG""}
+{""entity"": ""Jedi Master"", ""label"": ""RANK""}
+{""entity"": ""Obi-Wan Kenobi"", ""label"": ""DROID""}
+{""entity"": ""Jedi Knight"", ""label"": ""RANK""}
+{""entity"": ""Anakin Skywalker"", ""label"": ""PERSON""}
+{""entity"": ""Chancellor"", ""label"": ""RANK""}
+{""entity"": ""Galactic"", ""label"": ""NORP""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",74.79,76.21,73.42
+star_trek,0,self,most_dense,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",55.69,57.08,54.37
+star_trek,1,self,most_dense,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""Back on the bridge, Worf tells Picard that the Enterprise's warp signature was obscured by the moon's gravitational field and thus was not detected by the Vulcans, while La Forge can recreate the temporal vortex that brought them there by reconfiguring their warp field.""
+{""entity"": ""Worf"", ""label"": ""PERSON""}
+{""entity"": ""Picard"", ""label"": ""PERSON""}
+{""entity"": ""Enterprise"", ""label"": ""SPACECRAFT""}
+{""entity"": ""Vulcans"", ""label"": ""GPE""}
+{""entity"": ""La Forge"", ""label"": ""PERSON""}
+{""entity"": ""warp field"", ""label"": ""TECH""}
+{""entity"": ""warp signature"", ""label"": ""TECH""}
+{""entity"": ""temporal vortex"", ""label"": ""TECH""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",57.14,60.71,53.97
+star_trek,3,self,most_dense,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""Back on the bridge, Worf tells Picard that the Enterprise's warp signature was obscured by the moon's gravitational field and thus was not detected by the Vulcans, while La Forge can recreate the temporal vortex that brought them there by reconfiguring their warp field.""
+{""entity"": ""Worf"", ""label"": ""PERSON""}
+{""entity"": ""Picard"", ""label"": ""PERSON""}
+{""entity"": ""Enterprise"", ""label"": ""SPACECRAFT""}
+{""entity"": ""Vulcans"", ""label"": ""GPE""}
+{""entity"": ""La Forge"", ""label"": ""PERSON""}
+{""entity"": ""warp field"", ""label"": ""TECH""}
+{""entity"": ""warp signature"", ""label"": ""TECH""}
+{""entity"": ""temporal vortex"", ""label"": ""TECH""}
+""The next day, Kirk, McCoy, Uhura, and a few other Starfleet recruits are in the Kobayashi Maru simulation test on Kirk's third attempt.""
+{""entity"": ""Kirk"", ""label"": ""PERSON""}
+{""entity"": ""McCoy"", ""label"": ""PERSON""}
+{""entity"": ""Uhura"", ""label"": ""PERSON""}
+{""entity"": ""Starfleet "", ""label"": ""ORG""}
+{""entity"": ""Kirk"", ""label"": ""PERSON""}
+{""entity"": ""Kobayashi Maru "", ""label"": ""SPACECRAFT""}
+{""entity"": ""simulation test "", ""label"": ""TECH""}
+""When the Son'a and the war-torn Federation plan to exploit the planet in order to rejuvenate themselves, Captain Jean-Luc Picard and the crew of the Starship Enterprise must rebel against the orders of the Federation Council in order to save the Ba'ku and expose the atrocities that are about to take place.""
+{""entity"": ""Son'a"", ""label"": ""PERSON""}
+{""entity"": ""Federation"", ""label"": ""GPE""}
+{""entity"": ""Captain"", ""label"": ""RANK""}
+{""entity"": ""Jean-Luc Picard"", ""label"": ""PERSON""}
+{""entity"": ""Starship Enterprise"", ""label"": ""SPACECRAFT""}
+{""entity"": ""Federation Council"", ""label"": ""ORG""}
+{""entity"": ""Ba'ku"", ""label"": ""SPECIES""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",56.79,58.97,54.76
+star_trek,5,self,most_dense,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""Back on the bridge, Worf tells Picard that the Enterprise's warp signature was obscured by the moon's gravitational field and thus was not detected by the Vulcans, while La Forge can recreate the temporal vortex that brought them there by reconfiguring their warp field.""
+{""entity"": ""Worf"", ""label"": ""PERSON""}
+{""entity"": ""Picard"", ""label"": ""PERSON""}
+{""entity"": ""Enterprise"", ""label"": ""SPACECRAFT""}
+{""entity"": ""Vulcans"", ""label"": ""GPE""}
+{""entity"": ""La Forge"", ""label"": ""PERSON""}
+{""entity"": ""warp field"", ""label"": ""TECH""}
+{""entity"": ""warp signature"", ""label"": ""TECH""}
+{""entity"": ""temporal vortex"", ""label"": ""TECH""}
+""The next day, Kirk, McCoy, Uhura, and a few other Starfleet recruits are in the Kobayashi Maru simulation test on Kirk's third attempt.""
+{""entity"": ""Kirk"", ""label"": ""PERSON""}
+{""entity"": ""McCoy"", ""label"": ""PERSON""}
+{""entity"": ""Uhura"", ""label"": ""PERSON""}
+{""entity"": ""Starfleet "", ""label"": ""ORG""}
+{""entity"": ""Kirk"", ""label"": ""PERSON""}
+{""entity"": ""Kobayashi Maru "", ""label"": ""SPACECRAFT""}
+{""entity"": ""simulation test "", ""label"": ""TECH""}
+""When the Son'a and the war-torn Federation plan to exploit the planet in order to rejuvenate themselves, Captain Jean-Luc Picard and the crew of the Starship Enterprise must rebel against the orders of the Federation Council in order to save the Ba'ku and expose the atrocities that are about to take place.""
+{""entity"": ""Son'a"", ""label"": ""PERSON""}
+{""entity"": ""Federation"", ""label"": ""GPE""}
+{""entity"": ""Captain"", ""label"": ""RANK""}
+{""entity"": ""Jean-Luc Picard"", ""label"": ""PERSON""}
+{""entity"": ""Starship Enterprise"", ""label"": ""SPACECRAFT""}
+{""entity"": ""Federation Council"", ""label"": ""ORG""}
+{""entity"": ""Ba'ku"", ""label"": ""SPECIES""}
+""Garrett explains what their plan to prevent Noe's sale was before Georgiou spotted them â€“ Sahar would have neutralized Georgiou while Quasi would have taken on her appearance to greet Noe.""
+{""entity"": ""Garrett"", ""label"": ""PERSON""}
+{""entity"": ""Noe"", ""label"": ""PERSON""}
+{""entity"": ""Georgiou"", ""label"": ""PERSON""}
+{""entity"": ""Sahar"", ""label"": ""PERSON""}
+{""entity"": ""Noe"", ""label"": ""PERSON""}
+{""entity"": ""Georgiou"", ""label"": ""PERSON""}
+{""entity"": ""Quasi"", ""label"": ""PERSON""}
+""In particular, Chekov says the Federation believes all worlds have the sovereign claim to inalienable Human rights and Azetbur points out that this statement is racist and that the Federation is little better than a homo sapiens only club, ""present company excepted, of course,"" Chang adds.""
+{""entity"": ""Chekov"", ""label"": ""PERSON""}
+{""entity"": ""Federation"", ""label"": ""GPE""}
+{""entity"": ""Human"", ""label"": ""SPECIES""}
+{""entity"": ""Azetbur"", ""label"": ""PERSON""}
+{""entity"": ""homo sapiens"", ""label"": ""SPECIES""}
+{""entity"": ""Federation"", ""label"": ""GPE""}
+{""entity"": ""Chang"", ""label"": ""PERSON""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",57.68,60.43,55.16
+star_trek,0,self,most_unique,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",55.09,55.42,54.76
+star_trek,1,self,most_unique,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""When the Son'a and the war-torn Federation plan to exploit the planet in order to rejuvenate themselves, Captain Jean-Luc Picard and the crew of the Starship Enterprise must rebel against the orders of the Federation Council in order to save the Ba'ku and expose the atrocities that are about to take place.""
+{""entity"": ""Son'a"", ""label"": ""PERSON""}
+{""entity"": ""Federation"", ""label"": ""GPE""}
+{""entity"": ""Captain"", ""label"": ""RANK""}
+{""entity"": ""Jean-Luc Picard"", ""label"": ""PERSON""}
+{""entity"": ""Starship Enterprise"", ""label"": ""SPACECRAFT""}
+{""entity"": ""Federation Council"", ""label"": ""ORG""}
+{""entity"": ""Ba'ku"", ""label"": ""SPECIES""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",56.49,59.73,53.57
+star_trek,3,self,most_unique,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""When the Son'a and the war-torn Federation plan to exploit the planet in order to rejuvenate themselves, Captain Jean-Luc Picard and the crew of the Starship Enterprise must rebel against the orders of the Federation Council in order to save the Ba'ku and expose the atrocities that are about to take place.""
+{""entity"": ""Son'a"", ""label"": ""PERSON""}
+{""entity"": ""Federation"", ""label"": ""GPE""}
+{""entity"": ""Captain"", ""label"": ""RANK""}
+{""entity"": ""Jean-Luc Picard"", ""label"": ""PERSON""}
+{""entity"": ""Starship Enterprise"", ""label"": ""SPACECRAFT""}
+{""entity"": ""Federation Council"", ""label"": ""ORG""}
+{""entity"": ""Ba'ku"", ""label"": ""SPECIES""}
+""The next day, Kirk, McCoy, Uhura, and a few other Starfleet recruits are in the Kobayashi Maru simulation test on Kirk's third attempt.""
+{""entity"": ""Kirk"", ""label"": ""PERSON""}
+{""entity"": ""McCoy"", ""label"": ""PERSON""}
+{""entity"": ""Uhura"", ""label"": ""PERSON""}
+{""entity"": ""Starfleet "", ""label"": ""ORG""}
+{""entity"": ""Kirk"", ""label"": ""PERSON""}
+{""entity"": ""Kobayashi Maru "", ""label"": ""SPACECRAFT""}
+{""entity"": ""simulation test "", ""label"": ""TECH""}
+""Kirk orders the Bounty into a full power descent and they arrive over the whales just in time to prevent the whaler's harpoon from hitting one of them.""
+{""entity"": ""Kirk"", ""label"": ""PERSON""}
+{""entity"": ""Bounty"", ""label"": ""SPACECRAFT""}
+{""entity"": ""whales"", ""label"": ""SPECIES""}
+{""entity"": ""harpoon"", ""label"": ""WEAPON""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",58.26,60.78,55.95
+star_trek,5,self,most_unique,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""When the Son'a and the war-torn Federation plan to exploit the planet in order to rejuvenate themselves, Captain Jean-Luc Picard and the crew of the Starship Enterprise must rebel against the orders of the Federation Council in order to save the Ba'ku and expose the atrocities that are about to take place.""
+{""entity"": ""Son'a"", ""label"": ""PERSON""}
+{""entity"": ""Federation"", ""label"": ""GPE""}
+{""entity"": ""Captain"", ""label"": ""RANK""}
+{""entity"": ""Jean-Luc Picard"", ""label"": ""PERSON""}
+{""entity"": ""Starship Enterprise"", ""label"": ""SPACECRAFT""}
+{""entity"": ""Federation Council"", ""label"": ""ORG""}
+{""entity"": ""Ba'ku"", ""label"": ""SPECIES""}
+""The next day, Kirk, McCoy, Uhura, and a few other Starfleet recruits are in the Kobayashi Maru simulation test on Kirk's third attempt.""
+{""entity"": ""Kirk"", ""label"": ""PERSON""}
+{""entity"": ""McCoy"", ""label"": ""PERSON""}
+{""entity"": ""Uhura"", ""label"": ""PERSON""}
+{""entity"": ""Starfleet "", ""label"": ""ORG""}
+{""entity"": ""Kirk"", ""label"": ""PERSON""}
+{""entity"": ""Kobayashi Maru "", ""label"": ""SPACECRAFT""}
+{""entity"": ""simulation test "", ""label"": ""TECH""}
+""Kirk orders the Bounty into a full power descent and they arrive over the whales just in time to prevent the whaler's harpoon from hitting one of them.""
+{""entity"": ""Kirk"", ""label"": ""PERSON""}
+{""entity"": ""Bounty"", ""label"": ""SPACECRAFT""}
+{""entity"": ""whales"", ""label"": ""SPECIES""}
+{""entity"": ""harpoon"", ""label"": ""WEAPON""}
+""Back in engineering, Picard is confined to an operation table as Data targets the Phoenix with quantum torpedoes, which the Queen orders destroyed.""
+{""entity"": ""Picard"", ""label"": ""PERSON""}
+{""entity"": ""Data"", ""label"": ""PERSON""}
+{""entity"": ""quantum torpedoes"", ""label"": ""WEAPON""}
+{""entity"": ""Queen"", ""label"": ""RANK""}
+{""entity"": ""Phoenix"", ""label"": ""SPACECRAFT""}
+""For a brief time, the crew is unconscious as Kirk dreams of their voices and faces (quotes from later in the story are heard here, including Scott saying ""Admiral, there be whales here!""), of a whale, and eventually of a person falling from space, through Earth's atmosphere and landing in a lake in a tranquil forest, with a sound of what may be a ship landing.""
+{""entity"": ""Kirk"", ""label"": ""PERSON""}
+{""entity"": ""Scott"", ""label"": ""PERSON""}
+{""entity"": ""Admiral"", ""label"": ""RANK""}
+{""entity"": ""whales"", ""label"": ""SPECIES""}
+{""entity"": ""whale"", ""label"": ""SPECIES""}
+{""entity"": ""person"", ""label"": ""SPECIES""}
+{""entity"": ""Earth"", ""label"": ""LOC""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",58.7,62.22,55.56
+star_trek,0,star_wars,most_dense,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",55.71,56.28,55.16
+star_trek,1,star_wars,most_dense,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",55.85,57.87,53.97
+star_trek,3,star_wars,most_dense,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+""Elsewhere, Grievous, now both the political and military leader of the Separatists, arrives on Utapau, where Trade Federation Viceroy Nute Gunray, Geonosian Archduke Poggle the Lesser, Techno Union head of state and Foreman Wat Tambor, and others on the Separatist Council remain in hiding.""
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Utapau"", ""label"": ""PLANET""}
+{""entity"": ""Trade Federation"", ""label"": ""ORG""}
+{""entity"": ""Viceroy"", ""label"": ""RANK""}
+{""entity"": ""Nute Gunray"", ""label"": ""PERSON""}
+{""entity"": ""Geonosian"", ""label"": ""PLANET""}
+{""entity"": ""Archduke"", ""label"": ""RANK""}
+{""entity"": ""Poggle the Lesser"", ""label"": ""PERSON""}
+{""entity"": ""Techno Union"", ""label"": ""ORG""}
+{""entity"": ""Foreman"", ""label"": ""RANK""}
+{""entity"": ""Wat Tambor"", ""label"": ""PLANET""}
+{""entity"": ""Separatist Council"", ""label"": ""ORG""}
+{""entity"": ""Separatists"", ""label"": ""NORP""}
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",57.92,60.96,55.16
+star_trek,5,star_wars,most_dense,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+""Elsewhere, Grievous, now both the political and military leader of the Separatists, arrives on Utapau, where Trade Federation Viceroy Nute Gunray, Geonosian Archduke Poggle the Lesser, Techno Union head of state and Foreman Wat Tambor, and others on the Separatist Council remain in hiding.""
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Utapau"", ""label"": ""PLANET""}
+{""entity"": ""Trade Federation"", ""label"": ""ORG""}
+{""entity"": ""Viceroy"", ""label"": ""RANK""}
+{""entity"": ""Nute Gunray"", ""label"": ""PERSON""}
+{""entity"": ""Geonosian"", ""label"": ""PLANET""}
+{""entity"": ""Archduke"", ""label"": ""RANK""}
+{""entity"": ""Poggle the Lesser"", ""label"": ""PERSON""}
+{""entity"": ""Techno Union"", ""label"": ""ORG""}
+{""entity"": ""Foreman"", ""label"": ""RANK""}
+{""entity"": ""Wat Tambor"", ""label"": ""PLANET""}
+{""entity"": ""Separatist Council"", ""label"": ""ORG""}
+{""entity"": ""Separatists"", ""label"": ""NORP""}
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+""While eating dinner with Owen and his Aunt Beru Whitesun Lars, Owen asks Luke to take R2 to Anchorhead the next day to have his memory wiped, and expresses his hope Luke will stay with them for one more harvest season before applying to the Academy.""
+{""entity"": ""Owen"", ""label"": ""PERSON""}
+{""entity"": ""Beru Whitesun Lars"", ""label"": ""PERSON""}
+{""entity"": ""Aunt"", ""label"": ""RANK""}
+{""entity"": ""Owen"", ""label"": ""PERSON""}
+{""entity"": ""Luke"", ""label"": ""PERSON""}
+{""entity"": ""R2"", ""label"": ""PERSON""}
+{""entity"": ""Anchorhead"", ""label"": ""LOCATION""}
+{""entity"": ""Luke"", ""label"": ""PERSON""}
+{""entity"": ""Academy"", ""label"": ""ORG""}
+""The Confederacy's cyborg military leader, General Grievous of the Separatist Droid Army, has brought the war to Coruscant and captured Supreme Chancellor Sheev Palpatine, leader of the Galactic Senate, during a massive space battle.""
+{""entity"": ""General"", ""label"": ""RANK""}
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Separatist Droid Army"", ""label"": ""ORG""}
+{""entity"": ""Coruscant"", ""label"": ""PLANET""}
+{""entity"": ""Supreme Chancellor"", ""label"": ""RANK""}
+{""entity"": ""Sheev Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Galactic Senate"", ""label"": ""ORG""}
+{""entity"": ""Confederacy's"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",56.9,61.19,53.17
+star_trek,0,star_wars,most_unique,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",55.02,55.69,54.37
+star_trek,1,star_wars,most_unique,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",54.47,54.58,54.37
+star_trek,3,star_wars,most_unique,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+""Arriving at Chalmun's Spaceport Cantina, the group hires smuggler Han Solo and his First Mate, a Wookiee named Chewbacca, for 17,000 credits, 2,000 in advance and 15,000 upon arrival, to take the four of them to Alderaan aboard their ship, the Millennium Falcon.""
+{""entity"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOCATION""}
+{""entity"": ""Han Solo"", ""label"": ""PERSON""}
+{""entity"": ""First Mate"", ""label"": ""RANK""}
+{""entity"": ""Wookiee"", ""label"": ""SPECIES""}
+{""entity"": ""Chewbacca"", ""label"": ""PERSON""}
+{""entity"": ""Alderaan"", ""label"": ""PLANET""}
+{""entity"": ""Millennium Falcon"", ""label"": ""SPACECRAFT""}
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",56.78,59.91,53.97
+star_trek,5,star_wars,most_unique,"You are now an entity recognition model for Star Trek data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+PERSON: Person Name - Proper names of people, including droids, first names, last names, individual or family names, unique nicknames.
+SPECIES: Species - Names of sentient species/races
+LOC: Location - Name of any place, such as a planet, city or geographical feature.
+ORG: Organization - Names of companies, government agencies, educational institutions, military units
+GPE: Geopolitical Entity - Names of governing bodies
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+WEAPON: Weapon - Any named armament, regardless of size - excludes generic terms like â€˜weapon,â€™ â€˜cannon,â€™ etc
+TECH: Technology - Technobabble used to describe futuristic technology or the use thereof
+SPACECRAFT: Spacecraft name - Proper name of a specific instance of a vehicle capable of space travel
+RANK: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+MISC: Miscellaneous - Other named entities, such as works of art or pet names
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+""Arriving at Chalmun's Spaceport Cantina, the group hires smuggler Han Solo and his First Mate, a Wookiee named Chewbacca, for 17,000 credits, 2,000 in advance and 15,000 upon arrival, to take the four of them to Alderaan aboard their ship, the Millennium Falcon.""
+{""entity"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOCATION""}
+{""entity"": ""Han Solo"", ""label"": ""PERSON""}
+{""entity"": ""First Mate"", ""label"": ""RANK""}
+{""entity"": ""Wookiee"", ""label"": ""SPECIES""}
+{""entity"": ""Chewbacca"", ""label"": ""PERSON""}
+{""entity"": ""Alderaan"", ""label"": ""PLANET""}
+{""entity"": ""Millennium Falcon"", ""label"": ""SPACECRAFT""}
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+""The Confederacy's cyborg military leader, General Grievous of the Separatist Droid Army, has brought the war to Coruscant and captured Supreme Chancellor Sheev Palpatine, leader of the Galactic Senate, during a massive space battle.""
+{""entity"": ""General"", ""label"": ""RANK""}
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Separatist Droid Army"", ""label"": ""ORG""}
+{""entity"": ""Coruscant"", ""label"": ""PLANET""}
+{""entity"": ""Supreme Chancellor"", ""label"": ""RANK""}
+{""entity"": ""Sheev Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Galactic Senate"", ""label"": ""ORG""}
+{""entity"": ""Confederacy's"", ""label"": ""GPE""}
+""As the Separatist Droid Army attempts to escape the Galactic capital, a massive space battle erupts, into which race Jedi Master Obi-Wan Kenobi and his former padawan, now Jedi Knight Anakin Skywalker, leading a mission to rescue the Chancellor.""
+{""entity"": ""Separatist Droid Army"", ""label"": ""ORG""}
+{""entity"": ""Jedi Master"", ""label"": ""RANK""}
+{""entity"": ""Obi-Wan Kenobi"", ""label"": ""DROID""}
+{""entity"": ""Jedi Knight"", ""label"": ""RANK""}
+{""entity"": ""Anakin Skywalker"", ""label"": ""PERSON""}
+{""entity"": ""Chancellor"", ""label"": ""RANK""}
+{""entity"": ""Galactic"", ""label"": ""NORP""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",57.62,60.79,54.76
+red_rising,0,self,most_dense,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",85.59,82.97,88.37
+red_rising,1,self,most_dense,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""Sevro arrives ready to kill the Duke of Hands, but when Virginia theorizes correctly the whereabouts of Pax and Electra, that they're with Sefi and her Obsidians on Mars, and why Sevro and Victra kept Virginia out of it, she convinces Sevro to return to her command, along with the Howler First Cohort.""
+{""entity"": ""Sevro"", ""label"": ""Person""}
+{""entity"": ""Duke of Hands"", ""label"": ""Person""}
+{""entity"": ""Virginia"", ""label"": ""Person""}
+{""entity"": ""Pax"", ""label"": ""Person""}
+{""entity"": ""Electra"", ""label"": ""Person""}
+{""entity"": ""Sefi"", ""label"": ""Person""}
+{""entity"": ""Mars"", ""label"": ""Planet""}
+{""entity"": ""Sevro"", ""label"": ""Person""}
+{""entity"": ""Victra"", ""label"": ""Person""}
+{""entity"": ""Virginia"", ""label"": ""Person""}
+{""entity"": ""Sevro"", ""label"": ""Person""}
+{""entity"": ""Howler First Cohort"", ""label"": ""Organization""}
+{""entity"": ""Obsidians"", ""label"": ""Caste""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",84.16,81.94,86.51
+red_rising,3,self,most_dense,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""Sevro arrives ready to kill the Duke of Hands, but when Virginia theorizes correctly the whereabouts of Pax and Electra, that they're with Sefi and her Obsidians on Mars, and why Sevro and Victra kept Virginia out of it, she convinces Sevro to return to her command, along with the Howler First Cohort.""
+{""entity"": ""Sevro"", ""label"": ""Person""}
+{""entity"": ""Duke of Hands"", ""label"": ""Person""}
+{""entity"": ""Virginia"", ""label"": ""Person""}
+{""entity"": ""Pax"", ""label"": ""Person""}
+{""entity"": ""Electra"", ""label"": ""Person""}
+{""entity"": ""Sefi"", ""label"": ""Person""}
+{""entity"": ""Mars"", ""label"": ""Planet""}
+{""entity"": ""Sevro"", ""label"": ""Person""}
+{""entity"": ""Victra"", ""label"": ""Person""}
+{""entity"": ""Virginia"", ""label"": ""Person""}
+{""entity"": ""Sevro"", ""label"": ""Person""}
+{""entity"": ""Howler First Cohort"", ""label"": ""Organization""}
+{""entity"": ""Obsidians"", ""label"": ""Caste""}
+""After they defeat the Red Hand and land to see the exodus of childwives from the Red Hand Headquarters, including Lyria, Victra, and Volga, Pax and Electra reunite with Victra, and Volga with Ephraim.""
+{""entity"": ""Red Hand"", ""label"": ""Organization""}
+{""entity"": ""Red Hand"", ""label"": ""Organization""}
+{""entity"": ""Lyria"", ""label"": ""Person""}
+{""entity"": ""Victra"", ""label"": ""Person""}
+{""entity"": ""Volga"", ""label"": ""Person""}
+{""entity"": ""Pax"", ""label"": ""Person""}
+{""entity"": ""Electra"", ""label"": ""Person""}
+{""entity"": ""Victra"", ""label"": ""Person""}
+{""entity"": ""Volga"", ""label"": ""Person""}
+{""entity"": ""Ephraim"", ""label"": ""Person""}
+""On a drake hunting celebration, Ephraim watches next to Xenophon and Valdir, as Pax rides with Sefi on her griffin Godeater, and Electra rides with Freihild, accompanied by the Valkyrie.""
+{""entity"": ""Ephraim"", ""label"": ""Person""}
+{""entity"": ""Xenophon"", ""label"": ""Person""}
+{""entity"": ""Valdir"", ""label"": ""Person""}
+{""entity"": ""Pax"", ""label"": ""Person""}
+{""entity"": ""Sefi"", ""label"": ""Person""}
+{""entity"": ""Godeater"", ""label"": ""Person""}
+{""entity"": ""Electra"", ""label"": ""Person""}
+{""entity"": ""Freihild"", ""label"": ""Person""}
+{""entity"": ""Valkyrie"", ""label"": ""NORP""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",88.17,87.96,88.37
+red_rising,5,self,most_dense,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""Sevro arrives ready to kill the Duke of Hands, but when Virginia theorizes correctly the whereabouts of Pax and Electra, that they're with Sefi and her Obsidians on Mars, and why Sevro and Victra kept Virginia out of it, she convinces Sevro to return to her command, along with the Howler First Cohort.""
+{""entity"": ""Sevro"", ""label"": ""Person""}
+{""entity"": ""Duke of Hands"", ""label"": ""Person""}
+{""entity"": ""Virginia"", ""label"": ""Person""}
+{""entity"": ""Pax"", ""label"": ""Person""}
+{""entity"": ""Electra"", ""label"": ""Person""}
+{""entity"": ""Sefi"", ""label"": ""Person""}
+{""entity"": ""Mars"", ""label"": ""Planet""}
+{""entity"": ""Sevro"", ""label"": ""Person""}
+{""entity"": ""Victra"", ""label"": ""Person""}
+{""entity"": ""Virginia"", ""label"": ""Person""}
+{""entity"": ""Sevro"", ""label"": ""Person""}
+{""entity"": ""Howler First Cohort"", ""label"": ""Organization""}
+{""entity"": ""Obsidians"", ""label"": ""Caste""}
+""After they defeat the Red Hand and land to see the exodus of childwives from the Red Hand Headquarters, including Lyria, Victra, and Volga, Pax and Electra reunite with Victra, and Volga with Ephraim.""
+{""entity"": ""Red Hand"", ""label"": ""Organization""}
+{""entity"": ""Red Hand"", ""label"": ""Organization""}
+{""entity"": ""Lyria"", ""label"": ""Person""}
+{""entity"": ""Victra"", ""label"": ""Person""}
+{""entity"": ""Volga"", ""label"": ""Person""}
+{""entity"": ""Pax"", ""label"": ""Person""}
+{""entity"": ""Electra"", ""label"": ""Person""}
+{""entity"": ""Victra"", ""label"": ""Person""}
+{""entity"": ""Volga"", ""label"": ""Person""}
+{""entity"": ""Ephraim"", ""label"": ""Person""}
+""On a drake hunting celebration, Ephraim watches next to Xenophon and Valdir, as Pax rides with Sefi on her griffin Godeater, and Electra rides with Freihild, accompanied by the Valkyrie.""
+{""entity"": ""Ephraim"", ""label"": ""Person""}
+{""entity"": ""Xenophon"", ""label"": ""Person""}
+{""entity"": ""Valdir"", ""label"": ""Person""}
+{""entity"": ""Pax"", ""label"": ""Person""}
+{""entity"": ""Sefi"", ""label"": ""Person""}
+{""entity"": ""Godeater"", ""label"": ""Person""}
+{""entity"": ""Electra"", ""label"": ""Person""}
+{""entity"": ""Freihild"", ""label"": ""Person""}
+{""entity"": ""Valkyrie"", ""label"": ""NORP""}
+""The new Solar Republic, led by Darrow and Mustang, has replaced the Society on Mars, Earth, and Luna, and is locked in an existential struggle with the remaining Golds of the Core.""
+{""entity"": ""Solar Republic"", ""label"": ""Organization""}
+{""entity"": ""Darrow"", ""label"": ""Person""}
+{""entity"": ""Mustang"", ""label"": ""Person""}
+{""entity"": ""Society"", ""label"": ""Organization""}
+{""entity"": ""Mars"", ""label"": ""Planet""}
+{""entity"": ""Earth"", ""label"": ""Planet""}
+{""entity"": ""Luna"", ""label"": ""Planet""}
+{""entity"": ""Golds"", ""label"": ""Caste""}
+{""entity"": ""Core"", ""label"": ""Location""}
+""Screwface tells him of Ajax's legion going towards Heliopolis, and Darrow tells Rhonna to find the Morning Star and Thraxa and go to Heliopolis by way of the Waste of Ladon.""
+{""entity"": ""Screwface"", ""label"": ""Person""}
+{""entity"": ""Ajax's"", ""label"": ""Person""}
+{""entity"": ""Heliopolis"", ""label"": ""Location""}
+{""entity"": ""Darrow"", ""label"": ""Person""}
+{""entity"": ""Rhonna"", ""label"": ""Person""}
+{""entity"": ""Morning Star"", ""label"": ""Vehicle""}
+{""entity"": ""Thraxa"", ""label"": ""Person""}
+{""entity"": ""Heliopolis"", ""label"": ""Location""}
+{""entity"": ""Waste of Ladon"", ""label"": ""Location""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",87.36,86.36,88.37
+red_rising,0,self,most_unique,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",85.84,83.04,88.84
+red_rising,1,self,most_unique,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""Taking place after Darrow takes back Heliopolis, Virginia, from the dreadnought Echo of Ares, makes her first speech to the Solar Republic, telling them of the what has happened on Mercury and how they still need help, hoping it will help gain back support from the people.""
+{""entity"": ""Darrow"", ""label"": ""Person""}
+{""entity"": ""Heliopolis"", ""label"": ""Location""}
+{""entity"": ""Virginia"", ""label"": ""Person""}
+{""entity"": ""Echo of Ares"", ""label"": ""Vehicle""}
+{""entity"": ""Solar Republic"", ""label"": ""Organization""}
+{""entity"": ""Mercury"", ""label"": ""Planet""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",83.75,82.43,85.12
+red_rising,3,self,most_unique,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""Taking place after Darrow takes back Heliopolis, Virginia, from the dreadnought Echo of Ares, makes her first speech to the Solar Republic, telling them of the what has happened on Mercury and how they still need help, hoping it will help gain back support from the people.""
+{""entity"": ""Darrow"", ""label"": ""Person""}
+{""entity"": ""Heliopolis"", ""label"": ""Location""}
+{""entity"": ""Virginia"", ""label"": ""Person""}
+{""entity"": ""Echo of Ares"", ""label"": ""Vehicle""}
+{""entity"": ""Solar Republic"", ""label"": ""Organization""}
+{""entity"": ""Mercury"", ""label"": ""Planet""}
+""The new Solar Republic, led by Darrow and Mustang, has replaced the Society on Mars, Earth, and Luna, and is locked in an existential struggle with the remaining Golds of the Core.""
+{""entity"": ""Solar Republic"", ""label"": ""Organization""}
+{""entity"": ""Darrow"", ""label"": ""Person""}
+{""entity"": ""Mustang"", ""label"": ""Person""}
+{""entity"": ""Society"", ""label"": ""Organization""}
+{""entity"": ""Mars"", ""label"": ""Planet""}
+{""entity"": ""Earth"", ""label"": ""Planet""}
+{""entity"": ""Luna"", ""label"": ""Planet""}
+{""entity"": ""Golds"", ""label"": ""Caste""}
+{""entity"": ""Core"", ""label"": ""Location""}
+""The bulk of the forces attack the walls of Agea, but the Reaper leads a few dozen, including the Howlers, through a secret path through the river the Sons of Ares secured the night before.""
+{""entity"": ""Agea"", ""label"": ""Location""}
+{""entity"": ""Reaper"", ""label"": ""Person""}
+{""entity"": ""Howlers"", ""label"": ""NORP""}
+{""entity"": ""Sons of Ares"", ""label"": ""Organization""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",83.68,82.73,84.65
+red_rising,5,self,most_unique,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples to train your tagging system: 
+""Taking place after Darrow takes back Heliopolis, Virginia, from the dreadnought Echo of Ares, makes her first speech to the Solar Republic, telling them of the what has happened on Mercury and how they still need help, hoping it will help gain back support from the people.""
+{""entity"": ""Darrow"", ""label"": ""Person""}
+{""entity"": ""Heliopolis"", ""label"": ""Location""}
+{""entity"": ""Virginia"", ""label"": ""Person""}
+{""entity"": ""Echo of Ares"", ""label"": ""Vehicle""}
+{""entity"": ""Solar Republic"", ""label"": ""Organization""}
+{""entity"": ""Mercury"", ""label"": ""Planet""}
+""The new Solar Republic, led by Darrow and Mustang, has replaced the Society on Mars, Earth, and Luna, and is locked in an existential struggle with the remaining Golds of the Core.""
+{""entity"": ""Solar Republic"", ""label"": ""Organization""}
+{""entity"": ""Darrow"", ""label"": ""Person""}
+{""entity"": ""Mustang"", ""label"": ""Person""}
+{""entity"": ""Society"", ""label"": ""Organization""}
+{""entity"": ""Mars"", ""label"": ""Planet""}
+{""entity"": ""Earth"", ""label"": ""Planet""}
+{""entity"": ""Luna"", ""label"": ""Planet""}
+{""entity"": ""Golds"", ""label"": ""Caste""}
+{""entity"": ""Core"", ""label"": ""Location""}
+""The bulk of the forces attack the walls of Agea, but the Reaper leads a few dozen, including the Howlers, through a secret path through the river the Sons of Ares secured the night before.""
+{""entity"": ""Agea"", ""label"": ""Location""}
+{""entity"": ""Reaper"", ""label"": ""Person""}
+{""entity"": ""Howlers"", ""label"": ""NORP""}
+{""entity"": ""Sons of Ares"", ""label"": ""Organization""}
+""There on Mercury, Darrow's set up his headquarters in the city of Tyche, where he's also had his flagship, the Morning Star, docked for repairs.""
+{""entity"": ""Mercury"", ""label"": ""Planet""}
+{""entity"": ""Darrow's"", ""label"": ""Person""}
+{""entity"": ""Tyche"", ""label"": ""Location""}
+{""entity"": ""Morning Star"", ""label"": ""Vehicle""}
+""He observes the room and the items there, including Ragnar's razor, his own original slingBlade that he used in the Institute, and Fitchner's Ares armor and helmet.""
+{""entity"": ""Ragnar's"", ""label"": ""Person""}
+{""entity"": ""razor"", ""label"": ""Weapon""}
+{""entity"": ""slingBlade"", ""label"": ""Weapon""}
+{""entity"": ""Institute"", ""label"": ""Ritual/Holiday""}
+{""entity"": ""Fitchner's"", ""label"": ""Person""}
+{""entity"": ""Ares"", ""label"": ""Profession""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",85.71,84.93,86.51
+red_rising,0,star_wars,most_dense,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",86.88,84.58,89.3
+red_rising,1,star_wars,most_dense,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",12.3,12.05,12.56
+red_rising,3,star_wars,most_dense,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+""Elsewhere, Grievous, now both the political and military leader of the Separatists, arrives on Utapau, where Trade Federation Viceroy Nute Gunray, Geonosian Archduke Poggle the Lesser, Techno Union head of state and Foreman Wat Tambor, and others on the Separatist Council remain in hiding.""
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Utapau"", ""label"": ""PLANET""}
+{""entity"": ""Trade Federation"", ""label"": ""ORG""}
+{""entity"": ""Viceroy"", ""label"": ""RANK""}
+{""entity"": ""Nute Gunray"", ""label"": ""PERSON""}
+{""entity"": ""Geonosian"", ""label"": ""PLANET""}
+{""entity"": ""Archduke"", ""label"": ""RANK""}
+{""entity"": ""Poggle the Lesser"", ""label"": ""PERSON""}
+{""entity"": ""Techno Union"", ""label"": ""ORG""}
+{""entity"": ""Foreman"", ""label"": ""RANK""}
+{""entity"": ""Wat Tambor"", ""label"": ""PLANET""}
+{""entity"": ""Separatist Council"", ""label"": ""ORG""}
+{""entity"": ""Separatists"", ""label"": ""NORP""}
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",15.7,15.6,15.81
+red_rising,5,star_wars,most_dense,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+""Elsewhere, Grievous, now both the political and military leader of the Separatists, arrives on Utapau, where Trade Federation Viceroy Nute Gunray, Geonosian Archduke Poggle the Lesser, Techno Union head of state and Foreman Wat Tambor, and others on the Separatist Council remain in hiding.""
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Utapau"", ""label"": ""PLANET""}
+{""entity"": ""Trade Federation"", ""label"": ""ORG""}
+{""entity"": ""Viceroy"", ""label"": ""RANK""}
+{""entity"": ""Nute Gunray"", ""label"": ""PERSON""}
+{""entity"": ""Geonosian"", ""label"": ""PLANET""}
+{""entity"": ""Archduke"", ""label"": ""RANK""}
+{""entity"": ""Poggle the Lesser"", ""label"": ""PERSON""}
+{""entity"": ""Techno Union"", ""label"": ""ORG""}
+{""entity"": ""Foreman"", ""label"": ""RANK""}
+{""entity"": ""Wat Tambor"", ""label"": ""PLANET""}
+{""entity"": ""Separatist Council"", ""label"": ""ORG""}
+{""entity"": ""Separatists"", ""label"": ""NORP""}
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+""While eating dinner with Owen and his Aunt Beru Whitesun Lars, Owen asks Luke to take R2 to Anchorhead the next day to have his memory wiped, and expresses his hope Luke will stay with them for one more harvest season before applying to the Academy.""
+{""entity"": ""Owen"", ""label"": ""PERSON""}
+{""entity"": ""Beru Whitesun Lars"", ""label"": ""PERSON""}
+{""entity"": ""Aunt"", ""label"": ""RANK""}
+{""entity"": ""Owen"", ""label"": ""PERSON""}
+{""entity"": ""Luke"", ""label"": ""PERSON""}
+{""entity"": ""R2"", ""label"": ""PERSON""}
+{""entity"": ""Anchorhead"", ""label"": ""LOCATION""}
+{""entity"": ""Luke"", ""label"": ""PERSON""}
+{""entity"": ""Academy"", ""label"": ""ORG""}
+""The Confederacy's cyborg military leader, General Grievous of the Separatist Droid Army, has brought the war to Coruscant and captured Supreme Chancellor Sheev Palpatine, leader of the Galactic Senate, during a massive space battle.""
+{""entity"": ""General"", ""label"": ""RANK""}
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Separatist Droid Army"", ""label"": ""ORG""}
+{""entity"": ""Coruscant"", ""label"": ""PLANET""}
+{""entity"": ""Supreme Chancellor"", ""label"": ""RANK""}
+{""entity"": ""Sheev Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Galactic Senate"", ""label"": ""ORG""}
+{""entity"": ""Confederacy's"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",7.94,7.98,7.91
+red_rising,0,star_wars,most_unique,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",85.84,84.3,87.44
+red_rising,1,star_wars,most_unique,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",35.91,35.11,36.74
+red_rising,3,star_wars,most_unique,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+""Arriving at Chalmun's Spaceport Cantina, the group hires smuggler Han Solo and his First Mate, a Wookiee named Chewbacca, for 17,000 credits, 2,000 in advance and 15,000 upon arrival, to take the four of them to Alderaan aboard their ship, the Millennium Falcon.""
+{""entity"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOCATION""}
+{""entity"": ""Han Solo"", ""label"": ""PERSON""}
+{""entity"": ""First Mate"", ""label"": ""RANK""}
+{""entity"": ""Wookiee"", ""label"": ""SPECIES""}
+{""entity"": ""Chewbacca"", ""label"": ""PERSON""}
+{""entity"": ""Alderaan"", ""label"": ""PLANET""}
+{""entity"": ""Millennium Falcon"", ""label"": ""SPACECRAFT""}
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",30.88,30.59,31.16
+red_rising,5,star_wars,most_unique,"You are now an entity recognition model for Red Rising data.
+Always answers as helpfully as possible.
+These are the entity types you are tasked to identify:
+Person: Person Name - Proper names of people, including first names, last names, individual or family names, unique nicknames.
+Caste: Caste - Names of human caste.
+Planet: Planet - Name of a planet or moon.
+Location: Location - Name of any place that is not a planet. Often a city or geographical feature.
+Organization: Organization - Names of companies, government agencies, educational institutions, military units.
+NORP: Nationality, Other, Religion, Political - Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.
+Event: Event - Events with proper names, such as specific wars, battles, or political landmarks.
+Weapon: Weapon - Any named armament specific to Red Rising, regardless of size - excludes generic items like â€˜weapon,â€™ â€˜cannon,â€™. etc
+Vehicle Proper name of a specific instance of a vehicle, typically capable of space travel.: Vehicle name - Morning Star, Blood Medusa
+Rank: Rank/Title - Official signifiers of ranks, titles, positions, most typically military ranks or other signifiers of status within an organization. Excludes informal/familial titles.
+Technology: Technology - Named instance of a technology specific to Red Rising. Storm God, gravBike
+Profession: Profession - Named profession specific to Red Rising, excluding ranks. Helldiver, Master Maker
+Ritual/Holiday: Ritual/Holiday - Named instace of a holiday or ritual practice, including political and other ceremonies. Forum, Laureltide
+MISC: Miscellaneous - Other named entities    Iron Rain
+Please label all entities that fit these descriptions.
+Do NOT give any labels that are not in the above ontology.
+Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
+""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
+{""entity"": ""Snoke's"", ""label"": ""PERSON""}
+{""entity"": ""Supreme Leader"", ""label"": ""RANK""}
+{""entity"": ""Starkiller"", ""label"": ""WEAPON""}
+{""entity"": ""Hux"", ""label"": ""PERSON""}
+{""entity"": ""Hosnian"", ""label"": ""PLANET""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+{""entity"": ""Hosnian Prime,"", ""label"": ""PLANET""}
+{""entity"": ""New Republic Defense Fleet"", ""label"": ""ORG""}
+{""entity"": ""First Order"", ""label"": ""GPE""}
+{""entity"": ""New Republic"", ""label"": ""GPE""}
+""Arriving at Chalmun's Spaceport Cantina, the group hires smuggler Han Solo and his First Mate, a Wookiee named Chewbacca, for 17,000 credits, 2,000 in advance and 15,000 upon arrival, to take the four of them to Alderaan aboard their ship, the Millennium Falcon.""
+{""entity"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOCATION""}
+{""entity"": ""Han Solo"", ""label"": ""PERSON""}
+{""entity"": ""First Mate"", ""label"": ""RANK""}
+{""entity"": ""Wookiee"", ""label"": ""SPECIES""}
+{""entity"": ""Chewbacca"", ""label"": ""PERSON""}
+{""entity"": ""Alderaan"", ""label"": ""PLANET""}
+{""entity"": ""Millennium Falcon"", ""label"": ""SPACECRAFT""}
+""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""dark side"", ""label"": ""MISC""}
+{""entity"": ""Padme"", ""label"": ""PERSON""}
+{""entity"": ""Anakin"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Darth"", ""label"": ""RANK""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Sidious"", ""label"": ""PERSON""}
+{""entity"": ""Invasion of Naboo"", ""label"": ""EVENT""}
+{""entity"": ""War"", ""label"": ""EVENT""}
+{""entity"": ""Plagueis"", ""label"": ""PERSON""}
+{""entity"": ""Dooku"", ""label"": ""PERSON""}
+{""entity"": ""Jedi"", ""label"": ""ORG""}
+{""entity"": ""Republic"", ""label"": ""GPE""}
+""The Confederacy's cyborg military leader, General Grievous of the Separatist Droid Army, has brought the war to Coruscant and captured Supreme Chancellor Sheev Palpatine, leader of the Galactic Senate, during a massive space battle.""
+{""entity"": ""General"", ""label"": ""RANK""}
+{""entity"": ""Grievous"", ""label"": ""PERSON""}
+{""entity"": ""Separatist Droid Army"", ""label"": ""ORG""}
+{""entity"": ""Coruscant"", ""label"": ""PLANET""}
+{""entity"": ""Supreme Chancellor"", ""label"": ""RANK""}
+{""entity"": ""Sheev Palpatine"", ""label"": ""PERSON""}
+{""entity"": ""Galactic Senate"", ""label"": ""ORG""}
+{""entity"": ""Confederacy's"", ""label"": ""GPE""}
+""As the Separatist Droid Army attempts to escape the Galactic capital, a massive space battle erupts, into which race Jedi Master Obi-Wan Kenobi and his former padawan, now Jedi Knight Anakin Skywalker, leading a mission to rescue the Chancellor.""
+{""entity"": ""Separatist Droid Army"", ""label"": ""ORG""}
+{""entity"": ""Jedi Master"", ""label"": ""RANK""}
+{""entity"": ""Obi-Wan Kenobi"", ""label"": ""DROID""}
+{""entity"": ""Jedi Knight"", ""label"": ""RANK""}
+{""entity"": ""Anakin Skywalker"", ""label"": ""PERSON""}
+{""entity"": ""Chancellor"", ""label"": ""RANK""}
+{""entity"": ""Galactic"", ""label"": ""NORP""}
+
+Tag all named entities in the following sentence:
+""{{test_instance}}""
+",23.39,23.08,23.72
