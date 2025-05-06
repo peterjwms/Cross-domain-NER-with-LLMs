@@ -1,6 +1,6 @@
 Person Name	PER	Proper names of people, including first names, last names, individual or family names, unique nicknames.	Darrow, Reaper, Sevro
 Caste	CASTE	Names of human caste.	Gold, Red
-Planet	Planet	Name of a planet or moon.	Earth, Mars
+Planet	PLANET	Name of a planet or moon.	Earth, Mars
 Location	LOC	Name of any place that is not a planet. Often a city or geographical feature.	Heliopolis, Core, Lykos
 Organization	ORG	Names of companies, government agencies, educational institutions, military units.	Society, Republic, First Army
 Nationality, Other, Religion, Political	NORP	Derived/adjectival forms of GPE and Location names, as well as adjectival forms of named religions, heritage and political affiliation.	Howler, Fulminata

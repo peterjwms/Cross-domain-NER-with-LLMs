@@ -85,7 +85,7 @@ def get_k_examples(k: int, examples: list[dict], example_domain: str) -> str:
         for i in range(k):
             examples_string += f"\"{examples[i]['text']}\"" + '\n'
             for mention in examples[i]['mentions']:
-                examples_string += json.dumps({'entity': mention['text'], 'label': mention['label']})  + '\n' # f"{mention['label']}: {mention['text']}\n"
+                examples_string += json.dumps({'text': mention['text'], 'label': mention['label']})  + '\n' # f"{mention['label']}: {mention['text']}\n"
     return examples_string
 
 

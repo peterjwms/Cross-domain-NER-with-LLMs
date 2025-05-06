@@ -223,10 +223,11 @@ if __name__ == "__main__":
 
     # reset the log evaluation file for a new run
     with open('results/evaluation.txt', 'w') as file:
+        print(f"Start grid search at {pd.Timestamp.now()}", file=file)
         pass
 
     create_all_examples(search_parameters['target_domain'], search_parameters['example_selection'])
-    results = run_grid_search(model_name, client, mini_test)
+    # results = run_grid_search(model_name, client, mini_test)
     results = run_grid_search(model_name, client, search_parameters)
 
 
