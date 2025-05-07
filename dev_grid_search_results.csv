@@ -22,7 +22,7 @@ Do NOT give any labels that are not in the above ontology.
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",70.82,69.9,71.76
+",72.67,72.91,72.43
 star_wars,1,self,random,"You are now an entity recognition model for Star Wars data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -49,7 +49,7 @@ Use these examples to train your tagging system:
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",73.06,74.06,72.09
+",71.02,71.62,70.43
 star_wars,3,self,random,"You are now an entity recognition model for Star Wars data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -87,7 +87,7 @@ Use these examples to train your tagging system:
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",73.58,74.07,73.09
+",72.91,73.4,72.43
 star_wars,5,self,random,"You are now an entity recognition model for Star Wars data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -131,7 +131,7 @@ Use these examples to train your tagging system:
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",73.49,74.24,72.76
+",75.5,76.27,74.75
 star_wars,0,self,most_dense,"You are now an entity recognition model for Star Wars data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -155,7 +155,7 @@ Do NOT give any labels that are not in the above ontology.
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",72.91,72.08,73.75
+",72.37,71.66,73.09
 star_wars,1,self,most_dense,"You are now an entity recognition model for Star Wars data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -178,26 +178,26 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""dark side"", ""label"": ""MISC""}
-{""text"": ""Padme"", ""label"": ""PERSON""}
-{""text"": ""Anakin"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Padme"", ""label"": ""PER""}
+{""text"": ""Anakin"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""Darth"", ""label"": ""RANK""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
+{""text"": ""Sidious"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Sidious"", ""label"": ""PER""}
 {""text"": ""Invasion of Naboo"", ""label"": ""EVENT""}
 {""text"": ""War"", ""label"": ""EVENT""}
-{""text"": ""Plagueis"", ""label"": ""PERSON""}
-{""text"": ""Dooku"", ""label"": ""PERSON""}
+{""text"": ""Plagueis"", ""label"": ""PER""}
+{""text"": ""Dooku"", ""label"": ""PER""}
 {""text"": ""Jedi"", ""label"": ""ORG""}
 {""text"": ""Republic"", ""label"": ""GPE""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",49.75,49.35,50.17
+",73.23,72.4,74.09
 star_wars,3,self,most_dense,"You are now an entity recognition model for Star Wars data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -220,41 +220,41 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""dark side"", ""label"": ""MISC""}
-{""text"": ""Padme"", ""label"": ""PERSON""}
-{""text"": ""Anakin"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Padme"", ""label"": ""PER""}
+{""text"": ""Anakin"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""Darth"", ""label"": ""RANK""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
+{""text"": ""Sidious"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Sidious"", ""label"": ""PER""}
 {""text"": ""Invasion of Naboo"", ""label"": ""EVENT""}
 {""text"": ""War"", ""label"": ""EVENT""}
-{""text"": ""Plagueis"", ""label"": ""PERSON""}
-{""text"": ""Dooku"", ""label"": ""PERSON""}
+{""text"": ""Plagueis"", ""label"": ""PER""}
+{""text"": ""Dooku"", ""label"": ""PER""}
 {""text"": ""Jedi"", ""label"": ""ORG""}
 {""text"": ""Republic"", ""label"": ""GPE""}
 ""Elsewhere, Grievous, now both the political and military leader of the Separatists, arrives on Utapau, where Trade Federation Viceroy Nute Gunray, Geonosian Archduke Poggle the Lesser, Techno Union head of state and Foreman Wat Tambor, and others on the Separatist Council remain in hiding.""
-{""text"": ""Grievous"", ""label"": ""PERSON""}
+{""text"": ""Grievous"", ""label"": ""PER""}
 {""text"": ""Utapau"", ""label"": ""PLANET""}
 {""text"": ""Trade Federation"", ""label"": ""ORG""}
 {""text"": ""Viceroy"", ""label"": ""RANK""}
-{""text"": ""Nute Gunray"", ""label"": ""PERSON""}
+{""text"": ""Nute Gunray"", ""label"": ""PER""}
 {""text"": ""Geonosian"", ""label"": ""PLANET""}
 {""text"": ""Archduke"", ""label"": ""RANK""}
-{""text"": ""Poggle the Lesser"", ""label"": ""PERSON""}
+{""text"": ""Poggle the Lesser"", ""label"": ""PER""}
 {""text"": ""Techno Union"", ""label"": ""ORG""}
 {""text"": ""Foreman"", ""label"": ""RANK""}
 {""text"": ""Wat Tambor"", ""label"": ""PLANET""}
 {""text"": ""Separatist Council"", ""label"": ""ORG""}
 {""text"": ""Separatists"", ""label"": ""NORP""}
 ""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
-{""text"": ""Snoke's"", ""label"": ""PERSON""}
+{""text"": ""Snoke's"", ""label"": ""PER""}
 {""text"": ""Supreme Leader"", ""label"": ""RANK""}
 {""text"": ""Starkiller"", ""label"": ""WEAPON""}
-{""text"": ""Hux"", ""label"": ""PERSON""}
+{""text"": ""Hux"", ""label"": ""PER""}
 {""text"": ""Hosnian"", ""label"": ""PLANET""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 {""text"": ""Hosnian Prime,"", ""label"": ""PLANET""}
@@ -264,7 +264,7 @@ Use these examples to train your tagging system:
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",30.72,30.23,31.23
+",74.88,74.03,75.75
 star_wars,5,self,most_dense,"You are now an entity recognition model for Star Wars data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -287,41 +287,41 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""dark side"", ""label"": ""MISC""}
-{""text"": ""Padme"", ""label"": ""PERSON""}
-{""text"": ""Anakin"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Padme"", ""label"": ""PER""}
+{""text"": ""Anakin"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""Darth"", ""label"": ""RANK""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
+{""text"": ""Sidious"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Sidious"", ""label"": ""PER""}
 {""text"": ""Invasion of Naboo"", ""label"": ""EVENT""}
 {""text"": ""War"", ""label"": ""EVENT""}
-{""text"": ""Plagueis"", ""label"": ""PERSON""}
-{""text"": ""Dooku"", ""label"": ""PERSON""}
+{""text"": ""Plagueis"", ""label"": ""PER""}
+{""text"": ""Dooku"", ""label"": ""PER""}
 {""text"": ""Jedi"", ""label"": ""ORG""}
 {""text"": ""Republic"", ""label"": ""GPE""}
 ""Elsewhere, Grievous, now both the political and military leader of the Separatists, arrives on Utapau, where Trade Federation Viceroy Nute Gunray, Geonosian Archduke Poggle the Lesser, Techno Union head of state and Foreman Wat Tambor, and others on the Separatist Council remain in hiding.""
-{""text"": ""Grievous"", ""label"": ""PERSON""}
+{""text"": ""Grievous"", ""label"": ""PER""}
 {""text"": ""Utapau"", ""label"": ""PLANET""}
 {""text"": ""Trade Federation"", ""label"": ""ORG""}
 {""text"": ""Viceroy"", ""label"": ""RANK""}
-{""text"": ""Nute Gunray"", ""label"": ""PERSON""}
+{""text"": ""Nute Gunray"", ""label"": ""PER""}
 {""text"": ""Geonosian"", ""label"": ""PLANET""}
 {""text"": ""Archduke"", ""label"": ""RANK""}
-{""text"": ""Poggle the Lesser"", ""label"": ""PERSON""}
+{""text"": ""Poggle the Lesser"", ""label"": ""PER""}
 {""text"": ""Techno Union"", ""label"": ""ORG""}
 {""text"": ""Foreman"", ""label"": ""RANK""}
 {""text"": ""Wat Tambor"", ""label"": ""PLANET""}
 {""text"": ""Separatist Council"", ""label"": ""ORG""}
 {""text"": ""Separatists"", ""label"": ""NORP""}
 ""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
-{""text"": ""Snoke's"", ""label"": ""PERSON""}
+{""text"": ""Snoke's"", ""label"": ""PER""}
 {""text"": ""Supreme Leader"", ""label"": ""RANK""}
 {""text"": ""Starkiller"", ""label"": ""WEAPON""}
-{""text"": ""Hux"", ""label"": ""PERSON""}
+{""text"": ""Hux"", ""label"": ""PER""}
 {""text"": ""Hosnian"", ""label"": ""PLANET""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 {""text"": ""Hosnian Prime,"", ""label"": ""PLANET""}
@@ -329,28 +329,28 @@ Use these examples to train your tagging system:
 {""text"": ""First Order"", ""label"": ""GPE""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 ""While eating dinner with Owen and his Aunt Beru Whitesun Lars, Owen asks Luke to take R2 to Anchorhead the next day to have his memory wiped, and expresses his hope Luke will stay with them for one more harvest season before applying to the Academy.""
-{""text"": ""Owen"", ""label"": ""PERSON""}
-{""text"": ""Beru Whitesun Lars"", ""label"": ""PERSON""}
+{""text"": ""Owen"", ""label"": ""PER""}
+{""text"": ""Beru Whitesun Lars"", ""label"": ""PER""}
 {""text"": ""Aunt"", ""label"": ""RANK""}
-{""text"": ""Owen"", ""label"": ""PERSON""}
-{""text"": ""Luke"", ""label"": ""PERSON""}
-{""text"": ""R2"", ""label"": ""PERSON""}
-{""text"": ""Anchorhead"", ""label"": ""LOCATION""}
-{""text"": ""Luke"", ""label"": ""PERSON""}
+{""text"": ""Owen"", ""label"": ""PER""}
+{""text"": ""Luke"", ""label"": ""PER""}
+{""text"": ""R2"", ""label"": ""PER""}
+{""text"": ""Anchorhead"", ""label"": ""LOC""}
+{""text"": ""Luke"", ""label"": ""PER""}
 {""text"": ""Academy"", ""label"": ""ORG""}
 ""The Confederacy's cyborg military leader, General Grievous of the Separatist Droid Army, has brought the war to Coruscant and captured Supreme Chancellor Sheev Palpatine, leader of the Galactic Senate, during a massive space battle.""
 {""text"": ""General"", ""label"": ""RANK""}
-{""text"": ""Grievous"", ""label"": ""PERSON""}
+{""text"": ""Grievous"", ""label"": ""PER""}
 {""text"": ""Separatist Droid Army"", ""label"": ""ORG""}
 {""text"": ""Coruscant"", ""label"": ""PLANET""}
 {""text"": ""Supreme Chancellor"", ""label"": ""RANK""}
-{""text"": ""Sheev Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Sheev Palpatine"", ""label"": ""PER""}
 {""text"": ""Galactic Senate"", ""label"": ""ORG""}
 {""text"": ""Confederacy's"", ""label"": ""GPE""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",23.0,22.85,23.15
+",78.02,77.63,78.41
 star_wars,0,self,most_unique,"You are now an entity recognition model for Star Wars data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -374,7 +374,7 @@ Do NOT give any labels that are not in the above ontology.
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",72.94,72.46,73.42
+",71.83,71.24,72.43
 star_wars,1,self,most_unique,"You are now an entity recognition model for Star Wars data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -397,10 +397,10 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
-{""text"": ""Snoke's"", ""label"": ""PERSON""}
+{""text"": ""Snoke's"", ""label"": ""PER""}
 {""text"": ""Supreme Leader"", ""label"": ""RANK""}
 {""text"": ""Starkiller"", ""label"": ""WEAPON""}
-{""text"": ""Hux"", ""label"": ""PERSON""}
+{""text"": ""Hux"", ""label"": ""PER""}
 {""text"": ""Hosnian"", ""label"": ""PLANET""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 {""text"": ""Hosnian Prime,"", ""label"": ""PLANET""}
@@ -410,7 +410,7 @@ Use these examples to train your tagging system:
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",74.67,74.92,74.42
+",75.91,75.41,76.41
 star_wars,3,self,most_unique,"You are now an entity recognition model for Star Wars data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -433,10 +433,10 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
-{""text"": ""Snoke's"", ""label"": ""PERSON""}
+{""text"": ""Snoke's"", ""label"": ""PER""}
 {""text"": ""Supreme Leader"", ""label"": ""RANK""}
 {""text"": ""Starkiller"", ""label"": ""WEAPON""}
-{""text"": ""Hux"", ""label"": ""PERSON""}
+{""text"": ""Hux"", ""label"": ""PER""}
 {""text"": ""Hosnian"", ""label"": ""PLANET""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 {""text"": ""Hosnian Prime,"", ""label"": ""PLANET""}
@@ -444,34 +444,34 @@ Use these examples to train your tagging system:
 {""text"": ""First Order"", ""label"": ""GPE""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 ""Arriving at Chalmun's Spaceport Cantina, the group hires smuggler Han Solo and his First Mate, a Wookiee named Chewbacca, for 17,000 credits, 2,000 in advance and 15,000 upon arrival, to take the four of them to Alderaan aboard their ship, the Millennium Falcon.""
-{""text"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOCATION""}
-{""text"": ""Han Solo"", ""label"": ""PERSON""}
+{""text"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOC""}
+{""text"": ""Han Solo"", ""label"": ""PER""}
 {""text"": ""First Mate"", ""label"": ""RANK""}
 {""text"": ""Wookiee"", ""label"": ""SPECIES""}
-{""text"": ""Chewbacca"", ""label"": ""PERSON""}
+{""text"": ""Chewbacca"", ""label"": ""PER""}
 {""text"": ""Alderaan"", ""label"": ""PLANET""}
 {""text"": ""Millennium Falcon"", ""label"": ""SPACECRAFT""}
 ""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""dark side"", ""label"": ""MISC""}
-{""text"": ""Padme"", ""label"": ""PERSON""}
-{""text"": ""Anakin"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Padme"", ""label"": ""PER""}
+{""text"": ""Anakin"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""Darth"", ""label"": ""RANK""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
+{""text"": ""Sidious"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Sidious"", ""label"": ""PER""}
 {""text"": ""Invasion of Naboo"", ""label"": ""EVENT""}
 {""text"": ""War"", ""label"": ""EVENT""}
-{""text"": ""Plagueis"", ""label"": ""PERSON""}
-{""text"": ""Dooku"", ""label"": ""PERSON""}
+{""text"": ""Plagueis"", ""label"": ""PER""}
+{""text"": ""Dooku"", ""label"": ""PER""}
 {""text"": ""Jedi"", ""label"": ""ORG""}
 {""text"": ""Republic"", ""label"": ""GPE""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",43.86,43.23,44.52
+",77.56,77.05,78.07
 star_wars,5,self,most_unique,"You are now an entity recognition model for Star Wars data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -494,10 +494,10 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
-{""text"": ""Snoke's"", ""label"": ""PERSON""}
+{""text"": ""Snoke's"", ""label"": ""PER""}
 {""text"": ""Supreme Leader"", ""label"": ""RANK""}
 {""text"": ""Starkiller"", ""label"": ""WEAPON""}
-{""text"": ""Hux"", ""label"": ""PERSON""}
+{""text"": ""Hux"", ""label"": ""PER""}
 {""text"": ""Hosnian"", ""label"": ""PLANET""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 {""text"": ""Hosnian Prime,"", ""label"": ""PLANET""}
@@ -505,37 +505,37 @@ Use these examples to train your tagging system:
 {""text"": ""First Order"", ""label"": ""GPE""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 ""Arriving at Chalmun's Spaceport Cantina, the group hires smuggler Han Solo and his First Mate, a Wookiee named Chewbacca, for 17,000 credits, 2,000 in advance and 15,000 upon arrival, to take the four of them to Alderaan aboard their ship, the Millennium Falcon.""
-{""text"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOCATION""}
-{""text"": ""Han Solo"", ""label"": ""PERSON""}
+{""text"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOC""}
+{""text"": ""Han Solo"", ""label"": ""PER""}
 {""text"": ""First Mate"", ""label"": ""RANK""}
 {""text"": ""Wookiee"", ""label"": ""SPECIES""}
-{""text"": ""Chewbacca"", ""label"": ""PERSON""}
+{""text"": ""Chewbacca"", ""label"": ""PER""}
 {""text"": ""Alderaan"", ""label"": ""PLANET""}
 {""text"": ""Millennium Falcon"", ""label"": ""SPACECRAFT""}
 ""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""dark side"", ""label"": ""MISC""}
-{""text"": ""Padme"", ""label"": ""PERSON""}
-{""text"": ""Anakin"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Padme"", ""label"": ""PER""}
+{""text"": ""Anakin"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""Darth"", ""label"": ""RANK""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
+{""text"": ""Sidious"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Sidious"", ""label"": ""PER""}
 {""text"": ""Invasion of Naboo"", ""label"": ""EVENT""}
 {""text"": ""War"", ""label"": ""EVENT""}
-{""text"": ""Plagueis"", ""label"": ""PERSON""}
-{""text"": ""Dooku"", ""label"": ""PERSON""}
+{""text"": ""Plagueis"", ""label"": ""PER""}
+{""text"": ""Dooku"", ""label"": ""PER""}
 {""text"": ""Jedi"", ""label"": ""ORG""}
 {""text"": ""Republic"", ""label"": ""GPE""}
 ""The Confederacy's cyborg military leader, General Grievous of the Separatist Droid Army, has brought the war to Coruscant and captured Supreme Chancellor Sheev Palpatine, leader of the Galactic Senate, during a massive space battle.""
 {""text"": ""General"", ""label"": ""RANK""}
-{""text"": ""Grievous"", ""label"": ""PERSON""}
+{""text"": ""Grievous"", ""label"": ""PER""}
 {""text"": ""Separatist Droid Army"", ""label"": ""ORG""}
 {""text"": ""Coruscant"", ""label"": ""PLANET""}
 {""text"": ""Supreme Chancellor"", ""label"": ""RANK""}
-{""text"": ""Sheev Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Sheev Palpatine"", ""label"": ""PER""}
 {""text"": ""Galactic Senate"", ""label"": ""ORG""}
 {""text"": ""Confederacy's"", ""label"": ""GPE""}
 ""As the Separatist Droid Army attempts to escape the Galactic capital, a massive space battle erupts, into which race Jedi Master Obi-Wan Kenobi and his former padawan, now Jedi Knight Anakin Skywalker, leading a mission to rescue the Chancellor.""
@@ -543,13 +543,13 @@ Use these examples to train your tagging system:
 {""text"": ""Jedi Master"", ""label"": ""RANK""}
 {""text"": ""Obi-Wan Kenobi"", ""label"": ""DROID""}
 {""text"": ""Jedi Knight"", ""label"": ""RANK""}
-{""text"": ""Anakin Skywalker"", ""label"": ""PERSON""}
+{""text"": ""Anakin Skywalker"", ""label"": ""PER""}
 {""text"": ""Chancellor"", ""label"": ""RANK""}
 {""text"": ""Galactic"", ""label"": ""NORP""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",28.05,27.87,28.24
+",75.53,74.68,76.41
 star_trek,0,self,random,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -569,7 +569,7 @@ Do NOT give any labels that are not in the above ontology.
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",55.94,56.73,55.16
+",57.65,57.77,57.54
 star_trek,1,self,random,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -593,7 +593,7 @@ Use these examples to train your tagging system:
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",55.45,55.34,55.56
+",55.4,54.86,55.95
 star_trek,3,self,random,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -622,7 +622,7 @@ Use these examples to train your tagging system:
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",56.22,56.91,55.56
+",55.65,56.56,54.76
 star_trek,5,self,random,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -656,7 +656,7 @@ Use these examples to train your tagging system:
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",55.67,57.94,53.57
+",56.61,59.05,54.37
 star_trek,0,self,most_dense,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -676,7 +676,7 @@ Do NOT give any labels that are not in the above ontology.
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",56.29,56.63,55.95
+",55.38,55.6,55.16
 star_trek,1,self,most_dense,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -695,18 +695,18 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""Back on the bridge, Worf tells Picard that the Enterprise's warp signature was obscured by the moon's gravitational field and thus was not detected by the Vulcans, while La Forge can recreate the temporal vortex that brought them there by reconfiguring their warp field.""
-{""text"": ""Worf"", ""label"": ""PERSON""}
-{""text"": ""Picard"", ""label"": ""PERSON""}
+{""text"": ""Worf"", ""label"": ""PER""}
+{""text"": ""Picard"", ""label"": ""PER""}
 {""text"": ""Enterprise"", ""label"": ""SPACECRAFT""}
 {""text"": ""Vulcans"", ""label"": ""GPE""}
-{""text"": ""La Forge"", ""label"": ""PERSON""}
+{""text"": ""La Forge"", ""label"": ""PER""}
 {""text"": ""warp field"", ""label"": ""TECH""}
 {""text"": ""warp signature"", ""label"": ""TECH""}
 {""text"": ""temporal vortex"", ""label"": ""TECH""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",53.64,56.33,51.19
+",56.43,59.13,53.97
 star_trek,3,self,most_dense,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -725,34 +725,34 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""Back on the bridge, Worf tells Picard that the Enterprise's warp signature was obscured by the moon's gravitational field and thus was not detected by the Vulcans, while La Forge can recreate the temporal vortex that brought them there by reconfiguring their warp field.""
-{""text"": ""Worf"", ""label"": ""PERSON""}
-{""text"": ""Picard"", ""label"": ""PERSON""}
+{""text"": ""Worf"", ""label"": ""PER""}
+{""text"": ""Picard"", ""label"": ""PER""}
 {""text"": ""Enterprise"", ""label"": ""SPACECRAFT""}
 {""text"": ""Vulcans"", ""label"": ""GPE""}
-{""text"": ""La Forge"", ""label"": ""PERSON""}
+{""text"": ""La Forge"", ""label"": ""PER""}
 {""text"": ""warp field"", ""label"": ""TECH""}
 {""text"": ""warp signature"", ""label"": ""TECH""}
 {""text"": ""temporal vortex"", ""label"": ""TECH""}
 ""The next day, Kirk, McCoy, Uhura, and a few other Starfleet recruits are in the Kobayashi Maru simulation test on Kirk's third attempt.""
-{""text"": ""Kirk"", ""label"": ""PERSON""}
-{""text"": ""McCoy"", ""label"": ""PERSON""}
-{""text"": ""Uhura"", ""label"": ""PERSON""}
+{""text"": ""Kirk"", ""label"": ""PER""}
+{""text"": ""McCoy"", ""label"": ""PER""}
+{""text"": ""Uhura"", ""label"": ""PER""}
 {""text"": ""Starfleet "", ""label"": ""ORG""}
-{""text"": ""Kirk"", ""label"": ""PERSON""}
+{""text"": ""Kirk"", ""label"": ""PER""}
 {""text"": ""Kobayashi Maru "", ""label"": ""SPACECRAFT""}
 {""text"": ""simulation test "", ""label"": ""TECH""}
 ""When the Son'a and the war-torn Federation plan to exploit the planet in order to rejuvenate themselves, Captain Jean-Luc Picard and the crew of the Starship Enterprise must rebel against the orders of the Federation Council in order to save the Ba'ku and expose the atrocities that are about to take place.""
-{""text"": ""Son'a"", ""label"": ""PERSON""}
+{""text"": ""Son'a"", ""label"": ""PER""}
 {""text"": ""Federation"", ""label"": ""GPE""}
 {""text"": ""Captain"", ""label"": ""RANK""}
-{""text"": ""Jean-Luc Picard"", ""label"": ""PERSON""}
+{""text"": ""Jean-Luc Picard"", ""label"": ""PER""}
 {""text"": ""Starship Enterprise"", ""label"": ""SPACECRAFT""}
 {""text"": ""Federation Council"", ""label"": ""ORG""}
 {""text"": ""Ba'ku"", ""label"": ""SPECIES""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",24.9,26.09,23.81
+",57.32,60.62,54.37
 star_trek,5,self,most_dense,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -771,50 +771,50 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""Back on the bridge, Worf tells Picard that the Enterprise's warp signature was obscured by the moon's gravitational field and thus was not detected by the Vulcans, while La Forge can recreate the temporal vortex that brought them there by reconfiguring their warp field.""
-{""text"": ""Worf"", ""label"": ""PERSON""}
-{""text"": ""Picard"", ""label"": ""PERSON""}
+{""text"": ""Worf"", ""label"": ""PER""}
+{""text"": ""Picard"", ""label"": ""PER""}
 {""text"": ""Enterprise"", ""label"": ""SPACECRAFT""}
 {""text"": ""Vulcans"", ""label"": ""GPE""}
-{""text"": ""La Forge"", ""label"": ""PERSON""}
+{""text"": ""La Forge"", ""label"": ""PER""}
 {""text"": ""warp field"", ""label"": ""TECH""}
 {""text"": ""warp signature"", ""label"": ""TECH""}
 {""text"": ""temporal vortex"", ""label"": ""TECH""}
 ""The next day, Kirk, McCoy, Uhura, and a few other Starfleet recruits are in the Kobayashi Maru simulation test on Kirk's third attempt.""
-{""text"": ""Kirk"", ""label"": ""PERSON""}
-{""text"": ""McCoy"", ""label"": ""PERSON""}
-{""text"": ""Uhura"", ""label"": ""PERSON""}
+{""text"": ""Kirk"", ""label"": ""PER""}
+{""text"": ""McCoy"", ""label"": ""PER""}
+{""text"": ""Uhura"", ""label"": ""PER""}
 {""text"": ""Starfleet "", ""label"": ""ORG""}
-{""text"": ""Kirk"", ""label"": ""PERSON""}
+{""text"": ""Kirk"", ""label"": ""PER""}
 {""text"": ""Kobayashi Maru "", ""label"": ""SPACECRAFT""}
 {""text"": ""simulation test "", ""label"": ""TECH""}
 ""When the Son'a and the war-torn Federation plan to exploit the planet in order to rejuvenate themselves, Captain Jean-Luc Picard and the crew of the Starship Enterprise must rebel against the orders of the Federation Council in order to save the Ba'ku and expose the atrocities that are about to take place.""
-{""text"": ""Son'a"", ""label"": ""PERSON""}
+{""text"": ""Son'a"", ""label"": ""PER""}
 {""text"": ""Federation"", ""label"": ""GPE""}
 {""text"": ""Captain"", ""label"": ""RANK""}
-{""text"": ""Jean-Luc Picard"", ""label"": ""PERSON""}
+{""text"": ""Jean-Luc Picard"", ""label"": ""PER""}
 {""text"": ""Starship Enterprise"", ""label"": ""SPACECRAFT""}
 {""text"": ""Federation Council"", ""label"": ""ORG""}
 {""text"": ""Ba'ku"", ""label"": ""SPECIES""}
 ""Garrett explains what their plan to prevent Noe's sale was before Georgiou spotted them â€“ Sahar would have neutralized Georgiou while Quasi would have taken on her appearance to greet Noe.""
-{""text"": ""Garrett"", ""label"": ""PERSON""}
-{""text"": ""Noe"", ""label"": ""PERSON""}
-{""text"": ""Georgiou"", ""label"": ""PERSON""}
-{""text"": ""Sahar"", ""label"": ""PERSON""}
-{""text"": ""Noe"", ""label"": ""PERSON""}
-{""text"": ""Georgiou"", ""label"": ""PERSON""}
-{""text"": ""Quasi"", ""label"": ""PERSON""}
+{""text"": ""Garrett"", ""label"": ""PER""}
+{""text"": ""Noe"", ""label"": ""PER""}
+{""text"": ""Georgiou"", ""label"": ""PER""}
+{""text"": ""Sahar"", ""label"": ""PER""}
+{""text"": ""Noe"", ""label"": ""PER""}
+{""text"": ""Georgiou"", ""label"": ""PER""}
+{""text"": ""Quasi"", ""label"": ""PER""}
 ""In particular, Chekov says the Federation believes all worlds have the sovereign claim to inalienable Human rights and Azetbur points out that this statement is racist and that the Federation is little better than a homo sapiens only club, ""present company excepted, of course,"" Chang adds.""
-{""text"": ""Chekov"", ""label"": ""PERSON""}
+{""text"": ""Chekov"", ""label"": ""PER""}
 {""text"": ""Federation"", ""label"": ""GPE""}
 {""text"": ""Human"", ""label"": ""SPECIES""}
-{""text"": ""Azetbur"", ""label"": ""PERSON""}
+{""text"": ""Azetbur"", ""label"": ""PER""}
 {""text"": ""homo sapiens"", ""label"": ""SPECIES""}
 {""text"": ""Federation"", ""label"": ""GPE""}
-{""text"": ""Chang"", ""label"": ""PERSON""}
+{""text"": ""Chang"", ""label"": ""PER""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",22.68,23.61,21.83
+",57.79,59.75,55.95
 star_trek,0,self,most_unique,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -834,7 +834,7 @@ Do NOT give any labels that are not in the above ontology.
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",56.18,56.4,55.95
+",56.68,57.38,56.0
 star_trek,1,self,most_unique,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -853,17 +853,17 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""When the Son'a and the war-torn Federation plan to exploit the planet in order to rejuvenate themselves, Captain Jean-Luc Picard and the crew of the Starship Enterprise must rebel against the orders of the Federation Council in order to save the Ba'ku and expose the atrocities that are about to take place.""
-{""text"": ""Son'a"", ""label"": ""PERSON""}
+{""text"": ""Son'a"", ""label"": ""PER""}
 {""text"": ""Federation"", ""label"": ""GPE""}
 {""text"": ""Captain"", ""label"": ""RANK""}
-{""text"": ""Jean-Luc Picard"", ""label"": ""PERSON""}
+{""text"": ""Jean-Luc Picard"", ""label"": ""PER""}
 {""text"": ""Starship Enterprise"", ""label"": ""SPACECRAFT""}
 {""text"": ""Federation Council"", ""label"": ""ORG""}
 {""text"": ""Ba'ku"", ""label"": ""SPECIES""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",38.35,39.91,36.9
+",56.38,58.55,54.37
 star_trek,3,self,most_unique,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -882,30 +882,30 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""When the Son'a and the war-torn Federation plan to exploit the planet in order to rejuvenate themselves, Captain Jean-Luc Picard and the crew of the Starship Enterprise must rebel against the orders of the Federation Council in order to save the Ba'ku and expose the atrocities that are about to take place.""
-{""text"": ""Son'a"", ""label"": ""PERSON""}
+{""text"": ""Son'a"", ""label"": ""PER""}
 {""text"": ""Federation"", ""label"": ""GPE""}
 {""text"": ""Captain"", ""label"": ""RANK""}
-{""text"": ""Jean-Luc Picard"", ""label"": ""PERSON""}
+{""text"": ""Jean-Luc Picard"", ""label"": ""PER""}
 {""text"": ""Starship Enterprise"", ""label"": ""SPACECRAFT""}
 {""text"": ""Federation Council"", ""label"": ""ORG""}
 {""text"": ""Ba'ku"", ""label"": ""SPECIES""}
 ""The next day, Kirk, McCoy, Uhura, and a few other Starfleet recruits are in the Kobayashi Maru simulation test on Kirk's third attempt.""
-{""text"": ""Kirk"", ""label"": ""PERSON""}
-{""text"": ""McCoy"", ""label"": ""PERSON""}
-{""text"": ""Uhura"", ""label"": ""PERSON""}
+{""text"": ""Kirk"", ""label"": ""PER""}
+{""text"": ""McCoy"", ""label"": ""PER""}
+{""text"": ""Uhura"", ""label"": ""PER""}
 {""text"": ""Starfleet "", ""label"": ""ORG""}
-{""text"": ""Kirk"", ""label"": ""PERSON""}
+{""text"": ""Kirk"", ""label"": ""PER""}
 {""text"": ""Kobayashi Maru "", ""label"": ""SPACECRAFT""}
 {""text"": ""simulation test "", ""label"": ""TECH""}
 ""Kirk orders the Bounty into a full power descent and they arrive over the whales just in time to prevent the whaler's harpoon from hitting one of them.""
-{""text"": ""Kirk"", ""label"": ""PERSON""}
+{""text"": ""Kirk"", ""label"": ""PER""}
 {""text"": ""Bounty"", ""label"": ""SPACECRAFT""}
 {""text"": ""whales"", ""label"": ""SPECIES""}
 {""text"": ""harpoon"", ""label"": ""WEAPON""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",20.45,21.1,19.84
+",58.37,60.08,56.75
 star_trek,5,self,most_unique,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -924,35 +924,35 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""When the Son'a and the war-torn Federation plan to exploit the planet in order to rejuvenate themselves, Captain Jean-Luc Picard and the crew of the Starship Enterprise must rebel against the orders of the Federation Council in order to save the Ba'ku and expose the atrocities that are about to take place.""
-{""text"": ""Son'a"", ""label"": ""PERSON""}
+{""text"": ""Son'a"", ""label"": ""PER""}
 {""text"": ""Federation"", ""label"": ""GPE""}
 {""text"": ""Captain"", ""label"": ""RANK""}
-{""text"": ""Jean-Luc Picard"", ""label"": ""PERSON""}
+{""text"": ""Jean-Luc Picard"", ""label"": ""PER""}
 {""text"": ""Starship Enterprise"", ""label"": ""SPACECRAFT""}
 {""text"": ""Federation Council"", ""label"": ""ORG""}
 {""text"": ""Ba'ku"", ""label"": ""SPECIES""}
 ""The next day, Kirk, McCoy, Uhura, and a few other Starfleet recruits are in the Kobayashi Maru simulation test on Kirk's third attempt.""
-{""text"": ""Kirk"", ""label"": ""PERSON""}
-{""text"": ""McCoy"", ""label"": ""PERSON""}
-{""text"": ""Uhura"", ""label"": ""PERSON""}
+{""text"": ""Kirk"", ""label"": ""PER""}
+{""text"": ""McCoy"", ""label"": ""PER""}
+{""text"": ""Uhura"", ""label"": ""PER""}
 {""text"": ""Starfleet "", ""label"": ""ORG""}
-{""text"": ""Kirk"", ""label"": ""PERSON""}
+{""text"": ""Kirk"", ""label"": ""PER""}
 {""text"": ""Kobayashi Maru "", ""label"": ""SPACECRAFT""}
 {""text"": ""simulation test "", ""label"": ""TECH""}
 ""Kirk orders the Bounty into a full power descent and they arrive over the whales just in time to prevent the whaler's harpoon from hitting one of them.""
-{""text"": ""Kirk"", ""label"": ""PERSON""}
+{""text"": ""Kirk"", ""label"": ""PER""}
 {""text"": ""Bounty"", ""label"": ""SPACECRAFT""}
 {""text"": ""whales"", ""label"": ""SPECIES""}
 {""text"": ""harpoon"", ""label"": ""WEAPON""}
 ""Back in engineering, Picard is confined to an operation table as Data targets the Phoenix with quantum torpedoes, which the Queen orders destroyed.""
-{""text"": ""Picard"", ""label"": ""PERSON""}
-{""text"": ""Data"", ""label"": ""PERSON""}
+{""text"": ""Picard"", ""label"": ""PER""}
+{""text"": ""Data"", ""label"": ""PER""}
 {""text"": ""quantum torpedoes"", ""label"": ""WEAPON""}
 {""text"": ""Queen"", ""label"": ""RANK""}
 {""text"": ""Phoenix"", ""label"": ""SPACECRAFT""}
 ""For a brief time, the crew is unconscious as Kirk dreams of their voices and faces (quotes from later in the story are heard here, including Scott saying ""Admiral, there be whales here!""), of a whale, and eventually of a person falling from space, through Earth's atmosphere and landing in a lake in a tranquil forest, with a sound of what may be a ship landing.""
-{""text"": ""Kirk"", ""label"": ""PERSON""}
-{""text"": ""Scott"", ""label"": ""PERSON""}
+{""text"": ""Kirk"", ""label"": ""PER""}
+{""text"": ""Scott"", ""label"": ""PER""}
 {""text"": ""Admiral"", ""label"": ""RANK""}
 {""text"": ""whales"", ""label"": ""SPECIES""}
 {""text"": ""whale"", ""label"": ""SPECIES""}
@@ -961,7 +961,7 @@ Use these examples to train your tagging system:
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",18.63,19.48,17.86
+",57.72,59.17,56.35
 star_trek,0,star_wars,random,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -981,7 +981,7 @@ Do NOT give any labels that are not in the above ontology.
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",55.38,55.6,55.16
+",56.22,56.91,55.56
 star_trek,1,star_wars,random,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1004,7 +1004,7 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",56.62,58.16,55.16
+",56.44,58.23,54.76
 star_trek,3,star_wars,random,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1038,7 +1038,7 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",55.72,58.52,53.17
+",56.18,59.56,53.17
 star_trek,5,star_wars,random,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1078,7 +1078,7 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",56.78,60.91,53.17
+",56.3,59.82,53.17
 star_trek,0,star_wars,most_dense,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1117,26 +1117,26 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
 ""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""dark side"", ""label"": ""MISC""}
-{""text"": ""Padme"", ""label"": ""PERSON""}
-{""text"": ""Anakin"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Padme"", ""label"": ""PER""}
+{""text"": ""Anakin"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""Darth"", ""label"": ""RANK""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
+{""text"": ""Sidious"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Sidious"", ""label"": ""PER""}
 {""text"": ""Invasion of Naboo"", ""label"": ""EVENT""}
 {""text"": ""War"", ""label"": ""EVENT""}
-{""text"": ""Plagueis"", ""label"": ""PERSON""}
-{""text"": ""Dooku"", ""label"": ""PERSON""}
+{""text"": ""Plagueis"", ""label"": ""PER""}
+{""text"": ""Dooku"", ""label"": ""PER""}
 {""text"": ""Jedi"", ""label"": ""ORG""}
 {""text"": ""Republic"", ""label"": ""GPE""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",55.8,57.32,54.37
+",56.57,57.61,55.56
 star_trek,3,star_wars,most_dense,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1155,41 +1155,41 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
 ""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""dark side"", ""label"": ""MISC""}
-{""text"": ""Padme"", ""label"": ""PERSON""}
-{""text"": ""Anakin"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Padme"", ""label"": ""PER""}
+{""text"": ""Anakin"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""Darth"", ""label"": ""RANK""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
+{""text"": ""Sidious"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Sidious"", ""label"": ""PER""}
 {""text"": ""Invasion of Naboo"", ""label"": ""EVENT""}
 {""text"": ""War"", ""label"": ""EVENT""}
-{""text"": ""Plagueis"", ""label"": ""PERSON""}
-{""text"": ""Dooku"", ""label"": ""PERSON""}
+{""text"": ""Plagueis"", ""label"": ""PER""}
+{""text"": ""Dooku"", ""label"": ""PER""}
 {""text"": ""Jedi"", ""label"": ""ORG""}
 {""text"": ""Republic"", ""label"": ""GPE""}
 ""Elsewhere, Grievous, now both the political and military leader of the Separatists, arrives on Utapau, where Trade Federation Viceroy Nute Gunray, Geonosian Archduke Poggle the Lesser, Techno Union head of state and Foreman Wat Tambor, and others on the Separatist Council remain in hiding.""
-{""text"": ""Grievous"", ""label"": ""PERSON""}
+{""text"": ""Grievous"", ""label"": ""PER""}
 {""text"": ""Utapau"", ""label"": ""PLANET""}
 {""text"": ""Trade Federation"", ""label"": ""ORG""}
 {""text"": ""Viceroy"", ""label"": ""RANK""}
-{""text"": ""Nute Gunray"", ""label"": ""PERSON""}
+{""text"": ""Nute Gunray"", ""label"": ""PER""}
 {""text"": ""Geonosian"", ""label"": ""PLANET""}
 {""text"": ""Archduke"", ""label"": ""RANK""}
-{""text"": ""Poggle the Lesser"", ""label"": ""PERSON""}
+{""text"": ""Poggle the Lesser"", ""label"": ""PER""}
 {""text"": ""Techno Union"", ""label"": ""ORG""}
 {""text"": ""Foreman"", ""label"": ""RANK""}
 {""text"": ""Wat Tambor"", ""label"": ""PLANET""}
 {""text"": ""Separatist Council"", ""label"": ""ORG""}
 {""text"": ""Separatists"", ""label"": ""NORP""}
 ""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
-{""text"": ""Snoke's"", ""label"": ""PERSON""}
+{""text"": ""Snoke's"", ""label"": ""PER""}
 {""text"": ""Supreme Leader"", ""label"": ""RANK""}
 {""text"": ""Starkiller"", ""label"": ""WEAPON""}
-{""text"": ""Hux"", ""label"": ""PERSON""}
+{""text"": ""Hux"", ""label"": ""PER""}
 {""text"": ""Hosnian"", ""label"": ""PLANET""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 {""text"": ""Hosnian Prime,"", ""label"": ""PLANET""}
@@ -1199,7 +1199,7 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",57.8,60.7,55.16
+",56.79,58.97,54.76
 star_trek,5,star_wars,most_dense,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1218,41 +1218,41 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
 ""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""dark side"", ""label"": ""MISC""}
-{""text"": ""Padme"", ""label"": ""PERSON""}
-{""text"": ""Anakin"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Padme"", ""label"": ""PER""}
+{""text"": ""Anakin"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""Darth"", ""label"": ""RANK""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
+{""text"": ""Sidious"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Sidious"", ""label"": ""PER""}
 {""text"": ""Invasion of Naboo"", ""label"": ""EVENT""}
 {""text"": ""War"", ""label"": ""EVENT""}
-{""text"": ""Plagueis"", ""label"": ""PERSON""}
-{""text"": ""Dooku"", ""label"": ""PERSON""}
+{""text"": ""Plagueis"", ""label"": ""PER""}
+{""text"": ""Dooku"", ""label"": ""PER""}
 {""text"": ""Jedi"", ""label"": ""ORG""}
 {""text"": ""Republic"", ""label"": ""GPE""}
 ""Elsewhere, Grievous, now both the political and military leader of the Separatists, arrives on Utapau, where Trade Federation Viceroy Nute Gunray, Geonosian Archduke Poggle the Lesser, Techno Union head of state and Foreman Wat Tambor, and others on the Separatist Council remain in hiding.""
-{""text"": ""Grievous"", ""label"": ""PERSON""}
+{""text"": ""Grievous"", ""label"": ""PER""}
 {""text"": ""Utapau"", ""label"": ""PLANET""}
 {""text"": ""Trade Federation"", ""label"": ""ORG""}
 {""text"": ""Viceroy"", ""label"": ""RANK""}
-{""text"": ""Nute Gunray"", ""label"": ""PERSON""}
+{""text"": ""Nute Gunray"", ""label"": ""PER""}
 {""text"": ""Geonosian"", ""label"": ""PLANET""}
 {""text"": ""Archduke"", ""label"": ""RANK""}
-{""text"": ""Poggle the Lesser"", ""label"": ""PERSON""}
+{""text"": ""Poggle the Lesser"", ""label"": ""PER""}
 {""text"": ""Techno Union"", ""label"": ""ORG""}
 {""text"": ""Foreman"", ""label"": ""RANK""}
 {""text"": ""Wat Tambor"", ""label"": ""PLANET""}
 {""text"": ""Separatist Council"", ""label"": ""ORG""}
 {""text"": ""Separatists"", ""label"": ""NORP""}
 ""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
-{""text"": ""Snoke's"", ""label"": ""PERSON""}
+{""text"": ""Snoke's"", ""label"": ""PER""}
 {""text"": ""Supreme Leader"", ""label"": ""RANK""}
 {""text"": ""Starkiller"", ""label"": ""WEAPON""}
-{""text"": ""Hux"", ""label"": ""PERSON""}
+{""text"": ""Hux"", ""label"": ""PER""}
 {""text"": ""Hosnian"", ""label"": ""PLANET""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 {""text"": ""Hosnian Prime,"", ""label"": ""PLANET""}
@@ -1260,28 +1260,28 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 {""text"": ""First Order"", ""label"": ""GPE""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 ""While eating dinner with Owen and his Aunt Beru Whitesun Lars, Owen asks Luke to take R2 to Anchorhead the next day to have his memory wiped, and expresses his hope Luke will stay with them for one more harvest season before applying to the Academy.""
-{""text"": ""Owen"", ""label"": ""PERSON""}
-{""text"": ""Beru Whitesun Lars"", ""label"": ""PERSON""}
+{""text"": ""Owen"", ""label"": ""PER""}
+{""text"": ""Beru Whitesun Lars"", ""label"": ""PER""}
 {""text"": ""Aunt"", ""label"": ""RANK""}
-{""text"": ""Owen"", ""label"": ""PERSON""}
-{""text"": ""Luke"", ""label"": ""PERSON""}
-{""text"": ""R2"", ""label"": ""PERSON""}
-{""text"": ""Anchorhead"", ""label"": ""LOCATION""}
-{""text"": ""Luke"", ""label"": ""PERSON""}
+{""text"": ""Owen"", ""label"": ""PER""}
+{""text"": ""Luke"", ""label"": ""PER""}
+{""text"": ""R2"", ""label"": ""PER""}
+{""text"": ""Anchorhead"", ""label"": ""LOC""}
+{""text"": ""Luke"", ""label"": ""PER""}
 {""text"": ""Academy"", ""label"": ""ORG""}
 ""The Confederacy's cyborg military leader, General Grievous of the Separatist Droid Army, has brought the war to Coruscant and captured Supreme Chancellor Sheev Palpatine, leader of the Galactic Senate, during a massive space battle.""
 {""text"": ""General"", ""label"": ""RANK""}
-{""text"": ""Grievous"", ""label"": ""PERSON""}
+{""text"": ""Grievous"", ""label"": ""PER""}
 {""text"": ""Separatist Droid Army"", ""label"": ""ORG""}
 {""text"": ""Coruscant"", ""label"": ""PLANET""}
 {""text"": ""Supreme Chancellor"", ""label"": ""RANK""}
-{""text"": ""Sheev Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Sheev Palpatine"", ""label"": ""PER""}
 {""text"": ""Galactic Senate"", ""label"": ""ORG""}
 {""text"": ""Confederacy's"", ""label"": ""GPE""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",55.19,57.83,52.78
+",57.08,60.09,54.37
 star_trek,0,star_wars,most_unique,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1301,7 +1301,7 @@ Do NOT give any labels that are not in the above ontology.
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",56.74,57.55,55.95
+",55.42,56.1,54.76
 star_trek,1,star_wars,most_unique,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1320,10 +1320,10 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
 ""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
-{""text"": ""Snoke's"", ""label"": ""PERSON""}
+{""text"": ""Snoke's"", ""label"": ""PER""}
 {""text"": ""Supreme Leader"", ""label"": ""RANK""}
 {""text"": ""Starkiller"", ""label"": ""WEAPON""}
-{""text"": ""Hux"", ""label"": ""PERSON""}
+{""text"": ""Hux"", ""label"": ""PER""}
 {""text"": ""Hosnian"", ""label"": ""PLANET""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 {""text"": ""Hosnian Prime,"", ""label"": ""PLANET""}
@@ -1333,7 +1333,7 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",55.47,56.61,54.37
+",56.91,59.23,54.76
 star_trek,3,star_wars,most_unique,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1352,10 +1352,10 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
 ""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
-{""text"": ""Snoke's"", ""label"": ""PERSON""}
+{""text"": ""Snoke's"", ""label"": ""PER""}
 {""text"": ""Supreme Leader"", ""label"": ""RANK""}
 {""text"": ""Starkiller"", ""label"": ""WEAPON""}
-{""text"": ""Hux"", ""label"": ""PERSON""}
+{""text"": ""Hux"", ""label"": ""PER""}
 {""text"": ""Hosnian"", ""label"": ""PLANET""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 {""text"": ""Hosnian Prime,"", ""label"": ""PLANET""}
@@ -1363,34 +1363,34 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 {""text"": ""First Order"", ""label"": ""GPE""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 ""Arriving at Chalmun's Spaceport Cantina, the group hires smuggler Han Solo and his First Mate, a Wookiee named Chewbacca, for 17,000 credits, 2,000 in advance and 15,000 upon arrival, to take the four of them to Alderaan aboard their ship, the Millennium Falcon.""
-{""text"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOCATION""}
-{""text"": ""Han Solo"", ""label"": ""PERSON""}
+{""text"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOC""}
+{""text"": ""Han Solo"", ""label"": ""PER""}
 {""text"": ""First Mate"", ""label"": ""RANK""}
 {""text"": ""Wookiee"", ""label"": ""SPECIES""}
-{""text"": ""Chewbacca"", ""label"": ""PERSON""}
+{""text"": ""Chewbacca"", ""label"": ""PER""}
 {""text"": ""Alderaan"", ""label"": ""PLANET""}
 {""text"": ""Millennium Falcon"", ""label"": ""SPACECRAFT""}
 ""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""dark side"", ""label"": ""MISC""}
-{""text"": ""Padme"", ""label"": ""PERSON""}
-{""text"": ""Anakin"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Padme"", ""label"": ""PER""}
+{""text"": ""Anakin"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""Darth"", ""label"": ""RANK""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
+{""text"": ""Sidious"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Sidious"", ""label"": ""PER""}
 {""text"": ""Invasion of Naboo"", ""label"": ""EVENT""}
 {""text"": ""War"", ""label"": ""EVENT""}
-{""text"": ""Plagueis"", ""label"": ""PERSON""}
-{""text"": ""Dooku"", ""label"": ""PERSON""}
+{""text"": ""Plagueis"", ""label"": ""PER""}
+{""text"": ""Dooku"", ""label"": ""PER""}
 {""text"": ""Jedi"", ""label"": ""ORG""}
 {""text"": ""Republic"", ""label"": ""GPE""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",55.76,56.79,54.76
+",56.38,58.55,54.37
 star_trek,5,star_wars,most_unique,"You are now an entity recognition model for Star Trek data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1409,10 +1409,10 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
 ""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
-{""text"": ""Snoke's"", ""label"": ""PERSON""}
+{""text"": ""Snoke's"", ""label"": ""PER""}
 {""text"": ""Supreme Leader"", ""label"": ""RANK""}
 {""text"": ""Starkiller"", ""label"": ""WEAPON""}
-{""text"": ""Hux"", ""label"": ""PERSON""}
+{""text"": ""Hux"", ""label"": ""PER""}
 {""text"": ""Hosnian"", ""label"": ""PLANET""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 {""text"": ""Hosnian Prime,"", ""label"": ""PLANET""}
@@ -1420,37 +1420,37 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 {""text"": ""First Order"", ""label"": ""GPE""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 ""Arriving at Chalmun's Spaceport Cantina, the group hires smuggler Han Solo and his First Mate, a Wookiee named Chewbacca, for 17,000 credits, 2,000 in advance and 15,000 upon arrival, to take the four of them to Alderaan aboard their ship, the Millennium Falcon.""
-{""text"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOCATION""}
-{""text"": ""Han Solo"", ""label"": ""PERSON""}
+{""text"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOC""}
+{""text"": ""Han Solo"", ""label"": ""PER""}
 {""text"": ""First Mate"", ""label"": ""RANK""}
 {""text"": ""Wookiee"", ""label"": ""SPECIES""}
-{""text"": ""Chewbacca"", ""label"": ""PERSON""}
+{""text"": ""Chewbacca"", ""label"": ""PER""}
 {""text"": ""Alderaan"", ""label"": ""PLANET""}
 {""text"": ""Millennium Falcon"", ""label"": ""SPACECRAFT""}
 ""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""dark side"", ""label"": ""MISC""}
-{""text"": ""Padme"", ""label"": ""PERSON""}
-{""text"": ""Anakin"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Padme"", ""label"": ""PER""}
+{""text"": ""Anakin"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""Darth"", ""label"": ""RANK""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
+{""text"": ""Sidious"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Sidious"", ""label"": ""PER""}
 {""text"": ""Invasion of Naboo"", ""label"": ""EVENT""}
 {""text"": ""War"", ""label"": ""EVENT""}
-{""text"": ""Plagueis"", ""label"": ""PERSON""}
-{""text"": ""Dooku"", ""label"": ""PERSON""}
+{""text"": ""Plagueis"", ""label"": ""PER""}
+{""text"": ""Dooku"", ""label"": ""PER""}
 {""text"": ""Jedi"", ""label"": ""ORG""}
 {""text"": ""Republic"", ""label"": ""GPE""}
 ""The Confederacy's cyborg military leader, General Grievous of the Separatist Droid Army, has brought the war to Coruscant and captured Supreme Chancellor Sheev Palpatine, leader of the Galactic Senate, during a massive space battle.""
 {""text"": ""General"", ""label"": ""RANK""}
-{""text"": ""Grievous"", ""label"": ""PERSON""}
+{""text"": ""Grievous"", ""label"": ""PER""}
 {""text"": ""Separatist Droid Army"", ""label"": ""ORG""}
 {""text"": ""Coruscant"", ""label"": ""PLANET""}
 {""text"": ""Supreme Chancellor"", ""label"": ""RANK""}
-{""text"": ""Sheev Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Sheev Palpatine"", ""label"": ""PER""}
 {""text"": ""Galactic Senate"", ""label"": ""ORG""}
 {""text"": ""Confederacy's"", ""label"": ""GPE""}
 ""As the Separatist Droid Army attempts to escape the Galactic capital, a massive space battle erupts, into which race Jedi Master Obi-Wan Kenobi and his former padawan, now Jedi Knight Anakin Skywalker, leading a mission to rescue the Chancellor.""
@@ -1458,13 +1458,13 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 {""text"": ""Jedi Master"", ""label"": ""RANK""}
 {""text"": ""Obi-Wan Kenobi"", ""label"": ""DROID""}
 {""text"": ""Jedi Knight"", ""label"": ""RANK""}
-{""text"": ""Anakin Skywalker"", ""label"": ""PERSON""}
+{""text"": ""Anakin Skywalker"", ""label"": ""PER""}
 {""text"": ""Chancellor"", ""label"": ""RANK""}
 {""text"": ""Galactic"", ""label"": ""NORP""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",50.72,52.32,49.21
+",56.91,59.23,54.76
 red_rising,0,self,random,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1487,7 +1487,7 @@ Do NOT give any labels that are not in the above ontology.
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",83.3,81.98,84.65
+",85.84,84.3,87.44
 red_rising,1,self,random,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1517,7 +1517,7 @@ Use these examples to train your tagging system:
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",85.85,85.65,86.05
+",83.99,83.8,84.19
 red_rising,3,self,random,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1555,7 +1555,7 @@ Use these examples to train your tagging system:
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",85.12,85.12,85.12
+",84.58,84.98,84.19
 red_rising,5,self,random,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1602,7 +1602,7 @@ Use these examples to train your tagging system:
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",86.31,86.11,86.51
+",85.71,86.32,85.12
 red_rising,0,self,most_dense,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1625,7 +1625,7 @@ Do NOT give any labels that are not in the above ontology.
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",86.44,85.45,87.44
+",85.91,84.0,87.91
 red_rising,1,self,most_dense,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1647,23 +1647,23 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""Sevro arrives ready to kill the Duke of Hands, but when Virginia theorizes correctly the whereabouts of Pax and Electra, that they're with Sefi and her Obsidians on Mars, and why Sevro and Victra kept Virginia out of it, she convinces Sevro to return to her command, along with the Howler First Cohort.""
-{""text"": ""Sevro"", ""label"": ""Person""}
-{""text"": ""Duke of Hands"", ""label"": ""Person""}
-{""text"": ""Virginia"", ""label"": ""Person""}
-{""text"": ""Pax"", ""label"": ""Person""}
-{""text"": ""Electra"", ""label"": ""Person""}
-{""text"": ""Sefi"", ""label"": ""Person""}
-{""text"": ""Mars"", ""label"": ""Planet""}
-{""text"": ""Sevro"", ""label"": ""Person""}
-{""text"": ""Victra"", ""label"": ""Person""}
-{""text"": ""Virginia"", ""label"": ""Person""}
-{""text"": ""Sevro"", ""label"": ""Person""}
-{""text"": ""Howler First Cohort"", ""label"": ""Organization""}
-{""text"": ""Obsidians"", ""label"": ""Caste""}
+{""text"": ""Sevro"", ""label"": ""PER""}
+{""text"": ""Duke of Hands"", ""label"": ""PER""}
+{""text"": ""Virginia"", ""label"": ""PER""}
+{""text"": ""Pax"", ""label"": ""PER""}
+{""text"": ""Electra"", ""label"": ""PER""}
+{""text"": ""Sefi"", ""label"": ""PER""}
+{""text"": ""Mars"", ""label"": ""PLANET""}
+{""text"": ""Sevro"", ""label"": ""PER""}
+{""text"": ""Victra"", ""label"": ""PER""}
+{""text"": ""Virginia"", ""label"": ""PER""}
+{""text"": ""Sevro"", ""label"": ""PER""}
+{""text"": ""Howler First Cohort"", ""label"": ""ORG""}
+{""text"": ""Obsidians"", ""label"": ""CASTE""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",77.73,76.0,79.53
+",85.0,83.11,86.98
 red_rising,3,self,most_dense,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1685,44 +1685,44 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""Sevro arrives ready to kill the Duke of Hands, but when Virginia theorizes correctly the whereabouts of Pax and Electra, that they're with Sefi and her Obsidians on Mars, and why Sevro and Victra kept Virginia out of it, she convinces Sevro to return to her command, along with the Howler First Cohort.""
-{""text"": ""Sevro"", ""label"": ""Person""}
-{""text"": ""Duke of Hands"", ""label"": ""Person""}
-{""text"": ""Virginia"", ""label"": ""Person""}
-{""text"": ""Pax"", ""label"": ""Person""}
-{""text"": ""Electra"", ""label"": ""Person""}
-{""text"": ""Sefi"", ""label"": ""Person""}
-{""text"": ""Mars"", ""label"": ""Planet""}
-{""text"": ""Sevro"", ""label"": ""Person""}
-{""text"": ""Victra"", ""label"": ""Person""}
-{""text"": ""Virginia"", ""label"": ""Person""}
-{""text"": ""Sevro"", ""label"": ""Person""}
-{""text"": ""Howler First Cohort"", ""label"": ""Organization""}
-{""text"": ""Obsidians"", ""label"": ""Caste""}
+{""text"": ""Sevro"", ""label"": ""PER""}
+{""text"": ""Duke of Hands"", ""label"": ""PER""}
+{""text"": ""Virginia"", ""label"": ""PER""}
+{""text"": ""Pax"", ""label"": ""PER""}
+{""text"": ""Electra"", ""label"": ""PER""}
+{""text"": ""Sefi"", ""label"": ""PER""}
+{""text"": ""Mars"", ""label"": ""PLANET""}
+{""text"": ""Sevro"", ""label"": ""PER""}
+{""text"": ""Victra"", ""label"": ""PER""}
+{""text"": ""Virginia"", ""label"": ""PER""}
+{""text"": ""Sevro"", ""label"": ""PER""}
+{""text"": ""Howler First Cohort"", ""label"": ""ORG""}
+{""text"": ""Obsidians"", ""label"": ""CASTE""}
 ""After they defeat the Red Hand and land to see the exodus of childwives from the Red Hand Headquarters, including Lyria, Victra, and Volga, Pax and Electra reunite with Victra, and Volga with Ephraim.""
-{""text"": ""Red Hand"", ""label"": ""Organization""}
-{""text"": ""Red Hand"", ""label"": ""Organization""}
-{""text"": ""Lyria"", ""label"": ""Person""}
-{""text"": ""Victra"", ""label"": ""Person""}
-{""text"": ""Volga"", ""label"": ""Person""}
-{""text"": ""Pax"", ""label"": ""Person""}
-{""text"": ""Electra"", ""label"": ""Person""}
-{""text"": ""Victra"", ""label"": ""Person""}
-{""text"": ""Volga"", ""label"": ""Person""}
-{""text"": ""Ephraim"", ""label"": ""Person""}
+{""text"": ""Red Hand"", ""label"": ""ORG""}
+{""text"": ""Red Hand"", ""label"": ""ORG""}
+{""text"": ""Lyria"", ""label"": ""PER""}
+{""text"": ""Victra"", ""label"": ""PER""}
+{""text"": ""Volga"", ""label"": ""PER""}
+{""text"": ""Pax"", ""label"": ""PER""}
+{""text"": ""Electra"", ""label"": ""PER""}
+{""text"": ""Victra"", ""label"": ""PER""}
+{""text"": ""Volga"", ""label"": ""PER""}
+{""text"": ""Ephraim"", ""label"": ""PER""}
 ""On a drake hunting celebration, Ephraim watches next to Xenophon and Valdir, as Pax rides with Sefi on her griffin Godeater, and Electra rides with Freihild, accompanied by the Valkyrie.""
-{""text"": ""Ephraim"", ""label"": ""Person""}
-{""text"": ""Xenophon"", ""label"": ""Person""}
-{""text"": ""Valdir"", ""label"": ""Person""}
-{""text"": ""Pax"", ""label"": ""Person""}
-{""text"": ""Sefi"", ""label"": ""Person""}
-{""text"": ""Godeater"", ""label"": ""Person""}
-{""text"": ""Electra"", ""label"": ""Person""}
-{""text"": ""Freihild"", ""label"": ""Person""}
+{""text"": ""Ephraim"", ""label"": ""PER""}
+{""text"": ""Xenophon"", ""label"": ""PER""}
+{""text"": ""Valdir"", ""label"": ""PER""}
+{""text"": ""Pax"", ""label"": ""PER""}
+{""text"": ""Sefi"", ""label"": ""PER""}
+{""text"": ""Godeater"", ""label"": ""PER""}
+{""text"": ""Electra"", ""label"": ""PER""}
+{""text"": ""Freihild"", ""label"": ""PER""}
 {""text"": ""Valkyrie"", ""label"": ""NORP""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",78.32,78.5,78.14
+",84.31,84.91,83.72
 red_rising,5,self,most_dense,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1744,64 +1744,64 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""Sevro arrives ready to kill the Duke of Hands, but when Virginia theorizes correctly the whereabouts of Pax and Electra, that they're with Sefi and her Obsidians on Mars, and why Sevro and Victra kept Virginia out of it, she convinces Sevro to return to her command, along with the Howler First Cohort.""
-{""text"": ""Sevro"", ""label"": ""Person""}
-{""text"": ""Duke of Hands"", ""label"": ""Person""}
-{""text"": ""Virginia"", ""label"": ""Person""}
-{""text"": ""Pax"", ""label"": ""Person""}
-{""text"": ""Electra"", ""label"": ""Person""}
-{""text"": ""Sefi"", ""label"": ""Person""}
-{""text"": ""Mars"", ""label"": ""Planet""}
-{""text"": ""Sevro"", ""label"": ""Person""}
-{""text"": ""Victra"", ""label"": ""Person""}
-{""text"": ""Virginia"", ""label"": ""Person""}
-{""text"": ""Sevro"", ""label"": ""Person""}
-{""text"": ""Howler First Cohort"", ""label"": ""Organization""}
-{""text"": ""Obsidians"", ""label"": ""Caste""}
+{""text"": ""Sevro"", ""label"": ""PER""}
+{""text"": ""Duke of Hands"", ""label"": ""PER""}
+{""text"": ""Virginia"", ""label"": ""PER""}
+{""text"": ""Pax"", ""label"": ""PER""}
+{""text"": ""Electra"", ""label"": ""PER""}
+{""text"": ""Sefi"", ""label"": ""PER""}
+{""text"": ""Mars"", ""label"": ""PLANET""}
+{""text"": ""Sevro"", ""label"": ""PER""}
+{""text"": ""Victra"", ""label"": ""PER""}
+{""text"": ""Virginia"", ""label"": ""PER""}
+{""text"": ""Sevro"", ""label"": ""PER""}
+{""text"": ""Howler First Cohort"", ""label"": ""ORG""}
+{""text"": ""Obsidians"", ""label"": ""CASTE""}
 ""After they defeat the Red Hand and land to see the exodus of childwives from the Red Hand Headquarters, including Lyria, Victra, and Volga, Pax and Electra reunite with Victra, and Volga with Ephraim.""
-{""text"": ""Red Hand"", ""label"": ""Organization""}
-{""text"": ""Red Hand"", ""label"": ""Organization""}
-{""text"": ""Lyria"", ""label"": ""Person""}
-{""text"": ""Victra"", ""label"": ""Person""}
-{""text"": ""Volga"", ""label"": ""Person""}
-{""text"": ""Pax"", ""label"": ""Person""}
-{""text"": ""Electra"", ""label"": ""Person""}
-{""text"": ""Victra"", ""label"": ""Person""}
-{""text"": ""Volga"", ""label"": ""Person""}
-{""text"": ""Ephraim"", ""label"": ""Person""}
+{""text"": ""Red Hand"", ""label"": ""ORG""}
+{""text"": ""Red Hand"", ""label"": ""ORG""}
+{""text"": ""Lyria"", ""label"": ""PER""}
+{""text"": ""Victra"", ""label"": ""PER""}
+{""text"": ""Volga"", ""label"": ""PER""}
+{""text"": ""Pax"", ""label"": ""PER""}
+{""text"": ""Electra"", ""label"": ""PER""}
+{""text"": ""Victra"", ""label"": ""PER""}
+{""text"": ""Volga"", ""label"": ""PER""}
+{""text"": ""Ephraim"", ""label"": ""PER""}
 ""On a drake hunting celebration, Ephraim watches next to Xenophon and Valdir, as Pax rides with Sefi on her griffin Godeater, and Electra rides with Freihild, accompanied by the Valkyrie.""
-{""text"": ""Ephraim"", ""label"": ""Person""}
-{""text"": ""Xenophon"", ""label"": ""Person""}
-{""text"": ""Valdir"", ""label"": ""Person""}
-{""text"": ""Pax"", ""label"": ""Person""}
-{""text"": ""Sefi"", ""label"": ""Person""}
-{""text"": ""Godeater"", ""label"": ""Person""}
-{""text"": ""Electra"", ""label"": ""Person""}
-{""text"": ""Freihild"", ""label"": ""Person""}
+{""text"": ""Ephraim"", ""label"": ""PER""}
+{""text"": ""Xenophon"", ""label"": ""PER""}
+{""text"": ""Valdir"", ""label"": ""PER""}
+{""text"": ""Pax"", ""label"": ""PER""}
+{""text"": ""Sefi"", ""label"": ""PER""}
+{""text"": ""Godeater"", ""label"": ""PER""}
+{""text"": ""Electra"", ""label"": ""PER""}
+{""text"": ""Freihild"", ""label"": ""PER""}
 {""text"": ""Valkyrie"", ""label"": ""NORP""}
 ""The new Solar Republic, led by Darrow and Mustang, has replaced the Society on Mars, Earth, and Luna, and is locked in an existential struggle with the remaining Golds of the Core.""
-{""text"": ""Solar Republic"", ""label"": ""Organization""}
-{""text"": ""Darrow"", ""label"": ""Person""}
-{""text"": ""Mustang"", ""label"": ""Person""}
-{""text"": ""Society"", ""label"": ""Organization""}
-{""text"": ""Mars"", ""label"": ""Planet""}
-{""text"": ""Earth"", ""label"": ""Planet""}
-{""text"": ""Luna"", ""label"": ""Planet""}
-{""text"": ""Golds"", ""label"": ""Caste""}
-{""text"": ""Core"", ""label"": ""Location""}
+{""text"": ""Solar Republic"", ""label"": ""ORG""}
+{""text"": ""Darrow"", ""label"": ""PER""}
+{""text"": ""Mustang"", ""label"": ""PER""}
+{""text"": ""Society"", ""label"": ""ORG""}
+{""text"": ""Mars"", ""label"": ""PLANET""}
+{""text"": ""Earth"", ""label"": ""PLANET""}
+{""text"": ""Luna"", ""label"": ""PLANET""}
+{""text"": ""Golds"", ""label"": ""CASTE""}
+{""text"": ""Core"", ""label"": ""LOC""}
 ""Screwface tells him of Ajax's legion going towards Heliopolis, and Darrow tells Rhonna to find the Morning Star and Thraxa and go to Heliopolis by way of the Waste of Ladon.""
-{""text"": ""Screwface"", ""label"": ""Person""}
-{""text"": ""Ajax's"", ""label"": ""Person""}
-{""text"": ""Heliopolis"", ""label"": ""Location""}
-{""text"": ""Darrow"", ""label"": ""Person""}
-{""text"": ""Rhonna"", ""label"": ""Person""}
-{""text"": ""Morning Star"", ""label"": ""Vehicle""}
-{""text"": ""Thraxa"", ""label"": ""Person""}
-{""text"": ""Heliopolis"", ""label"": ""Location""}
-{""text"": ""Waste of Ladon"", ""label"": ""Location""}
+{""text"": ""Screwface"", ""label"": ""PER""}
+{""text"": ""Ajax's"", ""label"": ""PER""}
+{""text"": ""Heliopolis"", ""label"": ""LOC""}
+{""text"": ""Darrow"", ""label"": ""PER""}
+{""text"": ""Rhonna"", ""label"": ""PER""}
+{""text"": ""Morning Star"", ""label"": ""VEHICLE""}
+{""text"": ""Thraxa"", ""label"": ""PER""}
+{""text"": ""Heliopolis"", ""label"": ""LOC""}
+{""text"": ""Waste of Ladon"", ""label"": ""LOC""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",53.46,52.97,53.95
+",86.77,86.57,86.98
 red_rising,0,self,most_unique,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1824,7 +1824,7 @@ Do NOT give any labels that are not in the above ontology.
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",85.19,83.48,86.98
+",84.67,83.33,86.05
 red_rising,1,self,most_unique,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1846,16 +1846,16 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""Taking place after Darrow takes back Heliopolis, Virginia, from the dreadnought Echo of Ares, makes her first speech to the Solar Republic, telling them of the what has happened on Mercury and how they still need help, hoping it will help gain back support from the people.""
-{""text"": ""Darrow"", ""label"": ""Person""}
-{""text"": ""Heliopolis"", ""label"": ""Location""}
-{""text"": ""Virginia"", ""label"": ""Person""}
-{""text"": ""Echo of Ares"", ""label"": ""Vehicle""}
-{""text"": ""Solar Republic"", ""label"": ""Organization""}
-{""text"": ""Mercury"", ""label"": ""Planet""}
+{""text"": ""Darrow"", ""label"": ""PER""}
+{""text"": ""Heliopolis"", ""label"": ""LOC""}
+{""text"": ""Virginia"", ""label"": ""PER""}
+{""text"": ""Echo of Ares"", ""label"": ""VEHICLE""}
+{""text"": ""Solar Republic"", ""label"": ""ORG""}
+{""text"": ""Mercury"", ""label"": ""PLANET""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",84.28,82.59,86.05
+",85.52,84.55,86.51
 red_rising,3,self,most_unique,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1877,31 +1877,31 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""Taking place after Darrow takes back Heliopolis, Virginia, from the dreadnought Echo of Ares, makes her first speech to the Solar Republic, telling them of the what has happened on Mercury and how they still need help, hoping it will help gain back support from the people.""
-{""text"": ""Darrow"", ""label"": ""Person""}
-{""text"": ""Heliopolis"", ""label"": ""Location""}
-{""text"": ""Virginia"", ""label"": ""Person""}
-{""text"": ""Echo of Ares"", ""label"": ""Vehicle""}
-{""text"": ""Solar Republic"", ""label"": ""Organization""}
-{""text"": ""Mercury"", ""label"": ""Planet""}
+{""text"": ""Darrow"", ""label"": ""PER""}
+{""text"": ""Heliopolis"", ""label"": ""LOC""}
+{""text"": ""Virginia"", ""label"": ""PER""}
+{""text"": ""Echo of Ares"", ""label"": ""VEHICLE""}
+{""text"": ""Solar Republic"", ""label"": ""ORG""}
+{""text"": ""Mercury"", ""label"": ""PLANET""}
 ""The new Solar Republic, led by Darrow and Mustang, has replaced the Society on Mars, Earth, and Luna, and is locked in an existential struggle with the remaining Golds of the Core.""
-{""text"": ""Solar Republic"", ""label"": ""Organization""}
-{""text"": ""Darrow"", ""label"": ""Person""}
-{""text"": ""Mustang"", ""label"": ""Person""}
-{""text"": ""Society"", ""label"": ""Organization""}
-{""text"": ""Mars"", ""label"": ""Planet""}
-{""text"": ""Earth"", ""label"": ""Planet""}
-{""text"": ""Luna"", ""label"": ""Planet""}
-{""text"": ""Golds"", ""label"": ""Caste""}
-{""text"": ""Core"", ""label"": ""Location""}
+{""text"": ""Solar Republic"", ""label"": ""ORG""}
+{""text"": ""Darrow"", ""label"": ""PER""}
+{""text"": ""Mustang"", ""label"": ""PER""}
+{""text"": ""Society"", ""label"": ""ORG""}
+{""text"": ""Mars"", ""label"": ""PLANET""}
+{""text"": ""Earth"", ""label"": ""PLANET""}
+{""text"": ""Luna"", ""label"": ""PLANET""}
+{""text"": ""Golds"", ""label"": ""CASTE""}
+{""text"": ""Core"", ""label"": ""LOC""}
 ""The bulk of the forces attack the walls of Agea, but the Reaper leads a few dozen, including the Howlers, through a secret path through the river the Sons of Ares secured the night before.""
-{""text"": ""Agea"", ""label"": ""Location""}
-{""text"": ""Reaper"", ""label"": ""Person""}
+{""text"": ""Agea"", ""label"": ""LOC""}
+{""text"": ""Reaper"", ""label"": ""PER""}
 {""text"": ""Howlers"", ""label"": ""NORP""}
-{""text"": ""Sons of Ares"", ""label"": ""Organization""}
+{""text"": ""Sons of Ares"", ""label"": ""ORG""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",81.18,79.2,83.26
+",84.72,84.33,85.12
 red_rising,5,self,most_unique,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1923,43 +1923,43 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples to train your tagging system: 
 ""Taking place after Darrow takes back Heliopolis, Virginia, from the dreadnought Echo of Ares, makes her first speech to the Solar Republic, telling them of the what has happened on Mercury and how they still need help, hoping it will help gain back support from the people.""
-{""text"": ""Darrow"", ""label"": ""Person""}
-{""text"": ""Heliopolis"", ""label"": ""Location""}
-{""text"": ""Virginia"", ""label"": ""Person""}
-{""text"": ""Echo of Ares"", ""label"": ""Vehicle""}
-{""text"": ""Solar Republic"", ""label"": ""Organization""}
-{""text"": ""Mercury"", ""label"": ""Planet""}
+{""text"": ""Darrow"", ""label"": ""PER""}
+{""text"": ""Heliopolis"", ""label"": ""LOC""}
+{""text"": ""Virginia"", ""label"": ""PER""}
+{""text"": ""Echo of Ares"", ""label"": ""VEHICLE""}
+{""text"": ""Solar Republic"", ""label"": ""ORG""}
+{""text"": ""Mercury"", ""label"": ""PLANET""}
 ""The new Solar Republic, led by Darrow and Mustang, has replaced the Society on Mars, Earth, and Luna, and is locked in an existential struggle with the remaining Golds of the Core.""
-{""text"": ""Solar Republic"", ""label"": ""Organization""}
-{""text"": ""Darrow"", ""label"": ""Person""}
-{""text"": ""Mustang"", ""label"": ""Person""}
-{""text"": ""Society"", ""label"": ""Organization""}
-{""text"": ""Mars"", ""label"": ""Planet""}
-{""text"": ""Earth"", ""label"": ""Planet""}
-{""text"": ""Luna"", ""label"": ""Planet""}
-{""text"": ""Golds"", ""label"": ""Caste""}
-{""text"": ""Core"", ""label"": ""Location""}
+{""text"": ""Solar Republic"", ""label"": ""ORG""}
+{""text"": ""Darrow"", ""label"": ""PER""}
+{""text"": ""Mustang"", ""label"": ""PER""}
+{""text"": ""Society"", ""label"": ""ORG""}
+{""text"": ""Mars"", ""label"": ""PLANET""}
+{""text"": ""Earth"", ""label"": ""PLANET""}
+{""text"": ""Luna"", ""label"": ""PLANET""}
+{""text"": ""Golds"", ""label"": ""CASTE""}
+{""text"": ""Core"", ""label"": ""LOC""}
 ""The bulk of the forces attack the walls of Agea, but the Reaper leads a few dozen, including the Howlers, through a secret path through the river the Sons of Ares secured the night before.""
-{""text"": ""Agea"", ""label"": ""Location""}
-{""text"": ""Reaper"", ""label"": ""Person""}
+{""text"": ""Agea"", ""label"": ""LOC""}
+{""text"": ""Reaper"", ""label"": ""PER""}
 {""text"": ""Howlers"", ""label"": ""NORP""}
-{""text"": ""Sons of Ares"", ""label"": ""Organization""}
+{""text"": ""Sons of Ares"", ""label"": ""ORG""}
 ""There on Mercury, Darrow's set up his headquarters in the city of Tyche, where he's also had his flagship, the Morning Star, docked for repairs.""
-{""text"": ""Mercury"", ""label"": ""Planet""}
-{""text"": ""Darrow's"", ""label"": ""Person""}
-{""text"": ""Tyche"", ""label"": ""Location""}
-{""text"": ""Morning Star"", ""label"": ""Vehicle""}
+{""text"": ""Mercury"", ""label"": ""PLANET""}
+{""text"": ""Darrow's"", ""label"": ""PER""}
+{""text"": ""Tyche"", ""label"": ""LOC""}
+{""text"": ""Morning Star"", ""label"": ""VEHICLE""}
 ""He observes the room and the items there, including Ragnar's razor, his own original slingBlade that he used in the Institute, and Fitchner's Ares armor and helmet.""
-{""text"": ""Ragnar's"", ""label"": ""Person""}
-{""text"": ""razor"", ""label"": ""Weapon""}
-{""text"": ""slingBlade"", ""label"": ""Weapon""}
-{""text"": ""Institute"", ""label"": ""Ritual/Holiday""}
-{""text"": ""Fitchner's"", ""label"": ""Person""}
-{""text"": ""Ares"", ""label"": ""Profession""}
+{""text"": ""Ragnar's"", ""label"": ""PER""}
+{""text"": ""razor"", ""label"": ""WEAPON""}
+{""text"": ""slingBlade"", ""label"": ""WEAPON""}
+{""text"": ""Institute"", ""label"": ""RITUAL""}
+{""text"": ""Fitchner's"", ""label"": ""PER""}
+{""text"": ""Ares"", ""label"": ""PROFESSION""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",82.0,80.36,83.72
+",85.91,85.32,86.51
 red_rising,0,star_wars,random,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -1982,7 +1982,7 @@ Do NOT give any labels that are not in the above ontology.
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",86.44,85.45,87.44
+",85.25,84.47,86.05
 red_rising,1,star_wars,random,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -2008,7 +2008,7 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",82.74,84.13,81.4
+",83.96,85.17,82.79
 red_rising,3,star_wars,random,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -2045,7 +2045,7 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",82.24,82.63,81.86
+",82.16,82.94,81.4
 red_rising,5,star_wars,random,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -2088,7 +2088,7 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",83.8,83.41,84.19
+",82.38,81.08,83.72
 red_rising,0,star_wars,most_dense,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -2111,7 +2111,7 @@ Do NOT give any labels that are not in the above ontology.
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",84.68,82.1,87.44
+",85.26,83.19,87.44
 red_rising,1,star_wars,most_dense,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -2133,26 +2133,26 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
 ""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""dark side"", ""label"": ""MISC""}
-{""text"": ""Padme"", ""label"": ""PERSON""}
-{""text"": ""Anakin"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Padme"", ""label"": ""PER""}
+{""text"": ""Anakin"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""Darth"", ""label"": ""RANK""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
+{""text"": ""Sidious"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Sidious"", ""label"": ""PER""}
 {""text"": ""Invasion of Naboo"", ""label"": ""EVENT""}
 {""text"": ""War"", ""label"": ""EVENT""}
-{""text"": ""Plagueis"", ""label"": ""PERSON""}
-{""text"": ""Dooku"", ""label"": ""PERSON""}
+{""text"": ""Plagueis"", ""label"": ""PER""}
+{""text"": ""Dooku"", ""label"": ""PER""}
 {""text"": ""Jedi"", ""label"": ""ORG""}
 {""text"": ""Republic"", ""label"": ""GPE""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",81.76,81.19,82.33
+",82.76,81.82,83.72
 red_rising,3,star_wars,most_dense,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -2174,41 +2174,41 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
 ""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""dark side"", ""label"": ""MISC""}
-{""text"": ""Padme"", ""label"": ""PERSON""}
-{""text"": ""Anakin"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Padme"", ""label"": ""PER""}
+{""text"": ""Anakin"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""Darth"", ""label"": ""RANK""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
+{""text"": ""Sidious"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Sidious"", ""label"": ""PER""}
 {""text"": ""Invasion of Naboo"", ""label"": ""EVENT""}
 {""text"": ""War"", ""label"": ""EVENT""}
-{""text"": ""Plagueis"", ""label"": ""PERSON""}
-{""text"": ""Dooku"", ""label"": ""PERSON""}
+{""text"": ""Plagueis"", ""label"": ""PER""}
+{""text"": ""Dooku"", ""label"": ""PER""}
 {""text"": ""Jedi"", ""label"": ""ORG""}
 {""text"": ""Republic"", ""label"": ""GPE""}
 ""Elsewhere, Grievous, now both the political and military leader of the Separatists, arrives on Utapau, where Trade Federation Viceroy Nute Gunray, Geonosian Archduke Poggle the Lesser, Techno Union head of state and Foreman Wat Tambor, and others on the Separatist Council remain in hiding.""
-{""text"": ""Grievous"", ""label"": ""PERSON""}
+{""text"": ""Grievous"", ""label"": ""PER""}
 {""text"": ""Utapau"", ""label"": ""PLANET""}
 {""text"": ""Trade Federation"", ""label"": ""ORG""}
 {""text"": ""Viceroy"", ""label"": ""RANK""}
-{""text"": ""Nute Gunray"", ""label"": ""PERSON""}
+{""text"": ""Nute Gunray"", ""label"": ""PER""}
 {""text"": ""Geonosian"", ""label"": ""PLANET""}
 {""text"": ""Archduke"", ""label"": ""RANK""}
-{""text"": ""Poggle the Lesser"", ""label"": ""PERSON""}
+{""text"": ""Poggle the Lesser"", ""label"": ""PER""}
 {""text"": ""Techno Union"", ""label"": ""ORG""}
 {""text"": ""Foreman"", ""label"": ""RANK""}
 {""text"": ""Wat Tambor"", ""label"": ""PLANET""}
 {""text"": ""Separatist Council"", ""label"": ""ORG""}
 {""text"": ""Separatists"", ""label"": ""NORP""}
 ""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
-{""text"": ""Snoke's"", ""label"": ""PERSON""}
+{""text"": ""Snoke's"", ""label"": ""PER""}
 {""text"": ""Supreme Leader"", ""label"": ""RANK""}
 {""text"": ""Starkiller"", ""label"": ""WEAPON""}
-{""text"": ""Hux"", ""label"": ""PERSON""}
+{""text"": ""Hux"", ""label"": ""PER""}
 {""text"": ""Hosnian"", ""label"": ""PLANET""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 {""text"": ""Hosnian Prime,"", ""label"": ""PLANET""}
@@ -2218,7 +2218,7 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",79.81,79.63,80.0
+",82.6,82.41,82.79
 red_rising,5,star_wars,most_dense,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -2240,41 +2240,41 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
 ""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""dark side"", ""label"": ""MISC""}
-{""text"": ""Padme"", ""label"": ""PERSON""}
-{""text"": ""Anakin"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Padme"", ""label"": ""PER""}
+{""text"": ""Anakin"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""Darth"", ""label"": ""RANK""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
+{""text"": ""Sidious"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Sidious"", ""label"": ""PER""}
 {""text"": ""Invasion of Naboo"", ""label"": ""EVENT""}
 {""text"": ""War"", ""label"": ""EVENT""}
-{""text"": ""Plagueis"", ""label"": ""PERSON""}
-{""text"": ""Dooku"", ""label"": ""PERSON""}
+{""text"": ""Plagueis"", ""label"": ""PER""}
+{""text"": ""Dooku"", ""label"": ""PER""}
 {""text"": ""Jedi"", ""label"": ""ORG""}
 {""text"": ""Republic"", ""label"": ""GPE""}
 ""Elsewhere, Grievous, now both the political and military leader of the Separatists, arrives on Utapau, where Trade Federation Viceroy Nute Gunray, Geonosian Archduke Poggle the Lesser, Techno Union head of state and Foreman Wat Tambor, and others on the Separatist Council remain in hiding.""
-{""text"": ""Grievous"", ""label"": ""PERSON""}
+{""text"": ""Grievous"", ""label"": ""PER""}
 {""text"": ""Utapau"", ""label"": ""PLANET""}
 {""text"": ""Trade Federation"", ""label"": ""ORG""}
 {""text"": ""Viceroy"", ""label"": ""RANK""}
-{""text"": ""Nute Gunray"", ""label"": ""PERSON""}
+{""text"": ""Nute Gunray"", ""label"": ""PER""}
 {""text"": ""Geonosian"", ""label"": ""PLANET""}
 {""text"": ""Archduke"", ""label"": ""RANK""}
-{""text"": ""Poggle the Lesser"", ""label"": ""PERSON""}
+{""text"": ""Poggle the Lesser"", ""label"": ""PER""}
 {""text"": ""Techno Union"", ""label"": ""ORG""}
 {""text"": ""Foreman"", ""label"": ""RANK""}
 {""text"": ""Wat Tambor"", ""label"": ""PLANET""}
 {""text"": ""Separatist Council"", ""label"": ""ORG""}
 {""text"": ""Separatists"", ""label"": ""NORP""}
 ""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
-{""text"": ""Snoke's"", ""label"": ""PERSON""}
+{""text"": ""Snoke's"", ""label"": ""PER""}
 {""text"": ""Supreme Leader"", ""label"": ""RANK""}
 {""text"": ""Starkiller"", ""label"": ""WEAPON""}
-{""text"": ""Hux"", ""label"": ""PERSON""}
+{""text"": ""Hux"", ""label"": ""PER""}
 {""text"": ""Hosnian"", ""label"": ""PLANET""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 {""text"": ""Hosnian Prime,"", ""label"": ""PLANET""}
@@ -2282,28 +2282,28 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 {""text"": ""First Order"", ""label"": ""GPE""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 ""While eating dinner with Owen and his Aunt Beru Whitesun Lars, Owen asks Luke to take R2 to Anchorhead the next day to have his memory wiped, and expresses his hope Luke will stay with them for one more harvest season before applying to the Academy.""
-{""text"": ""Owen"", ""label"": ""PERSON""}
-{""text"": ""Beru Whitesun Lars"", ""label"": ""PERSON""}
+{""text"": ""Owen"", ""label"": ""PER""}
+{""text"": ""Beru Whitesun Lars"", ""label"": ""PER""}
 {""text"": ""Aunt"", ""label"": ""RANK""}
-{""text"": ""Owen"", ""label"": ""PERSON""}
-{""text"": ""Luke"", ""label"": ""PERSON""}
-{""text"": ""R2"", ""label"": ""PERSON""}
-{""text"": ""Anchorhead"", ""label"": ""LOCATION""}
-{""text"": ""Luke"", ""label"": ""PERSON""}
+{""text"": ""Owen"", ""label"": ""PER""}
+{""text"": ""Luke"", ""label"": ""PER""}
+{""text"": ""R2"", ""label"": ""PER""}
+{""text"": ""Anchorhead"", ""label"": ""LOC""}
+{""text"": ""Luke"", ""label"": ""PER""}
 {""text"": ""Academy"", ""label"": ""ORG""}
 ""The Confederacy's cyborg military leader, General Grievous of the Separatist Droid Army, has brought the war to Coruscant and captured Supreme Chancellor Sheev Palpatine, leader of the Galactic Senate, during a massive space battle.""
 {""text"": ""General"", ""label"": ""RANK""}
-{""text"": ""Grievous"", ""label"": ""PERSON""}
+{""text"": ""Grievous"", ""label"": ""PER""}
 {""text"": ""Separatist Droid Army"", ""label"": ""ORG""}
 {""text"": ""Coruscant"", ""label"": ""PLANET""}
 {""text"": ""Supreme Chancellor"", ""label"": ""RANK""}
-{""text"": ""Sheev Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Sheev Palpatine"", ""label"": ""PER""}
 {""text"": ""Galactic Senate"", ""label"": ""ORG""}
 {""text"": ""Confederacy's"", ""label"": ""GPE""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",80.09,79.72,80.47
+",82.13,81.94,82.33
 red_rising,0,star_wars,most_unique,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -2326,7 +2326,7 @@ Do NOT give any labels that are not in the above ontology.
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",85.52,84.55,86.51
+",85.78,84.62,86.98
 red_rising,1,star_wars,most_unique,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -2348,10 +2348,10 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
 ""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
-{""text"": ""Snoke's"", ""label"": ""PERSON""}
+{""text"": ""Snoke's"", ""label"": ""PER""}
 {""text"": ""Supreme Leader"", ""label"": ""RANK""}
 {""text"": ""Starkiller"", ""label"": ""WEAPON""}
-{""text"": ""Hux"", ""label"": ""PERSON""}
+{""text"": ""Hux"", ""label"": ""PER""}
 {""text"": ""Hosnian"", ""label"": ""PLANET""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 {""text"": ""Hosnian Prime,"", ""label"": ""PLANET""}
@@ -2361,7 +2361,7 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",82.65,81.17,84.19
+",81.76,81.19,82.33
 red_rising,3,star_wars,most_unique,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -2383,10 +2383,10 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
 ""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
-{""text"": ""Snoke's"", ""label"": ""PERSON""}
+{""text"": ""Snoke's"", ""label"": ""PER""}
 {""text"": ""Supreme Leader"", ""label"": ""RANK""}
 {""text"": ""Starkiller"", ""label"": ""WEAPON""}
-{""text"": ""Hux"", ""label"": ""PERSON""}
+{""text"": ""Hux"", ""label"": ""PER""}
 {""text"": ""Hosnian"", ""label"": ""PLANET""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 {""text"": ""Hosnian Prime,"", ""label"": ""PLANET""}
@@ -2394,34 +2394,34 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 {""text"": ""First Order"", ""label"": ""GPE""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 ""Arriving at Chalmun's Spaceport Cantina, the group hires smuggler Han Solo and his First Mate, a Wookiee named Chewbacca, for 17,000 credits, 2,000 in advance and 15,000 upon arrival, to take the four of them to Alderaan aboard their ship, the Millennium Falcon.""
-{""text"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOCATION""}
-{""text"": ""Han Solo"", ""label"": ""PERSON""}
+{""text"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOC""}
+{""text"": ""Han Solo"", ""label"": ""PER""}
 {""text"": ""First Mate"", ""label"": ""RANK""}
 {""text"": ""Wookiee"", ""label"": ""SPECIES""}
-{""text"": ""Chewbacca"", ""label"": ""PERSON""}
+{""text"": ""Chewbacca"", ""label"": ""PER""}
 {""text"": ""Alderaan"", ""label"": ""PLANET""}
 {""text"": ""Millennium Falcon"", ""label"": ""SPACECRAFT""}
 ""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""dark side"", ""label"": ""MISC""}
-{""text"": ""Padme"", ""label"": ""PERSON""}
-{""text"": ""Anakin"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Padme"", ""label"": ""PER""}
+{""text"": ""Anakin"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""Darth"", ""label"": ""RANK""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
+{""text"": ""Sidious"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Sidious"", ""label"": ""PER""}
 {""text"": ""Invasion of Naboo"", ""label"": ""EVENT""}
 {""text"": ""War"", ""label"": ""EVENT""}
-{""text"": ""Plagueis"", ""label"": ""PERSON""}
-{""text"": ""Dooku"", ""label"": ""PERSON""}
+{""text"": ""Plagueis"", ""label"": ""PER""}
+{""text"": ""Dooku"", ""label"": ""PER""}
 {""text"": ""Jedi"", ""label"": ""ORG""}
 {""text"": ""Republic"", ""label"": ""GPE""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",79.37,77.43,81.4
+",82.46,80.8,84.19
 red_rising,5,star_wars,most_unique,"You are now an entity recognition model for Red Rising data.
 Always answers as helpfully as possible.
 These are the entity types you are tasked to identify:
@@ -2443,10 +2443,10 @@ Please label all entities that fit these descriptions.
 Do NOT give any labels that are not in the above ontology.
 Use these examples of Star Wars data to train your tagging system. This is for cross-domain learning.These examples may have different types from those you are asked to tag. Do NOT tag such items, but let the examples inform your tagging decisions.
 ""After gaining Supreme Leader Snoke's permission to fire the Starkiller superweapon, Hux chooses the Hosnian system, which hosts the capital of the New Republic, Hosnian Prime, as well as the New Republic Defense Fleet, in order to demonstrate the power of the First Order in an attempt to wipe out the ""illegitimate"" government of the New Republic in one fell swoop.""
-{""text"": ""Snoke's"", ""label"": ""PERSON""}
+{""text"": ""Snoke's"", ""label"": ""PER""}
 {""text"": ""Supreme Leader"", ""label"": ""RANK""}
 {""text"": ""Starkiller"", ""label"": ""WEAPON""}
-{""text"": ""Hux"", ""label"": ""PERSON""}
+{""text"": ""Hux"", ""label"": ""PER""}
 {""text"": ""Hosnian"", ""label"": ""PLANET""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 {""text"": ""Hosnian Prime,"", ""label"": ""PLANET""}
@@ -2454,37 +2454,37 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 {""text"": ""First Order"", ""label"": ""GPE""}
 {""text"": ""New Republic"", ""label"": ""GPE""}
 ""Arriving at Chalmun's Spaceport Cantina, the group hires smuggler Han Solo and his First Mate, a Wookiee named Chewbacca, for 17,000 credits, 2,000 in advance and 15,000 upon arrival, to take the four of them to Alderaan aboard their ship, the Millennium Falcon.""
-{""text"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOCATION""}
-{""text"": ""Han Solo"", ""label"": ""PERSON""}
+{""text"": ""Chalmun's Spaceport Cantina"", ""label"": ""LOC""}
+{""text"": ""Han Solo"", ""label"": ""PER""}
 {""text"": ""First Mate"", ""label"": ""RANK""}
 {""text"": ""Wookiee"", ""label"": ""SPECIES""}
-{""text"": ""Chewbacca"", ""label"": ""PERSON""}
+{""text"": ""Chewbacca"", ""label"": ""PER""}
 {""text"": ""Alderaan"", ""label"": ""PLANET""}
 {""text"": ""Millennium Falcon"", ""label"": ""SPACECRAFT""}
 ""After Palpatine tells him that the dark side can save Padme from death, Anakin realizes that Palpatine is in fact Darth Sidious, the latter of which Palpatine confirms (This revelation means that Palpatine as Sidious engineered the Invasion of Naboo and War, betrayed and caused the deaths of Plagueis and Dooku, and has been deceiving the Jedi and Republic).""
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""dark side"", ""label"": ""MISC""}
-{""text"": ""Padme"", ""label"": ""PERSON""}
-{""text"": ""Anakin"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Padme"", ""label"": ""PER""}
+{""text"": ""Anakin"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
 {""text"": ""Darth"", ""label"": ""RANK""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Palpatine"", ""label"": ""PERSON""}
-{""text"": ""Sidious"", ""label"": ""PERSON""}
+{""text"": ""Sidious"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Palpatine"", ""label"": ""PER""}
+{""text"": ""Sidious"", ""label"": ""PER""}
 {""text"": ""Invasion of Naboo"", ""label"": ""EVENT""}
 {""text"": ""War"", ""label"": ""EVENT""}
-{""text"": ""Plagueis"", ""label"": ""PERSON""}
-{""text"": ""Dooku"", ""label"": ""PERSON""}
+{""text"": ""Plagueis"", ""label"": ""PER""}
+{""text"": ""Dooku"", ""label"": ""PER""}
 {""text"": ""Jedi"", ""label"": ""ORG""}
 {""text"": ""Republic"", ""label"": ""GPE""}
 ""The Confederacy's cyborg military leader, General Grievous of the Separatist Droid Army, has brought the war to Coruscant and captured Supreme Chancellor Sheev Palpatine, leader of the Galactic Senate, during a massive space battle.""
 {""text"": ""General"", ""label"": ""RANK""}
-{""text"": ""Grievous"", ""label"": ""PERSON""}
+{""text"": ""Grievous"", ""label"": ""PER""}
 {""text"": ""Separatist Droid Army"", ""label"": ""ORG""}
 {""text"": ""Coruscant"", ""label"": ""PLANET""}
 {""text"": ""Supreme Chancellor"", ""label"": ""RANK""}
-{""text"": ""Sheev Palpatine"", ""label"": ""PERSON""}
+{""text"": ""Sheev Palpatine"", ""label"": ""PER""}
 {""text"": ""Galactic Senate"", ""label"": ""ORG""}
 {""text"": ""Confederacy's"", ""label"": ""GPE""}
 ""As the Separatist Droid Army attempts to escape the Galactic capital, a massive space battle erupts, into which race Jedi Master Obi-Wan Kenobi and his former padawan, now Jedi Knight Anakin Skywalker, leading a mission to rescue the Chancellor.""
@@ -2492,10 +2492,10 @@ Use these examples of Star Wars data to train your tagging system. This is for c
 {""text"": ""Jedi Master"", ""label"": ""RANK""}
 {""text"": ""Obi-Wan Kenobi"", ""label"": ""DROID""}
 {""text"": ""Jedi Knight"", ""label"": ""RANK""}
-{""text"": ""Anakin Skywalker"", ""label"": ""PERSON""}
+{""text"": ""Anakin Skywalker"", ""label"": ""PER""}
 {""text"": ""Chancellor"", ""label"": ""RANK""}
 {""text"": ""Galactic"", ""label"": ""NORP""}
 
 Tag all named entities in the following sentence:
 ""{{test_instance}}""
-",71.85,70.72,73.02
+",80.56,80.18,80.93

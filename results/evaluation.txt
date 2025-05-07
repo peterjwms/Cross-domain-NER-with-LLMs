@@ -1,4 +1,17 @@
-Start grid search at 2025-05-06 00:00:26.794795
+Start grid search at 2025-05-06 20:33:47.076330
+0 of 100 instances could not be evaluated
+0 of 100 instances could not be evaluated
+0 of 100 instances could not be evaluated
+0 of 100 instances could not be evaluated
+0 of 100 instances could not be evaluated
+0 of 100 instances could not be evaluated
+0 of 100 instances could not be evaluated
+0 of 100 instances could not be evaluated
+0 of 100 instances could not be evaluated
+0 of 100 instances could not be evaluated
+0 of 100 instances could not be evaluated
+0 of 100 instances could not be evaluated
+0 of 100 instances could not be evaluated
 0 of 100 instances could not be evaluated
 0 of 100 instances could not be evaluated
 0 of 100 instances could not be evaluated
@@ -7,19 +20,6 @@ Start grid search at 2025-05-06 00:00:26.794795
 0 of 100 instances could not be evaluated
 0 of 100 instances could not be evaluated
 1 of 100 instances could not be evaluated
-0 of 100 instances could not be evaluated
-0 of 100 instances could not be evaluated
-0 of 100 instances could not be evaluated
-0 of 100 instances could not be evaluated
-0 of 100 instances could not be evaluated
-0 of 100 instances could not be evaluated
-0 of 100 instances could not be evaluated
-0 of 100 instances could not be evaluated
-0 of 100 instances could not be evaluated
-0 of 100 instances could not be evaluated
-0 of 100 instances could not be evaluated
-0 of 100 instances could not be evaluated
-0 of 100 instances could not be evaluated
 0 of 100 instances could not be evaluated
 0 of 100 instances could not be evaluated
 0 of 100 instances could not be evaluated
