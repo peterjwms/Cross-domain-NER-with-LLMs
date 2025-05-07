@@ -11,6 +11,7 @@ from tqdm import tqdm
 from generate_prompt import get_entity_types, create_k_examples, get_train_test_dev_data, load_data_split, stringify_ontology, task_definition_prompt, get_k_examples
 from prompt_experiments import gemini_api_post_request
 import re
+import ast
 
 class Mention(BaseModel):
     text: str
@@ -193,12 +194,110 @@ def evaluate_results(results, skip_missing: bool = True):
     return float(f"{f1*100:0.2f}"), float(f"{precision*100:0.2f}"), float(f"{recall*100:0.2f}")
 
 
+def evaluate_per_label_results(results, domain: str):
+    """
+    Evaluate the performance of an experiment for each label in the target domain ontology.
+    Returns a dictionary where keys are the domain labels
+    and values are dictionaries with keys/value pairs for F1, precision, recall, true/false positives, and false negatives for each label
+    """
+
+    entity_types = get_entity_types(domain)
+    per_label_counts = {}
+    per_label_scores = {}
+    for entity_type in entity_types:
+        per_label_counts[entity_type['label']] = {
+            'true_pos': 0,
+            'false_pos': 0,
+            'flase_neg': 0
+        }
+        per_label_scores[entity_type['label']] = {
+            'precision': None,
+            'recall': None,
+            'f1': None
+        }
+
+    
+    for instance in results:
+
+        true_mentions = set([Mention(mention['text'], mention['label']) for mention in instance['mentions']])
+        if instance['results'] is None:
+            predicted_mentions = set([])
+
+        else:
+            predicted_mentions = set([Mention(mention['text'], mention['label']) for mention in instance['results']])
+
+        true_positives = true_mentions & predicted_mentions
+        false_positives = predicted_mentions - true_positives
+        false_negatives = true_mentions - true_positives
+
+
+        for tp in true_positives:
+            per_label_counts[tp.label]['true_pos'] += 1
+        for fp in false_positives:
+            per_label_counts[fp.label]['false_pos'] += 1
+        for fn in false_negatives:
+            per_label_counts[fn.label]['false_neg'] += 1
+        
+    
+    for label, counts in per_label_counts.items():
+        true_pos = counts['true_pos']
+        false_pos = counts['false_pos']
+        false_neg = counts['false_pos']
+
+        per_label_scores[label]
+
+        precision = true_pos / (true_pos + false_pos) if (true_pos + false_pos) > 0 else 0
+        recall = true_pos / (true_pos + false_neg) if (true_pos + false_neg) > 0 else 0
+        f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+
+        per_label_scores[label]['precision'] = precision
+        per_label_scores[label]['recall'] = recall
+        per_label_scores[label]['f1'] = f1
+    
+    return per_label_scores
+
+
+def retrieve_results(domain, example, k, selection, split="dev"):
+    fixed_results = []
+    filepath = f"results/{domain}_{split}_{k}_{example}_{selection}"
+    with open(filepath, 'r') as f:
+        results = pd.read_csv(f)
+    # print(results)
+    for instance in results.to_dict(orient='records'):
+        # print(instance['mentions'])
+        # print(instance['result'])
+        true_mentions = ast.literal_eval(instance['mentions']) if not pd.isna(instance['result']) else []
+        result_list = ast.literal_eval(instance['result']) if not pd.isna(instance['result']) else []
+        fixed_true_mentions = []
+        fixed_result = []
+        for mention in result_list:
+            fixed_result.append({
+                'text': mention['text'],
+                'label': replace_label(mention['label'])
+            })
+        for mention in true_mentions:
+            fixed_true_mentions.append({
+                'text': mention['text'],
+                'label': replace_label(mention['label'])
+            })
+
+        fixed_results.append({
+            'text': instance['text'],
+            'mentions': fixed_true_mentions,
+            'result': fixed_result
+        })
+    return fixed_results
+
+
 if __name__ == "__main__":
     load_dotenv()
     api_key = os.environ.get('GOOGLE_API_KEY')
     # model_name = 'gemini-2.5-flash-preview-04-17' # RPM 10, TPM 250,000, RPD 500
     model_name = 'gemini-2.0-flash-lite' # RPM 30, TPM 1,000,000, RPD 1500
     client = genai.Client(api_key=api_key)
+
+
+    
 
     search_parameters = {
         'dataset': 'dev',
