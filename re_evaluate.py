@@ -14,6 +14,10 @@ def replace_label(label: str) -> str:
         new_label = 'ORG'
     elif new_label == 'LOCATION':
         new_label = 'LOC'
+    elif new_label == 'PERSON':
+        new_label = 'PER'
+    elif new_label == 'TECHNOLOGY':
+        new_label = 'TECH'
     return new_label
 
 def evaluate_per_label_results(results, domain: str):
