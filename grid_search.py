@@ -73,7 +73,7 @@ def run_grid_search(model, client, parameters: dict = None):
                     # run the experiment here on a full dev/test set using the base prompt built above
                     results = run_experiments(base_prompt, dataset, model, client)
                     results_df = pd.DataFrame(results, columns=['text', 'mentions', 'result'])
-                    results_df.to_csv(f"results/{domain}_{parameters['dataset']}_{n_examples}_{example_domain}_{example_selection}.csv", index=False)
+                    results_df.to_csv(f"test_set_results/{domain}_{parameters['dataset']}_{n_examples}_{example_domain}_{example_selection}.csv", index=False)
                     
                     # evaluate results
                     f1, precision, recall = evaluate_results(results)
@@ -256,39 +256,6 @@ def evaluate_per_label_results(results, domain: str):
     
     return per_label_scores
 
-
-def retrieve_results(domain, example, k, selection, split="dev"):
-    fixed_results = []
-    filepath = f"results/{domain}_{split}_{k}_{example}_{selection}"
-    with open(filepath, 'r') as f:
-        results = pd.read_csv(f)
-    # print(results)
-    for instance in results.to_dict(orient='records'):
-        # print(instance['mentions'])
-        # print(instance['result'])
-        true_mentions = ast.literal_eval(instance['mentions']) if not pd.isna(instance['result']) else []
-        result_list = ast.literal_eval(instance['result']) if not pd.isna(instance['result']) else []
-        fixed_true_mentions = []
-        fixed_result = []
-        for mention in result_list:
-            fixed_result.append({
-                'text': mention['text'],
-                'label': replace_label(mention['label'])
-            })
-        for mention in true_mentions:
-            fixed_true_mentions.append({
-                'text': mention['text'],
-                'label': replace_label(mention['label'])
-            })
-
-        fixed_results.append({
-            'text': instance['text'],
-            'mentions': fixed_true_mentions,
-            'result': fixed_result
-        })
-    return fixed_results
-
-
 if __name__ == "__main__":
     load_dotenv()
     api_key = os.environ.get('GOOGLE_API_KEY')
@@ -300,7 +267,7 @@ if __name__ == "__main__":
     
 
     search_parameters = {
-        'dataset': 'dev',
+        'dataset': 'test',
         'n_examples': [0,1,3,5],
         'example_domain': ['self', 'star_wars'],
         'example_selection': ['random','most_dense', 'most_unique'],
@@ -321,7 +288,7 @@ if __name__ == "__main__":
         _, _, _ = get_train_test_dev_data(domain, n=100)
 
     # reset the log evaluation file for a new run
-    with open('results/evaluation.txt', 'w') as file:
+    with open('test_set_results/evaluation.txt', 'w') as file:
         print(f"Start grid search at {pd.Timestamp.now()}", file=file)
         pass
 

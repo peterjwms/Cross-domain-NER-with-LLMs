@@ -1,0 +1,20 @@
+<View>
+<Text name="text" value="$text" granularity="word"/>
+<Filter name="filter" toName="label" hotkey="shift+f" minlength="1" />
+  <Labels name="label" toName="text" showInline="true">
+    <Label value="Person" background="grey"/>
+    <Label value="Caste" background="red"/>
+    <Label value="Location" background="orange"/>
+    <Label value="Organization" background="blue"/>
+    <Label value="Rank" background="yellow"/>
+    <Label value="Vehicle" background="green"/>
+    <Label value="Weapon" background="purple"/>
+    <Label value="Event" background="darkred"/>
+    <Label value="Technology" background="darkorange"/>
+    <Label value="Profession" background="gold"/>
+    <Label value="Ritual/Holiday" background="darkgreen"/>
+    <Label value="Planet" background="turquoise"/>
+    <Label value="NORP" background="magenta"/>
+    <Label value="MISC" background="red"/>
+  </Labels>
+</View>
