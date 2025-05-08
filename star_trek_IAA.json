@@ -1,0 +1,2716 @@
+[
+    {
+        "id": 3251,
+        "annotations": [
+            {
+                "id": 520,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 4,
+                            "end": 10,
+                            "text": "Bounty",
+                            "labels": [
+                                "SPACECRAFT"
+                            ]
+                        },
+                        "id": "DMa7Ay7hF0",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 20,
+                            "end": 36,
+                            "text": "Golden Gate Park",
+                            "labels": [
+                                "LOC"
+                            ]
+                        },
+                        "id": "b7S6jSaxhp",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 138,
+                            "end": 150,
+                            "text": "landing gear",
+                            "labels": [
+                                "TECH"
+                            ]
+                        },
+                        "id": "GLrTwZqNdI",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T02:58:00.160051Z",
+                "updated_at": "2025-05-08T02:58:00.160051Z",
+                "draft_created_at": "2025-05-08T02:57:42.114527Z",
+                "lead_time": 2837.18,
+                "prediction": {},
+                "result_count": 3,
+                "unique_id": "e7aff6c6-faf5-401c-91a4-a901dcce2c95",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3251,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "The Bounty lands in Golden Gate Park, accidentally crushing a trash can (as well as indenting the surrounding ground) under its invisible landing gear, and when the hatch opens, it scares two sanitation workers, who drive out of the area leaving trash behind.",
+            "mentions": [
+                {
+                    "label": "SPACECRAFT",
+                    "start": 4,
+                    "end": 10,
+                    "text": "Bounty"
+                },
+                {
+                    "label": "LOC",
+                    "start": 20,
+                    "end": 36,
+                    "text": "Golden Gate Park"
+                },
+                {
+                    "label": "TECH",
+                    "start": 128,
+                    "end": 150,
+                    "text": "invisible landing gear"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.008168Z",
+        "updated_at": "2025-05-08T02:58:00.354724Z",
+        "inner_id": 1,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3252,
+        "annotations": [
+            {
+                "id": 521,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 41,
+                            "end": 47,
+                            "text": "array ",
+                            "labels": [
+                                "TECH"
+                            ]
+                        },
+                        "id": "AzwMNqWdwx",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T02:58:12.921026Z",
+                "updated_at": "2025-05-08T02:58:12.921026Z",
+                "draft_created_at": null,
+                "lead_time": 10.066,
+                "prediction": {},
+                "result_count": 1,
+                "unique_id": "ca57dc65-7a25-4aa4-b950-0403b877ecca",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3252,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Inside the safehouse, the team finds the array sabotaged by the mole.",
+            "mentions": [
+                {
+                    "label": "TECH",
+                    "start": 41,
+                    "end": 46,
+                    "text": "array"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.008168Z",
+        "updated_at": "2025-05-08T02:58:13.049961Z",
+        "inner_id": 2,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3253,
+        "annotations": [
+            {
+                "id": 522,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 14,
+                            "end": 21,
+                            "text": "Gorkon ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "z1pOSbWbvL",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 35,
+                            "end": 39,
+                            "text": "Kirk",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "hT_DWz4MBV",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T02:58:23.485935Z",
+                "updated_at": "2025-05-08T02:58:23.485935Z",
+                "draft_created_at": null,
+                "lead_time": 8.291,
+                "prediction": {},
+                "result_count": 2,
+                "unique_id": "0a072796-914c-4bfe-b593-b0b462c00842",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3253,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Before dying, Gorkon reaches up to Kirk, grasping the back of his head, and begs him not to let it end this way.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 14,
+                    "end": 20,
+                    "text": "Gorkon"
+                },
+                {
+                    "label": "PER",
+                    "start": 35,
+                    "end": 39,
+                    "text": "Kirk"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.008168Z",
+        "updated_at": "2025-05-08T02:58:23.612062Z",
+        "inner_id": 3,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3254,
+        "annotations": [
+            {
+                "id": 523,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 0,
+                            "end": 7,
+                            "text": "Picard ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "T6LeRaqFV4",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 48,
+                            "end": 55,
+                            "text": "Picard ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "_tXrzI1vwq",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 15,
+                            "end": 21,
+                            "text": "Ahdar ",
+                            "labels": [
+                                "RANK"
+                            ]
+                        },
+                        "id": "Mek76d6bAf",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:01:29.660752Z",
+                "updated_at": "2025-05-08T03:01:29.660752Z",
+                "draft_created_at": "2025-05-08T02:58:37.648154Z",
+                "lead_time": 176.973,
+                "prediction": {},
+                "result_count": 3,
+                "unique_id": "3a5dedaf-8fa8-4d82-aad0-fd5459d4041f",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3254,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Picard and the Ahdar stand opposite each other, Picard fully expecting to die right there.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 0,
+                    "end": 6,
+                    "text": "Picard"
+                },
+                {
+                    "label": "RANK",
+                    "start": 15,
+                    "end": 20,
+                    "text": "Ahdar"
+                },
+                {
+                    "label": "PER",
+                    "start": 48,
+                    "end": 54,
+                    "text": "Picard"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.008168Z",
+        "updated_at": "2025-05-08T03:01:30.016280Z",
+        "inner_id": 4,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3255,
+        "annotations": [
+            {
+                "id": 524,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 13,
+                            "end": 20,
+                            "text": "Saavik ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "rg_jZ_P6Ve",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 25,
+                            "end": 29,
+                            "text": "Kirk",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "3l2WgJhnmN",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 88,
+                            "end": 102,
+                            "text": "Kobayashi Maru",
+                            "labels": [
+                                "SPACECRAFT"
+                            ]
+                        },
+                        "id": "vBcTPzJADu",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:07:20.354560Z",
+                "updated_at": "2025-05-08T03:07:20.354560Z",
+                "draft_created_at": "2025-05-08T03:06:28.464086Z",
+                "lead_time": 56.631,
+                "prediction": {},
+                "result_count": 3,
+                "unique_id": "79a3b905-df58-45bd-8bbd-ea25ffd09ccc",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3255,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "In the cave, Saavik asks Kirk, who casually eats an apple, about his performance on the Kobayashi Maru scenario.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 13,
+                    "end": 20,
+                    "text": "Saavik "
+                },
+                {
+                    "label": "PER",
+                    "start": 25,
+                    "end": 29,
+                    "text": "Kirk"
+                },
+                {
+                    "label": "SPACECRAFT",
+                    "start": 88,
+                    "end": 103,
+                    "text": "Kobayashi Maru "
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.009168Z",
+        "updated_at": "2025-05-08T03:07:22.222524Z",
+        "inner_id": 5,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3256,
+        "annotations": [
+            {
+                "id": 525,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 0,
+                            "end": 7,
+                            "text": "Decker ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "CpBN41_BSk",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 20,
+                            "end": 26,
+                            "text": "V'ger ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "JJDogULYuv",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:07:39.880196Z",
+                "updated_at": "2025-05-08T03:07:39.880834Z",
+                "draft_created_at": null,
+                "lead_time": 6.215,
+                "prediction": {},
+                "result_count": 2,
+                "unique_id": "e6b01aba-0bf5-40f0-a2eb-20ef92c3902a",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3256,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Decker wonders what V'ger would need to fulfil itself.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 0,
+                    "end": 6,
+                    "text": "Decker"
+                },
+                {
+                    "label": "SPACECRAFT",
+                    "start": 20,
+                    "end": 25,
+                    "text": "V'ger"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.009168Z",
+        "updated_at": "2025-05-08T03:07:40.240063Z",
+        "inner_id": 6,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3257,
+        "annotations": [
+            {
+                "id": 526,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 37,
+                            "end": 47,
+                            "text": "Turkana IV",
+                            "labels": [
+                                "LOC"
+                            ]
+                        },
+                        "id": "jQR-eB9AiE",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 52,
+                            "end": 63,
+                            "text": "Georgiou's ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "BEobfvuUGr",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:07:58.266581Z",
+                "updated_at": "2025-05-08T03:07:58.266581Z",
+                "draft_created_at": null,
+                "lead_time": 14.719,
+                "prediction": {},
+                "result_count": 2,
+                "unique_id": "eb47e91d-c505-4fbf-84f8-e3ef58f0a173",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3257,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "She asks if any of them have been to Turkana IV, to Georgiou's enticement.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 52,
+                    "end": 60,
+                    "text": "Georgiou"
+                },
+                {
+                    "label": "LOC",
+                    "start": 37,
+                    "end": 47,
+                    "text": "Turkana IV"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.009168Z",
+        "updated_at": "2025-05-08T03:07:58.493412Z",
+        "inner_id": 7,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3258,
+        "annotations": [
+            {
+                "id": 527,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 0,
+                            "end": 8,
+                            "text": "Admiral ",
+                            "labels": [
+                                "RANK"
+                            ]
+                        },
+                        "id": "dXUq-i55po",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 8,
+                            "end": 18,
+                            "text": "Dougherty ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "aAjHlfT6-G",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 22,
+                            "end": 28,
+                            "text": "Ru'afo",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "sF-HtEeKAC",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 39,
+                            "end": 49,
+                            "text": "captain's ",
+                            "labels": [
+                                "RANK"
+                            ]
+                        },
+                        "id": "1A043fVhBU",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 130,
+                            "end": 140,
+                            "text": "Enterprise",
+                            "labels": [
+                                "SPACECRAFT"
+                            ]
+                        },
+                        "id": "lgQqjhjIev",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 90,
+                            "end": 95,
+                            "text": "Son'a",
+                            "labels": [
+                                "SPECIES"
+                            ]
+                        },
+                        "id": "lzq_-D7Jqg",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:08:58.668079Z",
+                "updated_at": "2025-05-08T03:08:58.668079Z",
+                "draft_created_at": "2025-05-08T03:08:09.829899Z",
+                "lead_time": 55.434,
+                "prediction": {},
+                "result_count": 6,
+                "unique_id": "c6cc9159-d4a0-4202-a4cb-5158ce6a092d",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3258,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Admiral Dougherty and Ru'afo enter the captain's ready room, demanding the release of the Son'a officers and the departure of the Enterprise.",
+            "mentions": [
+                {
+                    "label": "RANK",
+                    "start": 0,
+                    "end": 7,
+                    "text": "Admiral"
+                },
+                {
+                    "label": "PER",
+                    "start": 8,
+                    "end": 17,
+                    "text": "Dougherty"
+                },
+                {
+                    "label": "PER",
+                    "start": 22,
+                    "end": 28,
+                    "text": "Ru'afo"
+                },
+                {
+                    "label": "NORP",
+                    "start": 90,
+                    "end": 95,
+                    "text": "Son'a"
+                },
+                {
+                    "label": "SPACECRAFT",
+                    "start": 130,
+                    "end": 140,
+                    "text": "Enterprise"
+                },
+                {
+                    "label": "RANK",
+                    "start": 39,
+                    "end": 46,
+                    "text": "captain"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.009168Z",
+        "updated_at": "2025-05-08T03:08:58.927579Z",
+        "inner_id": 8,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3259,
+        "annotations": [
+            {
+                "id": 528,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 35,
+                            "end": 40,
+                            "text": "Worf ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "JPrFOXt7e8",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 79,
+                            "end": 89,
+                            "text": "tricorder ",
+                            "labels": [
+                                "TECH"
+                            ]
+                        },
+                        "id": "axxTwPbzIx",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 103,
+                            "end": 107,
+                            "text": "Data",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "MVxwSv4M_d",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:09:13.567047Z",
+                "updated_at": "2025-05-08T03:09:13.567047Z",
+                "draft_created_at": "2025-05-08T03:09:11.461434Z",
+                "lead_time": 11.664,
+                "prediction": {},
+                "result_count": 3,
+                "unique_id": "7a0f0629-e3a9-4fc7-8d9f-177e9fafac11",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3259,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "In preparation for the task ahead, Worf too has been hard at work, modifying a tricorder to deactivate Data.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 35,
+                    "end": 39,
+                    "text": "Worf"
+                },
+                {
+                    "label": "TECH",
+                    "start": 79,
+                    "end": 88,
+                    "text": "tricorder"
+                },
+                {
+                    "label": "PER",
+                    "start": 103,
+                    "end": 107,
+                    "text": "Data"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.009168Z",
+        "updated_at": "2025-05-08T03:09:13.761081Z",
+        "inner_id": 9,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3260,
+        "annotations": [
+            {
+                "id": 529,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 20,
+                            "end": 27,
+                            "text": "Picard ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "tp6J1QmWFQ",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 33,
+                            "end": 38,
+                            "text": "Kirk ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "GVsbB_ngM3",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 97,
+                            "end": 102,
+                            "text": "PADD ",
+                            "labels": [
+                                "TECH"
+                            ]
+                        },
+                        "id": "ZNvzbBFCt5",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:09:25.577737Z",
+                "updated_at": "2025-05-08T03:09:25.577737Z",
+                "draft_created_at": "2025-05-08T03:09:22.507382Z",
+                "lead_time": 9.672,
+                "prediction": {},
+                "result_count": 3,
+                "unique_id": "d02cb844-c1fb-46bf-9301-96b78b58a84d",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3260,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "With all his might, Picard pulls Kirk to safety and the two collapse on the ground, noticing the PADD intact on the other half of the bridge, a deep chasm away.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 20,
+                    "end": 26,
+                    "text": "Picard"
+                },
+                {
+                    "label": "PER",
+                    "start": 33,
+                    "end": 37,
+                    "text": "Kirk"
+                },
+                {
+                    "label": "TECH",
+                    "start": 97,
+                    "end": 101,
+                    "text": "PADD"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.009168Z",
+        "updated_at": "2025-05-08T03:09:25.744049Z",
+        "inner_id": 10,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3261,
+        "annotations": [
+            {
+                "id": 530,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 0,
+                            "end": 10,
+                            "text": "Dougherty ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "Uldy-tauvg",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 26,
+                            "end": 32,
+                            "text": "Ru'afo",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "DqfKLEACHd",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:09:31.955549Z",
+                "updated_at": "2025-05-08T03:09:31.955549Z",
+                "draft_created_at": null,
+                "lead_time": 4.411,
+                "prediction": {},
+                "result_count": 2,
+                "unique_id": "a8648e04-1925-4eae-bae8-f12b111c58ee",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3261,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Dougherty backs down, but Ru'afo is persistent, \"This is going to end now.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 0,
+                    "end": 9,
+                    "text": "Dougherty"
+                },
+                {
+                    "label": "PER",
+                    "start": 26,
+                    "end": 32,
+                    "text": "Ru'afo"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.009168Z",
+        "updated_at": "2025-05-08T03:09:32.107550Z",
+        "inner_id": 11,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3262,
+        "annotations": [
+            {
+                "id": 531,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 83,
+                            "end": 92,
+                            "text": "Georgiou ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "i_Zgwzpzd-",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 101,
+                            "end": 113,
+                            "text": "engineering ",
+                            "labels": [
+                                "LOC"
+                            ]
+                        },
+                        "id": "s2o4RICDtD",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:09:55.469423Z",
+                "updated_at": "2025-05-08T03:09:55.469423Z",
+                "draft_created_at": "2025-05-08T03:09:45.099672Z",
+                "lead_time": 20.786,
+                "prediction": {},
+                "result_count": 2,
+                "unique_id": "da6c7365-2120-4b2b-b1f5-18250cca6656",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3262,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Though no one is thrilled that their best weapon is a beam for collecting garbage, Georgiou heads to engineering to redirect power to it because, \"being judgy never helped anything.\"",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 83,
+                    "end": 92,
+                    "text": "Georgiou "
+                },
+                {
+                    "label": "TECH",
+                    "start": 54,
+                    "end": 59,
+                    "text": "beam "
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.009168Z",
+        "updated_at": "2025-05-08T03:09:55.587189Z",
+        "inner_id": 12,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3263,
+        "annotations": [
+            {
+                "id": 532,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 0,
+                            "end": 5,
+                            "text": "Kirk ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "N0s32KZkPv",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 11,
+                            "end": 17,
+                            "text": "Uhura ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "BpCDEwrzdD",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 54,
+                            "end": 63,
+                            "text": "Starfleet",
+                            "labels": [
+                                "ORG"
+                            ]
+                        },
+                        "id": "avkSmV7a9f",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:11:07.461184Z",
+                "updated_at": "2025-05-08T03:11:07.461184Z",
+                "draft_created_at": "2025-05-08T03:10:03.816498Z",
+                "lead_time": 70.162,
+                "prediction": {},
+                "result_count": 3,
+                "unique_id": "f087de3a-bdb3-4a04-9230-1e58d913b057",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3263,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Kirk tells Uhura to transmit an image of the alien to Starfleet, but she explains that any transmission sent out of the cloud is being reflected back to them.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 0,
+                    "end": 5,
+                    "text": "Kirk "
+                },
+                {
+                    "label": "PER",
+                    "start": 11,
+                    "end": 17,
+                    "text": "Uhura "
+                },
+                {
+                    "label": "ORG",
+                    "start": 54,
+                    "end": 63,
+                    "text": "Starfleet"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.009168Z",
+        "updated_at": "2025-05-08T03:11:07.566276Z",
+        "inner_id": 13,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3264,
+        "annotations": [
+            {
+                "id": 533,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 20,
+                            "end": 30,
+                            "text": "Bob Briggs",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "7QvsIBOlO5",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 54,
+                            "end": 62,
+                            "text": "Gillian ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "qB4EckoOIP",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:11:33.408746Z",
+                "updated_at": "2025-05-08T03:11:33.408746Z",
+                "draft_created_at": null,
+                "lead_time": 5.819,
+                "prediction": {},
+                "result_count": 2,
+                "unique_id": "218b1190-422a-4016-8f21-ed3875a91847",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3264,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Just then her boss, Bob Briggs, steps up and asks how Gillian is doing and she admits she's very upset.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 20,
+                    "end": 30,
+                    "text": "Bob Briggs"
+                },
+                {
+                    "label": "PER",
+                    "start": 54,
+                    "end": 61,
+                    "text": "Gillian"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.009168Z",
+        "updated_at": "2025-05-08T03:11:33.519830Z",
+        "inner_id": 14,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3265,
+        "annotations": [
+            {
+                "id": 534,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 0,
+                            "end": 5,
+                            "text": "Kirk ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "nUp2qRRJ-s",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 65,
+                            "end": 72,
+                            "text": "Taylor ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "3MaRwzFE_K",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 27,
+                            "end": 46,
+                            "text": "radio transmitter's",
+                            "labels": [
+                                "TECH"
+                            ]
+                        },
+                        "id": "KLeL8_KGGB",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 19,
+                            "end": 27,
+                            "text": "whale's ",
+                            "labels": [
+                                "SPECIES"
+                            ]
+                        },
+                        "id": "-dl5rOs4QD",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:11:57.542173Z",
+                "updated_at": "2025-05-08T03:11:57.542173Z",
+                "draft_created_at": "2025-05-08T03:11:42.068801Z",
+                "lead_time": 22.056,
+                "prediction": {},
+                "result_count": 4,
+                "unique_id": "e6bfa128-4444-4a01-95b4-826f89f5ac40",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3265,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Kirk asks what the whale's radio transmitter's frequency is, but Taylor refuses to tell him, citing that it's classified information.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 0,
+                    "end": 5,
+                    "text": "Kirk "
+                },
+                {
+                    "label": "SPECIES",
+                    "start": 19,
+                    "end": 24,
+                    "text": "whale"
+                },
+                {
+                    "label": "PER",
+                    "start": 65,
+                    "end": 72,
+                    "text": "Taylor "
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.009168Z",
+        "updated_at": "2025-05-08T03:11:57.685209Z",
+        "inner_id": 15,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3266,
+        "annotations": [
+            {
+                "id": 535,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 0,
+                            "end": 6,
+                            "text": "J'onn ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "XmJMtRt_pt",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 27,
+                            "end": 33,
+                            "text": "McCoy ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "WwfdkNudBE",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 37,
+                            "end": 42,
+                            "text": "Kirk ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "0WvjIOCvxI",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 57,
+                            "end": 63,
+                            "text": "Sybok ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "0Sbw167etD",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 68,
+                            "end": 74,
+                            "text": "Spock ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "2nIyrBotEn",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 115,
+                            "end": 121,
+                            "text": "Spock ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "p51ZzVKAHF",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 23,
+                            "end": 25,
+                            "text": "Dr",
+                            "labels": [
+                                "RANK"
+                            ]
+                        },
+                        "id": "LAZS_btLxI",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:12:45.060256Z",
+                "updated_at": "2025-05-08T03:12:45.060256Z",
+                "draft_created_at": "2025-05-08T03:12:06.091303Z",
+                "lead_time": 45.582,
+                "prediction": {},
+                "result_count": 7,
+                "unique_id": "9c39e12d-8656-4f9e-aed8-491897e17331",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3266,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "J'onn takes an injured Dr. McCoy and Kirk to the brig as Sybok asks Spock to accompany him to the bridge but again Spock refuses.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 0,
+                    "end": 5,
+                    "text": "J'onn"
+                },
+                {
+                    "label": "PER",
+                    "start": 27,
+                    "end": 33,
+                    "text": "McCoy "
+                },
+                {
+                    "label": "RANK",
+                    "start": 23,
+                    "end": 26,
+                    "text": "Dr."
+                },
+                {
+                    "label": "PER",
+                    "start": 37,
+                    "end": 42,
+                    "text": "Kirk "
+                },
+                {
+                    "label": "PER",
+                    "start": 57,
+                    "end": 63,
+                    "text": "Sybok "
+                },
+                {
+                    "label": "PER",
+                    "start": 68,
+                    "end": 74,
+                    "text": "Spock "
+                },
+                {
+                    "label": "PER",
+                    "start": 115,
+                    "end": 121,
+                    "text": "Spock "
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.009168Z",
+        "updated_at": "2025-05-08T03:12:45.184818Z",
+        "inner_id": 16,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3267,
+        "annotations": [
+            {
+                "id": 536,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 49,
+                            "end": 55,
+                            "text": "Sybok ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "8YLc8dUO_w",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 92,
+                            "end": 103,
+                            "text": "Enterprise ",
+                            "labels": [
+                                "SPACECRAFT"
+                            ]
+                        },
+                        "id": "O99W9-JIQn",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 185,
+                            "end": 195,
+                            "text": "Sha Ka Ree",
+                            "labels": [
+                                "LOC"
+                            ]
+                        },
+                        "id": "BLbyOUXUkp",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 219,
+                            "end": 232,
+                            "text": "Great Barrier",
+                            "labels": [
+                                "LOC"
+                            ]
+                        },
+                        "id": "cWoHrS-fG7",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:13:12.511967Z",
+                "updated_at": "2025-05-08T03:13:12.511967Z",
+                "draft_created_at": "2025-05-08T03:13:03.730861Z",
+                "lead_time": 15.641,
+                "prediction": {},
+                "result_count": 4,
+                "unique_id": "dc607068-a0a1-4b37-88a1-ff4aa41b84bb",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3267,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Although modern dogma says that place is a myth, Sybok believes it exists and has taken the Enterprise with the intent of making the greatest discovery of all time â€“ the discovery of Sha Ka Ree, which lies beyond the Great Barrier at the center of the galaxy.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 49,
+                    "end": 54,
+                    "text": "Sybok"
+                },
+                {
+                    "label": "SPACECRAFT",
+                    "start": 92,
+                    "end": 102,
+                    "text": "Enterprise"
+                },
+                {
+                    "label": "LOC",
+                    "start": 217,
+                    "end": 230,
+                    "text": "Great Barrier"
+                },
+                {
+                    "label": "LOC",
+                    "start": 183,
+                    "end": 193,
+                    "text": "Sha Ka Ree"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.009168Z",
+        "updated_at": "2025-05-08T03:13:12.623164Z",
+        "inner_id": 17,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3268,
+        "annotations": [
+            {
+                "id": 537,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 20,
+                            "end": 26,
+                            "text": "Human ",
+                            "labels": [
+                                "SPECIES"
+                            ]
+                        },
+                        "id": "VGtuT-RMps",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:13:17.620377Z",
+                "updated_at": "2025-05-08T03:13:17.620377Z",
+                "draft_created_at": null,
+                "lead_time": 3.309,
+                "prediction": {},
+                "result_count": 1,
+                "unique_id": "88f644e4-fff6-47ce-8766-17999cbec108",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3268,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "They didn't think a Human would last very long there.",
+            "mentions": [
+                {
+                    "label": "SPECIES",
+                    "start": 20,
+                    "end": 26,
+                    "text": "Human "
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.010677Z",
+        "updated_at": "2025-05-08T03:13:17.743533Z",
+        "inner_id": 18,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3269,
+        "annotations": [
+            {
+                "id": 538,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 0,
+                            "end": 6,
+                            "text": "Kerla ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "jG-xD2KDKH",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 47,
+                            "end": 53,
+                            "text": "Gorkon",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "tbVDAv6wVH",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:13:23.432671Z",
+                "updated_at": "2025-05-08T03:13:23.432671Z",
+                "draft_created_at": null,
+                "lead_time": 4.375,
+                "prediction": {},
+                "result_count": 2,
+                "unique_id": "69369159-837c-4f8f-b6eb-ab5604326bff",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3269,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Kerla reluctantly allows them to follow him to Gorkon, who is badly wounded.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 0,
+                    "end": 6,
+                    "text": "Kerla "
+                },
+                {
+                    "label": "PER",
+                    "start": 47,
+                    "end": 53,
+                    "text": "Gorkon"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.010677Z",
+        "updated_at": "2025-05-08T03:13:23.539333Z",
+        "inner_id": 19,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3270,
+        "annotations": [
+            {
+                "id": 539,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 27,
+                            "end": 31,
+                            "text": "Nero",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "riVa26EZYc",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:13:49.280746Z",
+                "updated_at": "2025-05-08T03:13:49.280746Z",
+                "draft_created_at": null,
+                "lead_time": 3.197,
+                "prediction": {},
+                "result_count": 1,
+                "unique_id": "b10a4f93-ab10-4e13-a990-f0c3961c71d8",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3270,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Their debate is ended when Nero, belligerent to the last, says he prefers to die in agony than accept help from them.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 27,
+                    "end": 31,
+                    "text": "Nero"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.010677Z",
+        "updated_at": "2025-05-08T03:13:49.374027Z",
+        "inner_id": 20,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3271,
+        "annotations": [
+            {
+                "id": 540,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 0,
+                            "end": 8,
+                            "text": "Valeris ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "5y8f28yVry",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 42,
+                            "end": 47,
+                            "text": "Kirk ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "tpnzPPYnzW",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 80,
+                            "end": 89,
+                            "text": "Starfleet",
+                            "labels": [
+                                "ORG"
+                            ]
+                        },
+                        "id": "IN4W-oSIbt",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:13:58.069523Z",
+                "updated_at": "2025-05-08T03:14:02.325071Z",
+                "draft_created_at": null,
+                "lead_time": 10.564,
+                "prediction": {},
+                "result_count": 3,
+                "unique_id": "5333ae18-7886-4342-b2b6-ac5d128848e3",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3271,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Valeris dodges the accusation by accusing Kirk and the entire ship of betraying Starfleet.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 0,
+                    "end": 8,
+                    "text": "Valeris "
+                },
+                {
+                    "label": "PER",
+                    "start": 42,
+                    "end": 47,
+                    "text": "Kirk "
+                },
+                {
+                    "label": "ORG",
+                    "start": 80,
+                    "end": 89,
+                    "text": "Starfleet"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.010677Z",
+        "updated_at": "2025-05-08T03:14:02.455017Z",
+        "inner_id": 21,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3272,
+        "annotations": [
+            {
+                "id": 541,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 0,
+                            "end": 6,
+                            "text": "McCoy ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "PPRMsST7s9",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 25,
+                            "end": 30,
+                            "text": "Kirk ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "kIvKDIrjSS",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 81,
+                            "end": 86,
+                            "text": "Kirk ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "4yg3t6cRTp",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 99,
+                            "end": 106,
+                            "text": "Chekov ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "sfF_HNbADs",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:14:13.035045Z",
+                "updated_at": "2025-05-08T03:14:13.035555Z",
+                "draft_created_at": "2025-05-08T03:14:10.253002Z",
+                "lead_time": 9.194,
+                "prediction": {},
+                "result_count": 4,
+                "unique_id": "e941ea3a-c024-4f63-9867-a28bddb79b9d",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3272,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "McCoy comes up and tells Kirk he's got to be able to go to the hospital and begs Kirk not to leave Chekov in the hands of 20th century medicine.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 0,
+                    "end": 5,
+                    "text": "McCoy"
+                },
+                {
+                    "label": "PER",
+                    "start": 25,
+                    "end": 29,
+                    "text": "Kirk"
+                },
+                {
+                    "label": "PER",
+                    "start": 81,
+                    "end": 85,
+                    "text": "Kirk"
+                },
+                {
+                    "label": "PER",
+                    "start": 99,
+                    "end": 105,
+                    "text": "Chekov"
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.010677Z",
+        "updated_at": "2025-05-08T03:14:13.110191Z",
+        "inner_id": 22,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3273,
+        "annotations": [
+            {
+                "id": 542,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 0,
+                            "end": 6,
+                            "text": "McCoy ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "x_TlZCTvmp",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:14:20.796802Z",
+                "updated_at": "2025-05-08T03:14:20.796802Z",
+                "draft_created_at": null,
+                "lead_time": 6.061,
+                "prediction": {},
+                "result_count": 1,
+                "unique_id": "5144c73c-dfd2-4cd4-b94c-ea0af30f62e2",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3273,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "McCoy admits that it wasn't â€“ the real sorrow was that not long after he euthanized his father, a cure to the disease was found â€“ had he not killed him, he might have lived.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 0,
+                    "end": 6,
+                    "text": "McCoy "
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.011035Z",
+        "updated_at": "2025-05-08T03:14:20.891994Z",
+        "inner_id": 23,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3274,
+        "annotations": [
+            {
+                "id": 543,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 6,
+                            "end": 11,
+                            "text": "Kirk ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "pdr3UwHr15",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 30,
+                            "end": 35,
+                            "text": "Spock",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "NfR8XoM2vy",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 187,
+                            "end": 193,
+                            "text": "Vulcan",
+                            "labels": [
+                                "LOC"
+                            ]
+                        },
+                        "id": "SrtTBiXHAg",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 142,
+                            "end": 153,
+                            "text": "Federation ",
+                            "labels": [
+                                "GPE"
+                            ]
+                        },
+                        "id": "jZsHbcOziK",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:14:49.753799Z",
+                "updated_at": "2025-05-08T03:14:49.753799Z",
+                "draft_created_at": "2025-05-08T03:14:28.674336Z",
+                "lead_time": 27.451,
+                "prediction": {},
+                "result_count": 4,
+                "unique_id": "1ccaab8d-3f56-444d-8767-7e6dc764cda8",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3274,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "While Kirk faces his accuser, Spock, and tries to defend himself, the hearing is suddenly interrupted when the committee is informed that the Federation has received a distress call from Vulcan.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 6,
+                    "end": 11,
+                    "text": "Kirk "
+                },
+                {
+                    "label": "PER",
+                    "start": 30,
+                    "end": 35,
+                    "text": "Spock"
+                },
+                {
+                    "label": "LOC",
+                    "start": 187,
+                    "end": 193,
+                    "text": "Vulcan"
+                },
+                {
+                    "label": "GPE",
+                    "start": 142,
+                    "end": 153,
+                    "text": "Federation "
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.011035Z",
+        "updated_at": "2025-05-08T03:14:49.846028Z",
+        "inner_id": 24,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3275,
+        "annotations": [
+            {
+                "id": 544,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 52,
+                            "end": 57,
+                            "text": "Fuzz ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "AHUBu4c7mP",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 70,
+                            "end": 74,
+                            "text": "San ",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "zB4pfIc13M",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-08T03:14:56.835255Z",
+                "updated_at": "2025-05-08T03:14:56.835255Z",
+                "draft_created_at": null,
+                "lead_time": 5.371,
+                "prediction": {},
+                "result_count": 2,
+                "unique_id": "6aaa2933-abe0-4b8e-bcd2-e728f08102de",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3275,
+                "project": 9,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5527af5f-star_trek_test.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "She questions how he could know that about her, and Fuzz reveals that San is alive, having faked his death by slowly building up an immunity to the poison he took.",
+            "mentions": [
+                {
+                    "label": "PER",
+                    "start": 52,
+                    "end": 57,
+                    "text": "Fuzz "
+                },
+                {
+                    "label": "PER",
+                    "start": 70,
+                    "end": 74,
+                    "text": "San "
+                }
+            ]
+        },
+        "meta": {},
+        "created_at": "2025-05-08T02:10:11.011035Z",
+        "updated_at": "2025-05-08T03:14:56.915255Z",
+        "inner_id": 25,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 9,
+        "updated_by": 1,
+        "comment_authors": []
+    }
+]
