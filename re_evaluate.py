@@ -6,6 +6,7 @@ import pandas as pd
 from tqdm import tqdm
 from grid_search import evaluate_results, Mention
 from generate_prompt import get_entity_types
+import matplotlib.pyplot as plt
 
 def replace_label(label: str) -> str:
     new_label = label.upper()
@@ -110,6 +111,8 @@ def retrieve_results(domain, example, k, selection, split="dev"):
         })
     return fixed_results
 
+
+
 if __name__ == "__main__":
     dev = 'dev'
     for domain in ['star_wars', 'star_trek', 'red_rising']:
@@ -121,9 +124,11 @@ if __name__ == "__main__":
                     experiment = f'{domain}_{dev}_{k}_{example_domain}_{selection}'
                     results = retrieve_results(domain,example_domain,k,selection)
                     per_label = evaluate_per_label_results(results,domain)
-                    filepath = f"per_label_results/{domain}_dev_{k}_{example_domain}_{selection}.csv"
-                    with open(filepath,'w') as file:
-                        file.write(json.dumps(per_label))
+                    per_label_df = pd.DataFrame(per_label).T
+                    filepath = f"per_label_results/tables/{domain}_dev_{k}_{example_domain}_{selection}.csv"
+                    per_label_df.to_csv(filepath)
+                    # with open(filepath,'w') as file:
+                    #     file.write(json.dumps(per_label))
 
 
     # rerun the test for the previous results, accounting for caps and org/organization issues
