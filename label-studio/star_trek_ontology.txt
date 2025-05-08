@@ -1,0 +1,16 @@
+<View>
+  <Labels name="label" toName="text" granularity="word">
+  <Label value="PERSON" background="#d0cccf"/>
+  <Label value="SPECIES" background="#e11100"/>
+  <Label value="LOC" background="#ffa222"/>
+  <Label value="ORG" background="#AD8B00"/>
+  <Label value="GPE" background="#f7f75e"/>
+  <Label value="NORP" background="#389E0D"/>
+  <Label value="RANK" background="#47ef4b"/>
+  <Label value="SPACECRAFT" background="#0702df"/>
+  <Label value="WEAPON" background="#ADC6FF"/>
+  <Label value="TECH" background="#f52e97"/>
+  <Label value="MISC" background="#b8439b"/></Labels>
+
+  <Text name="text" value="$text"/>
+</View>

@@ -9,7 +9,7 @@ from grid_search import Mention
 from re_evaluate import replace_label
 
 def get_domain_annotations(domain: str):
-    with open(Path(f"{domain}_IAA.json"), 'r') as file:
+    with open(Path(f"iaa_anno/{domain}_IAA.json"), 'r') as file:
         st_data = json.load(file)
 
     annotations = []
@@ -102,7 +102,7 @@ if __name__ == "__main__":
         })
 
     results_df = pd.DataFrame(results)
-    results_df.to_csv('IAA_results.csv', index=False)
+    results_df.to_csv('iaa_anno/IAA_results.csv', index=False)
 
 
 # red rising - confusion between rank/profession, planet/loc (from changes to ontology)
